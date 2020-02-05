@@ -43,3 +43,45 @@ In this repository:
   document](reproduction/reproduction.Rmd).
   The compiled document can be [viewed on the
   web](https://kbroman.org/Paper_ReScience2020/reproduction/reproduction.html).
+
+### Dependencies
+
+The reproduction of the analysis, in [`reproduction`](reproduction),
+relies on the following tools:
+
+- [R](https://www.r-project.org)
+
+- R packages:
+  - [negenes](https://github.com/kbroman/negenes)
+  - [rmarkdown](https://github.com/rstudio/rmarkdown)
+  - [devtools](https://devtools.r-lib.org/)
+  - [R.utils](https://github.com/HenrikBengtsson/R.utils)
+  - [gt](https://gt.rstudio.com)
+
+  Install the first four with `install.packages()`.
+
+  ```r
+  install.packages(c("negenes, "rmarkdown", "devtools", "R.utils"))
+  ```
+
+  Then install `gt` with `devtools::install_github()`.
+
+  ```r
+  devtools::install_github("rstudio/gt")
+  ```
+
+- [Perl](https://www.perl.org/)
+
+- [Pandoc](https://pandoc.org/) (most easily installed by installing
+  [RStudio Desktop](https://rstudio.com/products/rstudio/download/#download))
+
+- [GNU Make](https://www.gnu.org/make)
+
+
+### License
+
+This is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License, version 3, as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU General Public License for more details.
+
+A copy of the GNU General Public License, version 3, is available at https://www.r-project.org/Licenses/GPL-3
