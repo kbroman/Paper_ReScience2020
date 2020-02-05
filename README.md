@@ -24,9 +24,16 @@ The primary software is the R/negenes package for R, available on
 
 In this repository:
 
-- [`original/`](original) contains a subset of the [original project
-  directory](). Much of the material that was not used for the paper
-  was deleted, as were intermediate results (`.RData` files).
-
 - [`negenes/`](negenes) contains the [R/negenes](https://github.com/kbroman/negenes)
   package, version 1.0-12 (2019-08-05).
+
+- [`original/`](original) contains a subset of the [original project
+  directory](https://github.com/kbroman/Projects_Lamichhane2003). Much
+  of the material that was not used for the paper
+  was deleted, as were intermediate results (`.RData` files).
+
+- [`talk/`](talk) contains a subset of the [repository for slides for
+  a 2002 talk on the work](https://github.com/kbroman/Talk_Mtb);
+  deleted the figures, slides PDF, and a big .RData file. The key
+  thing here is [`talk/R/circlefig.R`](talk/R/circlefig.R) which was
+  used to create Figure 1b (of the circular genome).
