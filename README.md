@@ -51,12 +51,11 @@ relies on the following tools:
 
 - [R](https://www.r-project.org)
 
-- R packages:
-  - [negenes](https://github.com/kbroman/negenes)
-  - [rmarkdown](https://github.com/rstudio/rmarkdown)
-  - [devtools](https://devtools.r-lib.org/)
-  - [R.utils](https://github.com/HenrikBengtsson/R.utils)
-  - [gt](https://gt.rstudio.com)
+- R packages: [negenes](https://github.com/kbroman/negenes),
+  [rmarkdown](https://github.com/rstudio/rmarkdown),
+  [devtools](https://devtools.r-lib.org/),
+  [R.utils](https://github.com/HenrikBengtsson/R.utils),
+  [gt](https://gt.rstudio.com)
 
   Install the first four with `install.packages()`.
 
@@ -64,7 +63,7 @@ relies on the following tools:
   install.packages(c("negenes, "rmarkdown", "devtools", "R.utils"))
   ```
 
-  Then install `gt` with `devtools::install_github()`.
+  Then install [gt](https://gt.rstudio.com) with `devtools::install_github()`.
 
   ```r
   devtools::install_github("rstudio/gt")
