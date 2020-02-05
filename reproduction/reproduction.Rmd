@@ -19,6 +19,8 @@ This is a reproduction of the results in Lamichhane et al.
 subsaturation levels of mutagenesis: application to _Mycobacterium
 tuberculosis_. Proc Natl Acad Sci USA 100:7213-7218
 [doi:10.1073/pnas.1231432100](https://doi.org/10.1073/pnas.1231432100)
+The full repository for the reproduction work is
+<https://github.com/kbroman/Paper_ReScience2020>.
 
 The original project directory, with data and code, is on
 [github](https://github.com/kbroman/Project_Lamichhane2003). A subset
@@ -211,8 +213,8 @@ So we will start with
 we have saved as [`R/sept02_prepareData.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/sept02_prepareData.R). It
 prints a bunch of crap, so we will hide the output.
 
-There is one small wrinkle here. The `ngeneperfam` object comes out
-has class `"table"` which leads to an error in the next step, in the
+There is one small wrinkle here. The `ngeneperfam` object has
+class `"table"` which leads to an error in the next step, in the
 [`analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/analysis.R) script. This is due to
 some change in [R](https://www.r-project.org) since 2002. So we need
 to convert the `ngeneperfam` object to a simple numeric vector.
@@ -372,7 +374,8 @@ gt(tab2) %>%
 
 Comparing the reconstructed table to the [published
 version](https://bit.ly/lamichhane2003_table2),
-namely that the upper confidence limit in the bottom row is 49% here,
+we see just one small difference:
+the upper confidence limit in the bottom row is 49% here,
 whereas it was 50% in the published paper. This difference can be
 ascribed to MCMC sampling variation.
 
@@ -389,7 +392,7 @@ While the original script pulled out genes with probability &ge;
 within rounding error and can be ascribed to MCMC sampling error.
 
 We can make the change by reading in the script, pulling out the
-appropriate lines, swapping the one number, and then re-running those
+appropriate lines, substituting the one number, and then re-running those
 lines.
 
 ```{r construct_table3_and_6}
@@ -413,12 +416,12 @@ genes <- wh
 genes[,3] <- genes[,3] * 100 # convert to percent
 ```
 
-Here is our reconstruction of Table 3. The results match the [published
+Here is the reconstruction of Table 3. The results match the [published
 version](https://bit.ly/lamichhane2003_table3).
 (If we had left the cutoff at 0.749, we would have missed the
 last two genes on the list, for which the estimated probability of
 being essential is now 74.8%. This difference is again likely due to
-MCMC sampling error.
+MCMC sampling error.)
 
 ```{r table3}
 # genes to exclude from Table 3 (just listed in table 6)
@@ -444,7 +447,7 @@ genes[, c("MTnum", "Prob.essential")] %>%
 ### Table 4
 
 Table 4 contains a list of gene families that appear to be enriched
-with essential genes, or have a deficit of essential genes.
+with essential genes, or to have a deficit of essential genes.
 The contents of the table are created in
 [`Nov02/R/analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R), but one small
 change needs to be made, replacing the 75% cutoff with 74.5%, as
@@ -483,7 +486,7 @@ differences can be ascribed to MCMC sampling error.
 
 ## Figures
 
-We now turn to reconstruction of the Figures
+We now turn to reconstruction of the Figures.
 
 ### Figure 1b
 
@@ -603,13 +606,13 @@ plot((finalres_orig$bygene - finalres$bygene)*100,
      xlab="gene index", ylab="Difference in % probability (original - reconstructed)")
 ```
 
-The median difference is `r med <- round(median( (finalres_orig$bygene - finalres$bygene)*100 ), 2)`.
+The median difference is `r (med <- round(median( (finalres_orig$bygene - finalres$bygene)*100 ), 2))`.
 So the reconstructed probabilities in Figure 2 have changed < 0.1%, which is immaterial and
 likely due to MCMC sampling error.
 
 Let me clarify: the positive values in Figure 2 are like
 0.35&ndash;0.95, and we have reproduced them to within about 0.001. As
-percentages, their like 35-95%, and we have got them nailed down to
+percentages, they are like 35-95%, and we have got them nailed down to
 about 0.1%. As you no doubt notice in the figure, the deviations are
 all quite similar; that is, the entire positive curve in Figure 2 has
 shifted a tiny bit.
@@ -617,27 +620,29 @@ shifted a tiny bit.
 
 ## Summary
 
-The main difficulties in reconstruction the results concerned poor
-documentation of the project data and code.
+The main difficulties in reproducing the results in the paper concerned poor
+documentation and organization of the project data and code.
 
 - I should have included a ReadMe file that described the structure of
   the project.
 
 - I should have revised the scripts to give just the final published
   analyses, rather than create multiple mutated copies with some
-  results pulled from some scripts and other results pulled from other
+  results pulled from one set of scripts and other results pulled from other
   scripts.
 
 - I should have saved the random number generator seeds.
 
 - I should have saved the key intermediate results to files and then
-  loaded the files (as well as any required R libraries) at the top of
+  loaded the files at the top of
   scripts that needed them, rather than rely on particular objects
   being present in the R environment.
 
+- I should have indicated (and loaded) the required R libraries.
+
 Nevertheless, I was able to reconstruct the results to within a small
 and immaterial level of MCMC sampling error. I needed to make just
-three small changes to the code.
+a few small changes to the code.
 
 - Cutoffs for determining which genes and gene families to display in
   Tables 3 and 4 needed to be modified slightly.
@@ -649,7 +654,7 @@ three small changes to the code.
 
 I was *not* able to reproduce Figure 3, however. The simulation
 results and the code to create the figure are available, but I could
-not find the code to perform the simulations.
+not find the code that was used to perform the simulations.
 
 
 ## Session info
