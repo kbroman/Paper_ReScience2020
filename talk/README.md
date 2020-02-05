@@ -4,7 +4,7 @@ This is a subset of the materials for slides for a talk related to:
 
 > Lamichhane G, Zignol M, Blades NJ, Geiman DE, Dougherty A, **Broman KW**, Bishai WR (2003)  A post-genomic method
 > for predicting essential genes at subsaturation levels of mutagenesis:
-> application to <i>Mycobacterium tuberculosis</i>.  [Proc Natl Acad Sci USA](http://www.pnas.org/) 100:7213-7218
+> application to _Mycobacterium tuberculosis_.  [Proc Natl Acad Sci USA](http://www.pnas.org/) 100:7213-7218
 > [![PubMed](https://kbroman.org/pages/icons16/pubmed-icon.png)](https://www.ncbi.nlm.nih.gov/pubmed/12775759)
 > [![pdf (260k)](https://kbroman.org/pages/icons16/pdf-icon.png)](https://www.pnas.org/content/pnas/100/12/7213.full.pdf)
 > [![R/negenes](https://kbroman.org/pages/icons16/R-icon.png)](https://github.com/kbroman/negenes)
