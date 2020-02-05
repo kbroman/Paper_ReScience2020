@@ -333,7 +333,7 @@ if(file.exists("R/nov02_results.RData")) {
 
 ## Tables
 
-Let us now reconstruct the tables 2-4 and 5.
+Let us now reconstruct the tables 2-4 and 6.
 
 ### Table 2
 
@@ -603,9 +603,16 @@ plot((finalres_orig$bygene - finalres$bygene)*100,
      xlab="gene index", ylab="Difference in % probability (original - reconstructed)")
 ```
 
-The median difference is `r round(median( (finalres_orig$bygene - finalres$bygene)*100 ), 2)`.
+The median difference is `r med <- round(median( (finalres_orig$bygene - finalres$bygene)*100 ), 2)`.
 So the reconstructed probabilities in Figure 2 have changed < 0.1%, which is immaterial and
 likely due to MCMC sampling error.
+
+Let me clarify: the positive values in Figure 2 are like
+0.35&ndash;0.95, and we have reproduced them to within about 0.001. As
+percentages, their like 35-95%, and we have got them nailed down to
+about 0.1%. As you no doubt notice in the figure, the deviations are
+all quite similar; that is, the entire positive curve in Figure 2 has
+shifted a tiny bit.
 
 
 ## Summary
