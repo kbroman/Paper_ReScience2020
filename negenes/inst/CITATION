@@ -1,0 +1,27 @@
+citHeader("To cite R/negenes in publications use:")
+
+citEntry(entry="article",
+         title = "A post-genomic method for predicting essential genes at subsaturation levels of mutagenesis: application to Mycobacterium tuberculosis",
+         author = personList(person("Gyanu", "Lamichhane"),
+                             person("Matteo", "Zignol"),
+                             person("Natalie J.", "Blades"),
+                             person("Deborah E.", "Geiman"),
+                             person("Annette","Dougherty"),
+                             person("Jacques", "Grosset"),
+                             person("Karl W.", "Broman"),
+                             person("William R.", "Bishai")),
+         journal = "Proc. Natl. Acad. Sci. USA",
+         year = 2003,
+         volume = 100,
+         pages = "7213-7218",
+         doi = "10.1073/pnas.1231432100",
+         url = "https://doi.org/10.1073/pnas.1231432100",
+         eprint = "https://www.pnas.org/content/pnas/100/12/7213.full.pdf",
+
+         textVersion =
+         paste("Lamichhane et al. (2003) A post-genomic method for",
+               "predicting essential genes at subsaturation levels",
+               "of mutagenesis: application to Mycobacterium",
+               "tuberculosis. Proc Natl Acad Sci USA 100:7213-7218",
+               "doi:10.1073/pnas.1231432100")
+         )
