@@ -1,0 +1,10 @@
+MT#	Rv#	Class
+320	307	Unknown
+400	388	Other: PPE family of proteins
+610	582	Unknown
+882	859	SMM: Degradation of fatty acids
+2881		to be avoided entirely because this sequence is dispersed all over the genome and we cannot pinpoint the exact site: 
+2882		to be avoided entirely: reason same as that for 2881: and this has been mentioned in the manuscript
+2289	2230	Conserved Hypothetical
+3107		to be avoided: for the same reason as MT2281 and 2282
+3573	3467	Other: IS elements: REP13E12 family

@@ -1,0 +1,15 @@
+   Prob   Estimated % essential
+ enriched    Est  Interval
+      97     58   36    76  MMM: Aminoacyl tRNA synthases and their modification"            
+      93     49   35    63  Other: PE family: PGRS subfamily"                                
+      86     47   32    60  SMM: Polyketide and non-ribosomal peptide synthesis"             
+      82     51   26    74  SMM: Purine ribonucleotide biosynthesis"                         
+      81     50   25    75  SMM: Biosyn of Molybdopterin"                                    
+      77     52    0   100  SMM: Intermediate Metabolism-Gluconeogenesis"                    
+      77     48   26    68  SMM: Amino acid synthesis-Glutamate family"                      
+      75     47   27    65  SMM: Biosyn of fatty and mycolic acids"                          
+      75     49   20    73  SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids"
+       4     37   30    44  Unknowns"                                                        
+       3     31   20    42  Other: PPE family of proteins"                                   
+       1     15    0    33  MMM: Degradation of DNA"                                         
+       0     16    6    29  MMM: Conserved membrane proteins"                                

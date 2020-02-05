@@ -1,0 +1,4020 @@
+      3       3280       4437 1158  1            4 
+      4       4434       4997  564  1            0
+C ATGA C
+
+     12      13024      13176  153 -1           44 
+     13      13133      13558  426 -1            2
+C TCACCTTTGGCCGCGACCGGCGTAACCGGCAGCGGTAAGCGCAT C
+
+     16      14914      15612  699  1           23 
+     17      15590      17470 1881 -1            1
+G CTACTGGCCGAACCTCAGCGTGA T
+
+     17      15590      17470 1881 -1            4 
+     18      17467      18762 1296 -1            0
+G TCAT T
+
+     18      17467      18762 1296 -1            4 
+     19      18759      20234 1476 -1            0
+C TCAT G
+
+     19      18759      20234 1476 -1            4 
+     20      20231      21640 1410 -1            1
+T TCAT A
+
+     20      20231      21640 1410 -1            4 
+     21      21637      23172 1536 -1            0
+G TCAT G
+
+     26      27577      28347  771  1            4 
+     27      28344      29189  846  1            0
+A GTGA A
+
+     37      34239      36554 2316  1            4 
+     38      36551      36814  264  1            1
+T ATGA A
+
+     38      36551      36814  264  1            4 
+     39      36811      37206  396  1            0
+C ATGA C
+
+     39      36811      37206  396  1            4 
+     40      37203      38891 1689  1            0
+C ATGA C
+
+     55      52775      53188  414  1            8 
+     56      53181      55643 2463  1            1
+A GTGAATAG C
+
+     57      55685      57322 1638  1           44 
+     58      57279      57917  639  1            0
+G ATGCAGGTCGCGATCGCACTTTTTCCGGGCAACACCGCGCTTGA C
+
+     63      59840      60361  522  1           22 
+     64      60340      62964 2625  1            1
+C ATGGCGGTCGTTGATGACCTAG C
+
+   66.2      65344      65556  213 -1           61 
+     67      65496      66638 1143  1            1
+T ATGACGCGTCGGACTGGGCAGCGATGGCGCGGGACTCTGCCCGGGCGCCGGCCTTGGACAC G
+
+     75      76218      77603 1386 -1            4 
+     76      77600      78877 1278 -1            0
+G TCAT G
+
+     85      87198      87791  594 -1            4 
+   85.1      87788      88000  213 -1            0
+T TCAT G
+
+     89      89914      90393  480  1            4 
+     90      90390      92312 1923  1            0
+A ATGA C
+
+    101     100573     102858 2286  1           54 
+    102     102805     103653  849 -1            1
+G CTAGGCTGCGGAACCGTCGGTGGGCCACAAATGACCGCGCCGTCGTCCGCGTGA T
+
+    103     103700     104563  864 -1          140 
+    104     104424     105091  668 -1            4
+T TCAAAGGTGGCCCGCGCTTGGGGGGTCAGGTAGCCACTTAGCCGTGACATGCCGTCGTATTGCTGGTTGCTCAGGGTGATGCCGCGTTTGCGGGCGCGTTCGGTGTCGGTGAGGTCGCCGTCGGGGTGTAGCCAGTCCAT G
+
+    106     106724     107593  870  1            4 
+    107     107590     108141  552  1            0
+C ATGA G
+
+    109     109773     110009  237  1           43 
+    110     109967     117529 7563  1            1
+G TTGGCTTCGCGAGCTGGAGGCTGTGTGCACCGAGTTCGGTTAA G
+
+  125.1     141185     142135  951  1           17 
+    126     142119     143867 1749 -1            0
+A TCACCCGTCGCCGCTGA T
+
+    130     148443     148862  420 -1           16 
+    131     148847     149215  369  1            0
+G ATGACGAAGAAGCCAC G
+
+    142     161942     162844  903  1           30 
+    143     162815     163420  606 -1            1
+C CTAGCTGCGGGGACCGAGCAGCGCGATTGA C
+
+    148     167081     167461  381  1           20 
+    149     167442     167852  411 -1            1
+A TCAGCATCTTCCCGGGGTAG C
+
+    157     175871     176839  969  1            4 
+    158     176836     177123  288 -1            1
+C CTAA G
+
+    164     183793     185223 1431  1            4 
+    165     185220     186647 1428  1            0
+G ATGA A
+
+    171     192153     193304 1152 -1           19 
+    172     193286     193741  456  1            0
+C ATGGCTGCACTGCCGGCAC C
+
+    176     197030     197827  798  1           50 
+    177     197778     198455  678 -1            0
+G TCAACGTGATCTTGACGACCATCGGTGTGCGATTCGGGACGGGGCGCTGA C
+
+    178     198484     200067 1584  1            4 
+    179     200064     201104 1041  1            0
+C ATGA A
+
+    180     201128     202648 1521  1            4 
+    181     202645     204237 1593  1            0
+A TTGA G
+
+    182     204237     205406 1170  1            7 
+    183     205400     206947 1548  1            0
+A GTGCTGA C
+
+    185     207570     208532  963  1            4 
+    186     208529     209083  555  1            0
+A ATGA G
+
+    186     208529     209083  555  1           34 
+    187     209050     209784  735  1            0
+A GTGGAAGATCAGCAGTCTGCTTCCGGTGATCTGA C
+
+    191     213140     214252 1113 -1          185 
+    192     214068     215039  972  1            4
+G GTGTGGGCGGAGAAGTCCCCGCGCCGTTCGTCGGCGGGCTCGCGGCCAGAGTTTTCTGCGAGCACACTCACGTCAATGAGCCTACGCAGAGTCTCCGACACTCTCACCGGAGCAGCCGTTACGCTCCCGGTAATGACTACCACCCGGACTGAACGGAATTTCGCGGGCATCGGCGATGTGCGCAT C
+
+    193     215081     215830  750  1            4 
+    194     215827     216336  510  1            0
+G GTGA T
+
+    206     231759     232343  585  1            4 
+    207     232340     234589 2250  1            0
+G ATGA T
+
+    209     236775     237323  549  1            4 
+    210     237320     238009  690  1            0
+G ATGA G
+
+    210     237320     238009  690  1            4 
+    211     238006     238503  498 -1            1
+G CTAA G
+
+    215     243498     244601 1104  1            4 
+    216     244598     247432 2835 -1            1
+T TTAA A
+
+    217     247498     248232  735 -1            4 
+    218     248229     249020  792 -1            0
+A TCAT C
+
+    222     253783     254754  972 -1            4 
+    223     254751     256064 1314 -1            0
+G TCAC G
+
+    226     259027     260040 1014  1            4 
+    227     260037     260858  822 -1            1
+T CTAG G
+
+    239     274420     275100  681 -1            4 
+    240     275097     276134 1038 -1            0
+C TCAC T
+
+    242     278013     278702  690  1            4 
+    244     278699     279643  945  1            0
+C ATGA C
+
+    250     287012     287560  549 -1          261 
+    251     287300     288466 1167  1            3
+G ATGGCTTTTCCACGCACACTGGCGATACTCGCTGCGGCAGCAGCGTTGGTGGTGGCCTGCAGCCATGGCGGCACACCCACCGGATCGTCGACGACCTCCGGCGCGTCGCCCGCAACTCCGGTAGCCGTTCCCGTGCCCCGGAGCTGCGCCGAGCCGGCGGGGATCCCGGCGCTGCTGTCCCCCCGTGACAAGCTGGCCCAGCTGCTGGTGGTCGGCGTGCGAGATGCTGCGGACGCCCAAGCCGTGGTCACCAACTACCAC G
+
+    260     296885     298234 1350  1            4 
+    261     298231     298977  747 -1            1
+G TTAG C
+
+    269     307992     309662 1671 -1            4 
+    270     309659     309766  108 -1            0
+G TCAT C
+
+  270.1     309814     310188  375  1           44 
+  270.2     310145     310393  249  1            1
+A TTGGAGGCGGCGTTGACCTGCAGAAACCGAGTTGTCGCGCTTAG C
+
+    272     310889     311632  744 -1            4 
+    273     311629     312774 1146 -1            1
+T TCAT A
+
+  286.1     330494     331117  624  1           71 
+    287     331047     331772  726 -1            2
+A CTACGAGCGACGCGCAGGCCGTGCCGAAGACGGCGGCTGACCGGCGACCTCCGGTGGCTGCGGATCGTTAG C
+
+    291     333551     336268 2718 -1           14 
+  291.1     336255     336410  156  1            0
+G ATGGCTGTCGACAC C
+
+  291.1     336255     336410  156  1           17 
+  291.2     336394     336525  132 -1            0
+A TCACAAACGACATCTGA C
+
+    295     342246     344087 1842  1            4 
+    296     344084     345700 1617  1            0
+C ATGA C
+
+    296     344084     345700 1617  1            4 
+    297     345697     349689 3993  1            0
+G GTGA G
+
+    297     345697     349689 3993  1            4 
+    298     349686     349994  309  1            0
+C ATGA C
+
+    304     354701     355945 1245  1            4 
+    305     355942     356937  996  1            0
+A ATGA A
+
+    305     355942     356937  996  1           14 
+    306     356924     358126 1203 -1            0
+G TCAGTCGAACATGA G
+
+    307     358233     359018  786  1           12 
+    308     359007     359810  804 -1            1
+C TCAGGTGGGTAG C
+
+    315     364667     365299  633  1            4 
+    316     365296     366204  909  1            0
+C ATGA A
+
+    319     375975     376646  672  1           13 
+    320     376634     377116  483 -1            1
+A TCACGGCGAATAG G
+
+    328     382940     383125  186 -1           56 
+  328.1     383070     383315  246  1            0
+C ATGCCGGACACGGTGAGGCTGGTGCAGTGGCCGGTGATCACCACCGTGTTGGACAT G
+
+  328.1     383070     383315  246  1          125 
+  328.2     383191     383601  411 -1            0
+C TCAGCTGGCGCCGGCCGGCGGAAGAGTGGTGGCCGGTTGCGCAGTCGGGGTTGGAACAGCCCGGGAGACAGACGGGGTGGGCGAGAGAACGACGAAGTTGCCTTGGGAAAGCCGCTGTGCGCTGA A
+
+    337     389320     390651 1332  1           12 
+    338     390640     391311  672 -1            1
+A TTAGGGCACTGA C
+
+    341     392333     392788  456  1           33 
+    342     392756     394105 1350 -1            2
+G CTATGGCGGGTCACTGTCACCAAGCCCGCCTAG C
+
+    343     394171     394773  603  1           20 
+    344     394754     395380  627 -1            0
+G TCACGTCGCAGTTGCGGTGA A
+
+    357     410898     412820 1923  1            4 
+  357.1     412817     414298 1482  1            0
+C GTGA G
+
+    380     442483     443166  684  1           12 
+    381     443155     444285 1131 -1            1
+G TTACCCGAGTGA G
+
+    385     447235     448131  897 -1            4 
+    386     448128     448721  594 -1            0
+G TCAC G
+
+    386     448128     448721  594 -1            4 
+    387     448718     449473  756 -1            0
+G TCAT G
+
+    388     449492     451891 2400 -1            4 
+    389     451888     452367  480 -1            0
+G TCAT G
+
+    402     470101     471321 1221  1            4 
+    403     471318     472730 1413 -1            1
+G CTAA C
+
+    405     475031     475435  405  1           19 
+    406     475417     475833  417  1            2
+T ATGCCTGAGCATGAGCTAG G
+
+    414     484367     484693  327 -1           44 
+    415     484650     485105  456 -1            1
+C TCACGCAGCTCCGGCGGGTACCTCCTCGATGAACCACCTGACAT G
+
+    417     485426     487183 1758  1            4 
+    418     487180     491388 4209  1            0
+C ATGA C
+
+    418     487180     491388 4209  1           53 
+    419     491336     492094  759 -1            3
+G CTACCGAAATACATGATTGGATTTCTGGGCTCGTTCGAGGGCCTCATCCGTAG C
+
+    420     492232     493242 1011  1            8 
+    421     493235     495307 2073  1            0
+C TTGGCTGA C
+
+    421     493235     495307 2073  1            8 
+    422     495300     496457 1158  1            1
+C ATGAGTAG C
+
+    423     496511     498820 2310 -1           58 
+    424     498763     499749  987 -1            1
+A TCAGTCCACATACCTCGGCGTGGGCGGGGCGGGGGCTGGGCCGAGCACCGTCAGCCAC T
+
+    426     501162     501815  654  1           17 
+    427     501799     502467  669 -1            1
+A TCAGTTCGCTGCTGTAA G
+
+    428     502597     503619 1023  1            4 
+    429     503616     503822  207  1            0
+C ATGA T
+
+    429     503616     503822  207  1            8 
+    430     503815     504573  759  1            0
+G GTGGCTGA G
+
+    433     506535     508031 1497  1           22 
+    434     508010     508420  411 -1            3
+G CTATGCCCGGTATCCGGGATAG G
+
+    435     508581     509210  630 -1            4 
+    436     509207     510004  798 -1            0
+T TCAT G
+
+    443     518344     519291  948 -1           40 
+    444     519252     519845  594 -1            1
+A TTAGTGACCGAACGGGTCGGGGTCCTCGCCGGGCAGCCAC G
+
+    447     521049     521771  723  1           20 
+    448     521752     522903 1152  1            1
+G GTGTCATTGGTTCCGGCTAG C
+
+    451     523796     525982 2187 -1            4 
+    452     525979     526845  867 -1            0
+G TCAC A
+
+    452     525979     526845  867 -1           10 
+    453     526836     527531  696 -1            0
+A TCATCGACAT T
+
+    462     535894     536703  810 -1           31 
+    463     536673     538121 1449 -1            0
+T TCACGGGGGGCCCTCGCGGATCAACGTCCAC T
+
+    463     536673     538121 1449 -1          169 
+    464     537953     538684  732 -1            2
+G TCATCGCGGCACCACCGGAACTCGACGTAGCCACAGTCTGATCCCCTGTATCCTGATGCGCGCGGCCACCACCATCGGCGCCAGCGGTGAAATGATTTGCATCATCGCGATCTGTCTTGTCGTTGCCGGTCGCCGCTGCCCACGCAGGGTGGCTGTGAATTCCGGGCAC A
+
+    464     537953     538684  732 -1            7 
+    465     538678     539997 1320 -1            0
+G TCAGCAC G
+
+    466     540037     542940 2904 -1            4 
+    467     542937     543359  423 -1            0
+C TCAC G
+
+    471     546824     547351  528 -1           14 
+    472     547338     548252  915 -1            1
+A CTACATGCTCCCAT C
+
+    476     553159     553437  279  1           41 
+    477     553397     553999  603  1            0
+T TTGGTGTGCTGGTTGCGATCCAGGTGGCGTCCAGTGGCTGA C
+
+    480     555762     556334  573 -1            4 
+    481     556331     557755 1425 -1            1
+G TCAT A
+
+    487     563302     563742  441 -1           70 
+    488     563673     564161  489 -1            1
+A TCAGCACCGTGGTGCACAACAGCCCGTAGGGGAGCGACGCCAGCACGACCTCCCAACCGCCCGCGCCCAC C
+
+    497     569369     570415 1047 -1            4 
+    498     570412     571434 1023 -1            0
+G TCAC C
+
+    501     573158     574513 1356  1           20 
+    502     574494     575249  756 -1            2
+A CTAACGGACCGGGTGGGTAG C
+
+    504     576796     578238 1443  1            4 
+    505     578235     578786  552  1            0
+C GTGA C
+
+    510     582167     582859  693  1            4 
+    511     582856     584298 1443 -1            1
+G CTAG C
+
+    511     582856     584298 1443 -1           65 
+    512     584234     584911  678 -1            0
+G TCAAGGCCGGCCCGGGCCAGCGTGCGCGCGACCATCGCGCCGCCYGCCCCGGAGCCGACGACCAC C
+
+    516     587714     588748 1035  1            4 
+    517     588745     589677  933  1            0
+C ATGA C
+
+    524     595239     596207  969 -1          101 
+    525     596107     596703  597  1            2
+C TTGAGCTGCGTGCCGCTTGTCGTGTCGCCCTGTGACGTCATTGAACGGACCCTACTTTCCCCACTAGATCGATGCAATCGCCGCCACCGTTGCATCGGCAT C
+
+    527     598132     598569  438  1            4 
+    528     598566     601472 2907  1            0
+G ATGA G
+
+    528     598566     601472 2907  1            8 
+    529     601465     601758  294  1            1
+C ATGAGTAG G
+
+    529     601465     601758  294  1           32 
+    530     601727     603214 1488  1            4
+T TTGGTAGCCCACCTGATAAACGTCTACCGTAG A
+
+    534     606971     607519  549  1            4 
+    535     607516     607815  300  1            0
+G GTGA T
+
+    536     607825     609429 1605  1            4 
+    537     609426     609905  480 -1            1
+T TTAG G
+
+    542     613622     613972  351  1            8 
+    543     613965     614270  306  1            1
+T ATGCGTGA A
+
+    544     614405     615709 1305  1           17 
+    545     615693     616097  405 -1            1
+C TTAATCGGCCTTGGTGA G
+
+    548     618213     618863  651  1            4 
+    549     618860     619639  780  1            0
+A ATGA C
+
+    550     619672     621261 1590  1            4 
+    551     621258     622232  975  1            0
+A TTGA A
+
+    552     622274     623491 1218  1            4 
+    553     623488     623649  162 -1            1
+C CTAG G
+
+    554     623696     624013  318  1           29 
+    555     623985     624167  183  1            1
+C GTGGCGAGTCGCTACCCGAAGAACAGTGA G
+
+    555     623985     624167  183  1            8 
+    556     624160     626028 1869  1            1
+G ATGTCTAA T
+
+    556     624160     626028 1869  1          105 
+    557     625924     626931 1008 -1            3
+C TCAACCCTTCGGCATTCGCACCACCTGGGCGGCATAGCTCAGACCGGCGCCGTAGCCGATCAACAGGGCCAGATCGCCGGGCTTGGCCGCGCCGGTCGTCAGTAA T
+
+    559     627926     628702  777  1            4 
+    560     628699     629739 1041  1            0
+C ATGA G
+
+    565     633850     634485  636  1          111 
+    566     634375     635856 1482 -1            3
+G CTAGTGCAGCGTCTGGGCGACTTCGACATCGTGGACGACATCGCGCTGGTACGCGATTGCTGCGCTCCGGGGAGTCGGTTCGCGCAGGCTACCCGCGCGGCTGGACTCTGA G
+
+    567     635868     636956 1089 -1           48 
+    568     636909     637436  528  1            0
+C ATGCTGGGTGGGCACCGCGACCAATGCCGGGTCGCTGCCACCCAGCAC T
+
+    568     636909     637436  528  1           50 
+    569     637387     637665  279 -1            1
+T CTACTTGGGTGTGGCGCCCAGGAAGGCCCAGCCGGTGTGATGCGCGATGA A
+
+    569     637387     637665  279 -1            4 
+    570     637662     638915 1254 -1            0
+C TCAC G
+
+    574     641680     642093  414 -1            4 
+    575     642090     642356  267 -1            0
+C TCAC G
+
+    575     642090     642356  267 -1           17 
+    576     642340     642495  156  1            0
+C GTGCGCCGGCTCAACAA G
+
+    577     642548     644263 1716 -1           37 
+    578     644227     645945 1719  1            1
+G GTGGTACCCCCACTGCATCGTCGCCGGCGGTGCTCAT C
+
+    578     644227     645945 1719  1            4 
+    579     645942     646922  981  1            0
+G GTGA T
+
+    579     645942     646922  981  1            4 
+    580     646919     647707  789  1            0
+G GTGA T
+
+    581     647750     649414 1665  1            4 
+    582     649411     649926  516  1            0
+T GTGA T
+
+    582     649411     649926  516  1           29 
+    583     649898     651124 1227  1            0
+C GTGAAAATTCGGCGTCTGCAACGGGCTGA G
+
+    594     660902     662320 1419  1            4 
+    595     662317     662721  405  1            0
+A GTGA C
+
+    595     662317     662721  405  1          104 
+    596     662618     664825 2208  1            1
+G ATGCGGTCGTGGTCACTGCGGAGGAGCAGAATGCGGCCGACGAGCGGGCGCAGCATCGGTTCGGCGCGGTTCAGTCGGCGATCCTCCATGCCAGGGGAACGTAG G
+
+    598     666374     666496  123 -1            4 
+    599     666493     666834  342 -1            1
+T TCAT A
+
+    603     669938     670042  105  1           13 
+    604     670030     671196 1167 -1            1
+G TCACCAGGTGTAG T
+
+    607     673447     677367 3921 -1           86 
+    608     677282     677761  480  1            1
+G TTGGCCGCAGTGATCGTCGAACCAATTTTCGCCAAATCCGTTGCCGCCGTGGTCAGCATCTCCGGCGTCGCGATTACGAACGACAT C
+
+    608     677282     677761  480  1           25 
+  608.1     677737     678447  711  1            0
+C GTGGAGCTGCAGGCGCGCGGTCTGA C
+
+    615     685859     686581  723  1            4 
+    616     686578     687375  798  1            0
+A ATGA C
+
+    618     688270     689484 1215  1           40 
+    619     689445     690308  864  1            2
+T ATGGGGACGCCAATACGGAGAGAACACGATCAACCCATGA A
+
+    619     689445     690308  864  1           52 
+    620     690257     690511  255  1            1
+A TTGCTGCACAGCAGCTTCGGGCACCTCGAGGGCATCCAGCAGCCGCTCATAG A
+
+    620     690257     690511  255  1           16 
+    621     690496     691818 1323  1            0
+G GTGCACACCGCAATGA G
+
+    622     691949     693475 1527  1            4 
+    623     693472     694680 1209  1            0
+A GTGA G
+
+    623     693472     694680 1209  1           65 
+    624     694616     696235 1620  1            1
+G ATGTCCGCTACACGCCGAACCCGAATGACGCGCCGGGCGGACCGCTGGTGGAAAGGGCTGAGTGA G
+
+    625     696287     696682  396 -1            7 
+    626     696676     696933  258 -1            0
+T TCACCAC C
+
+    628     698602     699015  414 -1            4 
+    629     699012     699275  264 -1            0
+T TCAC T
+
+    633     702854     703462  609  1           77 
+    635     703386     704207  822  1            1
+T ATGGCAAACGTGCTGCTCAGAACCGGGCCAAGCGGGCCGTCGCGGCTGCCGCTGTCGATGATCATGAGGCGGCCTGA G
+
+    637     704690     704935  246  1            4 
+    638     704932     705333  402  1            0
+C GTGA T
+
+    638     704932     705333  402  1            4 
+  638.1     705330     705503  174  1            0
+G GTGA T
+
+    639     705870     706205  336  1            8 
+    640     706198     707355 1158 -1            0
+T TCACCTGA A
+
+    641     707407     707790  384 -1           21 
+    642     707770     708375  606  1            0
+G GTGTTGGGGCCGATCCGGCAA C
+
+    643     708394     710961 2568 -1           61 
+    644     710901     711794  894  1            0
+A ATGGGCCATGTTCGGCCAGGATTCTCGCCACGGCTTGGGTCGCATCGAACGCTTCGGCCAC G
+
+    644     710901     711794  894  1           22 
+    645     711773     712033  261  1            0
+A ATGCCTGGTGGGGAGCAAGTGA T
+
+    645     711773     712033  261  1            4 
+  645.1     712030     712263  234 -1            1
+G TTAG A
+
+  645.1     712030     712263  234 -1           36 
+  645.2     712228     712455  228  1            1
+G GTGCGCACTACCATCGACCTGCCGCAAGACCTGCAC A
+
+  645.2     712228     712455  228  1            4 
+    646     712452     712853  402  1            0
+A GTGA C
+
+    647     712982     714165 1184  1            4 
+    648     714162     715253 1092  1            0
+C ATGA C
+
+    649     715648     716712 1065  1           41 
+    650     716672     717763 1092  1            0
+G TTGGGCCGGCGCAGCCCACCGCAGCTGAGGCCAATCGCTGA T
+
+    654     719471     719731  261  1           79 
+    655     719653     720147  495 -1            1
+C TCAAGCCGATCCCGGGCTCCGTAACGACCTCGCGGTCCTTGCCGGCGACACGACCGAGGATCTCGGGCCGATCCGGTGA G
+
+    664     733375     733851  477  1           14 
+    665     733838     734266  429  1            0
+G ATGGCGCTGCGTGA G
+
+    674     741674     742684 1011 -1           94 
+    675     742591     744057 1467 -1            2
+C CTAAACCTCGATGTCGGATTGATGTTCGCGGCTGACCTCGACCATGAAGTTGGCGAAATATCCGGTCAGCTGCGGGTCCGACATCATCTGCCAC C
+
+    676     744143     748339 4197  1           76 
+    677     748264     749010  747  1            1
+A GTGGTGGGCCCTGGTTCGGGTCGGTTGCGCGGGTCAGTTGGTCTATTCGCCGGCGGTGAAGGTGAGCGTGACATGA G
+
+    681     750822     751214  393  1            8 
+    682     751207     751980  774 -1            1
+G TCAAGTAG C
+
+    682     751207     751980  774 -1            8 
+    683     751973     753478 1506  1            0
+C ATGACCAC C
+
+    688     756658     756966  309 -1           14 
+    689     756953     757204  252 -1            0
+T TCACCGCGCCGCAT C
+
+    690     757308     757745  438 -1            4 
+    691     757742     758122  381 -1            0
+A TCAT C
+
+    691     757742     758122  381 -1           13 
+    692     758110     760473 2364  1            0
+A ATGCCGCAGCCAA G
+
+  692.1     760536     760862  327  1           89 
+    693     760774     761112  339  1            3
+T GTGACCGAGGGCGAGGTCGGGGTAGGCCTGCTAGATACGTCGGTCTTCATTGCGCGCGAGAGCGGCGGTGCAATCGCGGACCTGCCTGA A
+
+    696     765343     769293 3951  1            4 
+    697     769290     769664  375 -1            1
+G CTAG G
+
+    697     769290     769664  375 -1            8 
+    698     769657     771571 1915 -1            0
+G TCAAACAA C
+
+    703     776038     776760  723  1            4 
+    704     776757     777548  792  1            0
+C ATGA G
+
+    705     777560     780454 2895 -1            4 
+    706     780451     780879  429 -1            0
+A TCAT G
+
+    716     789914     791134 1221  1            4 
+    717     791131     791385  255 -1            1
+C CTAG A
+
+    718     791998     793047 1050 -1            4 
+    719     793044     793640  597 -1            0
+G TCAC T
+
+    719     793044     793640  597 -1            9 
+  719.1     793632     793820  189  1            0
+C GTGCGGCAT C
+
+  719.2     793823     794134  312  1            4 
+    720     794131     795306 1176  1            0
+C ATGA C
+
+    724     798906     800345 1440  1           11 
+  724.1     800335     800538  204  1            0
+T TTGTTCAGTGA C
+
+    732     805600     805881  282  1            4 
+    733     805878     806471  594  1            0
+G ATGA C
+
+    752     822033     822689  657 -1            4 
+    753     822686     823666  981 -1            0
+T TCAT G
+
+  756.1     826990     828315 1326  1            4 
+    757     828312     828857  546  1            0
+A GTGA G
+
+    762     831397     831894  498  1            4 
+  762.1     831891     832103  213  1            0
+T TTGA G
+
+    765     833885     834133  249  1            4 
+    766     834130     834492  363  1            0
+C ATGA T
+
+    769     836075     836632  558 -1            4 
+    770     836629     837168  540 -1            0
+G TCAT T
+
+    771     837248     837394  147 -1           52 
+    772     837343     837870  528  1            0
+A GTGGGGCCGCCGCACCGGTCGAGGCCACCGCTTCCATCGCCAGGCCCAACAT G
+
+    783     854537     855994 1458  1           29 
+    784     855966     856367  402 -1            0
+C TCACGCCAGTTGTGCCAGGGCCGCCCTGA T
+
+  787.1     858613     858855  243 -1           34 
+    788     858822     860177 1356 -1            2
+G TTAAACTCCCGTTCGCCGGCGGTAGCGCACGCAA G
+
+    790     861004     862212 1209 -1            4 
+    791     862209     862850  642 -1            0
+G TCAT T
+
+    794     865396     866283  888  1            4 
+    795     866280     866714  435  1            0
+C ATGA T
+
+    796     866726     867994 1269  1            4 
+    797     867991     869529 1539 -1            1
+T CTAG C
+
+    799     870547     871170  624  1           47 
+    800     871124     871903  780 -1            0
+C TCATCGACGTGCTCGCGCCCGTCGACCAGCGTCCGGTGCCGTTCTGA A
+
+    802     873571     874815 1245  1            4 
+    803     874812     875495  684 -1            1
+G CTAG T
+
+    803     874812     875495  684 -1           13 
+    804     875483     876376  894  1            0
+G ATGCGCCCCGCAT T
+
+    805     876376     878532 2157  1           72 
+    806     878461     878940  480 -1            4
+G CTAGCTACTGCCGACAGCGACCGTTACGGCGGCGGCCAGGGAAACGACCTCGATGGCGCTGCGCCAGCATAG C
+
+    810     883217     883855  639 -1           24 
+    811     883832     884560  729  1            0
+A ATGGCCGAAATGCGTGAGTTGCAT G
+
+    812     884666     884905  240  1            4 
+    813     884902     885576  675  1            0
+A GTGA C
+
+    815     886214     886942  729 -1            4 
+    816     886939     887982 1044 -1            0
+G TCAT G
+
+    816     886939     887982 1044 -1            4 
+    817     887979     889910 1932 -1            0
+T TCAT G
+
+    818     890240     891391 1152  1           11 
+    819     891381     892178  798 -1            1
+C TTAGTGGCTGA G
+
+    819     891381     892178  798 -1            4 
+    820     892175     893182 1008 -1            0
+T TCAT C
+
+    823     895729     897993 2265  1            4 
+    824     897990     898619  630  1            0
+G ATGA G
+
+    825     898740     899696  957  1           56 
+    826     899641     901239 1599 -1            0
+T TCAAGCACCCTCCGATGGTGCTGACGTCCTCGGCACCGCGAAGTCCCGTCGACTGA C
+
+    834     907247     907927  681 -1            4 
+    835     907924     908022   99 -1            0
+C TCAC G
+
+    838     909520     909942  423 -1            4 
+    839     909939     910751  813 -1            0
+G TCAT G
+
+    840     910842     911648  807  1            4 
+    841     911645     912592  948  1            0
+A GTGA C
+
+    847     918821     919540  720 -1           34 
+    848     919507     920598 1092  1            0
+C GTGTGGCCAATGAAGATTCAGCAGGCAAAACCAC C
+
+    854     924821     925273  453  1            4 
+  854.1     925270     927519 2250  1            0
+G TTGA T
+
+    856     930646     931497  852  1           20 
+  856.1     931478     932029  552 -1            1
+A TCAGCGATCGCATCCAGTAG T
+
+    857     932179     932925  747 -1           23 
+    858     932903     933931 1029 -1            1
+G TCATAATCGGGCGAGTCGCTCAT C
+
+    864     937976     939304 1329  1           17 
+    865     939288     940292 1005  1            1
+C GTGACTCGTACCAGTGA A
+
+    867     941078     942367 1290  1           18 
+    868     942350     942469  120 -1            1
+A CTACCACTGAAACGGTGA A
+
+    872     945955     947213 1259  1            4 
+    873     947210     947542  333  1            0
+G GTGA C
+
+    873     947210     947542  333  1            4 
+    874     947539     948375  837 -1            1
+G CTAA T
+
+    880     953155     953628  474  1            4 
+    881     953625     954818 1194 -1            1
+G CTAG G
+
+    885     960346     962616 2271 -1           14 
+    886     962603     962884  282  1            0
+G GTGTGTTCGGTCAT T
+
+    887     962894     963397  504  1            4 
+    888     963394     963876  483  1            0
+G ATGA G
+
+    888     963394     963876  483  1            4 
+    889     963873     964298  426  1            0
+G ATGA C
+
+    892     966269     967351 1083 -1            4 
+  892.1     967348     967737  390 -1            0
+G TCAT G
+
+    895     970338     970529  192 -1           12 
+    896     970518     972470 1953  1            0
+G ATGGCACAGCAA A
+
+    897     972559     973842 1284 -1           25 
+    898     973818     974306  489 -1            1
+G TCAAAAGATAAGGCGCACCGACCAT T
+
+    898     973818     974306  489 -1            4 
+    899     974303     975982 1680 -1            0
+T TCAC T
+
+    902     978493     978768  276 -1            4 
+    903     978765     979400  636 -1            0
+C TCAT C
+
+    904     979512     980240  729  1            4 
+    905     980237     980521  285  1            0
+C GTGA A
+
+    905     980237     980521  285  1            4 
+    906     980518     981279  762 -1            1
+G CTAG C
+
+    909     983815     985542 1728  1           18 
+    910     985525     986037  513 -1            1
+G CTAACCGTCCCCTTGTGA T
+
+    910     985525     986037  513 -1           34 
+  910.1     986004     986159  156  1            0
+T GTGCTCGGCCAATCCGGGGCCCGGACAGGCTCAC G
+
+  910.3     986686     986835  150  1           90 
+  910.4     986746     986892  147 -1            3
+C CTAACCCAATATTCCCGGACGAACAACGCCGAGGTCGTGCAGAGCGTCGAGACACACCACCGTCCCGCTAACTTTGATGCCCTCACCTGA G
+
+  915.1     993473     993868  396  1            4 
+    916     993865     995352 1488  1            0
+G ATGA C
+
+    916     993865     995352 1488  1           23 
+    917     995330     996307  978 -1            1
+A CTAGTCGGCCTCAAAGCGCTTGA A
+
+    923    1003817    1003969  153  1            4 
+    924    1003966    1004496  531  1            0
+A GTGA T
+
+    925    1004513    1005922 1410 -1           59 
+    926    1005864    1006574  711 -1            3
+G TCACTGCATACGCAGCACGAATCCGACTCCGCGGACGGTATGCAGCAGCCTAGGGCCAC C
+
+    929    1008956    1010074 1119  1           16 
+    930    1010059    1011747 1689  1            1
+C ATGGTGGCGGCTGTAA T
+
+    930    1010059    1011747 1689  1            4 
+    931    1011744    1014137 2394  1            0
+G ATGA C
+
+    937    1016833    1017240  408 -1           11 
+    938    1017230    1018738 1509 -1            1
+T TCATAGCCCAA C
+
+    942    1022100    1023881 1782  1            4 
+    943    1023878    1024135  258  1            0
+G ATGA T
+
+    944    1024164    1024700  537  1            4 
+    945    1024697    1025197  501  1            0
+G GTGA G
+
+    945    1024697    1025197  501  1           15 
+    946    1025183    1025329  147 -1            1
+G CTAATTGGCGACTGA T
+
+    956    1036041    1037015  975  1            4 
+    957    1037012    1037926  915  1            0
+G GTGA G
+
+    963    1044330    1045235  906  1           24 
+    964    1045212    1046033  822 -1            0
+G TCACGGAGGCGTTGGGACGTTTGA G
+
+    965    1046149    1048428 2280  1            4 
+    966    1048425    1050359 1935  1            0
+A ATGA A
+
+    968    1051557    1052330  774 -1           13 
+  968.1    1052318    1052563  246 -1            0
+C TCACCGCGACCAC T
+
+    975    1057659    1058312  654 -1           40 
+    976    1058273    1060588 2316  1            0
+C ATGAGTGTGCACGCGACCGACGCCAAGCCTCCCGGTCCAT C
+
+    979    1063153    1064064  912  1            4 
+    980    1064061    1064975  915 -1            1
+T CTAG G
+
+    983    1067574    1068221  648  1            4 
+    984    1068218    1069789 1572  1            0
+G ATGA G
+
+    985    1069896    1071275 1380  1            8 
+    986    1071268    1073286 2019  1            2
+T ATGGCTAA G
+
+    987    1073340    1073561  222  1            4 
+    988    1073558    1073941  384  1            0
+G ATGA T
+
+    990    1074453    1075127  675 -1            4 
+    991    1075124    1075264  141 -1            0
+T TCAT G
+
+    995    1077988    1078347  360  1            4 
+    996    1078344    1078700  357  1            0
+T GTGA C
+
+    996    1078344    1078700  357  1           11 
+    997    1078690    1081068 2379  1            0
+C ATGACCACTGA C
+
+    997    1078690    1081068 2379  1            4 
+    998    1081065    1081697  633  1            0
+C ATGA T
+
+   1000    1082597    1083763 1167 -1            4 
+   1001    1083760    1085763 2004 -1            0
+G TCAC G
+
+   1002    1085769    1087364 1596 -1            4 
+   1003    1087361    1088509 1149 -1            0
+G TCAC G
+
+   1003    1087361    1088509 1149 -1            4 
+ 1003.1    1088506    1090188 1683 -1            0
+T TCAC A
+
+   1011    1099159    1100499 1341  1            4 
+   1012    1100496    1101044  549  1            0
+A GTGA T
+
+   1014    1101842    1102588  747  1            8 
+   1015    1102581    1105148 2568  1            1
+T ATGAATGA C
+
+   1034    1122275    1123918 1644 -1          161 
+   1035    1123758    1125461 1704  1            5
+G ATGGTTTTAAGAAGTAGGAAAAGCACGCTCGGCGTTGTCGTGTGCTTAGCGCTGGTGCTCGGTGGGCCGCTCAACGGTTGCAGCAGCAGCGCGAGCCACCGCGGTCCACTGAACGCAATGGGAAGTCCGGCCATACCGTCGACGGCGCAGGAGATACCCAA C
+
+   1038    1128135    1129223 1089  1           28 
+   1039    1129196    1130149  954  1            1
+T ATGTGCTGCACGAGCGGGTGCGCGCTGA C
+
+ 1040.1    1131425    1131724  300 -1           35 
+   1041    1131690    1133303 1614  1            0
+G ATGTTCCACAATGCCCGCACCGCGACGACGGGCAT G
+
+   1052    1145902    1146588  687  1            8 
+   1053    1146581    1147072  492  1            0
+G GTGGTTGA T
+
+   1053    1146581    1147072  492  1           10 
+   1054    1147063    1148022  960  1            1
+A GTGGCGCTAA C
+
+   1055    1148262    1148474  213  1            4 
+   1056    1148471    1149151  681 -1            1
+T TTAG G
+
+   1056    1148471    1149151  681 -1            4 
+   1057    1149148    1151763 2616 -1            0
+G TCAT G
+
+   1058    1152056    1153771 1716  1            4 
+   1059    1153768    1155897 2130  1            0
+A GTGA T
+
+ 1070.1    1163981    1164229  249  1           22 
+   1071    1164208    1164516  309 -1            0
+C TCACCCGTCGTGCAAATGCTGA G
+
+   1074    1167098    1167721  624  1            4 
+   1075    1167718    1168599  882  1            0
+C GTGA C
+
+ 1075.1    1168681    1169469  789 -1           64 
+   1076    1169406    1170716 1311  1            0
+A GTGGGCGGTCATCGCGTGATCCTTCGAAACGACCAGCAAAAGTCAATCGAAGGAAATGACGCAA T
+
+   1083    1175769    1176158  390  1           14 
+ 1083.1    1176145    1176531  387  1            2
+T TTGGTCCGGTATAG G
+
+ 1083.2    1176612    1176950  339  1           19 
+   1084    1176932    1177288  357  1            0
+T GTGGGGGATCGCGTGCTGA C
+
+   1091    1184061    1184924  864  1           23 
+   1092    1184902    1185786  885  1            0
+C ATGCGCAACACACGTCGGCGTGA A
+
+   1095    1187481    1188047  567  1            4 
+   1096    1188044    1188439  396  1            0
+G ATGA G
+
+   1099    1192697    1194508 1812 -1            4 
+   1100    1194505    1195278  774 -1            0
+G TCAT C
+
+   1106    1200819    1201895 1077  1           37 
+   1107    1201859    1201969  111 -1            2
+G TCAGATCGGGGAGTACATCCGCGAGGCCACCGGGTAG C
+
+   1107    1201859    1201969  111 -1           18 
+   1108    1201952    1203346 1395  1            1
+C ATGCGGATCGCGCAACAT A
+
+   1113    1206755    1207621  867  1            4 
+   1114    1207618    1207884  267  1            0
+C GTGA A
+
+   1114    1207618    1207884  267  1           14 
+   1115    1207871    1209892 2022  1            1
+C ATGAGTCCGGCTAA T
+
+   1116    1209902    1210021  120  1           31 
+   1117    1209991    1210719  729 -1            1
+G TCAGAACACCACGAACCACATCGCGATGTAG T
+
+   1129    1224810    1225691  882 -1            4 
+   1130    1225688    1227112 1425 -1            1
+G TCAT A
+
+   1138    1233514    1233786  273 -1           26 
+   1139    1233761    1235008 1248 -1            0
+G TCACAGACCATTGGTTTGTCCTTCAC T
+
+   1139    1233761    1235008 1248 -1            4 
+   1140    1235005    1235643  639 -1            0
+G TCAC T
+
+ 1143.1    1238964    1239161  198  1            4 
+   1144    1239158    1239532  375  1            0
+G GTGA T
+
+   1147    1240503    1240736  234  1           74 
+   1148    1240663    1240938  276 -1            1
+T TCACCGAAGGTCGGCGTGAACGTAACCGTGACCGGCTCGAGCGGAGCCAGCAGTTCCGCCAACCGGGTCGCTGA C
+
+   1151    1242412    1242612  201 -1           55 
+   1152    1242558    1243052  495 -1            0
+G TCATTGCGACGTTGCGGCCGAACAGATCGTCACCGTGCCGCACCGAGCGCCCCAT G
+
+   1154    1244677    1245699 1023  1            8 
+   1155    1245692    1246627  936 -1            2
+G CTAACTAA G
+
+   1158    1248877    1249482  606 -1            4 
+   1159    1249479    1250951 1473 -1            0
+C TCAT G
+
+   1162    1254102    1255682 1581  1            4 
+   1163    1255679    1256860 1182  1            0
+G ATGA C
+
+   1163    1255679    1256860 1182  1           40 
+   1164    1256821    1258602 1782  1            2
+A TTGCGGGCACGAGCAGCGGGTGTTACCGGGCACCTTCTAG T
+
+   1171    1265019    1266035 1017 -1            4 
+   1172    1266032    1266406  375 -1            1
+G TCAT A
+
+ 1172.1    1266689    1266907  219 -1           72 
+   1173    1266836    1267684  849  1            1
+G ATGCCGCGAGATTACACCGCCCCTCGCTGGGCCCACGCCTGGGCCGGTGAACCCCGGCCCGCCCGCTGGCAC C
+
+   1175    1268641    1269447  807 -1            2 
+   1176    1269446    1270633 1188  1            0
+C AT G
+
+   1182    1275517    1275819  303 -1           31 
+   1183    1275789    1277288 1500 -1            0
+G TCAATGTGGTTCGTCGTCGTCTTGTTCGCAC A
+
+   1186    1279145    1279510  366  1           23 
+   1187    1279488    1280336  849 -1            0
+C TCACCCACGTGCCGGACGACTGA A
+
+   1187    1279488    1280336  849 -1            4 
+   1188    1280333    1280920  588 -1            0
+C TCAC C
+
+   1191    1281796    1282383  588  1            4 
+   1192    1282380    1282526  147  1            0
+C GTGA A
+
+   1193    1282546    1283661 1116 -1            4 
+   1194    1283658    1284350  693 -1            0
+C TCAC A
+
+   1195    1284477    1285775 1299  1            4 
+   1196    1285772    1286077  306 -1            1
+A TTAG G
+
+   1212    1305690    1307714 2025 -1            4 
+   1213    1307711    1308454  744 -1            0
+G TCAT C
+
+   1216    1309968    1310738  771 -1           58 
+   1217    1310681    1312786 2106 -1            0
+G TCAATGCCGAGGCGGGGATGCGGGGTGCGGCGACCCCGAGCGGCTGGCGGGAGCGCAC G
+
+   1238    1342429    1343706 1278  1            4 
+   1239    1343703    1344656  954 -1            1
+G CTAG T
+
+   1240    1344747    1345811 1065  1            4 
+   1241    1345808    1346392  585 -1            1
+G CTAG C
+
+   1245    1350678    1351634  957  1            4 
+   1246    1351631    1352605  975  1            0
+C ATGA C
+
+   1247    1352644    1353012  369  1            4 
+   1248    1353009    1353623  615  1            0
+C GTGA G
+
+   1255    1359642    1361288 1647 -1            4 
+   1256    1361285    1362220  936 -1            0
+C TCAC G
+
+   1256    1361285    1362220  936 -1           11 
+   1257    1362210    1362848  639 -1            0
+G TCAGCCGACAT G
+
+   1259    1363900    1364673  774  1           38 
+   1260    1364636    1365295  660  1            0
+C ATGGCGAGTGCGCAGTTCACGTCAACCCAGTTCGCTGA A
+
+   1264    1368320    1369783 1464 -1           16 
+ 1264.1    1369768    1370361  594  1            0
+T GTGGCCGGTCGGTCAT G
+
+   1269    1373810    1374352  543 -1            4 
+   1270    1374349    1375656 1308 -1            0
+C TCAC C
+
+   1273    1377012    1378418 1407  1            4 
+   1274    1378415    1379338  924  1            0
+C GTGA C
+
+   1279    1383730    1384026  297  1            4 
+   1280    1384023    1384454  432  1            0
+G GTGA T
+
+   1289    1393666    1395405 1740  1           98 
+   1290    1395308    1398751 3444 -1            3
+G TCAGCTGGTCGACGTCAGCCCAAGGAATGCCCCCAGGTCCACCAGGCCGTCGGGCGTGGCAGGCAGATACTGAGTCAACAGCTCCGAGCGCACTATAA C
+
+   1292    1399457    1401148 1692  1            4 
+   1293    1401145    1402296 1152  1            0
+G ATGA C
+
+   1293    1401145    1402296 1152  1           32 
+   1294    1402265    1402873  609 -1            1
+T TCACTCGGGTCCAGGGTGACCGGCCTTCCTAG C
+
+   1296    1404204    1405571 1368 -1            4 
+   1297    1405568    1406827 1260 -1            0
+T TCAC T
+
+ 1297.1    1406919    1407725  807  1           32 
+   1298    1407694    1408845 1152  1            0
+C GTGAGGCCAAGAAGCTGGCCGGGATTGAGTGA C
+
+ 1305.1    1416881    1417183  303 -1           40 
+   1306    1417144    1417842  699 -1            0
+T TCAGGTGGTGACGGCCATGAAGTCGTGGCTGGTGGCCCAC G
+
+   1310    1419896    1421791 1896 -1            4 
+   1311    1421788    1423536 1749 -1            0
+G TCAC C
+
+   1312    1423668    1424240  573  1           52 
+ 1312.1    1424189    1424779  591  1            0
+C GTGCGACATCGCCAAAGAACTGACCCGCCAATCGATTGCGAATTCGAAATGA G
+
+   1314    1425650    1426903 1254  1            4 
+   1315    1426900    1429527 2628  1            0
+C GTGA A
+
+   1317    1431151    1432926 1776 -1            8 
+   1318    1432919    1434757 1839 -1            0
+G TCAGCCAC G
+
+   1318    1432919    1434757 1839 -1            4 
+   1319    1434754    1435629  876 -1            0
+C TCAT C
+
+   1319    1434754    1435629  876 -1            4 
+   1320    1435626    1436603  978 -1            0
+G TCAT G
+
+   1320    1435626    1436603  978 -1            2 
+   1321    1436602    1436748  147  1            0
+C AT G
+
+   1328    1443024    1444547 1524 -1            2 
+   1329    1444546    1444914  369  1            0
+C AT G
+
+   1331    1445920    1447572 1653  1            4 
+   1332    1447569    1448912 1344  1            0
+T GTGA A
+
+   1333    1448916    1450241 1326  1            4 
+   1334    1450238    1451320 1083  1            1
+T ATGA C
+
+   1342    1459212    1459310   99  1            4 
+   1343    1459307    1459792  486  1            0
+A GTGA C
+
+   1343    1459307    1459792  486  1            8 
+   1344    1459785    1460537  753  1            0
+G ATGACTGA G
+
+   1357    1476675    1477196  522 -1           28 
+   1358    1477169    1478659 1491 -1            0
+A TCATGCGATCTTCTCCTGCGGTGGCCAT T
+
+   1373    1501875    1502180  306  1           41 
+   1374    1502140    1502796  657  1            0
+C ATGCCGCCGGTTTGTGGGCGACGATGCAGCAGGACCGGTGA G
+
+   1378    1505609    1506292  684  1            4 
+   1379    1506289    1507104  816  1            1
+T ATGA A
+
+   1382    1508787    1509401  615  1            4 
+   1383    1509398    1509760  363 -1            1
+G CTAA A
+
+   1383    1509398    1509760  363 -1            4 
+   1384    1509757    1510137  381 -1            0
+G TCAT G
+
+   1388    1512061    1513221 1161  1           34 
+   1389    1513188    1513820  633 -1            2
+G TTACGCAGCCGTGGTCGGAGCTTCCAAAGCGTAG A
+
+   1390    1514262    1516841 2580  1            4 
+   1392    1516838    1518577 1740  1            0
+G ATGA T
+
+   1393    1518706    1519449  744  1            4 
+   1394    1519446    1519775  330  1            1
+T ATGA C
+
+   1407    1535163    1535825  663 -1            4 
+   1408    1535822    1536415  594 -1            0
+G TCAC G
+
+   1408    1535822    1536415  594 -1           32 
+   1409    1536384    1536608  225 -1            1
+G TCATGAGTCTTCGGCGTCTTCCCAGTCTGCAT A
+
+   1412    1539606    1540427  822  1           32 
+   1413    1540396    1540656  261  1            0
+A ATGAGGCCGAGTCGGCAGGGGGAGGTGGGTGA G
+
+   1416    1543061    1544686 1626  1            4 
+   1417    1544683    1545864 1182  1            1
+T ATGA A
+
+   1419    1547690    1549009 1320  1            4 
+   1420    1549006    1550499 1494  1            0
+A ATGA C
+
+   1420    1549006    1550499 1494  1           63 
+   1421    1550437    1551117  681 -1            2
+C TTAGGACCCGCGCCGCTGAGCGCGGACGTTCCAGAACGCCATTTCGACTTCGGTTCCGTCTAA C
+
+   1421    1550437    1551117  681 -1           32 
+   1422    1551086    1552513 1428 -1            2
+C TTAGGCGGCGTGTAGGTGGGTGAGGGCGACAC C
+
+   1422    1551086    1552513 1428 -1            2 
+   1423    1552512    1553093  582  1            0
+C AT G
+
+   1423    1552512    1553093  582  1            4 
+   1424    1553090    1554049  960  1            0
+G ATGA C
+
+   1424    1553090    1554049  960  1            4 
+   1425    1554046    1555338 1293  1            0
+C GTGA G
+
+   1425    1554046    1555338 1293  1            4 
+   1426    1555335    1555832  498  1            0
+C ATGA A
+
+   1428    1556959    1560306 3348  1            4 
+   1429    1560303    1561127  825  1            0
+G GTGA C
+
+   1430    1561322    1561630  309  1            4 
+   1431    1561627    1563246 1620  1            1
+T ATGA C
+
+   1434    1564232    1564885  654  1            4 
+   1435    1564882    1565283  402  1            0
+C GTGA C
+
+   1438    1567967    1569445 1479 -1            4 
+   1439    1569442    1570827 1386 -1            0
+A TCAT C
+
+   1441    1573969    1574370  402 -1            4 
+   1442    1574367    1574636  270 -1            0
+A TCAT G
+
+   1444    1575691    1576653  963 -1           50 
+   1445    1576604    1577389  786  1            1
+G ATGGGGTCGATCGCGGGTTTCTCGTCGGCGGTGTTGTCCAAACTGGGCAT A
+
+   1450    1582020    1582958  939  1            4 
+   1451    1582955    1584328 1374  1            0
+C ATGA C
+
+   1452    1584362    1585051  690  1            4 
+   1453    1585048    1586067 1020  1            1
+T ATGA A
+
+   1453    1585048    1586067 1020  1            4 
+   1454    1586064    1587620 1557 -1            1
+G TTAG A
+
+   1458    1590251    1591528 1278  1            4 
+   1459    1591525    1592007  483  1            0
+T GTGA A
+
+   1459    1591525    1592007  483  1            4 
+   1460    1592004    1592468  465  1            0
+C GTGA C
+
+   1463    1593896    1595836 1941  1            4 
+   1464    1595833    1596738  906  1            0
+G ATGA T
+
+   1464    1595833    1596738  906  1            4 
+   1465    1596735    1597763 1029  1            0
+A ATGA C
+
+   1465    1596735    1597763 1029  1           10 
+   1466    1597754    1598737  984  1            0
+C GTGGCGATGA C
+
+   1467    1598747    1599091  345 -1           18 
+   1468    1599074    1600891 1818  1            0
+G ATGGTTCTGGGTGATCAA T
+
+   1468    1599074    1600891 1818  1          131 
+   1469    1600761    1602176 1416 -1            3
+A TCACCTGCTTCTCCTACCAGGATTATCTGGATTTCGGCCTGGTGACCACACCCGAGGTGGCCAACGACATCGACGAGATGGCCGATGCCATCGAACCGGCACTGGCCGAGCTGGAGCGTGCCGCGGAATAG C
+
+   1475    1607939    1609708 1770  1            4 
+   1476    1609705    1611126 1422  1            0
+C ATGA C
+
+   1478    1612112    1612255  144  1           52 
+   1479    1612204    1612866  663 -1            0
+G TCAGCGCGCACCTGCGGGCGCAGAGGCCGAAGGACCGGGCAGAACCGGCTGA C
+
+   1479    1612204    1612866  663 -1           56 
+ 1479.1    1612811    1613026  216  1            2
+A TTGACGATCGCCATCAGCGTCAACTCTCCTCTATTCGCGCGCAGATATTTCCGCAA T
+
+   1481    1614212    1615450 1239  1            4 
+   1482    1615447    1616232  786  1            0
+T GTGA G
+
+   1487    1619673    1621973 2301  1            4 
+   1488    1621970    1622089  120 -1            1
+C TTAG C
+
+   1492    1623596    1624339  744 -1            4 
+   1493    1624336    1625247  912 -1            0
+C TCAC C
+
+   1494    1625300    1626844 1545 -1            4 
+   1495    1626841    1627962 1122 -1            0
+T TCAT T
+
+   1501    1639777    1640784 1008 -1           41 
+   1502    1640744    1641646  903  1            1
+G GTGACTTCGATTGCGTGCATGTGGCTATCATGCCCGGGCAT G
+
+   1502    1640744    1641646  903  1           51 
+   1503    1641596    1642531  936 -1            1
+G TCAGCGTTGGAGCGGCTGGGGCTGGGCCCGTTCTCCCATCGACGCCCATAG C
+
+   1504    1642640    1643425  786 -1            4 
+   1505    1643422    1644363  942 -1            0
+G TCAC T
+
+   1507    1646312    1647148  837  1            4 
+   1508    1647145    1649685 2541  1            0
+G ATGA C
+
+   1508    1647145    1649685 2541  1            4 
+   1509    1649682    1650875 1194  1            0
+G ATGA C
+
+   1509    1649682    1650875 1194  1            4 
+   1510    1650872    1651672  801  1            0
+C ATGA C
+
+   1511    1651674    1652927 1254  1            4 
+   1512    1652924    1653412  489  1            0
+C GTGA C
+
+   1512    1652924    1653412  489  1           26 
+   1513    1653387    1653734  348  1            0
+G ATGAGCGAAACCAGCGCACCGGCTGA G
+
+   1532    1675173    1676207 1035  1           35 
+   1533    1676173    1677039  867 -1            0
+G TCAGTCCGGCCAGGCCGAGTGCAGGATCGCCGTGA C
+
+   1541    1686427    1686729  303  1            4 
+   1542    1686726    1687043  318  1            0
+A GTGA A
+
+   1542    1686726    1687043  318  1            4 
+   1543    1687040    1688044 1005  1            0
+C ATGA T
+
+   1547    1690290    1690502  213 -1           12 
+   1548    1690491    1690961  471  1            0
+T GTGATTGCTCAT C
+
+   1553    1695437    1696102  666 -1            4 
+   1554    1696099    1696617  519 -1            0
+G TCAT G
+
+   1555    1696883    1697578  696 -1           67 
+ 1555.1    1697512    1698015  504  1            3
+A ATGCAATCAGGTCAAAATATCCTCGCCAAGGTATGTAATTTGATTGAACAATCGCGACTTTCTTCAA C
+
+   1561    1703205    1704251 1047  1           52 
+   1562    1704200    1705216 1017  1            0
+A GTGCGAAGGCAAGCCGTGGATCGACAAGCCGATGATCGCCGGCCGGACATGA A
+
+   1562    1704200    1705216 1017  1            4 
+   1563    1705213    1705944  732  1            0
+A ATGA G
+
+   1565    1706785    1707771  987 -1           88 
+   1566    1707684    1708805 1122 -1            0
+G TCAGGCTCGACAGCCGCGTCGGAGCCGGGAGGGCCACACATCCACGAGCCCCCTGCGGCTCGGCGTCGCGGCGGCGAGCTTGCGCCAC T
+
+   1569    1710888    1711157  270  1            8 
+   1570    1711150    1712223 1074  1            0
+G GTGGTTGA C
+
+   1570    1711150    1712223 1074  1           12 
+   1571    1712212    1712412  201 -1            1
+A TCACATGCCTAG A
+
+   1576    1720172    1720957  786  1           23 
+   1577    1720935    1722215 1281 -1            1
+C TCACCTGCCCGGCGAGCTGCTAG G
+
+   1581    1731527    1732630 1104  1            4 
+   1582    1732627    1733193  567  1            0
+C ATGA C
+
+   1584    1733764    1734890 1127  1            4 
+   1585    1734887    1735564  678  1            0
+G GTGA G
+
+   1589    1739943    1741400 1458  1           36 
+   1590    1741365    1742345  981 -1            0
+C TCAGCCCCAACGGTCGATGACGTCGGCGACCGGTGA G
+
+   1591    1742397    1743005  609  1            8 
+   1592    1742998    1743924  927  1            0
+G ATGGCTGA C
+
+   1602    1757562    1757849  288 -1           15 
+   1603    1757835    1759586 1752  1            0
+G ATGACCGCCCAACAC A
+
+   1604    1759589    1760332  744  1            4 
+   1605    1760329    1760709  381  1            0
+G ATGA G
+
+   1605    1760329    1760709  381  1            4 
+   1606    1760706    1761083  378  1            0
+C ATGA C
+
+   1613    1765554    1767383 1830 -1           95 
+   1614    1767289    1769586 2298 -1            0
+T TCAGGCATTGTCGCGCACCAGCAGCACCACAGGCAGATCCGCGAACAGCTCGACGGCCGGCGTGTGCCCACTGGCCGTGAATCCGGTGAGGGCAT C
+
+   1619    1775546    1776859 1314  1            4 
+   1620    1776856    1778016 1161  1            0
+C ATGA A
+
+   1620    1776856    1778016 1161  1            4 
+   1621    1778013    1778693  681  1            0
+G TTGA C
+
+   1631    1786712    1788295 1584  1           31 
+   1632    1788265    1789152  888  1            1
+T GTGTGTCCAGGCGCTAGTGGCGGTGTGCTGA T
+
+   1635    1790463    1791806 1344  1            4 
+   1636    1791803    1792945 1143  1            0
+G ATGA C
+
+   1636    1791803    1792945 1143  1            4 
+   1637    1792942    1793574  633  1            0
+C ATGA C
+
+   1637    1792942    1793574  633  1            4 
+   1638    1793571    1794191  621  1            0
+T GTGA C
+
+   1641    1795760    1796563  804  1            4 
+ 1641.1    1796560    1796907  348  1            0
+G ATGA C
+
+   1644    1798810    1800360 1551  1           11 
+   1645    1800350    1801057  708  1            1
+A GTGGCTGCTAA T
+
+   1649    1804078    1805484 1407  1           50 
+   1650    1805435    1805590  156 -1            0
+T TCAGCTCGAGACGCCGCCGTTGGTGGCGGCTTCGACGGCGTCGACAATGA C
+
+   1651    1806160    1806600  441  1           11 
+   1652    1806590    1806988  399  1            1
+G ATGGAAGCTAG C
+
+   1655    1809482    1810936 1455  1           67 
+   1656    1810870    1812600 1731 -1            0
+C TCAGGTCTTTGCGCTGGCGTTGGTGTTGTTGTCGCTGGAGTTCGTCCCGCGGCGGCGACATCTCTGA T
+
+   1656    1810870    1812600 1731 -1            4 
+   1657    1812597    1814180 1584 -1            0
+T TCAT C
+
+   1663    1819772    1820980 1209 -1            4 
+   1664    1820977    1821468  492 -1            0
+C TCAT C
+
+   1669    1827859    1830078 2220  1            4 
+   1670    1830075    1831490 1416  1            0
+A GTGA C
+
+   1670    1830075    1831490 1416  1           12 
+   1671    1831479    1833176 1698 -1            1
+C TTACCGCGTTGA C
+
+   1690    1856483    1857541 1059  1            4 
+   1691    1857538    1858752 1215  1            0
+C GTGA C
+
+   1691    1857538    1858752 1215  1            4 
+   1692    1858749    1859633  885  1            0
+C ATGA G
+
+   1692    1858749    1859633  885  1            4 
+   1693    1859630    1860832 1203  1            0
+G ATGA C
+
+   1693    1859630    1860832 1203  1            4 
+   1694    1860829    1861752  924  1            0
+C GTGA T
+
+   1694    1860829    1861752  924  1            4 
+   1695    1861749    1862354  606  1            0
+C ATGA G
+
+   1695    1861749    1862354  606  1           86 
+   1696    1862269    1863465 1197  1            2
+C ATGTCAGAGCGCGTCATCCTGGCCTATTCCGGCGGTCTGGACACCTCGGTGGCGATCAGCTGGATAGGCAAGGAGACCGGCCGTGA G
+
+   1705    1882132    1883193 1062  1           18 
+   1706    1883176    1884486 1311 -1            1
+C TTACTGCGCTGGCGCTGA C
+
+   1706    1883176    1884486 1311 -1            4 
+   1707    1884483    1886258 1776 -1            0
+C TCAT T
+
+   1708    1886922    1887269  348  1           59 
+   1709    1887211    1887669  459  1            1
+G GTGAATCCGAGAGTCGGCATGGCTTGGCGCGCCGGGTTGTGGCGTGGCTCGGCAAATAG C
+
+   1712    1890062    1890718  657 -1            2 
+   1713    1890717    1891049  333  1            0
+C AT G
+
+   1713    1890717    1891049  333  1            7 
+   1714    1891043    1891777  735 -1            0
+G TCATTGA G
+
+   1715    1891978    1892553  576  1            4 
+   1716    1892550    1893098  549  1            0
+A GTGA C
+
+   1716    1892550    1893098  549  1            4 
+   1717    1893095    1893196  102  1            0
+G TTGA T
+
+   1717    1893095    1893196  102  1            4 
+   1718    1893193    1894101  909  1            0
+C ATGA C
+
+   1720    1895231    1896055  825  1            7 
+   1721    1896049    1897044  996  1            0
+G ATGGTGA T
+
+   1723    1898324    1901395 3072  1            8 
+   1724    1901388    1901612  225  1            0
+A ATGCTTGA C
+
+   1724    1901388    1901612  225  1           35 
+   1725    1901578    1902201  624 -1            0
+C TCATGGCGCGAGGTCGTCCGGCAGCTCCCCAGTGA G
+
+   1730    1906751    1907503  753  1            4 
+   1731    1907500    1908561 1062  1            0
+A ATGA A
+
+   1731    1907500    1908561 1062  1            4 
+   1732    1908558    1908734  177  1            0
+A ATGA C
+
+   1738    1914631    1916391 1761  1            8 
+   1739    1916384    1917007  624  1            0
+C GTGGCTGA G
+
+   1739    1916384    1917007  624  1            4 
+   1740    1917004    1917939  936  1            0
+G ATGA A
+
+   1743    1919933    1920634  702 -1           47 
+   1744    1920588    1922258 1671 -1            1
+A TCACCGATCTGGCCCGTCGTGGTGATATTGCGGATCCCGGCCGCCAT C
+
+ 1746.1    1925135    1925299  165  1           16 
+   1747    1925284    1925487  204 -1            1
+C TCAGGGCGTTACGTGA A
+
+   1749    1927366    1928118  753  1            4 
+   1750    1928115    1928951  837  1            0
+T GTGA A
+
+   1750    1928115    1928951  837  1            4 
+   1751    1928948    1929643  696  1            0
+T GTGA C
+
+   1751    1928948    1929643  696  1            4 
+ 1751.1    1929640    1930404  765  1            0
+A TTGA T
+
+ 1751.1    1929640    1930404  765  1            4 
+   1752    1930401    1931093  693  1            0
+T GTGA G
+
+   1752    1930401    1931093  693  1            4 
+   1753    1931090    1932481 1392  1            0
+G GTGA C
+
+ 1753.1    1932655    1933467  813  1            7 
+   1754    1933461    1934375  915  1            0
+C ATGCTGA C
+
+   1756    1935208    1935558  351  1          146 
+   1757    1935413    1936573 1161 -1            1
+G TCACCGTCGACGGCGCCGAAACCGTGTTGGGCTGGCTCGACAGCGTGCACCTCGCCAAAGGCGAACTGCGATCGATACACAACCGCACGGATCGTCAGGCGCTGCTGCTGGTGACCGTCGCGCACCCGGTTGCCGAGGTGGCGTGA T
+
+   1757    1935413    1936573 1161 -1          131 
+   1758    1936443    1937222  780  1            0
+T GTGTCCGCCGAAGAGCAGGACACCCGCAGTGGTGGCATCCAGGTGATCGCGCGGGCGGCCGAACTGCTGCGGGTGCTGCAGGCGCACCCCGGCGGTCTCAGCCAGGCCGAGATCGGCGAGCGGGTGGGCAT G
+
+   1758    1936443    1937222  780  1            4 
+   1759    1937219    1937326  108  1            0
+A ATGA C
+
+   1761    1937832    1938221  390 -1            4 
+   1762    1938218    1938445  228 -1            0
+A TCAC T
+
+   1763    1938663    1940147 1485  1            4 
+   1764    1940144    1941391 1248  1            0
+C GTGA G
+
+   1765    1941434    1941853  420 -1           11 
+   1766    1941843    1942406  564 -1            1
+A TTACCCACCAT G
+
+   1769    1944665    1945441  777 -1           10 
+   1770    1945432    1946370  939 -1            0
+C TCATCGCCAA C
+
+   1771    1946550    1948169 1620 -1           46 
+ 1771.1    1948124    1948243  120  1            0
+G GTGGCGGCCGATCTGAACAGCTTCGTGGGGGGATCCGCTTCGTCAA C
+
+   1778    1953086    1955044 1959 -1            4 
+   1779    1955041    1956228 1188 -1            0
+G TCAC C
+
+   1786    1961847    1962308  462 -1           71 
+   1787    1962238    1962849  612 -1            3
+G TTAATTACCATGTGCGGCTTTCGGTAGCCGGCAGTCGTCGGCCACGGGCCACTGTGCCGGACATGGTCCAA G
+
+   1791    1967458    1968189  732  1            4 
+   1792    1968186    1968743  558 -1            1
+A CTAA G
+
+   1798    1977722    1977871  150  1            4 
+   1799    1977868    1979412 1545 -1            1
+C TTAG C
+
+ 1814.2    1995998    1996351  354  1            4 
+   1815    1996348    1996956  609 -1            1
+C CTAG G
+
+ 1820.1    2001298    2002584 1287  1            4 
+   1821    2002581    2003867 1287  1            0
+G ATGA G
+
+   1832    2015160    2016680 1521  1            4 
+   1833    2016677    2020852 4176  1            0
+A ATGA A
+
+   1837    2023897    2024196  300  1           41 
+   1838    2024156    2025391 1236  1            3
+T ATGCTGCTACCGAGGCCGCCAACGCGGCCGCGGCCGGCTAG A
+
+   1839    2025806    2026897 1092  1           55 
+ 1839.1    2026843    2027010  168 -1            3
+C TCACCGATACGGGTTCCGCCACAGCGTGATTACCCGGTCTCCGTCGGCGGGATAG C
+
+   1844    2029660    2031171 1512  1           23 
+   1845    2031149    2032906 1758  1            3
+T ATGCAGCGATTCGGTACCGGTAG C
+
+   1845    2031149    2032906 1758  1            4 
+   1846    2032903    2034123 1221  1            0
+A ATGA A
+
+   1846    2032903    2034123 1221  1            4 
+   1847    2034120    2035952 1833  1            0
+A ATGA C
+
+   1849    2036873    2038840 1968  1           50 
+ 1849.1    2038791    2039177  387 -1            0
+A TCAGCGCGGGCCGAACGATTGCCAATGACATCTCGGCCATTGTCCCCTGA T
+
+ 1854.1    2045107    2045529  423 -1           38 
+   1855    2045492    2045791  300  1            0
+C ATGGCGTTTGTTCTTGTCTGTCCAGATGCGCTGGCCAT C
+
+ 1856.1    2047410    2048570 1161  1          547 
+   1857    2048024    2050108 2085  1           13
+G TTGGGACACCGTCCTGCAAAGCATCACCACTATCTTGGCGAACCTCACTGGGCCGTACAGCATCATCGGGCTGGGCGCTATACCTGGCGGCTGGTGGCTGACGTTCGGCCAGATCCTCGGCCTAGCCCAAAACGCCCCAGGTGTGGCCGCCCTACTGGGCCCGAAAGCCGCCGCCGGCGCGTTGTCGCCATTGGCGCCGCTACGGGGCGGGTATATCGGAGATATCACGCCTCTCGGTGGTGGGGCCACAGGGGGCATCGCCCGTGCGATCTACGTCGGGTCGCTCTCGGTCCCGCAGGGCTGGGCCGAGGCCGCACCGGTGATGAGGGCGGTCGCATCGGTATTGCCGGGCACCGGCGCCGCCCCCGCCCTGGCCGCCGAGGCACCAGGTGCCTTGTTCGGCGAGATGGCCCTGTCGAGTCTGGCCGGACGCGCGCTGGCAGGAACCGCGGTGCGCTCTGGTGCCGGAGCTGCTCGCGTCGCAGGCGGTTCCGTCACCGAAGACGTCGCCAGCACGACCACCATCATCGTCATACCCGCGGACTGA C
+
+   1870    2066417    2067046  630  1           14 
+   1871    2067033    2067962  930  1            0
+G GTGAACGTGGCTGA G
+
+   1875    2069933    2070421  489  1            4 
+   1876    2070418    2071161  744  1            0
+C GTGA G
+
+   1886    2084483    2084878  396 -1            4 
+   1887    2084875    2085138  264 -1            0
+A TCAC C
+
+   1896    2094568    2094870  303  1            4 
+   1897    2094867    2095181  315  1            0
+C ATGA T
+
+   1900    2097560    2098234  675  1           47 
+   1901    2098188    2098868  681  1            2
+G ATGTCGTGGCCTGGGTTCGTAGTCAACTGGCCGCCGATGGAGTCTAG T
+
+   1912    2107812    2108582  771 -1            8 
+   1913    2108575    2109276  702 -1            0
+G TCAGACAT C
+
+   1921    2119128    2120372 1245 -1           11 
+   1922    2120362    2120832  471  1            0
+G TTGACCGCCAT C
+
+   1932    2130968    2131534  567 -1           25 
+   1933    2131510    2132109  600 -1            1
+A TCAGGCCGGCGGTAGGGCCTGGCAA T
+
+   1935    2133479    2134636 1158  1           31 
+   1936    2134606    2135571  966 -1            2
+C TTACGGTGACTCGGCACCCCCAGCTGAGTAG T
+
+   1946    2139767    2140921 1155  1          141 
+   1947    2140781    2141692  912 -1            5
+C TTACGCCCTGACAGCCGTGATGTACTGGGAGCGCATGAAACTGTCGATCTTTACGTCCACGTCCGGCGGTGTCAGTCCGTAGCCGACCTGCAGCTCGAGGGTGCTGCGGACGGGGTCGACGGCCCATCCATGCTCAACTAG C
+
+   1949    2142186    2142494  309  1           35 
+   1950    2142460    2143584 1125 -1            3
+G CTACCGTCGAGCGGTATCTTCTCCGGCCTGAATAG C
+
+   1950    2142460    2143584 1125 -1           49 
+   1951    2143536    2144924 1389 -1            2
+A TTAGCGCGTGCGGGTGGCGTCGTCGCGCATGAGCACGCATAGCCGCCAT C
+
+ 1957.1    2150265    2150534  270  1            9 
+   1958    2150526    2151173  648 -1            0
+G TCAGGCTGA C
+
+   1964    2156482    2157234  753  1           23 
+   1965    2157212    2157619  408 -1            1
+G CTACTTTGCCGTGCAAGCGGTGA C
+
+   1982    2180703    2181200  498  1            4 
+   1983    2181197    2182288 1092 -1            1
+C CTAG G
+
+   1988    2188358    2189428 1071  1            4 
+   1989    2189425    2189940  516  1            0
+C GTGA G
+
+   1989    2189425    2189940  516  1            4 
+   1990    2189937    2190998 1062  1            0
+G ATGA A
+
+   1990    2189937    2190998 1062  1            4 
+   1991    2190995    2191765  771  1            0
+G TTGA A
+
+   1992    2191975    2192328  354 -1           28 
+   1993    2192301    2192678  378 -1            0
+G TCACGAGTCTCCAGCCGCCCGCCGCCAC G
+
+   1993    2192301    2192678  378 -1            4 
+   1994    2192675    2193265  591 -1            0
+T TCAC G
+
+   1994    2192675    2193265  591 -1           30 
+   1995    2193236    2194684 1449  1            1
+C ATGAGCGAAATCTTCTGTATCACTGATCAT T
+
+   2002    2198045    2198272  228  1            4 
+   2003    2198269    2198580  312  1            0
+T GTGA C
+
+   2005    2199469    2199918  450  1            4 
+   2006    2199915    2200460  546  1            0
+C ATGA C
+
+   2008    2201012    2201308  297 -1            4 
+   2009    2201305    2201556  252 -1            0
+C TCAC C
+
+   2009    2201305    2201556  252 -1           14 
+   2010    2201543    2202037  495  1            1
+C GTGTTCTTACCCAC G
+
+   2014    2202913    2204133 1221 -1           26 
+   2015    2204108    2204245  138 -1            1
+C CTAACGGGTTGGGCGACGGATGCCAT C
+
+ 2015.1    2204352    2204804  453 -1           36 
+ 2015.2    2204769    2205038  270  1            0
+G GTGATGCGCCTGTCGGCCGCCAAGGCAGCAGAGCAC A
+
+ 2015.2    2204769    2205038  270  1            7 
+   2016    2205032    2205829  798  1            1
+C ATGGTAA T
+
+   2018    2206659    2207936 1278  1            4 
+   2019    2207933    2208961 1029  1            0
+C ATGA G
+
+   2019    2207933    2208961 1029  1           94 
+   2020    2208868    2210190 1323  1            1
+T GTGCGACGTCGTGCTCAAGGTCAACGGCAAGGGCGGCCAGCCGGTGTACATCAAGCTGGCCGGTCAGGACAGCGGGCGGTGCGCGCCGAAATGA A
+
+   2020    2208868    2210190 1323  1            4 
+   2021    2210187    2211458 1272  1            0
+C GTGA C
+
+   2021    2210187    2211458 1272  1            4 
+   2022    2211455    2212588 1134  1            0
+C GTGA G
+
+   2024    2213924    2214499  576  1            4 
+ 2024.1    2214496    2214978  483  1            0
+C GTGA G
+
+   2027    2216057    2216179  123 -1            4 
+   2028    2216176    2216583  408 -1            0
+A TCAC T
+
+   2030    2218204    2219088  885  1           38 
+   2031    2219051    2220496 1446 -1            1
+T CTAGCGAGTGCTCGGCCGATCGCCAACCCGGCGAATGA T
+
+   2036    2223576    2225252 1677  1           13 
+   2037    2225240    2225893  654 -1            0
+A TCATCCGGCGTGA T
+
+   2043    2230071    2230631  561 -1            4 
+   2044    2230628    2230969  342 -1            0
+C TCAC A
+
+   2045    2231055    2231312  258  1          100 
+ 2045.1    2231213    2231548  336 -1            2
+T CTACTGGGAGCCAGCAGCCGAGCGCCTCGCCGCGCACCCGGCTTCGGGCTCGACAAGTTCCCTCTGTGAAACGGGCAGCCCTACGACACGGATGCCCTGA C
+
+   2046    2231637    2231981  345 -1            7 
+   2047    2231975    2232223  249 -1            0
+A TCACCAC T
+
+   2048    2232323    2234638 2316 -1            4 
+   2049    2234635    2234907  273 -1            0
+G TCAC T
+
+   2067    2256658    2257152  495  1            4 
+   2068    2257149    2257397  249  1            0
+G TTGA G
+
+   2069    2257856    2258476  621  1           47 
+   2070    2258430    2259020  591  1            0
+C GTGCTCCACGACCGGCTCACCGGTGCCCCGCGCGGCGCCACCGGTGA C
+
+   2072    2260692    2261333  642  1            4 
+   2073    2261330    2262370 1041  1            0
+G ATGA A
+
+   2074    2262543    2263331  789  1           11 
+   2075    2263321    2263737  417  1            0
+A TTGCAGCCTGA T
+
+   2080    2265600    2266277  678 -1           49 
+ 2080.1    2266229    2266465  237 -1            2
+G TCATCGCTGGCGTTCGTTGAACCATCCTAAAAGGATAGCGTTGAACCAT C
+
+   2087    2276901    2277740  840 -1            4 
+   2088    2277737    2278756 1020 -1            0
+T TCAT G
+
+   2091    2281455    2282456 1002  1           17 
+   2092    2282440    2282562  123 -1            2
+G CTAAGGATCACCGGTAG C
+
+   2094    2283479    2283949  471  1            4 
+   2095    2283946    2284434  489  1            0
+C ATGA C
+
+   2095    2283946    2284434  489  1           58 
+   2096    2284377    2285072  696  1            5
+G ATGGCCGTTATACCTACGCCGCTATACCGACCTGCTCTGCATCCAGGTGCAGCCATGA T
+
+   2099    2287131    2287973  843 -1           14 
+   2100    2287960    2288862  903 -1            0
+A TCAGCCCAGCCCAC G
+
+   2100    2287960    2288862  903 -1            4 
+   2101    2288859    2290178 1320 -1            0
+G TCAT G
+
+   2110    2310153    2310488  336  1           26 
+   2111    2310463    2313069 2607 -1            0
+C TCATTCGGTCACGTCGGCGCGGCTGA C
+
+   2112    2313245    2314849 1605 -1           20 
+   2113    2314830    2315408  579  1            0
+T TTGACGGGAATCTGGCTCAC A
+
+   2115    2316306    2316428  123 -1           10 
+   2116    2316419    2316685  267 -1            0
+G TCATGGGCAC A
+
+   2119    2317506    2319041 1536  1           29 
+   2120    2319013    2319456  444 -1            1
+A CTAGCCGGTCTCGCTTTCGGCCACTTTGA G
+
+   2123    2323473    2323799  327  1           17 
+   2124    2323783    2324874 1092  1            0
+G GTGGCCGGGACCCGTGA C
+
+   2125    2324884    2325510  627  1            4 
+   2126    2325507    2327033 1527  1            0
+A ATGA G
+
+   2126    2325507    2327033 1527  1           55 
+   2127    2326979    2328202 1224 -1            2
+G CTATCCCGAGGCGGGCAGAGCTACCGCGACAAAGTCGAGCCGCCACAGCGACTGA A
+
+   2128    2328218    2329141  924 -1          244 
+   2129    2328898    2329833  936  1            4
+A ATGCGAACCGCTCATCGGCGCGGTATTCGATCGCGGCGGTGGTGCCGGTGGCGGGCACATACACCCCAAGCCGGGCATCGTATCTGCGCTCCAGCTCGGCGAAGCGATCCGCCAGATCCGCTCCGGCCGGCAAGGTTGTCGATGCCGGACGGGCCCCGCTCGCATGCCGTGCACACCCCGTCACGGAAACCAGCATTGCCATCGCTACCAGCAGTTCGCGACGACCGAATCCTCTGTTGCGCAT G
+
+   2129    2328898    2329833  936  1           11 
+   2130    2329823    2330557  735 -1            1
+C TCACCGGCTAG G
+
+   2130    2329823    2330557  735 -1            4 
+   2131    2330554    2331354  801 -1            0
+G TCAC T
+
+   2131    2330554    2331354  801 -1           49 
+   2132    2331306    2332478 1173 -1            0
+G TCATCGCTTGGTCACCGACCACTGGGTGACCGGCAGCTGTGGGCGCCAA C
+
+   2136    2335369    2335668  300 -1           14 
+   2137    2335655    2336626  972 -1            1
+G CTACTTGGTGGCAC A
+
+ 2138.1    2337060    2337209  150  1           26 
+ 2138.2    2337184    2337627  444 -1            0
+A TCACGGACCAGTCGTGCGCATCATGA G
+
+ 2138.2    2337184    2337627  444 -1          237 
+   2139    2337391    2337705  315  1            2
+G GTGTTTGTCGATGTTGGACTTTTGCATTCGGGGGCAAACGAGTCTCACTACGCCGGTGAGCACGCCCACGGTGGTGCTGATCAGCTGTCGCGGGGACCCCTGCTGTCGGGGATGTTCGGTACATTTCCTGTCGCCCAGACTTTTCACGACGCGGTCGGCGCGGCCCACGCACAGCAGATGCGAAACCTGCACGCTCACCGGCAGGCGTTGATCACGGTGGGCGAGAAAGCGCGCCAT G
+
+   2139    2337391    2337705  315  1           19 
+   2140    2337687    2339657 1971  1            2
+T ATGCAGCTGCGCCACATAA A
+
+   2140    2337687    2339657 1971  1           29 
+   2141    2339629    2340201  573  1            0
+C ATGTTTTCGATGCCCCACTCCACCGCTGA T
+
+   2141    2339629    2340201  573  1           26 
+   2142    2340176    2340370  195 -1            0
+A TCACCAACCAACTCGTTCAGCCATGA A
+
+   2144    2341041    2343200 2160  1            4 
+   2145    2343197    2344141  945  1            0
+G ATGA C
+
+   2145    2343197    2344141  945  1           14 
+   2146    2344128    2345270 1143  1            0
+G ATGCCGGTGAGTGA C
+
+   2147    2345353    2345658  306  1           22 
+   2148    2345637    2346550  914  1            0
+A GTGCGACCCGCGACACCGCTGA T
+
+   2155    2355313    2355660  348 -1           29 
+   2156    2355632    2356582  951 -1            1
+G TCACGGCGGCGCAGCTGCCTGGTATGCAT C
+
+   2156    2355632    2356582  951 -1            4 
+   2157    2356579    2357577  999 -1            0
+C TCAT G
+
+   2161    2362683    2365547 2865  1            8 
+   2162    2365540    2366373  834  1            1
+G GTGAGTAG C
+
+   2162    2365540    2366373  834  1           22 
+   2163    2366352    2366789  438 -1            0
+A TCACAACAGCGCGGGCGGCTGA T
+
+   2169    2369890    2370636  747 -1            4 
+   2170    2370633    2371508  876 -1            0
+C TCAC T
+
+   2170    2370633    2371508  876 -1            4 
+   2171    2371505    2371699  195 -1            0
+G TCAC T
+
+   2173    2373480    2374673 1194  1           29 
+   2174    2374645    2375307  663  1            1
+G GTGTTGACGCCGGTCACGTCGATGACTAG G
+
+ 2182.1    2381921    2382373  453  1          238 
+   2183    2382136    2384580 2445 -1            7
+A TCAACCGTTCCGGTATTGGCTAACCCACGCTGCCACGGTGGCCACCGCAGCAGCCGCCGCGCACGAAACGGCCGCCGCCGGGTATACGTCCGCATTGGGGGGCATGCCTACGCTAGCCGAGTTGGCGGTCGACTTCACCAGCAGGCCCGACATGCCGACCACGTCGGCGCTCTTGTCCTCGGCGACTTCGAGGATGGTGGCGATTGGCTGCTTGATGCCGATGTTGACCACTTCGTAG C
+
+   2184    2384869    2385747  879  1            4 
+   2185    2385744    2386235  492 -1            1
+G CTAG A
+
+   2187    2388883    2389815  933 -1           26 
+   2188    2389790    2390917 1128 -1            1
+G CTACAGGTCCACCCCGAGCAGGGCAT C
+
+   2193    2393876    2394586  711 -1            4 
+   2194    2394583    2395431  849 -1            0
+G TCAT G
+
+   2200    2400884    2401201  318 -1            4 
+   2201    2401198    2401413  216 -1            0
+G TCAT C
+
+   2206    2404809    2405534  726 -1            4 
+   2207    2405531    2406325  795 -1            0
+T TCAC G
+
+   2207    2405531    2406325  795 -1           13 
+   2208    2406313    2407119  807 -1            0
+G TCATTCCATCCAC A
+
+   2208    2406313    2407119  807 -1           44 
+   2209    2407076    2408281 1206 -1            0
+C TCAGCGGCGCATGAAGGGCGGCACGTCGACATCGTCGTCATCAC C
+
+   2210    2408388    2409332  945 -1            4 
+   2211    2409329    2410813 1485 -1            0
+G TCAT C
+
+   2211    2409329    2410813 1485 -1            4 
+   2212    2410810    2412042 1233 -1            0
+C TCAC G
+
+   2212    2410810    2412042 1233 -1            4 
+   2213    2412039    2413613 1575 -1            0
+T TCAC C
+
+   2214    2413625    2415115 1491 -1           29 
+   2215    2415087    2416166 1080 -1            0
+G TCAGGCACCGACCGCGGCAAGCCACTCAC C
+
+   2215    2415087    2416166 1080 -1            4 
+   2216    2416163    2417695 1533 -1            0
+C TCAT G
+
+   2216    2416163    2417695 1533 -1            4 
+   2217    2417692    2419437 1746 -1            0
+A TCAT G
+
+   2217    2417692    2419437 1746 -1          116 
+   2218    2419322    2420356 1035 -1            0
+C TCACCCAGTCGGGTTTTGCCGCGACACCTGGCCCTCGGCGGCGGCGCCGATCCAGGTGCCGATGCGCCGCGCGGCGGTGAAGGCGGCCCAGGCCAGGGCGCCAACCAGCGCCGCAT C
+
+   2218    2419322    2420356 1035 -1            4 
+ 2218.1    2420353    2420694  342 -1            0
+T TCAT G
+
+   2221    2423739    2425778 2040 -1            4 
+   2222    2425775    2426929 1155 -1            0
+C TCAC C
+
+   2222    2425775    2426929 1155 -1            4 
+   2223    2426926    2427960 1035 -1            0
+C TCAT G
+
+   2227    2430242    2430967  726  1            4 
+   2228    2430964    2431944  981 -1            1
+G CTAG T
+
+   2230    2433242    2434792 1551  1           14 
+   2231    2434779    2435243  465 -1            2
+G TCAATACGCCATAG C
+
+   2238    2442748    2443152  405 -1           13 
+   2239    2443140    2444282 1143 -1            0
+C TCACGTCGGCCAC A
+
+   2247    2451176    2453089 1914  1          126 
+   2248    2452964    2454007 1044 -1            1
+G TCAGATCTGCCGACCGAACCGCACCCATCGCGCGAGCAACTGTTCGGCCGCACCGGTGTCGATTGCCGCACTGGCCCGCCGCAACCCCTCCTCCCAGGCCGGCAGCCATTCAGCACGGCTGGATAA T
+
+   2250    2454886    2455728  843  1            4 
+   2251    2455725    2457014 1290  1            0
+C ATGA G
+
+   2251    2455725    2457014 1290  1            4 
+   2252    2457011    2458660 1650  1            0
+C ATGA G
+
+   2263    2468687    2469772 1086  1            4 
+   2264    2469769    2470518  750  1            0
+C GTGA T
+
+   2265    2470676    2472214 1539  1           75 
+   2266    2472140    2473246 1107 -1            3
+A CTACCCCAGCCGCGCCATCCAGCCGTGGGTGTCCGCGAAGGTGCCCCGCTGGATGCCGGTCAGCGTATCGCGTAG T
+
+   2267    2473318    2474457 1140 -1           22 
+   2268    2474436    2475602 1167  1            0
+A ATGGGCGTCCCTGCTGGCACAC T
+
+   2272    2479241    2480902 1662  1            4 
+   2273    2480899    2481807  909  1            0
+T GTGA T
+
+   2274    2481830    2482552  723  1            4 
+   2275    2482549    2483484  936  1            1
+T ATGA G
+
+ 2285.2    2498197    2498424  228  1            4 
+   2286    2498421    2498906  486  1            0
+A GTGA T
+
+   2287    2498918    2500012 1095 -1            4 
+   2289    2500009    2501880 1872 -1            0
+T TCAC T
+
+   2289    2500009    2501880 1872 -1            4 
+   2290    2501877    2502854  978 -1            0
+C TCAT C
+
+   2292    2503550    2504425  876  1            8 
+   2293    2504418    2504909  492  1            0
+G GTGTCTGA T
+
+   2294    2504909    2505724  816  1           19 
+   2295    2505706    2506647  942 -1            2
+G CTACGGCCGCCGGCGGTAA A
+
+   2304    2515043    2515390  348  1            4 
+   2305    2515387    2516637 1251  1            0
+A GTGA G
+
+   2310    2522045    2522704  660 -1           43 
+   2311    2522662    2524251 1590  1            0
+G ATGAAATGGGACGCGTGGGGAGATCCCGCCGCGGCCAAGCCAC T
+
+   2311    2522662    2524251 1590  1            4 
+   2312    2524248    2525176  929  1            0
+C ATGA G
+
+   2320    2529450    2530535 1086  1            4 
+   2321    2530532    2531170  639  1            0
+T GTGA T
+
+   2323    2532844    2533797  954  1           23 
+   2324    2533775    2535553 1779 -1            1
+G TCAGCTACCCGAAATCGCGCTGA A
+
+   2325    2535625    2535756  132  1            4 
+   2326    2535753    2535848   96 -1            1
+G CTAG G
+
+   2329    2538847    2540013 1167 -1            4 
+   2330    2540010    2541479 1470 -1            0
+T TCAT G
+
+   2333    2542940    2543308  369  1            4 
+   2334    2543305    2543634  330  1            0
+G GTGA A
+
+   2335    2544086    2544955  870  1            4 
+   2336    2544952    2546142 1191  1            0
+A ATGA C
+
+   2341    2551770    2552018  249 -1           29 
+   2342    2551990    2553285 1296  1            0
+C ATGGGCGCTCCTCGACTCATCCACGTCAT C
+
+   2345    2555548    2557176 1629  1            4 
+ 2345.1    2557173    2557550  378  1            0
+A GTGA G
+
+ 2345.1    2557173    2557550  378  1           31 
+   2346    2557520    2558302  783  1            1
+G GTGCCCAAAAGCCGACGGGCAGTCAGTCTAA G
+
+   2360    2569941    2570864  924 -1            4 
+   2361    2570861    2571070  210 -1            0
+G TCAT G
+
+   2367    2576990    2577322  333  1           54 
+ 2367.1    2577269    2577595  327 -1            1
+A CTAGTCCGCGTGGGCACAGCTGACGCGGCTGGCTGCGCGGTGGCCGGCCATTGA G
+
+ 2370.1    2578520    2578675  156 -1            4 
+ 2370.2    2578672    2578836  165 -1            0
+G TCAC A
+
+ 2370.3    2578890    2579177  288  1           56 
+   2371    2579122    2579274  153  1            2
+T ATGCCCGAGCGGACAGTGGACCTAGCGCCGGTGCTGAGCTTCCTGTCGGCCCATGA G
+
+   2374    2580331    2580600  270  1           19 
+   2375    2580582    2580698  117 -1            0
+T TCAGGCGGCGCGTTCGTGA A
+
+   2377    2581762    2583135 1374 -1            4 
+   2378    2583132    2584649 1518 -1            0
+A TCAT C
+
+   2379    2584683    2585555  873  1           14 
+   2380    2585542    2586366  825  1            2
+T ATGAGCTCACCTAG T
+
+   2380    2585542    2586366  825  1            4 
+   2381    2586363    2587643 1281  1            0
+A GTGA C
+
+   2382    2587692    2588570  879 -1            4 
+   2383    2588567    2589982 1416 -1            0
+G TCAC G
+
+ 2384.1    2589998    2591208 1211 -1            4 
+   2385    2591205    2592113  909 -1            0
+G TCAT G
+
+   2387    2592853    2593701  849 -1            4 
+   2388    2593698    2595791 2094 -1            0
+G TCAT G
+
+   2392    2599539    2600066  528 -1          127 
+   2393    2599940    2600527  588  1            1
+G GTGGTGACGGTCGTGTTGTCGGCGGCTTCCAGGCGCAACCGGAGGCGCCCAGCCCCACAATCAGTGCCAACAGTGCCAACAGTGCCAACAGTGCCAGAATCGGGACGGCGCTACGCTGACGACGCAC G
+
+   2394    2600952    2602598 1647  1           47 
+   2395    2602552    2604165 1614 -1            3
+G TCAGGCAGGCCATAGTCGACACCATGTGGCTCCCGGCATATGACTAA C
+
+   2427    2638576    2638983  408  1            4 
+   2428    2638980    2639372  393  1            1
+T ATGA G
+
+   2430    2639908    2640798  891 -1            8 
+   2431    2640791    2641588  798 -1            1
+C CTAGCCAC C
+
+   2432    2641650    2643104 1455  1            4 
+   2433    2643101    2644003  903 -1            1
+G CTAA A
+
+ 2445.1    2653545    2653760  216 -1           23 
+   2446    2653738    2655033 1296 -1            0
+G TCATCGAAAGGATTGGTGCTCAC C
+
+   2446    2653738    2655033 1296 -1            4 
+   2447    2655030    2659415 4386 -1            0
+T TCAT G
+
+   2447    2655030    2659415 4386 -1           19 
+   2448    2659397    2664760 5364 -1            0
+G TCACGGCCACTGGTCCCAT G
+
+   2448    2659397    2664760 5364 -1          176 
+   2449    2664585    2667614 3030 -1            2
+A TTAGTCACGCGAAATGTCCACTTTCTGTGCGGTGTGTGAGCGCTCGTCGGCATCTTCGAGTTTCGCGACAAGTCCATCACCGGTGATGTCGCCCATGAGCGTGGCCAGCGACACCGTCGCGCCGATTGATCGTTTGAGTCGGTTACGCAAGTCCAGTGCCAGCATGGAATCGACAC C
+
+   2449    2664585    2667614 3030 -1           16 
+   2450    2667599    2668939 1341 -1            0
+A TCACACCTCCCCACAC T
+
+   2450    2667599    2668939 1341 -1           17 
+   2451    2668923    2673167 4245 -1            1
+G TTATCGGACATCGGCAC T
+
+   2456    2678056    2679348 1293  1            4 
+   2457    2679345    2680517 1173 -1            1
+G TTAG C
+
+   2458    2680578    2681042  465 -1            4 
+   2459    2681039    2681596  558 -1            1
+G TCAT A
+
+   2461    2682033    2683700 1668  1            4 
+   2462    2683697    2684461  765  1            0
+G ATGA G
+
+   2462    2683697    2684461  765  1            4 
+   2463    2684458    2685303  846  1            0
+C GTGA C
+
+   2469    2692311    2693129  819 -1            4 
+   2470    2693126    2693977  852 -1            0
+G TCAT G
+
+   2470    2693126    2693977  852 -1            4 
+   2471    2693974    2695044 1071 -1            0
+G TCAT C
+
+   2471    2693974    2695044 1071 -1           62 
+   2472    2694983    2695387  405  1            1
+A ATGTGCCGCCAGCGGGATGCGCTAGCGATGCAGCTCGCTTCAGAAAGCGTCAAGGAGAGCAT T
+
+   2472    2694983    2695387  405  1           16 
+   2473    2695372    2695566  195 -1            1
+G CTACCTGGGCGCCTGA T
+
+   2475    2697865    2698620  756 -1            4 
+   2476    2698617    2700578 1962 -1            0
+G TCAC T
+
+   2479    2701693    2702367  675  1           33 
+   2480    2702335    2702607  273 -1            2
+C CTACACCGAGTCGAGGTGCACCCGCGGCGCTAG C
+
+   2480    2702335    2702607  273 -1           27 
+   2481    2702581    2703585 1005  1            0
+G TTGGCTGATGCAACACCGCGGTGGCAA T
+
+   2481    2702581    2703585 1005  1          243 
+   2482    2703343    2704182  840 -1            9
+G CTAAGCCAGCCGGGTGATCTCCACCACCACGTCGAGGTCGGTGACGCCCTCCCCAGAGTAGATCCCTTTCAGCGGGGAAACGTCGGTGTAGTCGCGGCCTACACCCACACTGATGTATTGCTCGGTGATCTCATTGTCATTGGTGGGGTCGTAGTGCCACCATCCACCGGTCCAGGCCTGAACCCAGGCATGGCTGCGCCCGTCTACCGTCTTTCCCACCACGGCATCACGCTTAGGGTGTAG A
+
+   2488    2709740    2710381  642 -1           59 
+ 2488.1    2710323    2710931  609 -1            1
+C TCAGTCCGGTCGCGGATCAAGGTGAATACCGTCACCAGCACCGCGAGGGCGGCGATCAC C
+
+   2491    2713244    2713987  744 -1           11 
+   2492    2713977    2714648  672 -1            1
+C CTAGAGGACAT C
+
+   2492    2713977    2714648  672 -1            4 
+   2493    2714645    2715025  381 -1            0
+C TCAT T
+
+   2493    2714645    2715025  381 -1            4 
+   2494    2715022    2715657  636 -1            1
+G TCAT A
+
+   2504    2723655    2724188  534  1            4 
+   2505    2724185    2724856  672 -1            1
+G CTAA G
+
+   2505    2724185    2724856  672 -1           41 
+   2506    2724816    2725115  300 -1            3
+G TTAACTAAAGGTCTTGATGTTGTCGGCCTCGGCGGTCGCAT A
+
+   2507    2725693    2725983  291 -1           20 
+   2508    2725964    2727409 1446 -1            0
+G TCAGCGTCGCGCAGGCCCAC G
+
+   2508    2725964    2727409 1446 -1            4 
+   2509    2727406    2729598 2193 -1            0
+T TCAT G
+
+   2512    2731207    2731644  438  1            4 
+   2513    2731641    2733857 2217 -1            1
+G CTAG C
+
+   2513    2731641    2733857 2217 -1           21 
+   2514    2733837    2733965  129  1            0
+A TTGGCCGCCGAGCAGTCCCAT G
+
+ 2518.1    2737377    2737604  228 -1           50 
+   2519    2737555    2739030 1476  1            1
+G ATGACCGCCCCCTTGGATCGTGCGCCGGTCACGGATTTGCCGGCTAACAA C
+
+   2519    2737555    2739030 1476  1           62 
+   2520    2738969    2740834 1866 -1            2
+G TCAGTCTAGGCGGATTGGTGGGCCGGCCGGCCGGCCCGCAACGCGCCGACGTGGACGGGTAG G
+
+   2522    2742613    2742984  372 -1            4 
+   2523    2742981    2744444 1464 -1            0
+G TCAT T
+
+   2523    2742981    2744444 1464 -1            4 
+   2524    2744441    2747071 2631 -1            0
+T TCAT T
+
+   2529    2750554    2751591 1038 -1            4 
+   2530    2751588    2753564 1977 -1            0
+G TCAT C
+
+   2535    2759376    2760020  645 -1            4 
+   2536    2760017    2760619  603 -1            0
+T TCAC T
+
+   2541    2765004    2765882  879  1           52 
+   2542    2765831    2768416 2586  1            0
+C GTGGCCCTTCCAAACCTCACGCGGGACCAAGCCGTCGAACGCGCCGCCCTGA T
+
+   2543    2768489    2768992  504 -1           50 
+   2544    2768943    2769185  243 -1            0
+G TCACCACGTGCCACTGGCCCCACCTCCAACCGTGAACTCCGATGCGTCAT G
+
+ 2547.1    2772123    2772410  288  1           59 
+ 2547.2    2772352    2772501  150 -1            4
+G CTAGACGAGACCCGTGCCTTTACCCGCGAACTGGCCAGGCCTTACCTCGCACCGGGTAA C
+
+ 2547.2    2772352    2772501  150 -1           50 
+   2548    2772452    2773129  678  1            1
+C ATGCCCTGGCCGAGCGCTGCCGCTAGCGGTGTGGTCGGCTGGCGCACCAC C
+
+   2550    2773820    2774236  417 -1            4 
+   2551    2774233    2779107 4875 -1            0
+C TCAC C
+
+   2553    2780968    2781474  507 -1           33 
+   2554    2781442    2781594  153  1            0
+T GTGACCGACCACGGTCAGTGGCGTTTCGAACAT T
+
+ 2554.2    2782084    2782404  321  1            4 
+   2555    2782401    2784770 2370 -1            1
+C TTAG A
+
+   2555    2782401    2784770 2370 -1            4 
+   2556    2784767    2786509 1743 -1            0
+G TCAC G
+
+   2556    2784767    2786509 1743 -1            4 
+   2557    2786506    2787981 1476 -1            0
+C TCAT G
+
+   2566    2802152    2802775  624  1           11 
+   2567    2802765    2803517  753  1            1
+C ATGAGCCGTAG G
+
+   2570    2804245    2805426 1182 -1            4 
+   2571    2805423    2806469 1047 -1            0
+C TCAT G
+
+   2573    2807842    2808663  822 -1            4 
+   2574    2808660    2809217  558 -1            0
+T TCAT T
+
+   2574    2808660    2809217  558 -1            4 
+   2575    2809214    2810398 1185 -1            0
+G TCAC T
+
+   2577    2812372    2813961 1590 -1            4 
+   2578    2813958    2814614  657 -1            0
+G TCAC T
+
+   2578    2813958    2814614  657 -1            4 
+   2579    2814611    2815357  747 -1            0
+C TCAT T
+
+   2582    2817919    2818746  828  1            4 
+   2583    2818743    2820089 1347 -1            1
+G CTAG G
+
+   2593    2828197    2829000  804 -1            4 
+ 2593.1    2828997    2829290  294 -1            0
+G TCAC T
+
+ 2593.1    2828997    2829290  294 -1          101 
+ 2593.2    2829190    2829429  240 -1            1
+C TCAACCGTCCATTGTTGCGATTGCGCCCACTTCGCGATCTTGATGATTGCGCTGTTCACATCGTCTCCCCAACACTTGCGATGTGTCAAGAGTAATGGCAA G
+
+   2597    2833171    2833644  474  1           29 
+   2598    2833616    2835028 1413 -1            3
+G CTAAGCTTCGGCGCGACCTGTCGGTATAG C
+
+   2598    2833616    2835028 1413 -1            4 
+   2599    2835025    2835417  393 -1            0
+C TCAC G
+
+ 2601.2    2846577    2846804  228  1            4 
+   2602    2846801    2847202  402  1            0
+G ATGA C
+
+   2605    2849753    2850172  420 -1            4 
+   2606    2850169    2850393  225 -1            0
+G TCAC A
+
+   2612    2856635    2857078  444 -1            4 
+   2613    2857075    2858163 1089 -1            0
+C TCAT G
+
+   2613    2857075    2858163 1089 -1            4 
+   2614    2858160    2858690  531 -1            0
+G TCAT G
+
+ 2615.1    2859914    2861035 1122  1            4 
+   2616    2861032    2861829  798  1            0
+G GTGA A
+
+   2616    2861032    2861829  798  1           89 
+   2617    2861741    2861968  228 -1            1
+A TCAGACCCCAACGAGATCATCGCCGGATCCCCGGACCGCTACCGCTTCACCCATCTGCAGACCGACGCGGGATCCACTCCGCTGGGTGA T
+
+   2617    2861741    2861968  228 -1           13 
+   2618    2861956    2862615  660  1            0
+A GTGATCGCACCAC A
+
+   2618    2861956    2862615  660  1            4 
+   2619    2862612    2863271  660  1            0
+A TTGA T
+
+   2619    2862612    2863271  660  1            4 
+   2620    2863268    2863930  663  1            0
+A TTGA T
+
+   2620    2863268    2863930  663  1            4 
+   2621    2863927    2864205  279  1            0
+C GTGA G
+
+   2623    2864735    2865007  273  1            4 
+   2624    2865004    2865381  378  1            0
+C GTGA A
+
+   2625    2865397    2865771  375 -1           48 
+   2626    2865724    2866281  558  1            0
+C TTGGGATTCCAGCGCGGTGACCCGTTGTTCGAGGTTCTCGGGCAGCAC G
+
+   2626    2865724    2866281  558  1           19 
+   2627    2866263    2866508  246 -1            1
+A TCATTCGTGCTTTCCGTAA A
+
+   2629    2867350    2868159  810 -1            4 
+   2630    2868156    2869409 1254 -1            0
+C TCAT C
+
+   2630    2868156    2869409 1254 -1            8 
+   2631    2869402    2869914  513 -1            0
+G TCAGGCAT C
+
+   2637    2876219    2877196  978  1           88 
+ 2637.1    2877109    2877432  324 -1            2
+C CTACCGGAAGCTGTCGGGTGGCCAAGTCGTTGAGGCAGTCCGGCCAGCGCCCCCGGTCGGCTGGCCGCCCGGCCCCCAGCTCGCATAG T
+
+   2641    2880754    2882505 1752  1           38 
+   2642    2882468    2885938 3471  1            0
+C GTGCGGCTTTGCAAGCACAGCCGGACCTGGTGCGCTGA A
+
+   2643    2885938    2888592 2655  1            4 
+   2644    2888589    2889614 1026 -1            1
+C CTAA A
+
+   2644    2888589    2889614 1026 -1            8 
+   2645    2889607    2890551  945 -1            0
+G TCACGCAT G
+
+   2646    2890655    2891044  390  1            9 
+   2647    2891036    2892103 1068 -1            0
+T TCAGGCTGA C
+
+   2652    2896369    2896833  465 -1           25 
+   2653    2896809    2896955  147  1            1
+G ATGCGTTACCGACGCCGGCCGGCAC T
+
+   2657    2900964    2902235 1272 -1            4 
+   2658    2902232    2902972  741 -1            0
+G TCAC C
+
+   2658    2902232    2902972  741 -1           16 
+   2659    2902957    2903883  927  1            0
+C ATGGGCCACTTGACAC C
+
+   2669    2919342    2920376 1035 -1            4 
+   2670    2920373    2920963  591 -1            0
+G TCAT C
+
+   2670    2920373    2920963  591 -1            4 
+   2671    2920960    2921526  567 -1            0
+A TCAT C
+
+ 2673.1    2923159    2923623  465  1            4 
+   2674    2923620    2924051  432  1            0
+C ATGA G
+
+ 2674.1    2924076    2924534  459  1            4 
+   2675    2924531    2926102 1572  1            0
+C ATGA C
+
+   2676    2926213    2926500  288  1           14 
+   2677    2926487    2926927  441  1            0
+G ATGCTGCTCTGTGA C
+
+   2686    2935155    2936105  951 -1            4 
+   2687    2936102    2936755  654 -1            0
+A TCAC C
+
+   2687    2936102    2936755  654 -1            4 
+   2688    2936752    2937339  588 -1            0
+C TCAT G
+
+   2688    2936752    2937339  588 -1            8 
+   2689    2937332    2939410 2079 -1            0
+G TCACTCAC G
+
+ 2689.1    2939519    2939746  228  1            4 
+   2690    2939743    2941173 1431 -1            1
+G TTAG C
+
+   2693    2942577    2943254  678  1           46 
+   2694    2943209    2943619  411  1            2
+G GTGTTGTGTAGTACTCAAGCGATGTTCGGCTCACGACCCCGAGTGA G
+
+   2694    2943209    2943619  411  1           15 
+   2695    2943605    2944030  426 -1            1
+T TCAGCCGTTCAGTAG C
+
+   2695    2943605    2944030  426 -1            4 
+   2696    2944027    2944701  675 -1            0
+C TCAC C
+
+   2712    2956248    2958614 2367 -1            2 
+   2713    2958613    2958855  243  1            0
+C AT G
+
+   2723    2966266    2966697  432  1            4 
+   2724    2966694    2967692  999  1            0
+G GTGA A
+
+   2725    2967802    2968170  369  1           34 
+   2726    2968137    2968418  282 -1            2
+G CTACCGGGATGGTTTAAACGGTTGGAGCGGCTGA C
+
+   2731    2971774    2972019  246 -1            4 
+   2732    2972016    2973443 1428 -1            0
+C TCAT C
+
+   2733    2973445    2973837  393 -1            4 
+   2734    2973834    2974094  261 -1            0
+G TCAT G
+
+ 2734.1    2974111    2974479  369 -1            4 
+   2735    2974476    2975636 1161 -1            0
+A TCAC A
+
+   2741    2978681    2979439  759  1           26 
+   2742    2979414    2980040  627  1            0
+G ATGCCGGCGCAACCGATGCCGGCTGA G
+
+   2743    2980069    2980539  471  1           23 
+   2744    2980517    2981626 1110 -1            1
+G TCATGGTTCGCGAGCTTGTATGA C
+
+   2749    2986025    2986777  753 -1            4 
+   2750    2986774    2987469  696 -1            0
+G TCAT G
+
+   2751    2987475    2988833 1359 -1            4 
+   2752    2988830    2989948 1119 -1            1
+G TCAT A
+
+   2755    2991682    2992998 1317  1            4 
+   2756    2992995    2994911 1917 -1            1
+C TTAG T
+
+   2760    2998223    2998981  759 -1            4 
+   2761    2998978    2999691  714 -1            0
+C TCAC A
+
+   2761    2998978    2999691  714 -1            4 
+   2762    2999688    3000641  954 -1            0
+G TCAT G
+
+   2765    3004286    3004969  684  1            4 
+   2766    3004966    3005628  663  1            0
+G ATGA A
+
+ 2777.1    3014400    3014828  429  1           73 
+   2778    3014756    3015139  384 -1            3
+C CTACGTAGGGTCGGCGGTTGCAGACCGAAATTCGGGAGCCGGCCCGAAGGACCCGTCACCAGCCGGTGGGTAG G
+
+   2794    3027456    3029555 2100 -1           21 
+ 2794.1    3029535    3029819  285  1            0
+A TTGACCTCTCTGCCCGTTCAC C
+
+   2796    3031067    3032227 1161 -1           50 
+   2797    3032178    3033848 1671 -1            1
+C TCATGTTCGGGTTCGAAAAGTGTGCGCTGGTACTTGGTGGCACTGCCCAT G
+
+   2799    3034759    3035703  945 -1            4 
+   2800    3035700    3036395  696 -1            0
+C TCAC G
+
+   2802    3037960    3039312 1353  1            4 
+ 2802.1    3039309    3039851  543 -1            1
+C CTAA C
+
+ 2803.2    3041756    3042610  855  1          116 
+   2804    3042495    3043487  993 -1            2
+A TTAGAAACCCGGATCCTCGGACCACCAGCCGCGTGCACGCGGATCCCATGTTGGCGACGGCGCCCACAGAATCTGCCCAGCGTTCGAATCCTGGACAGCTAGTTCGCCAACGCTGA A
+
+   2805    3043497    3044033  537 -1           47 
+   2806    3043987    3046359 2373 -1            0
+C TCAGAAGTCGACGGGGGCGGGCAGGACACCGTCATTTGAGGGATCAT C
+
+   2807    3046455    3046808  354 -1           68 
+   2808    3046741    3046947  207 -1            0
+C TCACCACCGATCGTGGGGAACGTCGAAGTCGGCGCACAATGCCCGCCAGACGTCGCGGGGCTCGACAC C
+
+   2821    3058360    3059250  891  1           14 
+   2822    3059237    3060913 1677 -1            1
+G TTACACCTCGATGA C
+
+   2825    3062911    3063186  276 -1            4 
+   2826    3063183    3064805 1623 -1            0
+C TCAT C
+
+   2827    3064892    3065308  417 -1            4 
+   2828    3065305    3065571  267 -1            0
+G TCAT G
+
+   2829    3065597    3065992  396 -1            4 
+   2830    3065989    3066258  270 -1            0
+A TCAC C
+
+   2831    3066268    3067362 1095 -1            4 
+   2832    3067359    3067778  420 -1            0
+C TCAT C
+
+   2838    3071616    3073004 1389 -1          125 
+   2839    3072880    3073707  828 -1            3
+C CTATACCGCCGGCTTGGGCATGACGATGGGTTTGGCGCCGTAGCGTGGCGCACCGAAGCCCGCGCTGCTGCGCGTCGCCGAGGCCAACCCCGGCATCCCGGGAATGACCGTCCCCGCGGCACCAT G
+
+   2852    3083767    3085083 1317 -1           23 
+   2853    3085061    3087319 2259 -1            0
+G TCAGCTGGTGACCGTCGCGGCAT C
+
+ 2862.1    3097082    3097978  897 -1            4 
+   2863    3097975    3098658  684 -1            1
+C TCAT A
+
+   2863    3097975    3098658  684 -1            4 
+   2864    3098655    3099629  975 -1            0
+G TCAT C
+
+   2865    3099774    3100340  567 -1            4 
+   2866    3100337    3102025 1689 -1            0
+A TCAA C
+
+   2870    3105498    3106571 1074 -1           32 
+   2871    3106540    3107007  468  1            1
+C ATGACCTGCCCGAGCCTAGTCGGACTGCGCAC C
+
+   2879    3111535    3112944 1410  1            4 
+   2880    3112941    3113753  813  1            0
+A ATGA T
+
+ 2880.3    3114690    3115487  798 -1          134 
+   2881    3115354    3116238  885 -1            4
+C TCAGCCGGCGGCTGGTCTCTGGCGTTGAGCGTAGTAGGCAGCCTCGAGTTCGACCGGCGGGACGTCGCCGCAGTACTGGTAGAGGCGGCGATGGTTGAACCAGTCGACCCAGCGCGCGGTGGCCAACTCGACAT C
+
+   2885    3119200    3120492 1293 -1           49 
+   2886    3120444    3121571 1128 -1            2
+A TCATTCGGCTCTCCTGATCGACAGCTCGCACTGACCCATCTCGTAGCAT A
+
+   2886    3120444    3121571 1128 -1            4 
+   2887    3121568    3122476  909 -1            0
+T TCAT G
+
+   2887    3121568    3122476  909 -1           20 
+   2888    3122457    3123167  711 -1            1
+C CTAAACAGCCGCGAGTTCAT G
+
+   2889    3123177    3123551  375 -1            4 
+   2890    3123548    3126001 2454 -1            0
+C TCAT T
+
+   2890    3123548    3126001 2454 -1           19 
+   2891    3125983    3126927  945 -1            1
+T TCATGGCTTCGGTACGCAT T
+
+   2893    3127922    3128812  891 -1            4 
+   2894    3128809    3129756  948 -1            0
+G TCAC G
+
+ 2895.1    3130001    3130546  546 -1            4 
+   2896    3130543    3131289  747 -1            0
+G TCAC C
+
+   2898    3132312    3133394 1083 -1            8 
+   2899    3133387    3134439 1053 -1            1
+G TTAGCCAT G
+
+   2900    3134698    3135525  828 -1            4 
+   2901    3135522    3136433  912 -1            0
+G TCAC T
+
+   2909    3144382    3144927  546  1            4 
+   2910    3144924    3145412  489  1            1
+T ATGA C
+
+   2925    3162792    3163568  777 -1            4 
+   2926    3163565    3164932 1368 -1            0
+A TCAC A
+
+   2926    3163565    3164932 1368 -1            4 
+   2927    3164929    3165729  801 -1            0
+C TCAT C
+
+   2931    3168956    3169150  195  1            4 
+   2932    3169147    3169527  381  1            0
+C ATGA T
+
+   2941    3178817    3179008  192  1            8 
+   2942    3179001    3181088 2088  1            0
+G ATGGTTGA G
+
+   2943    3181184    3181765  582  1           18 
+   2944    3181748    3182140  393 -1            2
+G CTAATGCCTCCGGCGTAA T
+
+   2948    3184854    3185903 1050 -1          107 
+   2949    3185797    3186354  558 -1            3
+G CTAGACCTCCAGCAGCTCGCCTTCTTTGTGTTTAACCAGCTCATCAATTTGGGTGACGTATTGGTGCGTGGTCTTGTCGAGATCCTTTTCTGCGCGACCGACCTCAT C
+
+   2949    3185797    3186354  558 -1            8 
+   2950    3186347    3186460  114 -1            0
+A TCAATCAT C
+
+   2953    3188319    3189701 1383 -1            4 
+   2954    3189698    3190585  888 -1            0
+A TCAC C
+
+   2954    3189698    3190585  888 -1            2 
+   2955    3190584    3191003  420  1            0
+C AT G
+
+   2961    3196573    3197550  978  1            4 
+   2962    3197547    3198494  948 -1            1
+G CTAG G
+
+   2963    3198534    3199499  966 -1           82 
+   2964    3199418    3200587 1170 -1            3
+A CTATACGAGCCGGGCCGCTGCACCCTTGGCCGCGGCCTGACCGGCACCGGCGCGCAATATTCGCCACCGCCCGTCGCGACAC T
+
+   2964    3199418    3200587 1170 -1            4 
+   2965    3200584    3202095 1512 -1            0
+A TCAT C
+
+   2983    3217891    3218946 1056  1           87 
+   2984    3218860    3220437 1578 -1            1
+A CTACTTCTTGCCTGGGAACTTCAGCTTGGACAGGTCGAAGTCGGCCAGGCCGGGCGGCAGCTCGTCGAGACCTTTGGGCATCTGTGA G
+
+   2987    3224889    3225227  339 -1            4 
+   2988    3225224    3226657 1434 -1            0
+T TCAT T
+
+   2991    3232138    3232419  282 -1           14 
+   2992    3232406    3232819  414 -1            0
+G TCAGGCGCCGACAT C
+
+   2992    3232406    3232819  414 -1            9 
+   2993    3232811    3232957  147  1            0
+G TTGCGTCAT G
+
+   2993    3232811    3232957  147  1           37 
+   2994    3232921    3233790  870 -1            2
+C CTACTTTCGGGGCCGCGGCTGGCATCGCGGGCAGTAG A
+
+   2995    3234149    3234871  723 -1            4 
+   2996    3234868    3235455  588 -1            0
+A TCAT C
+
+   2998    3236512    3237303  792  1           14 
+ 2998.1    3237290    3237601  312  1            1
+C ATGATCGAGCTTAG C
+
+   2999    3238017    3239768 1752  1            4 
+   3000    3239765    3245395 5631  1            1
+T ATGA C
+
+   3000    3239765    3245395 5631  1            4 
+   3002    3245392    3250008 4617  1            0
+T GTGA T
+
+   3002    3245392    3250008 4617  1            4 
+   3003    3250005    3256571 6567  1            0
+A ATGA C
+
+   3003    3250005    3256571 6567  1            4 
+   3004    3256568    3262051 5484  1            0
+C ATGA C
+
+   3006    3266534    3267529  996  1            4 
+   3007    3267526    3268395  870  1            0
+G ATGA G
+
+   3007    3267526    3268395  870  1            4 
+   3008    3268392    3269222  831  1            0
+C ATGA T
+
+   3011    3277655    3279397 1743  1            8 
+   3012    3279390    3282152 2763  1            1
+G ATGCCTAG T
+
+   3012    3279390    3282152 2763  1           47 
+   3013    3282106    3282321  216 -1            0
+A TCACGGTGCAGCGAGCGTGGCTTCCGACCACGCCAGGGCGGCGTTGA C
+
+   3018    3285823    3290685 4863 -1           16 
+ 3021.1    3290670    3292160 1491 -1            0
+A TCACCCACGGCACCAT C
+
+ 3021.1    3290670    3292160 1491 -1            4 
+   3021    3292157    3294274 2118 -1            0
+A TCAC T
+
+   3022    3294291    3294929  639 -1           14 
+   3023    3294916    3296664 1749 -1            2
+G TTATGCCATAGCAT C
+
+   3031    3303846    3304616  771  1           26 
+   3032    3304591    3304731  141 -1            1
+G TCATTTCTTGGCGGCGCCGACGTTAG C
+
+   3050    3321342    3322055  714 -1            4 
+   3051    3322052    3324265 2214 -1            0
+T TCAT G
+
+   3052    3324268    3325680 1413 -1            4 
+ 3052.1    3325677    3325955  279 -1            0
+T TCAA C
+
+   3055    3327106    3328107 1002 -1            4 
+   3056    3328104    3329483 1380 -1            0
+G TCAC G
+
+ 3058.2    3331000    3331176  177  1            4 
+   3059    3331173    3332294 1122 -1            1
+G CTAG T
+
+   3066    3339031    3340452 1422 -1           31 
+   3067    3340422    3341225  804  1            0
+A GTGTGCGTGGCTCGCCGGTCTGCAAGGCCAT C
+
+   3070    3343182    3344654 1473 -1            4 
+   3071    3344651    3345370  720 -1            0
+G TCAC G
+
+   3072    3345645    3346982 1338  1          149 
+   3073    3346834    3347844 1011 -1            2
+A CTAGAGCGCGGCGGCAATCCGTTCGCCGACATCGCTGGTGGCAAGCCGTTCGCTGCCACGCGTGGCCAAATGGGCCTCGACGGCCCGGTCCACCCGGGCAGCCGCGTCGTGTTCGCCAAGGTGGGACAGCAATAACGCCACCGACATGA T
+
+   3076    3351091    3351651  561  1           25 
+   3077    3351627    3351929  303  1            0
+C GTGGCCCGCATCGCTGACGAATTGA C
+
+   3084    3357494    3358129  636 -1           62 
+   3085    3358068    3358907  840 -1            2
+T TCAGGCCAGCGGATTTGCCCCGTTGAGCAGCACCCATACGGCAATACCCGCCGCGATGCCAC C
+
+   3088    3361019    3361642  624  1            4 
+   3089    3361639    3363168 1530 -1            1
+A CTAA C
+
+   3091    3364325    3365809 1485 -1            4 
+   3092    3365806    3366105  300 -1            0
+G TCAC T
+
+   3101    3373046    3373978  933 -1            4 
+   3102    3373975    3374067   93 -1            0
+G TCAC A
+
+   3106    3375111    3376418 1308 -1            4 
+ 3106.1    3376415    3376828  414 -1            0
+G TCAC A
+
+   3108    3378521    3379624 1104 -1            4 
+   3109    3379621    3380802 1182 -1            0
+T TCAT C
+
+   3110    3380899    3381813  915 -1            4 
+   3111    3381810    3382655  846 -1            0
+C TCAT C
+
+   3114    3384837    3385661  825  1            4 
+   3115    3385658    3387238 1581  1            0
+C TTGA A
+
+   3120    3391115    3392197 1083  1            4 
+   3121    3392194    3392877  684 -1            1
+C TTAG A
+
+   3125    3395928    3396794  867 -1            4 
+   3126    3396791    3397654  864 -1            0
+T TCAT G
+
+   3130    3402021    3403061 1041  1           12 
+   3131    3403050    3403424  375 -1            0
+C TCAGCCCTGTGA G
+
+   3131    3403050    3403424  375 -1           27 
+ 3131.1    3403398    3403556  159  1            0
+A ATGCGGGTGCGAGAACGTTTTCGTCAC C
+
+   3134    3405245    3406819 1575 -1            4 
+   3135    3406816    3406956  141 -1            0
+C TCAC A
+
+   3135    3406816    3406956  141 -1            4 
+   3136    3406953    3407693  741 -1            0
+C TCAA C
+
+   3137    3407821    3409998 2178 -1           31 
+   3138    3409968    3410420  453 -1            1
+G CTACAGGCTCTGCAATGACGGTTGGTGGCAC G
+
+   3139    3410455    3410694  240 -1           23 
+ 3139.1    3410672    3411076  405 -1            2
+C TTAGTGTAAACGGTCACGGTCAT G
+
+   3140    3411157    3411741  585 -1          155 
+   3141    3411587    3412417  831  1            3
+C ATGGTGACGGTGACGCCGTCCGGAGCGACCTTGGCAGCCAGCTCGGCGATCTGGCGGTTGAACGACGCCGCGCGCAGGCTTCCCACTAAGGCCAAGATTTTGATGTCGGACTTGGTATCTGACACTGCTACGTTCCTTTCCGCTTGTTGGTCCAC G
+
+   3145    3415214    3416692 1479  1           58 
+ 3145.1    3416635    3416763  129 -1            2
+A CTACAGTGCCATGCCGATCCCGATGGACGGGATGCCGATCGTGCTGCGTCCCAGGTAG G
+
+ 3150.1    3426177    3426500  324  1            4 
+   3151    3426497    3427105  609  1            0
+A TTGA C
+
+ 3153.1    3429482    3429880  399  1            4 
+   3154    3429877    3430257  381  1            0
+G ATGA C
+
+   3154    3429877    3430257  381  1           19 
+   3155    3430239    3431363 1125  1            1
+A GTGGATCGCCCAGATATGA A
+
+   3159    3432569    3433843 1275  1            4 
+   3160    3433840    3434763  924 -1            1
+C CTAG T
+
+   3161    3434862    3435338  477  1            8 
+   3162    3435331    3437142 1812  1            1
+C ATGGCTAA C
+
+   3165    3438446    3441778 3333 -1           21 
+   3166    3441758    3443068 1311  1            0
+C GTGCGGATCAACGTCGGTCAT C
+
+   3169    3445787    3446713  927  1            4 
+   3170    3446710    3447540  831  1            0
+A ATGA G
+
+   3172    3448712    3450133 1422  1            4 
+   3173    3450130    3451554 1425  1            0
+C ATGA C
+
+   3173    3450130    3451554 1425  1            4 
+   3174    3451551    3453062 1512  1            0
+C ATGA A
+
+   3177    3457550    3458559 1010 -1            4 
+   3178    3458556    3459743 1188 -1            1
+G TCAT A
+
+ 3186.1    3467208    3467684  477 -1           38 
+   3187    3467647    3468573  927 -1            1
+G CTACTGCTCCGGACTTTCTGCCACCGCGGCCCGCGCAT C
+
+   3187    3467647    3468573  927 -1           11 
+   3188    3468563    3469678 1116 -1            1
+G CTAGTCGTCAT T
+
+   3193    3474542    3474970  429  1            4 
+   3194    3474967    3475479  513  1            0
+G ATGA T
+
+   3195    3475870    3476538  669  1           17 
+   3196    3476522    3477085  564  1            0
+G GTGGCGACGGTGATTGA C
+
+   3201    3480928    3481371  444  1            4 
+   3202    3481368    3481970  603  1            0
+C ATGA G
+
+   3210    3487498    3487662  165 -1           59 
+   3211    3487604    3487918  315 -1            0
+T TCATGGATTGTCAATGACAGCCCAAACCGCCTTCGGCCACTGGCATTGGTGCACTGCAC C
+
+   3212    3487931    3488977 1047  1           14 
+   3214    3488964    3490238 1275 -1            0
+T TCAGCCCGCCTTGA T
+
+   3215    3490456    3490788  333  1           18 
+   3216    3490771    3492162 1392 -1            1
+G TCACACAACCAGCGATAG C
+
+   3217    3492311    3493345 1035  1           21 
+   3218    3493325    3495061 1737 -1            1
+G CTACTGCGACAACGGTGCTGA C
+
+   3218    3493325    3495061 1737 -1            4 
+   3219    3495058    3495711  654 -1            0
+G TCAT G
+
+ 3220.1    3496704    3496979  276 -1            9 
+ 3220.2    3496971    3497216  246  1            0
+G TTGCCGCAC T
+
+   3223    3498785    3498880   96  1            4 
+   3224    3498877    3499659  783  1            0
+A GTGA G
+
+   3236    3508948    3510144 1197  1            4 
+   3237    3510141    3510899  759  1            0
+G GTGA C
+
+   3237    3510141    3510899  759  1            4 
+   3238    3510896    3512233 1338  1            0
+A ATGA C
+
+   3240    3514766    3515998 1233  1            8 
+   3241    3515991    3516626  636  1            1
+G GTGGCTAA C
+
+   3241    3515991    3516626  636  1            4 
+   3242    3516623    3517411  789  1            0
+G ATGA C
+
+   3242    3516623    3517411  789  1            4 
+   3243    3517408    3517707  300  1            0
+C ATGA A
+
+   3244    3517718    3519619 1902  1            7 
+   3245    3519613    3521277 1665  1            0
+T GTGGTGA A
+
+   3245    3519613    3521277 1665  1            4 
+   3246    3521274    3522869 1596  1            0
+C ATGA T
+
+   3249    3526971    3527648  678 -1           26 
+   3250    3527623    3528771 1149 -1            1
+G CTAGCTGGCACCTGGGTGGTCGCCAA C
+
+   3251    3528841    3529278  438 -1            4 
+   3252    3529275    3530546 1272 -1            0
+G TCAT G
+
+   3254    3531546    3532028  483 -1            4 
+   3255    3532025    3532990  966 -1            1
+T TCAT A
+
+   3256    3533064    3533753  690 -1           19 
+   3257    3533735    3534871 1137  1            0
+T GTGGCCAACGAACCGGCAA T
+
+   3257    3533735    3534871 1137  1          130 
+   3258    3534742    3535995 1254  1            2
+T GTGGGCATGCGTGTTCATGCGCACCGGTGCGCGGCGAGTGCACTTCGGCGAGATCGAGAAGCCCGACGATGTGGAGTCGCTGTTCTATCACGCCGGCTTGATGAAGCATCTTCTTGGAGAGGAGCACTAA T
+
+   3259    3536120    3537484 1365  1            6 
+   3260    3537479    3538450  972 -1            1
+G CTATGA G
+
+   3264    3540499    3541980 1482  1            4 
+   3265    3541977    3542996 1020 -1            1
+T TTAG G
+
+   3266    3543038    3543940  903  1           26 
+   3267    3543915    3544430  516  1            0
+G ATGCCCTGCAGTTTCTCGAGTCGTGA A
+
+   3268    3544510    3544689  180 -1           20 
+   3269    3544670    3544963  294  1            0
+G GTGACGGCGGCCGAGGACAA A
+
+ 3270.1    3546597    3547010  414  1          124 
+   3271    3546887    3547321  435 -1            1
+A TCACGGGTCGAGTTGGGCGGGGGCGACTCGGCACCCGGCGGCATGGGCTCCGGTGTGCAGGCGTCGGTCCCAAACGGCGACTACCAGGCCGGGGTCGCCGACTGCCAATGCGCTGGCCAGATGA A
+
+   3272    3547324    3547776  453 -1           33 
+   3273    3547744    3547878  135  1            0
+C GTGGTGACTGGTCACCTTCCGTCCAAGCTGCAT C
+
+   3274    3548067    3548351  285  1            4 
+   3275    3548348    3548677  330  1            0
+G ATGA C
+
+   3276    3549215    3549562  348  1            4 
+   3277    3549559    3550179  621  1            0
+T GTGA A
+
+   3284    3554947    3555114  168  1           17 
+   3285    3555098    3558076 2979 -1            1
+A CTACCCGGCGTCGTTGA A
+
+   3293    3566506    3567666 1161 -1          161 
+   3294    3567506    3568573 1068 -1            4
+A CTAGCGCCCCACCTGGCGAATATAGAGCAGCCGGTCGCTGGCCTCGATGGCGTCCACCTCGGGCGCCCCAATGCGCAGCAGCTGGCCGTCACGTACCACGCCGAGCACGATGTCGCGCAGGTGCCGCGGAGACCCGCCCACCTCGGCCTGCTCCACCTCAC G
+
+   3295    3568635    3571940 3306 -1            4 
+   3296    3571937    3575104 3168 -1            0
+G TCAT G
+
+   3303    3579907    3580593  687  1           14 
+   3304    3580580    3580873  294 -1            2
+C TTACCCGCTCGTAG C
+
+   3310    3586475    3587161  687  1            4 
+   3311    3587158    3588276 1119  1            0
+G GTGA G
+
+   3312    3588424    3588756  333  1           58 
+   3313    3588699    3589151  453  1            2
+A GTGGACTATCTATCGACTGTCAGGACCGCGGTTGGCTGCGCTGGCCGCACCACGCTGA T
+
+   3318    3592951    3593256  306 -1            4 
+   3319    3593253    3593804  552 -1            0
+C TCAC T
+
+   3319    3593253    3593804  552 -1            4 
+   3320    3593801    3594655  855 -1            0
+C TCAT G
+
+   3322    3595695    3595922  228 -1            7 
+   3323    3595916    3597340 1425 -1            1
+G CTAACAT C
+
+   3324    3598277    3599629 1353  1            4 
+   3325    3599626    3600618  993  1            0
+G TTGA G
+
+   3328    3603264    3603773  510 -1            4 
+   3329    3603770    3604657  888 -1            0
+G TCAC C
+
+   3330    3604681    3605283  603 -1           10 
+   3331    3605274    3606089  816 -1            0
+G TCAGCACCAC G
+
+   3340    3616469    3617194  726 -1           47 
+   3341    3617148    3618008  861 -1            0
+G TCAATCGGCGCCGCTGCGCAGCGGCGGCCAGACAAAGCTGAGCGCAC C
+
+   3342    3618058    3619821 1764 -1           13 
+   3343    3619809    3621512 1704 -1            0
+A TCAACCGCTCCAC T
+
+   3347    3624651    3625343  693 -1           61 
+   3348    3625283    3625465  183 -1            0
+C TCACGAGCGAGCCACCTCCACCATCTCGAAATCCGACTTTGCCGCACCGCAATCCGGGCAA C
+
+   3349    3625470    3625640  171 -1            4 
+   3350    3625637    3626887 1251 -1            0
+A TCAT G
+
+   3352    3628538    3629962 1425  1           23 
+   3353    3629940    3631166 1227 -1            0
+G TCACAACCCGACGGTCGCCCTGA A
+
+   3354    3631174    3632214 1041 -1            4 
+   3355    3632211    3633608 1398 -1            0
+T TCAC G
+
+   3359    3635442    3636437  996  1            4 
+   3361    3636434    3637780 1347  1            0
+C TTGA C
+
+   3368    3644319    3645008  690  1           32 
+   3369    3644977    3645414  438  1            0
+A TTGCGACCGAAAAGGTCACCCGCGTCCTGTGA C
+
+   3370    3645425    3647581 2157  1            4 
+   3371    3647578    3648246  669 -1            1
+G CTAG C
+
+   3373    3649536    3651830 2295  1           12 
+   3374    3651819    3652988 1170 -1            1
+A TCAGCGCAGTAG C
+
+   3375    3653013    3653537  525 -1            4 
+   3376    3653534    3654823 1290 -1            1
+G TCAT A
+
+   3377    3654825    3655595  771  1           46 
+ 3377.1    3655550    3655840  291 -1            0
+C TCAGCTGGGCGACTCGTCGGAGCCCAGGGTGTCGAAAACCTCGTGA T
+
+   3378    3656005    3656139  135  1           30 
+   3379    3656110    3656910  801 -1            1
+G TTAACGCAAATGCACCACGTCGCCCGCTGA A
+
+   3380    3658629    3659057  429  1            4 
+   3381    3659054    3659722  669  1            0
+G ATGA C
+
+   3382    3659763    3660656  894  1            4 
+   3383    3660653    3661084  432  1            1
+T ATGA C
+
+   3385    3663004    3663789  786 -1            4 
+   3386    3663786    3664223  438 -1            0
+G TCAC C
+
+   3398    3677886    3680864 2979 -1           47 
+   3399    3680818    3681735  918 -1            1
+G TCACGGCCGGCAATCGGCCGCGGCTGACCATGTTGGCAACGTAGCAC C
+
+   3404    3686530    3687699 1170 -1            4 
+   3405    3687696    3688880 1185 -1            0
+C TCAT C
+
+   3409    3692089    3692988  900  1           13 
+   3410    3692976    3694271 1296  1            1
+T TTGGGGCGACTAG C
+
+   3415    3697071    3698354 1284 -1            4 
+   3416    3698351    3698752  402 -1            0
+G TCAC C
+
+   3417    3698989    3699327  339  1            4 
+   3418    3699324    3699758  435  1            0
+G ATGA G
+
+   3423    3703325    3703939  615 -1            4 
+   3424    3703936    3704601  666 -1            0
+C TCAT G
+
+   3425    3704602    3705156  555 -1           25 
+   3426    3705132    3705506  375 -1            0
+T TCACCGTGCCACCTGCTGGCTGCAT T
+
+   3430    3709285    3711075 1791  1           68 
+   3431    3711008    3711856  849 -1            0
+T TCAATTCCGGTGATGCCTGCCGCGTCCCGTGGGCTGCGCCCGACGTTCCTTCAGCGGAGAGCCGGTGA A
+
+   3449    3730481    3735004 4524 -1           16 
+ 3449.1    3734989    3735108  120 -1            0
+A TCAGCGACATGACCAT T
+
+ 3449.2    3735336    3735431   96  1            4 
+   3450    3735428    3735685  258 -1            1
+T CTAG C
+
+   3456    3746524    3747264  741 -1          449 
+ 3456.1    3746816    3747946 1131 -1            3
+A CTAGTCAATGGTGGTGGCCAGGGTGAGCAGTTCGGGGATCTGCGAGTCGATGCGCCAGGCAGGAAGCGGTGTAGGTGATGGCGCGCCAGGTGGGGGTCCCCGCCGGTGCGCACGGTCGACAGCAGGGTGCGCAGCTCCTCTTTGGCGATCCAGGCCGAGAGAATCTGCGCGCGGGGGTCGACGGCGTTGATCCGATTCCGCATTTTGGCGAAGCTTTTGTCCGACAAGCGTTCCCGGGCGGTCAGCAAGCGACGTCGGTTGGCCCACTGCGGGTCGATCTTGCGGCCGCGCCGGTCGTGGAACGCCCAGGTCACCCGGCGGCGCACCGCGGTCAGCGCGTCGTTGGCCAGCGTGGTCACATGGAAGTGGTCGACGACGAGCTTGGCGTTGGGCAGCAGCCCGGGCGTGCGGATCGCCGAGGCGTAGGCAGCGGCGGGGTCGATGGCCAC C
+
+   3463    3761737    3762030  294 -1            4 
+   3464    3762027    3762860  834 -1            0
+G TCAT C
+
+   3465    3762996    3763271  276  1            4 
+   3466    3763268    3763525  258  1            0
+A GTGA G
+
+   3468    3764874    3765242  369  1            4 
+   3469    3765239    3765790  552 -1            1
+T CTAG C
+
+   3470    3765797    3766378  582 -1           20 
+   3471    3766359    3766727  369 -1            1
+C TCAGAGTGCTTTAAGGCCAC G
+
+   3471    3766359    3766727  369 -1           23 
+   3472    3766705    3767097  393 -1            1
+T CTATCGCCGGCAGGATTGAACAA C
+
+   3472    3766705    3767097  393 -1            4 
+   3474    3767094    3769724 2631 -1            0
+T TCAT T
+
+   3477    3772567    3773211  645 -1            2 
+   3478    3773210    3773644  435  1            0
+C AT G
+
+   3482    3778546    3779721 1176  1            4 
+   3483    3779718    3779879  162  1            0
+C GTGA G
+
+   3489    3785489    3787325 1837 -1            4 
+   3490    3787322    3788311  990 -1            0
+G TCAT T
+
+   3492    3790117    3790512  396 -1            4 
+   3493    3790509    3790817  309 -1            0
+A TCAA C
+
+   3494    3790966    3791670  705  1           11 
+ 3494.1    3791660    3792337  678  1            2
+G GTGGTACGTAA C
+
+   3502    3801896    3802579  684 -1            2 
+   3503    3802578    3803219  642  1            0
+C AT G
+
+   3520    3822503    3822613  111 -1           12 
+   3521    3822602    3823012  411  1            0
+G GTGCGCGACCAC C
+
+   3522    3823022    3823921  900 -1            8 
+   3523    3823914    3824588  675 -1            1
+T TCACGCAT A
+
+   3523    3823914    3824588  675 -1           19 
+   3524    3824570    3825397  828 -1            2
+T TTAAGCGGTACGCCAGCAT C
+
+   3528    3828431    3829465 1035 -1            4 
+   3529    3829462    3829938  477 -1            0
+G TCAT G
+
+   3529    3829462    3829938  477 -1            4 
+   3530    3829935    3830561  627 -1            0
+G TCAC G
+
+   3531    3830567    3831073  507 -1            4 
+   3532    3831070    3832296 1227 -1            0
+C TCAA C
+
+   3532    3831070    3832296 1227 -1           41 
+ 3532.1    3832256    3832486  231  1            0
+C GTGTCGTTTGGCTTTCCGACATTCTCCCAGAACCGTTTCAC T
+
+   3533    3833115    3833651  537  1           60 
+   3534    3833592    3834755 1164 -1            4
+C CTAGCGTATCTGCCCCGATGGCAGGAGCCGCCGCAGATCTACGGGGGCGGGGGCGGGTAG G
+
+   3547    3847444    3847899  456 -1            4 
+   3548    3847896    3848339  444 -1            0
+G TCAT T
+
+   3550    3848895    3849302  408 -1           38 
+   3551    3849265    3850479 1215 -1            1
+T TCAACCAACGGCGTGGACGGACCGTACGGCTTGCGCAC A
+
+   3551    3849265    3850479 1215 -1            4 
+   3553    3850476    3854078 3603 -1            0
+C TCAC G
+
+   3554    3854300    3855703 1404  1            4 
+   3555    3855700    3857067 1368  1            0
+C ATGA C
+
+   3555    3855700    3857067 1368  1           36 
+   3556    3857032    3858480 1449 -1            2
+G CTACGGCCCGGGCGCAACGGTATCGCGGGCGACTGA C
+
+   3560    3860138    3860377  240  1           29 
+   3561    3860349    3862037 1689  1            1
+G TTGATGCCGGGCGTCATAACAAACAGTGA A
+
+   3561    3860349    3862037 1689  1           39 
+   3562    3861999    3862892  894 -1            1
+G TTAGCCCGAGCGCACATCCCGGGTGACCAAGTTCCGTGA C
+
+   3562    3861999    3862892  894 -1           56 
+   3563    3862837    3863379  543 -1            1
+G CTAATTCTCGGGGGCCTCTGTGGGGGGCTCTTCGGGGGCCTTCGCGTCAGGCTCAC T
+
+ 3572.1    3870145    3871146 1002  1          326 
+   3573    3870821    3872212 1392  1            5
+T GTGCGTGCTGCTGTCTACCTCCGAATCTCAGAAGACCGCTCCGGCGAACAGCTCGGCGTGGCCCGCCAACGCGAGGACTGCCTAAAGCTGTGCGGGCAGCGAAAATGGGTGCCCGTCGAGTACCTCGACAACGACGTCAGCGCATCAACCGGCAAGCGCCGCCCCGCCTACGAGCAGATGTTGGCCGACATCACCGCCGGCAAGATCGCCGCCGTGGTGGCCTGGGACCTGGACCGGCTCCATCGCCGTCCCATCGAGCTGGAAGCCTTCATGTCATTAGCCGACGAGAAGCGGCTGGCCCTGGCCACCGTCGCCGGCGACGTTGA C
+
+   3573    3870821    3872212 1392  1           10 
+3573.01    3872203    3873000  798  1            0
+A TTGGCGATGA G
+
+3573.01    3872203    3873000  798  1            4 
+3573.02    3872997    3873395  399  1            0
+G ATGA C
+
+3573.02    3872997    3873395  399  1            4 
+3573.03    3873392    3874810 1419  1            0
+C GTGA T
+
+3573.05    3875415    3875687  273  1            4 
+3573.06    3875684    3875998  315  1            0
+A GTGA C
+
+3573.10    3877457    3877564  108  1           52 
+3573.11    3877513    3878187  675  1            0
+G TTGCGGGACACCGCGTTTCGCACACTGGATTCTTGTGTGCGAGACGGCCTGA T
+
+   3580    3886203    3887552 1350 -1            2 
+ 3580.1    3887551    3887652  102  1            0
+C AT G
+
+   3590    3899562    3900053  492  1           48 
+   3591    3900006    3900989  984 -1            2
+A CTAGATAGGCGACTGTCCAAACGCGCCACGGCTTGCGGCGCGAGGTGA A
+
+   3595    3903721    3904299  579  1            4 
+   3596    3904296    3904778  483 -1            1
+A TTAA A
+
+   3599    3907211    3908365 1155 -1            4 
+   3600    3908362    3909714 1353 -1            0
+T TCAT C
+
+   3601    3909714    3910787 1074 -1           11 
+   3602    3910777    3911829 1053 -1            2
+C CTATTTAGCAA A
+
+   3613    3930121    3931669 1549 -1            4 
+   3614    3931666    3932502  837 -1            0
+T TCAC G
+
+ 3615.4    3943391    3943609  219 -1            4 
+   3616    3943606    3945252 1647 -1            0
+A TCAC C
+
+   3619    3947107    3948225 1119 -1           11 
+   3620    3948215    3948436  222  1            0
+G TTGGCCCGCAT C
+
+   3633    3959180    3959962  783 -1            4 
+   3634    3959959    3961086 1128 -1            0
+G TCAT C
+
+   3645    3972801    3973190  390 -1            4 
+   3646    3973187    3974122  936 -1            0
+G TCAT T
+
+   3646    3973187    3974122  936 -1            4 
+   3647    3974119    3975282 1164 -1            0
+G TCAC C
+
+   3647    3974119    3975282 1164 -1           16 
+   3648    3975267    3976304 1038 -1            0
+G TCAGGTCAATGAACAT C
+
+   3648    3975267    3976304 1038 -1           19 
+   3649    3976286    3977587 1302 -1            1
+A TTAGTGAGCAACCGGGCAT C
+
+   3652    3979524    3980474  951 -1           14 
+   3653    3980461    3981240  780 -1            0
+G TCACTTGTTGGCAC T
+
+   3653    3980461    3981240  780 -1            4 
+ 3653.1    3981237    3981341  105 -1            0
+G TCAC T
+
+ 3653.1    3981237    3981341  105 -1           47 
+   3654    3981295    3982038  744  1            0
+A ATGCCGATCACCTCCACCACGCCCGAACCGGGCATCGTCGCGGTCAC C
+
+   3655    3982038    3982916  879  1            4 
+   3656    3982913    3983665  753  1            0
+G GTGA G
+
+   3663    3990121    3991992 1872  1          206 
+   3664    3991787    3992575  789 -1            3
+C TCACGGGTGCTGGCAGGATACCGAAATCACCTCACCAGTCAGGTAACTCGAGTAGTCGCTGGCCAGAAACGCGATGGTGGCCGCCACCTCCCAGGGCTCGGCGGCCCGGCCGAACGCCTCGCCGGCCGCCAGCCGGTCCAGCAGCTCGGCCGAGGCGGTCTTGTCCAGGAACTTGTGCCGGGCGATGCTGGGCGAGACGGCGTTGA T
+
+   3664    3991787    3992575  789 -1            4 
+   3665    3992572    3993729 1158 -1            0
+T TCAT C
+
+   3668    3996437    3997390  954  1            4 
+   3669    3997387    3998343  957  1            1
+T ATGA C
+
+   3669    3997387    3998343  957  1            4 
+   3670    3998340    3999505 1166  1            0
+C GTGA C
+
+   3670    3998340    3999505 1166  1           36 
+   3671    3999470    4000321  852 -1            2
+C TTACGGCGCATCGGCTCCTGGCTGCCGAGCCAATAG C
+
+   3671    3999470    4000321  852 -1           16 
+ 3671.1    4000306    4000572  267 -1            0
+G TCAGATCCAGTGCCAT G
+
+   3673    4001436    4002338  903 -1            4 
+   3674    4002335    4003210  876 -1            0
+C TCAT C
+
+   3681    4010497    4011210  714  1           83 
+   3682    4011128    4012267 1140  1            5
+A TTGTCACGTGCGCCTATAGCCAACCGGATTTGGTGGCGATTGGCATCGCTAACCAAATCGCGGCCAAGGTTGCTAAGCAGTAG G
+
+   3687    4016007    4016486  480 -1            4 
+   3688    4016483    4017178  696 -1            0
+T TCAC C
+
+   3694    4022010    4022633  624 -1            2 
+   3695    4022632    4023546  915  1            0
+C AT G
+
+   3695    4022632    4023546  915  1            4 
+   3696    4023543    4025297 1755 -1            1
+T TTAG C
+
+   3707    4036411    4037340  930 -1            4 
+   3708    4037337    4038422 1086 -1            0
+G TCAT G
+
+   3711    4040310    4040876  567 -1            4 
+ 3712.1    4040873    4041274  402 -1            1
+G TCAT A
+
+ 3712.1    4040873    4041274  402 -1            8 
+   3712    4041267    4042085  819 -1            0
+G TCAGCCAT C
+
+   3719    4049973    4050941  969  1            4 
+   3720    4050938    4052125 1188  1            0
+G ATGA A
+
+   3727    4056141    4057112  972 -1           22 
+   3728    4057091    4058164 1074 -1            1
+G CTACAGCACTCTGTCGATCCAT C
+
+   3728    4057091    4058164 1074 -1           25 
+   3729    4058140    4059525 1386 -1            0
+G TCACGTCGTGCACCCGCAGAACCAC A
+
+   3733    4062766    4063479  714  1            4 
+   3734    4063476    4063820  345  1            0
+G ATGA A
+
+   3736    4064907    4065875  969 -1            2 
+   3737    4065874    4067649 1776  1            0
+C AT G
+
+   3744    4073170    4073304  135  1            4 
+   3745    4073301    4073465  165 -1            1
+G CTAG T
+
+   3748    4075048    4076697 1650  1            4 
+   3749    4076694    4079498 2805 -1            1
+G CTAG T
+
+ 3756.3    4087582    4087710  129 -1           23 
+   3757    4087688    4088605  918  1            2
+G ATGGTACCGATGGCGTATTCCAC G
+
+   3757    4087688    4088605  918  1          210 
+   3758    4088396    4089196  801 -1            1
+C TCACAACACTGGCCGATCGGTGATCCGGTCCGACCACAGCAGCCCGGCGCAGGCCAGTGTCAGCCCGACCACCAGCAGCCATCCGCCCACGCGTCCCGTCAGCAGAAAGCTCAGCGGCCGGGCGCCGATCAGTTGACCAAGCAGCACCCCGAGCAGCGGCAGGATTGCCAATATGGCCGCACTGGCCCGGGCACCGGCCATCCCCGCTGA C
+
+   3758    4088396    4089196  801 -1            4 
+   3759    4089193    4090251 1059 -1            0
+C TCAT G
+
+   3763    4093522    4094292  771 -1            4 
+   3764    4094289    4095935 1647 -1            0
+G TCAC A
+
+   3764    4094289    4095935 1647 -1            4 
+   3765    4095932    4096732  801 -1            0
+C TCAT G
+
+ 3767.1    4099427    4099783  357  1           67 
+ 3767.2    4099717    4099926  210  1            1
+G ATGCTGCCGCTTGGATTGCCGCCGTCGTGGCCCAGCGGTGCCCCAACGCGATCCGCCGCGCCGATAA A
+
+ 3767.2    4099717    4099926  210  1           11 
+ 3767.3    4099916    4100038  123  1            1
+T GTGATGTGTAG C
+
+   3771    4103603    4104586  984  1            8 
+   3772    4104579    4105772 1194 -1            0
+C TCAGCTGA C
+
+   3781    4111031    4112053 1023  1            4 
+   3782    4112050    4113210 1161  1            0
+G ATGA G
+
+   3785    4116672    4117631  960  1            4 
+   3786    4117628    4118734 1107  1            0
+G TTGA G
+
+   3791    4122612    4123967 1356  1           22 
+   3792    4123946    4124647  702  1            2
+T ATGGCTCACGCGGCCTTTCTAA A
+
+   3792    4123946    4124647  702  1           19 
+   3793    4124629    4125774 1146  1            0
+C GTGGGCGCAGGTCCGGTGA T
+
+   3793    4124629    4125774 1146  1            4 
+   3794    4125771    4126847 1077  1            0
+C GTGA C
+
+   3799    4132059    4132496  438 -1            4 
+   3800    4132493    4132717  225 -1            0
+C TCAC C
+
+   3804    4136205    4137170  966 -1            4 
+   3805    4137167    4137751  585 -1            0
+C TCAT C
+
+   3806    4137868    4139145 1278 -1            4 
+   3807    4139142    4140440 1299 -1            0
+G TCAC G
+
+   3814    4147994    4148983  990 -1            4 
+ 3814.1    4148980    4149249  270 -1            0
+C TCAC A
+
+   3817    4151244    4152269 1026 -1           68 
+   3818    4152202    4152813  612 -1            0
+A TCAGGCGAGCACGCGGCGGCCGGCGAGCGCTCGGCCCAGGGTGAGCTCGTCGGCGAATTCCAGGTCAC C
+
+   3822    4154631    4156031 1401  1            4 
+   3823    4156028    4157311 1284  1            0
+G ATGA C
+
+   3823    4156028    4157311 1284  1            4 
+   3824    4157308    4159044 1737 -1            1
+C CTAG G
+
+   3842    4180011    4181600 1590  1            4 
+   3844    4181597    4182829 1233 -1            1
+G CTAG C
+
+   3844    4181597    4182829 1233 -1            4 
+   3846    4182826    4182942  117 -1            1
+G TCAT A
+
+   3849    4184491    4185165  675 -1            4 
+   3850    4185162    4185557  396 -1            0
+A TCAT T
+
+   3861    4192667    4193638  972  1           38 
+   3862    4193601    4194200  600 -1            2
+A TTACATCCGCTCTGCCAAGCCTGGATAGTCCACAATGA A
+
+   3863    4194206    4194925  720 -1            4 
+   3864    4194922    4195611  690 -1            0
+T TCAT C
+
+   3864    4194922    4195611  690 -1           13 
+   3865    4195599    4196702 1104 -1            1
+A TCAGGTAGTGCAT G
+
+   3871    4201894    4203414 1521 -1           23 
+   3872    4203392    4204252  861 -1            2
+G CTAGCGGGCCGGCTTGAGCACAT A
+
+ 3876.1    4207394    4207525  132  1           14 
+   3877    4207512    4208087  576 -1            1
+A TTACCTGGCGGTGA G
+
+   3890    4219841    4220662  822  1            4 
+   3891    4220659    4221573  915  1            0
+G ATGA C
+
+   3891    4220659    4221573  915  1            4 
+   3892    4221570    4222412  843  1            0
+C ATGA C
+
+   3893    4222568    4224706 2139  1           20 
+   3894    4224687    4225910 1224 -1            1
+G CTACCGATCCTCGGCGGTGA T
+
+ 3899.1    4230245    4232518 2274  1          344 
+   3900    4232175    4235459 3285  1            9
+G ATGGCTACCGAAGCCGCCCCACCCCGTATCGCCGTCCGGCTACCATCTACCTCCGTGCGCGACGCGGGAGCAAACTACCGGATCGCCCGGTACGTCGCTGTGGTGGCGGGTCTGCTAGGCGCTGTGCTGGCCATCGCCACCCCACTGCTGCCGRTCAACCAGACCACCGCGCAATTGAACTGGCCCCAAAACGGCACGTTCGCCAGTGTCGAGGCACCGCTGATTGGCTACGTGGCCACCGACTTGAACATCACCGTCCCCTGCCAGGCCGCCGCCGGACTGGCCGGATCGCAGAACACCGGCAAGACGGTGTTGTTGTCAACGGTGCCCAAGCAGGCGCCTAA G
+
+   3901    4235545    4238829 3285  1            4 
+   3902    4238826    4242122 3297  1            0
+C ATGA C
+
+   3906    4246702    4248270 1569 -1            4 
+   3907    4248267    4253468 5202 -1            0
+G TCAC T
+
+   3915    4262688    4264601 1914 -1            4 
+   3916    4264598    4265797 1200 -1            0
+C TCAT G
+
+   3919    4268763    4268909  147 -1           17 
+   3920    4268893    4270407 1515  1            0
+C GTGTCGTTCGTGGTCAC A
+
+   3920    4268893    4270407 1515  1            4 
+   3921    4270404    4270556  153 -1            1
+C TTAG C
+
+   3934    4292134    4293888 1755  1            4 
+   3935    4293885    4295111 1227 -1            1
+T TTAG T
+
+   3935    4293885    4295111 1227 -1            4 
+   3936    4295108    4295719  612 -1            0
+A TCAA G
+
+   3939    4298079    4298561  483  1            4 
+   3940    4298558    4299145  588 -1            1
+C CTAG G
+
+   3941    4299189    4299980  792  1            4 
+   3942    4299977    4301236 1260 -1            1
+G CTAA G
+
+   3945    4303331    4304029  699 -1            4 
+   3946    4304026    4304991  966 -1            0
+C TCAT G
+
+ 3954.1    4310569    4311171  603 -1           75 
+   3955    4311097    4311588  492  1            0
+C GTGACTGCCGAGAATCCAGGACGGAGCAGGCGGACGCTGGTCGGAATCGACGCGGCGATCACGGCCTGTCACCAC A
+
+   3957    4311625    4312167  543 -1           20 
+   3958    4312148    4312363  216  1            0
+A ATGGTCTTCGACAAGCCCAC C
+
+   3961    4313861    4314394  534  1           11 
+   3962    4314384    4314488  105  1            1
+C TTGCAGCATAA G
+
+   3973    4322362    4323828 1467 -1            8 
+   3974    4323821    4328410 4590 -1            0
+A TCAGCCAT G
+
+   3979    4333888    4334199  312  1            4 
+   3980    4334196    4335643 1448  1            0
+G TTGA T
+
+   3980    4334196    4335643 1448  1            8 
+   3981    4335636    4337357 1722  1            0
+G ATGACTGA T
+
+   3983    4338803    4341046 2244  1            4 
+   3984    4341043    4341159  117  1            0
+C GTGA C
+
+   3984    4341043    4341159  117  1           11 
+   3985    4341149    4342924 1776  1            0
+C ATGACTGCTGA A
+
+   3997    4354335    4355723 1389 -1            4 
+   3998    4355720    4356955 1236 -1            0
+C TCAT C
+
+   4016    4376453    4377685 1233 -1            7 
+   4017    4377679    4378614  936 -1            0
+G TCACCAT C
+
+   4018    4378671    4379120  450 -1           13 
+   4019    4379108    4379293  186  1            0
+T TTGCCGCTTGCAC C
+
+   4020    4379671    4380201  531 -1            4 
+   4022    4380198    4382738 2541 -1            0
+G TCAC T
+
+   4027    4385755    4386501  747  1           53 
+   4028    4386449    4388905 2457  1            0
+C ATGCCGATGACTCAGCACCGGGTCAGCACAACGGTCCCGGGCCGGGGCCGTGA C
+
+   4028    4386449    4388905 2457  1            4 
+   4029    4388902    4392456 3555  1            1
+T ATGA G
+
+   4032    4394032    4395039 1008  1            4 
+   4033    4395036    4395386  351  1            0
+G ATGA C
+
+ 4035.1    4397511    4397798  288 -1           38 
+   4036    4397761    4398795 1035 -1            2
+A TTACAGAGCGTCCCTGTGCAGGCCTTTATCTCGGCCAT C
+
+   4036    4397761    4398795 1035 -1            4 
+   4037    4398792    4399937 1146 -1            0
+G TCAT G
+
+   4037    4398792    4399937 1146 -1          106 
+   4038    4399832    4400506  675 -1            1
+C TCACGCCGTCCCTCCACTCGCCATCCGTGCCGACCCTCGGGCGATCTGCTTTCCACGTCGTGCGAACACCACGGTCGCGGGCGGACGCAAATAGTTCGCGCCACAT G
+
+   4040    4401273    4402373 1101 -1           17 
+ 4040.1    4402357    4402719  363 -1            0
+A TCAAACAAAAGACTCAC G
+
+ 4040.1    4402357    4402719  363 -1            4 
+   4041    4402716    4403066  351 -1            0
+C TCAC C
+

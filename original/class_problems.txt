@@ -1,0 +1,33 @@
+MT number    RV number    Class
+
+ 320          316         MMM: Degradation of aromatic hydrocarbons
+              307         Unknowns
+
+ 400          387         Conserved Hypotheticals
+              388         Other: PPE family of proteins
+
+ 610          581         Conserved Hypotheticals
+              582         Unknowns
+
+ 822          802         Other: Antibiotic production and resistance
+              801         Unknowns
+
+2881         1764         Other: IS elements: IS6110
+             2814         Other: IS elements: IS6130
+              796         Other: IS elements: IS6111
+             1369         Other: IS elements: IS6112
+              797         Other: IS elements: Others
+
+2882         2815         Other: IS elements: IS6131
+             1370         Other: IS elements: IS6113
+
+2289         2230         Conserved Hypotheticals
+             2229         Unknowns
+
+3107         1047         Other: IS elements: IS1081
+             1199         Other: IS elements: IS1082
+             3023         Other: IS elements: IS1085
+
+3573         1586         Other: IS elements: Phage related functions
+             3467         Other: IS elements: REP13E12 family
+

@@ -1,0 +1,65 @@
+
+R : Copyright 2002, The R Development Core Team
+Version 1.5.1  (2002-06-17)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type `license()' or `licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type `contributors()' for more information.
+
+Type `demo()' for some demos, `help()' for on-line help, or
+`help.start()' for a HTML browser interface to help.
+Type `q()' to quit R.
+
+[Previously saved workspace restored]
+
+> invisible(options(echo = TRUE))
+> temp <- negenes(mydata[,1], mydata[,2], mydata[,3], mydata[,4],
++                 n.mcmc=50000, skip=49, return=TRUE, trace=FALSE)
+> 
+> mymat <- matrix(ncol=109,nrow=nrow(temp$output))
+> for(i in 1:109) 
++   if(any(geneclasses==i)) 
++     mymat[,i] <- apply(1-temp$output[,geneclasses==i,drop=FALSE],1,sum)
+> 
+> finalres <- list(total = temp$n.essential,
++                  bygene = temp$geneprob,
++                  byfam = mymat)
+> 
+> 
+> for(j in 1:9) {
++   cat(j,"\n")
++   temp <- negenes(mydata[,1], mydata[,2], mydata[,3], mydata[,4],
++                   n.mcmc=50000, skip=49, return=TRUE, trace=FALSE)
++ 
++   mymat <- matrix(ncol=109,nrow=nrow(temp$output))
++   for(i in 1:109) 
++     if(any(geneclasses==i)) 
++       mymat[,i] <- apply(1-temp$output[,geneclasses==i,drop=FALSE],1,sum)
++ 
++   finalres <- list(total = c(finalres$total, temp$n.essential),
++                    bygene = finalres$bygene + temp$geneprob,
++                    byfam = rbind(finalres$byfam, mymat))
++ }
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+> 
+> rm(mymat,temp)
+> famprob <- 1:109
+> for(i in 1:109)
++   famprob[i] <- mean(finalres$byfam[,i]/ngeneperfam[i] > finalres$total/4207)
+> famprob <- famprob*100
+> 
+> finalres$bygene <- finalres$bygene/10
+> proc.time()
+[1] 2394.46    7.02 2409.89    0.00    0.00
+> 

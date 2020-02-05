@@ -1,0 +1,987 @@
+ORFsize,POI,ORF description,MTnum,comments
+1157,4,rec F protein ,3,
+1475,271,PCN binding protein; putative,19,
+1565,274,Conserved HP,23,
+845,552,NLP/P60 family protein,27,
+272,159,HP,28,
+1688,103,AMP-binding family protein (fadD34),40,
+1688,525,AMP binding family protein (fadD34),40,
+1301,249,membrane protein,42,
+608,71,Conserved HP,43,
+626,427,Transcriptional regulator; MarR family,48,
+794,43,Conserved HP,50,
+794,514,conserved HP,50,
+869,518,HP,54,
+869,570,HP,54,
+212,178,HP (before Rv 0062),66.2,
+1142,548,Cellulase,67,
+401,210,HP,71,
+2237,829,Isocitrate dehydrogenase; NADP-dependent,72,
+2237,1741,isocitrate dehydrogenase; NADP dependent (icd2),72,
+2237,2178,isocitrate dehydrogenase NADP-dependent (icd2),72,
+716,310,Conservative HP,77,
+1049,163,Conserved HP,78,
+1049,542,Conserved HP,78,
+992,36,ABC transporter; ATP binding protein,79,
+992,251,ABC transporter,79,hot spot
+992,252,ABC transporter; ATP-binding protein (HP),79,hot spot
+1235,609,Conserved HP,80,
+344,172,transcriptional regulatorArsR family (HP),88,
+770,709,HP,99,
+1391,715,PPE,105,
+1622,237,Substrate CoA-ligase (fadD10),108,
+7562,364,peptide synthase (nrp),110
+7562,1750,Peptide synthetase (nrp),110
+7562,5881,peptide synthase (nrp),110
+7562,7403,peptide synthetase  (nrp),110
+1196,17,conserved HP,115
+854,179,Rhomboid family protein,119
+2144,252,Translation elongation factor G (fusA2),128
+1805,518,alpha-amylase family protein (HP),134
+1040,291,esterase; antigen 85-C (fbpc2),137
+380,211,HP,148
+941,126,conserved HP,154
+968,48,Quinone oxidoreductase,157
+968,502,Quinone oxidoreductase,157
+1766,84,PPE family protein,160
+1601,466,PE family protein,161
+1601,1446,PE family protein (PE),161
+1223,91,Acyl-CoA-dehydrogenase; putative (fadE2),163,
+1406,290,PE family protein,168,
+1406,825,PE family protein,168,
+1556,759,Substrate CoA-ligase (fadD5),175,
+1583,179,Virulence factor (HP),178,
+1583,1172,virulence factor (mce 1),178,
+1583,1466,Virulence factor (mce1),178,
+1592,201,HP (virulence factor MCE family protein),181,
+1592,652,virulence factor mce protein,181,
+1169,1146,virulence factor mce family protein (lprK),182,
+1547,321,virulence factor mce protein ,183,
+734,310,HP,187,
+734,96,conserved HP,190,
+1100,787,Conservative HP,202,
+1826,510,HP,203,
+1826,628,HP,203,hot spot
+1826,628,HP,203,hot spot
+1826,642,HP,203,
+1826,1436,HP,203,
+3725,1738,ABC transporter; ATP-binding protein (HP),204,
+2900,560,Membrane protein MmpLII,212,
+2900,2719,mmpL11,212,
+1103,641,Conservative HP,215,
+1313,640,Methyltransferase (HP),223,
+1349,456,HP,231,
+1349,1057,HP,231,hot spot
+1349,1058,HP,231,hot spot
+1349,1071,HP,231,
+1349,1189,HP,231,
+1463,22,Aldehyde dehydrogenase family protein,233,
+680,524,HP,239,
+1037,68,Parathion hydrolase,240,
+1037,355,Parathion hydrolase (HP),240,
+1706,1,Acyl-CoA dehydrogenase (fadE4),241,
+1706,604,Acyl-CoA dehydrogenase (FadE4),241,
+1706,1323,Acyl-CoA synthase (fadE4),241,
+944,526,Ribonucleoside-diphosphate reductase beta-subunit (nrdB),244,
+614,294,transcriptional regulator; tet R family (HP) ,252,sister colony
+842,139,MaoC family protein (HP),255,
+1322,95,Thiolase,257,
+1835,964,Acyl-CoA dehydrogenase (fadE4),258,
+1835,1111,acyl CoA dehydrogenase (fadE5),258,
+1349,702,HP,260,
+1349,746,HP,260,
+1940,859,FAD flavoprotein oxidase,262,
+479,391,heat shock protein HSP20 family (hsp),265,
+2561,1628,NAD(P)H dependent nitrite reductase large ,266,
+524,85,Cobinamide/cobinamide phosphate guanylyltransferase (cobU),267,
+248,207,HP,270.2
+1145,432,Transcriptional regulator; putative,273
+509,273,HP,281
+1682,1091,Substrate CoA ligase (fadD2),283
+725,168,fadD27,287
+1397,950,sulfatase family protein (atsG),310
+425,157,HP,314
+632,336,transcriptional regulator; TetR family,315
+9560,681,PPE family protein,318
+9560,2397,PPE family protein (PPE),318
+9560,2632,PPE family protein [PPE],318
+9560,4429,PPE family protein,318
+9560,5448,PPE family protein [PPE],318
+9560,5736,PPE family protein [PPE],318
+737,530,Conserved HP,332
+737,551,Conserved HP,332
+668,452,Pyrrolidone-carboxylate peptidase (pcp),334
+671,247,HP,338
+224,82,HP,340
+1349,1048,P450 heme-thiolate protein,342
+626,462,MitM-related protein,344
+1166,260,Oxidoreductase;putative,346
+1166,384,oxidoreductase; putative,346
+1511,1221,HP,350
+1922,1574,HP,357
+542,76,HP,364
+557,454,PPE family protein (PPE),369
+9827,2254,PPE family protein [PPE],370
+9827,3661,PPE family protein (PPE),370
+9827,8878,PPE family (PPE),370
+413,183,conserved HP,376
+413,189,Conserved HP,376
+827,664,HP,377,
+1382,530,Divalent cation transporter MgtE family (MgtE),378,
+3278,512,Transcriptional regulator LuxR family,399,
+3278,1651,transcriptional regulator LuxR family,399,
+2876,1222,membrane protein; MmpL family,412,
+1157,507,acetate kinase (ackA),422,
+1319,780,Conserved HP,425,
+2186,419,cell division control protein; putative,451,
+866,347,CDP diacylglycerol serine (pssA),452,
+866,601,CDP diacylglycerol- serine,452,
+426,51,HP,457,
+1463,1396,PPE family protein,458,
+809,586,conserved HP,462,
+1448,1264,Cyclopropane-fattyacyl-phospholipid-synthase (ufaA1),463,
+1319,143,HP,465,sister colony
+2903,1189,Membrane protein; MmpL family (MmpL4),466,
+1556,574,PPE family (PPE),469
+2021,40,Prolyloligopeptidase family protein,473
+602,281,HP,477
+602,285,HP,477
+602,327,HP,477
+602,373,HP,477
+488,261,HP,488
+422,343,transcriptional regulator; Pbs X family (HP),491
+422,348,Transcriptional regulatory protein; PbsX family,491
+1355,1110,conserved HP,501
+692,197,DNA binding response regulator RegX3 (regX3),510
+890,807,conserved HP,515
+965,746,cyclopropane-fatty-acyl-phospholipid synthase 2 (cmaA2),524
+965,881,Cyclopropane-fatty-acyl-phospholipid synthase 2 (cmaA2),524
+437,80,Conserved HP  (mmps2),527
+2906,297,Membrane protein; MmpL1 family (MmpL2),528
+2906,458,Membrane protein; mmpL family,528,
+2906,2203,membrane protein; mmpL family (mmpL2),528,
+293,211,Conserved HP,529,
+1604,1315,HP,536,
+1604,1405,HP,536,
+1604,1473,HP,536,
+902,442,HP,541,sister colony
+902,521,HP,541,
+1304,531,amino acid permease (HP),544,
+1217,196,Conserved HP,552,
+1007,755,3-oxoacyl-(acyl-carrier-protein) synthase III (fabH),557,
+2207,2051,ribonucleoside-diphosphate reductase   (nrdZ),596,
+1166,909,Monooxygenase putative,604,
+791,245,Doxorubicin biosynthesis enzyme DnrV,606,
+2633,1329,conserved HP,612,
+1214,867,virulence factor (mce2),618,
+1619,1349,virulence factor mce protein,624
+608,23,IS1536; resolvase,633
+608,187,IS1536; resolvase  (HP),633
+383,165,HP,641
+2567,1747,HP,643
+1183,996,galactose 1-phosphate  xxx transferase,647
+1091,160,HP,650
+395,112,Conserved HP,652
+695,369,enoyl-CoA hydratase/isomerase family protein (echA3),660
+947,333,methoxy mycolic acid synthase 4  (mmaA4),670
+953,83,Methoxy mycolic acid synthase 2,672
+953,187,Methoxy mycolic acid synthase 2 (mmaA2),672
+953,345,Methoxy mycolic acid synthase (mmaA2),672
+890,541,Methoxy mycolic acid synthase 1 (mmaA1),673
+1010,390,carboxyl esterase (ligG),674
+4196,794,glycosyl hydrolase,676
+2363,571,Arylsulfatase (atsD),692
+230,43,HP,694
+1914,109,Conserved HP,698
+758,378,AP endonuclease family 2 (end),699
+842,521,hydrolase/esterase; lpqP,700
+2894,899,Membrane protein; MmpL family (mmpL5),705
+2894,1773,membrane protein; mmpL family (mmpL5),705
+656,368,Transcriptional regulator; putative (rspl),709
+311,250,Conserved HP,719.2
+1412,605,Glycosyltransferase,723
+2271,1895,arylsulfatase (atsA),738
+941,472,HP,740
+980,84,hydroxyacid dehydrogenase family protein (HP),753
+533,55,RNA pol sigma 70 factor ECF family  (sigL),759
+557,260,HP,769
+215,212,HP,780
+545,123,HP   ,787
+1355,541,P450 heme-thiolate protein,788
+1208,581,P450-heme thiolate protein,790
+1469,1436,Aldehyde dehydrogenase (aldA),792
+779,649,Conserved HP,800
+2156,664,Protease II ; ptrBa,805
+638,567,Conserved HP,810
+1301,553,Aminopeptidase (pepC),821
+1598,836,cpsY protein,826
+1598,1501,cpsY protein,826
+833,403,thiosulfate sulfurtransferase cysA2 (also MT3199 and Rv3117),837
+2054,1972,LytR/CpsA/Psn family protein,844
+1169,682,Nif3/5 MMI family protein,845
+1091,47,HP,848
+1091,1018,HP,848
+395,237,IS 1605 transposase truncation (HP),850
+917,823,HP,852
+1004,300,dehydrogenase E1 component (HP),865
+650,537,DNA-binding response regulator LuxR family,866
+1213,415,cysteine synthase putative (cysM3),871
+1682,515,Indolepyruvate decarboxylase putative,876
+443,276,Conserved HP,877
+788,675,conserved HP,900
+1334,300,PPE family protein,901
+1727,1478,Ferrodoxin/Ferrodoxin- NADP reductase (fprB),909
+1523,1105,HP,911
+2648,961,Transcriptional regulator; luxR family,914
+2648,1258,Transcriptional regulator LuxR family (HP),914
+2648,1614,transcriptional regulatory protein; LuxR family,914
+2648,2407,transcriptional regulator LuxR family,914
+857,528,HP,915
+977,56,Conserved HP,917
+179,19,HP,933
+434,286,conserved HP,934
+1076,829,HP,953
+1112,196,Phosphate ABC transporter P binding protein [pstS],959
+1112,897,phosphate ABC transporter; phosphate binding protein (pstS),959
+773,51,HP,968
+773,55,HP,968
+245,172,HP,968.1
+995,802,HP,969
+995,960,HP,969
+230,177,HP,974
+347,172,HP,989
+2803,2757,PE_PGRS family protein,1004
+656,612,HP,1019
+1175,298,HP,1025
+1208,1085,arginine deaminase; arcA,1030
+1703,508,HP ,1035
+1703,665,HP,1035
+1703,694,HP,1035
+1703,1105,HP,1035
+647,284,ribosomal L25 family protein (rplY),1043
+3704,3067,Transcriptional repair coupling factor,1048
+1715,1477,potassium-transporting ATPase; A subunit (kdpA),1058
+830,214,DNA binding response regulator TrcR,1062
+830,737,DNA binding response regulator TrcR,1062
+927,925,HP,1072
+1025,279,Protease related protein,1073
+788,587,HP,1075.1
+1115,490,HP,1078
+1115,542,HP,1078
+755,155,HP,1081
+624,28,HP,1082
+389,290,HP,1083
+1811,1063,HP,1099
+860,627,Conserved HP,1103
+956,172,HP,1105
+722,312,proline-rich antigen (pra),1109
+311,125,HP,1134
+1112,449,3-beta-hydroxysteroid dehydrogenase/isomerase,1137
+272,86,Exodeoxyribonuclease; small subunit,1138
+983,784,HP,1142
+983,973,HP,1142
+1073,481,GTP binding protein,1143
+1460,1272,DNA binding protein; putative,1161
+374,235,Conserved HP,1172
+218,154,HP (b/w Rv1139/1140),1172.1
+1187,493,fatty acid-CoA racemase (mcr),1176
+1187,776,Fatty acid-CoA racemase (mcr),1176
+1187,1062,Fatty acid CoA racemase (mcr),1176,
+1499,1206,Conserved HP,1183,
+927,387,IS Mt 1 transposase (HP),1184,
+1115,1113,HP,1193,
+1676,165,nitrate reductase b-subunit (narH),1199,
+620,459,Nitrate reductase delta subunit (narJ),1200,
+725,382,Nitrate reductase gamma subunit,1201,
+725,657,Nitrate reductase gamma-subunit (narL),1201,
+1886,1613,GTP binding elongation factor family protein,1202,
+1886,1885,GTP-binding elongation factor family protein,1202,
+1040,409,PPE family protein [PPE],1205,
+770,448,HP,1216,sister colony
+3008,2828,Membrane protein mmpL family (mmpL10),1220,
+1616,586,HP,1223,
+1631,1609,delta-1-pyrroline-5-carboxylate dehydrogenase (rocA),1224,
+563,356,Conserved HP,1243,
+1163,262,Glycosyl transferase,1250,
+1214,724,glucose-1-phosphate adenylyltransferase (glgC),1251,
+1685,475,diester hydrolase putative,1253,
+1685,905,diester hydrolase putative (HP),1253,hot spot
+1685,905,diesterhydrolase putative,1253,hot spot
+1685,1531,diesterhydrolase (HP),1253,
+593,580,HP,1264.1,
+1307,1252,HP,1270,
+1181,839,sugar ABC transporter  (sugC),1276,
+431,314,HP,1280,
+3441,1124,HP,1290,
+1166,1015,Transcriptional regulator AfsR/DnrI/RedD family,1305,
+698,345,HP,1306,
+698,364,HP,1306,
+422,396,HP,1307,
+1895,1328,ABC transporter ATP-binding protein (HP),1310,
+1895,1568,ABC transporter ATP-binding protein,1310
+1895,1876,ABC transporter,1310
+1253,59,Exonuclease SbcD-related protein,1314
+1523,64,Conserved HP,1328
+1217,9,undecaprenyl-phosphate-alpha-N-acetylglucosaminyltransferase (rfe),1341
+1217,1195,Undecaprenyl-phosphate,1341
+1676,357,adenylate cyclase putative,1361
+1703,1410,adenylate cyclase putative,1362
+1346,288,nicotinate phosphoribosyltransferase putative ,1372
+440,334,Conserved HP,1376
+821,315,Conserved HP,1380
+1871,1124,GGDEF protein (HP),1397
+923,593,conserved HP,1400
+3479,42,Transcriptional regulator LuxR family,1402
+3479,896,transcriptional regulator LuxR family,1402
+2045,1128,sensory box protein/ anti-anti-sigma factor (rsbU),1410
+260,43,HP,1413,
+308,305,PE family protein,1430,
+1619,367,PPE family protein [PPE],1431,
+1478,1429,Monoxygenase flavin-binding family,1438,
+1385,619,P450 heme-thiolate protein,1439,
+824,766,Methyltransferase,1447,
+527,225,transcriptional regulatory Mar family (HP),1448,
+824,795,Conserved HP,1449,
+1940,18,Exinuclease ABC subunit C (uvrC),1463,
+827,359,Acyltransferase family protein (HP),1471,
+827,695,Acetyltransferase family protein,1471,
+1586,1423,PE family protein,1474,
+1769,655,HP,1475,hot spot
+1769,655,HP,1475,hot spot
+815,645,Conserved HP,1477,
+425,98,HP,1484,
+2300,9,molybdopterin oxidoreductase ,1487,
+2300,11,Molybdopterin oxidoreductase,1487,
+2300,662,molybdopterin oxidoreductase  (bisC),1487,
+410,297,HP,1491,
+1007,172,Quinone oxidoreductase putative (qor),1501,
+1007,416,Quinone oxidoreductase (qor),1501,
+1973,838,cation transporting ATPase E1-E2 family ctpD,1515,
+1145,328,HP,1533.2,
+1145,877,SPFH domain/Band 7 family protein,1533.2,
+1145,1143,SPFH domain Band 7 family ptotein (HP),1533.2,
+356,354,HP,1534,
+228,164,SPFH domain/band 7 family protein (b/w Rv1489/14490),1535,hot spot
+228,165,SPFH domain/band 7 family protein (b/w Rv1489/14490),1535,hot spot
+899,632,HP,1551,
+1799,168,HP,1556,
+1799,488,HP,1556,
+140,23,HP (b/w Rv1508/1509),1556.1,
+770,557,HP,1560,
+770,561,HP,1560,
+419,412,HP ( Rv 1510/1511),1560.1,
+1046,69,GDP-D-mannose dehydratase (gmdA),1561,
+1046,204,GDP-D mannose dehydratase (gmdA),1561,
+1121,78,Glycosyltransferase,1566,
+1073,1050,Glycosyltransferase,1570,
+3440,772,Membrane protein MmpL family (mmpL12),1573,
+6301,3939,polyketide synthase (pks5),1578,
+6301,4061,Mycocerosis acid synthase (pks5),1578,sister colony
+410,125,protozoan/cianobacterial globin family protein (glbN),1594,
+431,421,conserved HP,1597,
+2282,1147,PPE family protein (PPE),1599,
+2282,1771,PPE family protein,1599,
+1715,411,AMP binding family protein (fadD11),1600,
+1715,1367,AMP binding family protein,1600
+743,175,Fumarate reductse iron-sulfur protein (frdA),1604
+1193,800,Membrane protein MmpL family,1608
+1193,921,membrane protein mmpL family (mmpL6),1608
+1829,669,Maltooligosyl trehalose trehalohydrolase,1613
+2189,688,Lipopolysaccharide biosynthesis protein WbpC,1616
+284,95,Conserved HP,1618
+284,274,Conserved HP,1618
+1049,326,biotin synthase (bioB),1624
+239,50,Conservative HP,1625
+1367,688,Conserved HP,1628
+1367,1072,Conserved HP,1628
+887,882,nicotinate-nucleotide pyrophosphorylase (nadC),1632
+758,607,HP,1633
+1406,796,Prolipoprotein diacylglycosyl transferase,1649
+1457,886,cytochrome d uniquinol oidse subunit I (appc),1659
+1331,1222,Adenylate cyclase,1661
+1331,1244,Adenylate cyclase,1661
+2714,2365,DNA pol 1 (polA),1665
+1415,187,Drug transporter putative,1670
+1415,1333,drug transporter putative (HP),1670
+1697,1108,HP,1671
+1775,630,ABC transporter ATP-binding protein (HP),1707
+752,609,Conserved HP,1730
+935,31,Integrase/recombinase XerD,1740
+695,94,Conserved HP,1751
+695,434,Conserved HP,1751
+107,84,HP (between Rv 1719 and 1720),1759
+1247,1132,6-aminohexanoate-dimer hydrolase putative,1764
+419,300,HP,1765
+1385,960,Oxidoreductase FAD-binding,1767
+461,129,HP (b/w Rv1737/1738),1780
+1682,154,Sulfate transporter,1781
+2591,553,ABC transporter,1789
+2591,2544,ABC transporter ATP-binding protein,1789
+1598,348,Very-long-chain acyl-CoA-synthetase (fadD1),1793
+1691,1258,HP,1797
+1544,1105,phospholipase C (plcD),1799
+1595,1307,HP,1809
+383,114,HP,1810
+1202,931,Conserved HP,1820
+1286,1107,HP,1820.1
+1286,1162,Oxidoreductase FAD binding,1821
+2174,638,4-a-glucanotransferase/amylomaltase disproportionating enzyme,1831
+2174,1612,4-a-gluconotransferase,1831
+1280,400,P450 heme-thiolate protein,1834
+300,217,HP (PPE),1838.1
+296,253,Conserved HP,1841
+284,1,conserved HP,1842,
+1967,714,PPE family protein,1849,
+1967,1288,PPE family protein (PPE),1849,
+1967,1855,HP (PPE),1849,
+1271,210,PPE family protein  (PPE),1850,
+1160,737,PPE family protein (PPE),1856.1,
+1160,828,PPE family (PPE),1856.1,
+1190,144,oxidoreductase pyridine nucleotide-disulphide family,1860,
+1190,813,oxidorecuctase pyridine nucleotide-disulphide family,1860,
+431,153,HP,1861,hot spot
+431,153,HP,1861,hot spot
+431,187,HP,1861,
+944,170,Sterol desaturase-related protein,1862,
+944,364,Sterol desaturase-related protein,1862,
+944,683,Sterol desaturase-related protein (HP),1862,sister colony
+704,388,HP,1864,
+1919,516,ABC transporter,1867,
+1643,63,TPP requiring enzyme ilvG (acetoactate synthase),1868,
+1643,1104,TTP requiring enzyme ilvG,1868,
+2426,1904,Preprotein translocase  ,1869,
+2426,1933,Preprotein translocase SecA subunit (secA2),1869,
+2426,2355,Preprotein translocase SecA subunit (SecA2),1869,
+878,116,HP,1873,
+878,508,HP,1873,
+866,346,PEG1/MEST protein,1882,
+1451,1302,6-phosphogluconate dehydrogenase (gnd),1892,
+1451,1417,6-phosphogluconate dehydrogenase (gnd),1892,hot spot
+1451,1417,6-phosphoglyconate dehydrogenase (gnd),1892,hot spot
+314,286,urease beta subunit (ureB),1897,
+680,215,HP (ureD),1901,
+860,367,Oxidoreductase short-chain dehydrogenase/reductase family,1914,
+2414,837,Conserved HP,1915,
+2099,324,Conserved HP,1917,
+2099,2097,Conserved HP,1917,
+1244,745,L-lactate dehydrogenase   (lldD2),1921,
+470,179,HP,1922,
+2063,1,Drug transporter (HP),1926,sister colony
+2063,529,Drug transporter,1926,
+2063,1511,Drug transporter,1926,
+464,376,lipoprotein antigen 22 kDa  (lppE),1930,
+599,77,Chorismate mutase related protein,1933,
+965,520,HP,1936,
+965,793,HP,1936,
+1130,930,HP,1944,
+911,707,Conserved HP,1947,
+1226,760,Sugar transporter family protein,1953,
+434,326,Anti-anti sigma factor,1955,
+962,64,D-amino acid oxidase,1956,
+962,511,D-amino acid oxidase (aao),1956,
+473,407,Conserved HP,1957,
+647,215,HP,1958,hot spot
+647,216,HP,1958,hot spot
+2222,958,Catalase-peroxidase (katG),1959,
+452,6,Ferric uptake regulation protein (furA),1960,
+452,27,Ferric uptake regulator protein (furA),1960,
+617,65,Phosphatidylethanolamine binding protein (lppC),1962,
+752,630,metallo-b-lactase superfamily protein ,1964,
+1832,502,Isocitrate lyase (aceAa),1966,
+4475,1903,PPE family protein (PPE),1968,
+4475,2424,PPE family protein,1968,sister colony
+3041,2737,PPE family protein,1969,
+1271,658,Lipoprotein (lppF),1972,
+1271,1175,lipoprotein (lppF),1972,
+1280,1,Esterase (lipD),1974,
+1280,519,esterase putative (lipD),1974,
+774,218,Conserved HP,1979,
+745,732,HP,1980,hot spot
+745,733,dehydrogenase/reductase family (HP),1980,hot spot
+1229,1141,acyl-CoA dehydrogenase FadE17,1984,sister colony
+2519,459,Ferredoxin reductase electron transfer,1987,
+311,184,Conserved HP,2003,
+449,319,DNA binding protein putative,2005,
+1028,906,Virulence factor mce family,2019,
+1046,892,HP,2029,
+1445,1335,amino acid permease (HP),2031,
+815,427,immunogenic protein MPB64/MPT64 (mpt64),2032,
+1676,60,PE_PGRS,2036,hot spot
+1676,61,PE_PGRS,2036,hot spot
+1676,1378,PE_PGRS,2036,
+653,514,Serine esterase,2037,
+911,878,Transcriptional regulator LysR family (HP),2039
+599,597,Transporter LysE/ YygA family ,2040
+767,545,HP,2051
+1631,63,HP,2056
+641,179,HP,2072
+305,43,DNA-binding protein putative,2077
+998,304,Cation efflux system protein (HP),2084
+1721,273,GAF family protein,2086
+1721,812,GAF family protein,2086
+2045,2028,Conserved HP,2089
+488,442,HP,2095
+12455,2248,Polyketide synthase (pks12),2108
+713,506,Carboxymethylenebutenolidase putative (HP),2114
+1463,135,HP,2135
+299,250,HP,2136
+971,386,HP,2137
+1970,1444,HP,2140
+572,86,HP,2141
+2159,462,HP,2144
+1142,981,HP,2146
+950,692,Conserved HP,2156
+1358,1070,Conserved HP,2158
+296,249,HP,2165
+1517,1309,Conserved HP,2172
+1193,1000,HP,2173
+662,554,HP,2174
+1829,164,ATPase AAA family,2175
+1829,482,ATPase AAA family,2175
+1829,893,ATPase AAA family,2175
+842,712,Conserved HP,2178
+836,835,Conserved HP,2179
+515,511,HP,2180
+452,301,PPE family protein,2182.1
+2444,1853,5-methyltetrahydrofolate - homocysteine (metH),2183
+1388,742,L-asparagine permease,2186
+932,218,Oxidoreductase short chain dehydrogenase/reductase family,2187
+530,350,Conserved HP,2198
+1346,480,amino acylase-1 putative (dapE2) ,2199
+1058,105,Conserved HP,2202
+725,342,HP [lppM],2227
+1199,550,Ser/Thr protein kinase (pknL),2232
+1142,894,Conserved HP,2239
+1811,112,Long chain fatty acid CoA ligase putative,2242
+1811,639,Long chain fatty acid CoA ligase putative,2242
+1214,1127,NLP/P60 family protein,2245
+1913,732,DNA pol III epsilon subunit; putative,2247
+1913,807,DNA polymerase III epsilon subunit,2247
+899,402,conserved HP (mmps3),2254
+710,358,Conserved HP,2262
+710,499,Conserved HP,2262
+1538,537,HP,2265
+1538,1465,HP,2265
+1340,1038,Glutamine synthetase (glnA2),2280
+1340,1093,glutamine synthase (glnA2),2280
+1562,1252,proteinase (HP),2281
+1094,1093,Phosphoglycerate mutase family protein (HP),2287
+1871,418,HP,2289
+476,352,Conserved HP,2299
+785,68,HP,2300
+503,457,HP,2314
+455,226,HP,2315
+1778,487,HP,2324
+1166,531,HP,2329
+182,69,HP,2330.1
+1379,1143,Oxidoreductase FAD binding,2338
+576,218,Lipoprotein (lppO),2347
+1163,569,aminotransferase,2351
+902,67,Haloalkane dehalogenase (HP),2353
+932,732,HP,2357
+845,215,Bem46 protein,2364
+191,121,HP,2365
+191,141,HP,2365
+524,319,HP,2373
+524,362,HP,2373
+1646,1552,Malate oxidoreductase,2394
+1613,258,drug transporter,2395
+2888,29,membrane protein MmpL family,2402
+1241,11,PE family protein,2404
+419,381,Lipoprotein (lppQ),2406
+293,123,HP,2407
+1982,282,Conservative HP,2410
+1982,1979,Conserved HP,2410
+284,12,Conserved HP,2411
+296,251,Conserved HP,2412
+1526,278,Phospholipase C (plcC),2414
+1526,299,Phospholipase C (plcC),2414
+1526,456,Phospholipase C ,2414
+1526,460,Phospholipase C,2414
+1526,476,Phospholipase C (plcC),2414
+1526,706,Phospholipase C (plcC),2414
+1562,588,Phospholipase C (plcA),2416
+1562,1041,phospholipase C (plcA),2416
+1865,544,PPE family protein [PPE],2423
+368,364,HP,2423.1
+1031,166,Heat shock gene transcriptional repressor (HrcA),2443
+1292,151,HP,2456
+1172,119,oxygen-independent coproporphyrinogen III (hemN),2457
+1172,235,oxygen-independent coproporphyrinogen 3 oxydase putative,2457
+557,222,HP,2459
+2003,201,OPT family protein,2465
+293,87,CBS domain protein,2478
+1004,431,PE family protein,2481
+977,598,Conserved HP,2483
+977,612,Conservative HP,2483
+1655,100,Conserved HP,2484
+1655,161,Conserved HP,2484
+1655,590,conserved HP,2484
+1046,6,HP,2496
+671,543,PPE family protein (PPE),2505
+1304,886,conserved HP,2525
+144,15,HP,2527.1
+1976,1503,Ferrodoxin oxidoreductase alpha-subunit,2530,
+1400,434,Trigger factor (tig),2537,
+1184,1183,Esterase (lipP),2538,
+2585,372,Aminopeptidase N (pepD),2542,hot spot
+2585,373,Aminopeptidas N,2542,hot spot
+2585,609,amino peptidase N (pepD),2542,
+668,56,HNH endonuclease family protein ,2545,
+677,245,HP,2548,
+1265,1,Carboxylesterase family protein (lipQ),2559,
+770,282,Enoyl-CoA hydratase/isomerase family protein (echA14),2560,
+2084,1085,PE_PGRS family protein,2561,
+3341,919,Transcriptional regulator LuxR family (HP) ,2563,
+3341,3340,transcriptional regulator LuxR family,2563,
+1103,319,2-oxoisovalerte dehydrogenase E1 component (pdhA),2572,
+656,70,Succinyl-CoA-3-Ketoacid-Coenzyme A transferase,2578,
+293,130,HP,2593.1,
+1505,1446,PE family protein (PPE),2595,
+224,106,HP,2606,
+2843,1415,Decarboxylase Orn/Lys/Arg family (adi),2607,
+795,74,HP,2616,
+795,676,HP,2616,
+209,131,HP (b/w Rv2550/2551),2627.1,
+674,260,HP,2634,
+503,466,HP,2650,
+464,160,HP,2652,
+1587,953,purple acid phosphotase - related protein (HP),2654,
+902,39,1346-tetrachloro-14cyclohexadiene hydrolase (linB),2656,hot spot
+902,39,1346-tetrachloro-14-cyclohexadiene hydrolase (linB),2656,hot spot
+902,242,1346 tetrachloro 14 cyclohexadienehydrolase [linB],2656,hot spot
+902,243,1346-tetrachloro-14cyclohexadiene hydrolase (linB),2656,hot spot
+2381,322,GTP pyrophosphokinase (relA),2660,
+3506,1393,Substrate-CoA ligase [fadD9],2667,
+3506,3123,Substrate CoA ligase putative,2667
+1517,1305,PE_PGRS family protein (PE_PGRS),2668.1
+431,333,HP,2674
+456,204,Conserved HP,2674.1
+1571,779,Spermidine synthase,2675
+587,288,HIT family protein,2688
+440,69,HP,2692
+425,314,Conserved HP,2695
+485,16,HP,2709
+458,457,Conserved HP,2719
+719,6,riboflavin specific deaminase related protein ribD,2745
+410,139,PiIB-related protein,2748
+752,411,Conserved HP,2749
+752,456,Conserved HP,2749
+752,564,Conserved HP,2749
+830,14,Enoyl CoA hydratase/isomerase family protein (echA15),2753
+1289,332,Transporter NadC/P/Pho87 family (arsA),2758
+383,236,HP,2778
+383,382,HP,2778
+974,494,Conserved HP,2780
+974,748,Conserved HP,2780
+1058,727,HP,2785
+1406,1039,oxidoreductase pyridine nucleotide-disulphide,2786
+974,240,Conserved HP,2787
+2099,279,Conserved HP,2794
+476,239,HP,2801.1
+476,471,HP,2801.1
+854,296,HP,2803.2
+266,11,HP,2810
+890,540,Conserved HP truncation,2821
+395,111,Conservative HP,2829
+1094,66,Type I restriction system specificity protein,2831
+419,46,HP,2832,
+1208,1185,PPE family protein,2840,
+1232,968,acyl-CoA dehydrogenase (fadE21),2859,
+1202,810,Non-specific lipid transfer protein (ltp1),2860,sister colony
+974,292,Conserved HP,2864,
+629,378,HP,2867.1,hot spot
+629,379,HP,2867.1,hot spot
+629,481,HP,2867.1,
+629,629,HP,2867.1,
+465,191,HP,2871,
+465,299,HP,2871,
+341,67,Conservative HP,2883,
+341,90,conserved HP,2883,
+908,743,HP,2887,
+944,822,HP,2891,
+947,472,HP,2894,
+950,894,DHH family protein,2903
+1479,383,malate: quinone oxidoreductase (HP),2918
+1373,1288,Glutamine synthetase putative (glnA4),2928
+380,15,HP,2932
+1856,546,Penicillin binding protein,2933
+1856,1242,Penicillin binding protein putative (HP),2933
+710,378,HP,2934
+710,677,HP (b/w genes Rv2864/2865),2934
+443,439,HP,2939
+662,64,Cell surface lipoprotein Mpt83,2940
+2087,356,HP,2942
+392,268,HP,2944
+1421,1123,amidase family protein (amiC),2956
+1226,453,PPE family protein (PPE),2959
+2339,3,formate dehydrogenase alpha-subunit (fdhF),2968
+794,343,Ribonuclease HII,2970
+794,628,Ribonuclease HII (rnhB),2970
+944,789,Lipoprotein (lppW),2973
+944,844,Lipoprotein putative (lppW),2973
+1835,1604,HP,2981
+1811,43,Ser/Thr protein kinase (pknI),2982
+1811,134,Serine/threonine protein kinase (pknL),2982
+2426,2287,Protein-pII uridylyltransferase (glnD),2986
+3617,2788,Chromosome segregation SMC protein putative,2990
+3617,3523,Chromosome segregation SMC protein (smc),2990
+413,39,HP,2992
+1751,954,Acyl-CoA-synthase,2999
+1751,1742,Acyl-CoA synthase (fadD26),2999
+5626,59,Polyketide synthase (ppsA),3000
+4464,566,polyketide synthase (ppsE),3005
+995,816,antibiotic resistence ABC transporter efflux system ATP binding protein (drrA),3006
+869,465,antibiotic resistance ABC transporter efflux (drrB) ,3007
+869,503,anitbiotic resistance ABC transporter efflux  (drrB),3007
+1268,360,Conserved HP,3009
+6335,150,Mycocerosic acid synthase (mas),3010
+6335,5299,Mycocerosic acid synthase,3010
+1742,74,acyl-CoA synthase FadD28,3011
+1742,353,acyl-CoA synthase fadD28,3011
+2762,630,membrane protein MmpL family (mmpL7),3012
+4862,1257,Polyketide synthase (pks1),3018
+2117,450,substrate CoA-ligase fadD22,3021
+2117,457,substrate CoA-ligase  (fadD22),3021
+1145,212,N5 N10 methylenetetrahydromethanopterin reductase related protein,3025
+1256,920,Conserved HP,3027
+974,874,HP,3029
+770,733,glycosyl transferase,3031
+737,27,Conserved HP,3035
+1350,1348,UDP-glucoronosye and UDP-glucosyltransferase (HP),3038
+2213,2201,ATP dependent DNA helicase (RecG),3051
+860,62,HP,3068
+860,464,HP,3068
+839,752,conserved HP,3085
+710,523,Oxidoreductase,3087
+623,387,HP,3088
+932,468,PPE family protein,3101
+845,1,HP (b/w Rv3027/3028),3111
+683,472,immunogenic protein MPB64/MPT64 precursor,3121
+1040,582,DNA damage inducible proteinP putative (dinP),3142
+863,486,Oxidoreductase short chain,3143
+863,735,Oxidoreductase short chain,3143
+2165,2161,acyl-CoA dehydrogenase putative (fadE22),3147
+2276,893,Carbon starvation protein A (cstA),3149
+2276,1275,Carbon starvation protein A,3149
+423,68,Conserved HP,3150
+1643,80,Phosphoglucomutase (pgmA),3153,
+1811,827,sulfatase family protein (atsF),3162,
+1811,883,sulfatase family protein (atsF),3162,
+1811,1356,sulfatase family protein (ats F),3162,
+1310,751,HP,3166,
+1058,244,transcriptional regulator AraC family (virS),3167,
+1058,715,transcriptional regulator/AraC family (virS),3167,
+1487,1116,monoxygenase flavin binding family,3168,
+1424,349,conserved HP,3173,
+1511,1175,Substrate CoA-ligase,3174,
+1691,187,HP,3176,
+1583,636,alkyl dihydroxyacetone phosphate synthase,3190,
+935,934,transcriptional regulator AfcR/Dnr/RedD (HP),3208,
+806,124,Universal stress protein family,3220,
+1406,1002,Acyl-CoA dehydrogenase (fadE24),3226,
+401,117,Conserved HP,3230,sister colony
+1232,914,NADH dehydrogenase I subunit H (nuoH),3240,
+1232,1060,NADH dehydrogenase I H subunit (nuoH),3240,
+1664,1339,NADH dehydrogenase I M subunit,3245,
+1595,545,NADH dehydrogenase I subunit N (nuoN),3246,
+1253,444,HP,3258,
+1364,1361,Amine oxidase Flavin-containing,3259,
+902,193,hydrolase alpha/beta hydrolase fold family (HP),3266,
+1364,601,HP,3270,
+329,308,HP,3275,
+1034,585,IS1603 transposase,3281,
+1343,660,ABC transporter,3290,sister colony
+2102,1115,ATP dependent DNA helicase,3291,
+254,26,conserved HP,3292,
+1160,527,MutT/nudix family protein,3293,
+965,295,diacylglycerol kinase catalytic domain-containing protein,3314,
+887,6,RNA pol Sigma Factor (pvdS),3329,
+887,439,RNA pol sigma factor putative (pvdS),3329,
+1157,598,Cation/H+ antiporter (kefB),3333,
+734,454,HP,3335,
+3197,2589,Drug transporter,3337,
+725,276,HP,3340,
+1250,207,alkane-1-monooxygenase,3350,sister colony
+1250,233,Alkane-1-monooxygenase,3350,hot spot
+1250,234,alkane-1-monooxygenase,3350,hot spot
+1250,468,Alkane 1-monoxygenase putative,3350,
+1250,748,Alkane-1 monooxygenase (HP),3350,
+1250,999,alkane-1-monoxygenase,3350,
+1424,1132,Conserved HP,3352,sister colony
+1040,233,HP,3354,
+1661,9,Modification methylase,3363,
+2294,512,Sulfate transporter/carbonic anhydrase,3373,
+1169,393,acyl-CoA-dehydrogenase,3374,
+893,546,Thiosulfate sulfurtransferase (sscA),3382
+377,249,HP,3388
+1349,72,lysine-epsilon aminotransferase (lat),3389
+1349,599,lysine-epsilon amonotransferase (eat),3389
+4541,631,ATP-dependent helicase putative (lhr),3395
+4541,2457,ATP dependent helicase (lhr),3395
+2978,2857,sulfatase family protein,3398
+917,30,RNA pseudouridylate synthase family,3399
+1184,250,hydrolase Ama/HipO/HyuC family (amiB),3405
+1295,1230,Conserved HP,3410
+932,134,hydrolase alpha/beta hydrolase fold family,3411
+1283,1094,Thymidine phosphorylase (deoA),3415
+1772,442,Succinate dehydrogenase flavoprotein subunit (sdhA),3419
+1772,557,Succinate dehydrogenase flavoprotein subunit ,3419
+1790,991,IS 1547 transposase,3430
+1217,682,penicillin binding protein,3433
+438,339,transcriptional regulator MerR family,3438
+1229,98,Isocitrate dehydrogenase NADP-dependent,3442
+11355,3575,PPE family protein,3458
+9500,1736,PPE family protein (PPE),3453
+9500,4612,PPE family protein (PPE),3453
+9500,6665,PPE,3453
+9500,8471,PPE family protein,3453
+9500,8700,PPE family protein,3453
+9500,8737,HP,3453
+11355,1035,PPE family protein,3458
+11355,3081,PPE family protein,3458
+11355,3772,PE family protein (PPE),3458
+11355,4843,PPE family protein,3458
+11355,5954,PPE,3458
+11355,7007,PPE,3458
+392,253,Conserved HP,3472
+2630,1884,Conserved HP,3474
+3296,1652,DNA polymerase III alpha subunit putative (dnaE2),3480
+1427,426,amidase family protein (amiD),3485
+1505,1449,Cyclase putative (HP),3487
+1505,1470,Cyclase putative,3487
+1836,1396,HP,3489
+677,237,IS 1560 transposase,3494.1
+2327,2326,PE_PGRS,3495
+710,399,lipoprotein putative (lpqD),3497
+926,715,inosine-uridine preferring nucleoside hydrolase (iunH),3500
+641,169,HP,3503
+2360,533,conserved HP,3509
+1238,77,Degt/DnrJ/EryC1 family protein (HP),3510
+1238,744,DegT/DnrJ/Ery C1 family protein,3510
+1601,84,HP,3511
+1601,1260,HP,3511
+564,542,Transcriptional regulator TetR family,3513,
+887,724,Dioxygenase putative (HP),3514,
+401,332,HP,3516,
+674,9,RNA polymerase sigma 70 factor ECF family ,3523,
+1619,601,Chaperonin 69kDa (groEL1),3526,sister colony
+1034,369,O-sialoglycoprotein endopeptidase [gcp],3528,
+534,283,PPE family protein (PPE),3533,
+713,474,HP,3540,
+938,365,HP,3541,
+938,886,HP,3541,
+311,16,HP,3545,
+311,38,HP,3545,
+407,13,HP,3550,
+407,403,HP,3550,
+3600,2495,FtsK/SpoIIIE family protein,3553,
+743,586,serine exterase cutinase family,3557,
+1688,931,HP,3561
+1688,1452,HP,3561
+857,624,HP,3569
+1004,326,4-hydroxy-2-oxovalerate aldolase (mphE),3575
+1349,103,sugar transporter family protein (kgtP),3580
+1349,435,sugar transporter family protein (kgtP),3580
+1179,293,PPE family protein (PPE),3582
+3227,1514,HP,3583
+1517,1176,HP,3584
+689,116,HP,3585
+983,18,esterase (lipF),3591
+578,324,HP,3595
+1154,1021,Virulence factor/ lprN mce family protein,3599
+1073,459,virulence factor mce family protein,3601
+1052,922,Virulence factor mce family protein,3602
+842,687,conserved HP,3604
+713,674,Conserved HP,3605
+836,752,Conserved HP,3614
+1646,518,Substrate CoA-ligase putative (fadD19),3616
+1031,747,N5 N10 methylene tetrahydromethaopterin reductase related protein,3621
+1064,276,non-specific lifpid transfer protein possible (HP),3622.1
+524,139,siderosphore binding protein putative,3625
+524,522,siderosphore binding protein putative,3625
+1184,608,HP,3626
+1151,949,HP,3632
+1082,1056,Conserved HP,3657
+2018,463,fatty acid desaturase putative ferrodoxin (fdxB),3658
+2018,618,Fatty acid desaturaseferredoxin reductase,3658
+1160,13,Thiolase (fadA6),3660
+1871,429,PPE family protein [PPE],3663
+1184,912,Hydroxylase,3675
+1076,542,Oxidoreductase electron transport component,3676
+730,729,Transcriptional regulator LacI family,3679
+1076,397,Conserved HP,3692
+419,329,Aspartate 1-decarboxylase (panD),3706.1
+2282,869,Cell division protein FtsH,3714
+968,31,epoxyde hydrolase (eph A),3719
+968,266,epoxide hydrolase (ephA),3719
+1187,595,Luciferase related protein,3720
+1124,651,conserved hypothetical transmembrane protein,3731
+1229,484,IS 1553 transposase,3742
+2315,322,ATP dependent RNA helicase DEAD/DEAH box family,3751
+785,734,Conserved HP,3760
+1646,1355,Peptide ABC-transporter (dppD),3764
+698,441,HP,3769
+788,274,Ultraviolet N-glycosylase/ AP lyase [nth],3775
+377,202,HP,3776
+2432,1504,Penicillin binding protein 1 (ponA),3784
+1145,932,HP,3793,
+1187,491,Conserved HP,3796,
+1187,640,Conserved HP,3796,
+1553,1115,Glycerolkinase (glpK),3798,
+1553,1305,Glycerol kinase,3798,
+1277,1116,Conservative HP,3806,
+644,35,HP,3808,
+1025,357,Conserved HP,3817,
+725,443,N-acetylmuramyl-L-alanine amidase - related,3820,
+1283,340,cyclopropane-fattyacyl-phospholipid synthase,3823,
+929,872,Oxidoreductase,3828,
+2330,2301,moaA/nifB/pqqE family protein,3833,
+1076,76,DNA ligase putative (ligC),3836,
+500,350,HP  ,3838,
+1364,400,HP,3839,
+1061,527,Transcriptional regulator AraC family,3841,sister colony
+1232,465,PPE,3844,
+1346,1144,HP,3848,
+1982,809,Cation-transporting ATPase E1-E2 family,3851,
+1982,1042,Cation-transporting ATPase E1-E2 family,3851,
+1982,1072,Cation transporting ATPase E1-E2 family,3851,
+212,67,Conserved HP,3853,
+500,256,HP ,3860,
+1904,418,Metallo-beta-lactamase superfamily protein,3869,
+1904,1210,metallo-beta-lactamase superfamily protein,3869,
+575,58,HP,3877,
+1628,789,HP,3885,
+1626,1377,HP,3885,sister colony
+986,671,Quinone oxidoreductase,3886,
+842,840,O antigen export system permease protein (HP),3892,
+2138,7,NAD-dependent epimerase/dehydratase family protein (epiB),3893,
+2138,328,NAD-dependent epimerase/hydratase family prot. epiB,3893,
+2138,905,NAD-dependent epimerase/dehydratase family protein (epiB),3893,
+2138,1772,NAD dependent epimerase/dehydrase family protein (HP) ,3893,
+1016,722,Conserved HP,3903,
+1514,739,PE_PGRS family protein (PE_PGRS),3920,
+755,26,acyltransferase family protein,3924,
+3269,53,Membrane protein MmpL family (mmpL8),3931,
+3269,68,membrane protein mmpL family (mmpL8),3931,
+1535,1257,conserved HP  (papA1),3932,
+6380,5755,mycocerosic acid synthase  (pks2),3933,
+1226,138,IS 1537 Transposase,3935,
+611,418,IS1537 resolvase,3936,
+776,395,HP,3947,
+776,567,HP,3947,
+398,72,HP,3964,
+1469,1468,Monooxygenase flavin-binding family (HP),3969,sister colony
+350,238,HP,3976,
+1721,347,ATPase AAA family,3981,
+2243,313,FtsK/SpoIIIE family protein,3983,
+2243,2023,FtsK/SpoIIIE family protein,3983,
+1115,37,PPE family (PPE),3987,
+2171,27,HP,3993,
+2171,102,HP,3993,sister colony
+1407,70,HP,4002,
+1409,1181,HP,4002,
+830,466,Conserved HP,4004,
+4190,3958,FtsK/SpoIIIE family protein,4010,
+2538,2227,HP,4022,
+590,559,RNA polymerase sigma 70 factor ECF family (sigM),4030,

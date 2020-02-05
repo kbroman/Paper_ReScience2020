@@ -1,0 +1,4251 @@
+gene,length,class
+1,1524,MMM: DNA replication; repair; recombination and restriction/modification
+2,1209,MMM: DNA replication; repair; recombination and restriction/modification
+3,1158,MMM: DNA replication; repair; recombination and restriction/modification
+4,564,Conserved Hypotheticals
+5,2061,MMM: DNA replication; repair; recombination and restriction/modification
+6,2517,MMM: DNA replication; repair; recombination and restriction/modification
+7,915,Conserved Hypotheticals
+9,138,noRV
+10,438,Unknowns
+11,549,MMM: Protein translation and modification
+12,153,noRV
+13,426,Unknowns
+14,282,Unknowns
+15,789,Cell Process: Cell division
+16,699,SMM: Biosyn of Folic acid
+17,1881,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+18,1296,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+19,1476,MMM: Murein sacculus and peptidoglycan
+20,1410,MMM: Murein sacculus and peptidoglycan
+21,1536,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+22,468,Conserved Hypotheticals
+23,1566,Conserved Hypotheticals
+24,969,Conserved Hypotheticals
+25,309,Conserved Hypotheticals
+26,771,SMM: Repressors/activators
+27,846,Other: Virulence
+28,273,Conserved Hypotheticals
+29,1347,Conserved Hypotheticals
+30,318,Conserved Hypotheticals
+30.1,228,noRV
+31,144,noRV
+32,579,Unknowns
+33,453,Conserved Hypotheticals
+34,330,Unknowns
+35,213,Conserved Hypotheticals
+36,258,noRV
+37,2316,SMM: Biosynthesis of Biotin
+38,264,SMM: Biosyn of fatty and mycolic acids
+39,396,Unknowns
+40,1689,SMM: Degradation of fatty acids
+41,774,Conserved Hypotheticals
+42,1302,MMM: Other membrane proteins
+43,609,Conserved Hypotheticals
+44,348,Conserved Hypotheticals
+46,933,Conserved Hypotheticals
+47,2910,MMM: Aminoacyl tRNA synthases and their modification
+48,627,Conserved Hypotheticals
+49,735,SMM: Repressors/activators
+50,795,SMM: Misc oxidoreductases and oxygenases
+51,897,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+52,1104,Conserved Hypotheticals
+53,543,Conserved Hypotheticals
+54,870,Unknowns
+55,414,Unknowns
+56,2463,MMM: Murein sacculus and peptidoglycan
+57,1638,MMM: Other membrane proteins
+58,639,Conserved Hypotheticals
+59,291,MMM: Ribosomal protein synthesis and modification
+60,495,MMM: DNA replication; repair; recombination and restriction/modification
+61,255,MMM: Ribosomal protein synthesis and modification
+62,459,MMM: Ribosomal protein synthesis and modification
+63,522,Unknowns
+64,2625,MMM: DNA replication; repair; recombination and restriction/modification
+65,693,Unknowns
+66,1059,Unknowns
+66.1,381,Unknowns
+66.2,213,noRV
+67,1143,MMM: Degradation of Polysaccharides; lipopolysaccharides and phospholipids
+68,1440,SMM: Misc oxidoreductases and oxygenases
+69,162,noRV
+70,2940,MMM: Other membrane proteins
+71,402,Conserved Hypotheticals
+72,2238,SMM: Energy Metabolism-TCA cycle
+73,570,SMM: Repressors/activators
+74,912,SMM: Misc oxidoreductases and oxygenases
+75,1386,SMM: Intermediate Metabolism-Gluconeogenesis
+76,1278,SMM: Amino acid synthesis-Serine family
+77,717,MMM: DNA replication; repair; recombination and restriction/modification
+78,1050,MMM: Other membrane proteins
+79,993,MMM: Other membrane proteins
+80,1236,Conserved Hypotheticals
+81,1173,Other: Miscellaneous Transferases
+82,390,MMM: Other membrane proteins
+83,855,SMM: Misc oxidoreductases and oxygenases
+84,606,SMM: Repressors/activators
+85,594,noRV
+85.1,213,noRV
+86,822,Unknowns
+87,414,Unknowns
+88,345,SMM: Repressors/activators
+89,480,SMM: Misc oxidoreductases and oxygenases
+90,1923,SMM: Misc oxidoreductases and oxygenases
+91,951,SMM: Misc oxidoreductases and oxygenases
+92,663,SMM: Misc oxidoreductases and oxygenases
+93,1467,SMM: Misc oxidoreductases and oxygenases
+95,1293,SMM: Misc oxidoreductases and oxygenases
+96,675,Unknowns
+98,594,SMM: Biosynthesis of Biotin
+99,771,Unknowns
+99.1,372,noRV
+100,768,Conserved Hypotheticals
+101,2286,Cell Process: Transport/Binding: cations
+102,849,Unknowns
+103,864,Other: IS elements: REP13E12 family
+104,668,Other: IS elements: REP13E12 family
+105,1392,Other: PPE family of proteins
+106,870,Conserved Hypotheticals
+107,552,Unknowns
+108,1623,SMM: Degradation of fatty acids
+109,237,Unknowns
+110,7563,SMM: Polyketide and non-ribosomal peptide synthesis
+111,1986,MMM: Other membrane proteins
+112,2259,Cell Process: Transport/Binding: cations
+113,1515,Unknowns
+114,285,MMM: Ribosomal protein synthesis and modification
+115,1197,Conserved Hypotheticals
+116,4878,Cell Process: Transport/Binding: cations
+116.1,126,noRV
+117,207,Unknowns
+118,1602,Other: PE family: PGRS subfamily
+119,855,MMM: Other membrane proteins
+120,2058,Other: Miscellaneous Transferases
+121,957,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+122,1263,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+123,1161,Conserved Hypotheticals
+124,189,noRV
+125,633,Conserved Hypotheticals
+125.1,951,SMM: Repressors/activators
+126,1749,SMM: Degradation of Carbon compounds
+127,1629,SMM: Degradation of fatty acids
+128,2145,MMM: Protein translation and modification
+129,435,Unknowns
+130,420,Unknowns
+131,369,Unknowns
+132,1686,Other: PE family: PGRS subfamily
+133,1068,MMM: Degradation of Proteins; peptides and glycopeptides
+134,1806,MMM: Polysaccharides (cytoplasmic)
+135,1368,Conserved Hypotheticals
+136,780,Unknowns
+137,1041,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+138,456,Conserved Hypotheticals
+139,1344,SMM: Degradation of fatty acids
+140,1083,SMM: Misc oxidoreductases and oxygenases
+141,606,Other: Antibiotic production and resistance
+142,903,Cell Process: Detoxification
+143,606,SMM: Repressors/activators
+144,1326,Other: Cytochrome P450 enzymes
+145,549,SMM: Misc oxidoreductases and oxygenases
+146,504,Conserved Hypotheticals
+147,1023,SMM: Misc oxidoreductases and oxygenases
+148,381,Conserved Hypotheticals
+149,411,Unknowns
+150,927,Unknowns
+151,1479,Cell Process: Transport/Binding: Anions
+152,843,SMM: Repressors/activators
+153,954,Conserved Hypotheticals
+154,942,Conserved Hypotheticals
+155,1476,SMM: Misc oxidoreductases and oxygenases
+156,882,SMM: Misc oxidoreductases and oxygenases
+157,969,SMM: Misc oxidoreductases and oxygenases
+158,288,Conserved Hypotheticals
+159,126,noRV
+160,1767,Other: PE family: PE subfamily
+161,1602,Other: PE family: PE subfamily
+162,831,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+163,1224,SMM: Degradation of fatty acids
+164,1431,SMM: Intermediate Metabolism-General
+165,1428,SMM: Intermediate Metabolism-General
+167,645,SMM: Repressors/activators
+168,1407,Other: PE family: PE subfamily
+169,1509,Other: PE family: PE subfamily
+170,1351,SMM: Misc oxidoreductases and oxygenases
+171,1152,SMM: Misc oxidoreductases and oxygenases
+172,456,SMM: Misc oxidoreductases and oxygenases
+173,486,Conserved Hypotheticals
+174,672,SMM: Repressors/activators
+175,1557,SMM: Degradation of fatty acids
+176,798,Other: Virulence
+177,678,Other: Virulence
+178,1584,Other: Virulence
+179,1041,Other: Virulence
+180,1521,Other: Virulence
+181,1593,Other: Virulence
+182,1170,MMM: Cell membrane-Lipoproteins
+183,1548,Other: Virulence
+184,585,Conserved Hypotheticals
+185,963,Conserved Hypotheticals
+186,555,Conserved Hypotheticals
+187,735,Conserved Hypotheticals
+188,1110,MMM: Cell membrane-Lipoproteins
+189,1359,MMM: Other membrane proteins
+190,735,Conserved Hypotheticals
+191,1113,MMM:RNA synthesis; RNA modification and DNA transcription
+192,972,SMM: Misc oxidoreductases and oxygenases
+193,750,Conserved Hypotheticals
+194,510,Conserved Hypotheticals
+195,2076,SMM: Degradation of Carbon compounds
+196,162,noRV
+197,657,Other: Miscellaneous Transferases
+198,432,Other: Miscellaneous Transferases
+199,1728,SMM: Amino acid synthesis-Branched aa
+200,291,Conserved Hypotheticals
+201,1242,MMM: Other membrane proteins
+202,1101,Conserved Hypotheticals
+203,1827,Unknowns
+204,3726,MMM: Other membrane proteins
+204.1,150,noRV
+205,771,SMM: Repressors/activators
+206,585,SMM: Repressors/activators
+207,2250,Conserved Hypotheticals
+208,1992,MMM: Degradation of Proteins; peptides and glycopeptides
+209,549,Conserved Hypotheticals
+210,690,MMM: Other membrane proteins
+211,498,Conserved Hypotheticals
+212,2901,MMM: Conserved membrane proteins
+213,411,Unknowns
+214,1239,MMM: Other membrane proteins
+215,1104,MMM: Other membrane proteins
+216,2835,MMM: Conserved membrane proteins
+217,735,Conserved Hypotheticals
+218,792,Conserved Hypotheticals
+219,1086,Unknowns
+220,1446,Unknowns
+221,1821,SMM: Intermediate Metabolism-Gluconeogenesis
+222,972,SMM: Repressors/activators
+223,1314,Other: Miscellaneous Transferases
+224,1614,SMM: Degradation of fatty acids
+225,1122,SMM: Degradation of fatty acids
+226,1014,Conserved Hypotheticals
+227,822,MMM: Esterases and Lipases
+228,1329,SMM: Misc oxidoreductases and oxygenases
+229,549,Unknowns
+230,1212,MMM: Esterases and Lipases
+231,1350,Conserved Hypotheticals
+232,789,SMM: Degradation of fatty acids
+233,1464,SMM: Misc oxidoreductases and oxygenases
+234,765,Other: Miscellaneous Transferases
+235,1155,MMM: Other membrane proteins
+236,1731,MMM: Other membrane proteins
+237,1266,MMM: Other membrane proteins
+238,1140,Other: Miscellaneous Transferases
+239,681,Conserved Hypotheticals
+240,1038,Conserved Hypotheticals
+241,1707,SMM: Degradation of fatty acids
+242,690,SMM: Repressors/activators
+244,945,SMM: 2'-deoxyribonucleotide metabolism
+245,1404,SMM: Degradation of Carbon compounds
+246,1449,Conserved Hypotheticals
+247,4203,MMM: Other membrane proteins
+250,549,noRV
+251,1167,MMM: Cell membrane-Lipoproteins
+252,615,SMM: Repressors/activators
+253,234,Conserved Hypotheticals
+254,438,Unknowns
+255,843,Unknowns
+256,1365,SMM: Biosyn of fatty and mycolic acids
+257,1323,SMM: Degradation of fatty acids
+258,1836,SMM: Degradation of fatty acids
+259,489,SMM: Misc oxidoreductases and oxygenases
+260,1350,MMM: Other membrane proteins
+261,747,SMM: Misc oxidoreductases and oxygenases
+262,1941,SMM: Misc oxidoreductases and oxygenases
+263,822,MMM: Other membrane proteins
+264,234,Unknowns
+265,480,Cell Process: Chaperones/Heat Shock
+266,2562,SMM: Respiration- anaerobic
+267,525,SMM: Biosyn of Cobalamin
+268,1485,SMM: Biosyn of Cobalamin
+269,1671,Other: PPE family of proteins
+270,108,noRV
+270.1,375,Unknowns
+270.2,249,noRV
+271,456,Conserved Hypotheticals
+272,744,Conserved Hypotheticals
+273,1146,SMM: Two component systems
+274,1410,Cell Process: Transport/Binding: Anions
+275,546,Other: Antibiotic production and resistance
+276,903,Conserved Hypotheticals
+277,675,Conserved Hypotheticals
+278,993,Cell Process: Transport/Binding: cations
+279,3629,Conserved Hypotheticals
+280,1392,Cell Process: Transport/Binding: Anions
+281,510,Unknowns
+282,1185,Conserved Hypotheticals
+283,1683,SMM: Degradation of fatty acids
+284,2196,SMM: Degradation of fatty acids
+285,1017,Unknowns
+286,621,SMM: Repressors/activators
+286.1,624,Unknowns
+287,726,SMM: Degradation of fatty acids
+288,921,Conserved Hypotheticals
+289,429,Conserved Hypotheticals
+290,258,noRV
+291,2718,Other: PE family: PGRS subfamily
+291.1,156,noRV
+291.2,132,noRV
+291.3,195,noRV
+291.4,1797,noRV
+292,1728,Other: PPE family of proteins
+293,909,Conserved Hypotheticals
+294,108,noRV
+295,1842,Conserved Hypotheticals
+296,1617,Conserved Hypotheticals
+297,3993,Conserved Hypotheticals
+298,309,Other: PE family: PE subfamily
+299,1542,Other: PPE family of proteins
+300,294,Conserved Hypotheticals
+301,291,Conserved Hypotheticals
+302,888,Conserved Hypotheticals
+303,1419,MMM: Other membrane proteins
+304,1245,MMM: Other membrane proteins
+305,996,MMM: Other membrane proteins
+306,1203,Conserved Hypotheticals
+307,786,Conserved Hypotheticals
+308,804,Unknowns
+310,1398,SMM: Intermediate Metabolism-of sulphur
+311,1869,Other: PE family: PGRS subfamily
+312,228,Unknowns
+313,150,Unknowns
+314,426,Conserved Hypotheticals
+315,633,SMM: Repressors/activators
+316,909,SMM: Misc oxidoreductases and oxygenases
+318,9561,Other: PPE family of proteins
+319,672,SMM: Biosyn of Cobalamin
+320,483,Unknowns
+321,717,Conserved Hypotheticals
+322,657,Unknowns
+323,492,Conserved Hypotheticals
+324,1230,Unknowns
+325,99,noRV
+326,1863,Conserved Hypotheticals
+327,387,Unknowns
+328,186,noRV
+328.1,246,noRV
+328.2,411,MMM: Other membrane proteins
+329,885,MMM: Degradation of Polysaccharides; lipopolysaccharides and phospholipids
+330,615,noRV
+332,738,SMM: Intermediate Metabolism-General
+333,777,MMM: Other membrane proteins
+334,669,MMM: Degradation of Proteins; peptides and glycopeptides
+335,663,Conserved Hypotheticals
+336,573,SMM: 2'-deoxyribonucleotide metabolism
+337,1332,SMM: Intermediate Metabolism-sugar nucleotides
+338,672,Conserved Hypotheticals
+339,681,SMM: Repressors/activators
+340,225,Unknowns
+341,456,Unknowns
+342,1350,Other: Cytochrome P450 enzymes
+343,603,SMM: Repressors/activators
+344,627,Conserved Hypotheticals
+345,741,Unknowns
+346,1167,SMM: Misc oxidoreductases and oxygenases
+347,990,Unknowns
+348,867,SMM: Intermediate Metabolism-sugar nucleotides
+349,516,Other: PE family: PE subfamily
+350,1512,Conserved Hypotheticals
+351,1290,SMM: Amino acid synthesis-Aspartate family
+352,2649,Conserved Hypotheticals
+353,2499,Conserved Hypotheticals
+355,540,Unknowns
+356,1446,Conserved Hypotheticals
+357,1923,Conserved Hypotheticals
+357.1,1482,Conserved Hypotheticals
+359,561,MMM: Cell membrane-Lipoproteins
+360,417,MMM: Other membrane proteins
+361,1464,Cell Process: Transport/Binding: amino acids
+362,987,Conserved Hypotheticals
+363,654,SMM: Repressors/activators
+364,543,Unknowns
+365,1878,Cell Process: Chaperones/Heat Shock
+366,618,Cell Process: Chaperones/Heat Shock
+367,1188,Cell Process: Chaperones/Heat Shock
+368,381,Cell Process: Chaperones/Heat Shock
+369,558,Other: PPE family of proteins
+370,9828,Other: PPE family of proteins
+372,630,Unknowns
+373,1299,SMM: Purine ribonucleotide biosynthesis
+374,648,Unknowns
+375,639,Conserved Hypotheticals
+376,414,Unknowns
+377,828,MMM: Other membrane proteins
+378,1383,Cell Process: Transport/Binding: cations
+379,1035,SMM: Energy metabolism-Glycolysis
+380,684,Conserved Hypotheticals
+381,1131,Conserved Hypotheticals
+382,594,Conserved Hypotheticals
+383,429,Unknowns
+384,1212,Conserved Hypotheticals
+384.1,603,SMM: Misc oxidoreductases and oxygenases
+385,897,SMM: Misc oxidoreductases and oxygenases
+386,594,MMM: Other membrane proteins
+387,756,Conserved Hypotheticals
+388,2400,SMM: Misc oxidoreductases and oxygenases
+389,480,SMM: Misc oxidoreductases and oxygenases
+390,903,SMM: Misc oxidoreductases and oxygenases
+391,966,SMM: Repressors/activators
+392,579,Conserved Hypotheticals
+393,552,Other: Miscellaneous Transferases
+394,765,Unknowns
+395,540,SMM: Pyrimidine ribonucleotide biosynthesis
+396,855,MMM: Other membrane proteins
+397,2547,Cell Process: Chaperones/Heat Shock
+398,1278,SMM: Misc oxidoreductases and oxygenases
+399,3279,SMM: Repressors/activators
+400,1332,Other: PPE family of proteins
+401,1260,SMM: Purine ribonucleotide biosynthesis
+402,1221,SMM: Amino acid synthesis-Aspartate family
+403,1413,SMM: Misc oxidoreductases and oxygenases
+404,1326,Conserved Hypotheticals
+404.1,720,Unknowns
+405,405,Unknowns
+406,417,Unknowns
+407,471,Conserved Hypotheticals
+407.1,249,noRV
+408,642,Unknowns
+409,1230,MMM: Cell membrane-Lipoproteins
+410,1191,SMM: Degradation of fatty acids
+411,372,MMM: Other membrane proteins
+412,2877,MMM: Conserved membrane proteins
+413,885,noRV
+414,327,noRV
+415,456,MMM: Conserved membrane proteins
+416,114,noRV
+417,1758,SMM: Degradation of fatty acids
+418,4209,SMM: Polyketide and non-ribosomal peptide synthesis
+419,759,Conserved Hypotheticals
+420,1011,Other: Coenzyme F420-dependent enzymes
+421,2073,SMM: Degradation of Carbon compounds
+422,1158,SMM: Respiration-Electron Transport
+423,2310,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+424,987,Cell Process: Transport/Binding: amino acids
+425,1320,MMM: Other membrane proteins
+426,654,MMM: DNA replication; repair; recombination and restriction/modification
+427,669,SMM: Biosyn of Thiamine
+428,1023,Conserved Hypotheticals
+429,207,Conserved Hypotheticals
+430,759,SMM: Biosyn of Thiamine
+431,153,noRV
+432,1482,MMM: Cell membrane-Lipoproteins
+433,1497,MMM: Cell membrane-Lipoproteins
+434,411,Unknowns
+435,630,Unknowns
+436,798,SMM: Biosyn of Thiamine
+437,1650,SMM: Biosyn of Pyridine nucleotide
+438,279,Unknowns
+440,4620,Cell Process: Transport/Binding: cations
+441,576,Unknowns
+442,876,MMM: DNA replication; repair; recombination and restriction/modification
+443,948,Unknowns
+444,594,MMM: Protein translation and modification
+445,513,Unknowns
+446,495,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+447,723,Cell Process: Detoxification
+448,1152,Conserved Hypotheticals
+449,657,Conserved Hypotheticals
+450,111,noRV
+451,2187,Cell Process: Cell division
+452,867,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+453,696,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+454,1218,SMM: Biosyn of Molybdopterin
+455,1017,SMM: Misc oxidoreductases and oxygenases
+456,1623,Cell Process: Chaperones/Heat Shock
+457,429,MMM: Other membrane proteins
+458,1464,Other: PPE family of proteins
+459,558,Unknowns
+460,699,Conserved Hypotheticals
+461,564,MMM:RNA synthesis; RNA modification and DNA transcription
+462,810,Conserved Hypotheticals
+463,1449,SMM: Modification of fatty & mycolic acids
+464,732,Conserved Hypotheticals
+465,1320,SMM: Misc oxidoreductases and oxygenases
+466,2904,MMM: Conserved membrane proteins
+467,423,MMM: Conserved membrane proteins
+468,762,SMM: Repressors/activators
+469,1557,Other: PPE family of proteins
+470,555,Conserved Hypotheticals
+471,528,Unknowns
+472,915,SMM: Degradation of fatty acids
+472.1,471,noRV
+473,2022,MMM: Degradation of Proteins; peptides and glycopeptides
+474,1524,SMM: Misc oxidoreductases and oxygenases
+475,492,Conserved Hypotheticals
+476,279,Conserved Hypotheticals
+477,603,MMM: Other membrane proteins
+478,1395,SMM: Energy Metabolism-pyruvate dehydrogenase
+479,294,Conserved Hypotheticals
+480,573,Conserved Hypotheticals
+481,1425,SMM: Repressors/activators
+482,795,Conserved Hypotheticals
+483,1287,SMM: Energy Metabolism-Glyoxylate bypass
+484,861,SMM: Degradation of fatty acids
+485,878,SMM: Modification of fatty & mycolic acids
+486,864,SMM: Modification of fatty & mycolic acids
+487,441,noRV
+488,489,Unknowns
+489,771,SMM: Repressors/activators
+490,1227,MMM: Other membrane proteins
+491,423,SMM: Repressors/activators
+492,138,noRV
+493,615,MMM: Other membrane proteins
+494,153,MMM: Other membrane proteins
+495,546,MMM: Other membrane proteins
+496,675,SMM: Salvage of nucleotides and nucleosides
+497,1047,MMM: Other membrane proteins
+498,1023,Conserved Hypotheticals
+499,525,Unknowns
+500,1110,MMM: Murein sacculus and peptidoglycan
+501,1356,Conserved Hypotheticals
+502,756,SMM: Misc oxidoreductases and oxygenases
+503,1317,SMM: Repressors/activators
+504,1443,Conserved Hypotheticals
+505,552,Conserved Hypotheticals
+506,108,noRV
+507,606,MMM: Other membrane proteins
+508,750,SMM: Energy metabolism-Glycolysis
+509,1233,SMM: Two component systems
+510,693,SMM: Two component systems
+511,1443,SMM: Misc oxidoreductases and oxygenases
+512,678,noRV
+513,990,Conserved Hypotheticals
+514,729,SMM: Repressors/activators
+515,891,Conserved Hypotheticals
+516,1035,Conserved Hypotheticals
+517,933,MMM: Other membrane proteins
+518,843,Conserved Hypotheticals
+519,876,Unknowns
+520,888,SMM: Amino acid synthesis-Glutamate family
+521,237,noRV
+522,1131,SMM: Degradation of Carbon compounds
+523,1077,Conserved Hypotheticals
+524,969,SMM: Modification of fatty & mycolic acids
+525,597,Conserved Hypotheticals
+526,927,SMM: Amino acid synthesis-Serine family
+527,438,MMM: Conserved membrane proteins
+528,2907,MMM: Conserved membrane proteins
+529,294,Unknowns
+530,1488,SMM: Biosyn of Heme and Porphyrin
+531,939,SMM: Biosyn of Heme and Porphyrin
+532,1707,SMM: Amino acid synthesis-Serine family
+533,990,SMM: Biosyn of Heme and Porphyrin
+534,549,MMM: Other membrane proteins
+535,300,MMM: Other membrane proteins
+536,1605,Conserved Hypotheticals
+537,480,Conserved Hypotheticals
+538,1233,Other: Miscellaneous Transferases
+539,696,Unknowns
+540,117,noRV
+541,903,Conserved Hypotheticals
+542,351,Other: Miscellaneous Transferases
+543,306,Unknowns
+544,1305,Cell Process: Transport/Binding: amino acids
+545,405,Conserved Hypotheticals
+546,1389,SMM: Biosyn of Heme and Porphyrin
+547,609,Conserved Hypotheticals
+548,651,Conserved Hypotheticals
+549,780,SMM: Respiration- aerobic
+550,1590,MMM: Other membrane proteins
+551,975,SMM: Respiration- aerobic
+552,1218,Conserved Hypotheticals
+553,162,noRV
+554,318,MMM: Other membrane proteins
+555,183,noRV
+556,1869,Other: PE family: PGRS subfamily
+557,1008,SMM: Biosyn of fatty and mycolic acids
+558,879,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+559,777,SMM: Salvage of nucleotides and nucleosides
+560,1041,SMM: Degradation of Carbon compounds
+562,1434,MMM: Other membrane proteins
+563,1647,MMM: Other membrane proteins
+564,657,Other: Miscellaneous Transferases
+565,636,Conserved Hypotheticals
+566,1482,MMM: Other membrane proteins
+567,1089,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+568,528,Conserved Hypotheticals
+569,279,MMM: Other membrane proteins
+570,1254,Cell Process: Transport/Binding: Anions
+571,387,Conserved Hypotheticals
+572,885,SMM: Misc oxidoreductases and oxygenases
+573,945,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+573.1,135,noRV
+574,414,Conserved Hypotheticals
+575,267,Unknowns
+576,156,noRV
+577,1716,SMM: Degradation of fatty acids
+578,1719,SMM: Repressors/activators
+579,981,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+580,789,Cell Process: Detoxification
+581,1665,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+582,516,MMM: Other membrane proteins
+583,1227,Conserved Hypotheticals
+584,660,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+585,339,MMM: Other membrane proteins
+586,726,Other: Miscellaneous Transferases
+587,1227,SMM: Misc oxidoreductases and oxygenases
+588,1008,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+589,861,Cell Process: Chaperones/Heat Shock
+590,1026,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+591,1461,SMM: Misc oxidoreductases and oxygenases
+592,492,Conserved Hypotheticals
+593,1023,Other: Miscellaneous Transferases
+594,1419,Other: Cytochrome P450 enzymes
+595,405,Conserved Hypotheticals
+596,2208,SMM: 2'-deoxyribonucleotide metabolism
+597,1356,Conserved Hypotheticals
+598,123,noRV
+599,342,Unknowns
+600,168,noRV
+601,1392,Conserved Hypotheticals
+602,1143,Conserved Hypotheticals
+603,105,noRV
+604,1167,SMM: Misc oxidoreductases and oxygenases
+605,1314,SMM: Repressors/activators
+606,792,Conserved Hypotheticals
+607,3921,Other: PE family: PGRS subfamily
+608,480,noRV
+608.1,711,Conserved Hypotheticals
+609,579,Unknowns
+610,627,Unknowns
+611,687,MMM: Cell membrane-Lipoproteins
+612,2634,Unknowns
+613,1569,MMM: Other membrane proteins
+614,609,noRV
+615,723,SMM: Repressors/activators
+616,798,Other: Virulence
+617,888,Other: Virulence
+618,1215,Other: Virulence
+619,864,Other: Virulence
+620,255,noRV
+621,1323,Other: Virulence
+622,1527,Other: Virulence
+623,1209,MMM: Cell membrane-Lipoproteins
+624,1620,Other: Virulence
+625,396,Conserved Hypotheticals
+626,258,Conserved Hypotheticals
+627,1236,Conserved Hypotheticals
+628,414,Conserved Hypotheticals
+629,264,Conserved Hypotheticals
+630,1134,SMM: Two component systems
+631,744,SMM: Two component systems
+632,951,Unknowns
+633,609,Other: IS elements: Others
+635,822,Other: IS elements: Others
+636,444,Unknowns
+637,246,Conserved Hypotheticals
+638,402,Conserved Hypotheticals
+638.1,174,noRV
+639,336,noRV
+640,1158,SMM: Misc oxidoreductases and oxygenases
+641,384,Unknowns
+642,606,Unknowns
+643,2568,Unknowns
+644,894,Conserved Hypotheticals
+645,261,MMM: Other membrane proteins
+645.1,234,Unknowns
+645.2,228,noRV
+646,402,Conserved Hypotheticals
+647,1184,SMM: Degradation of Carbon compounds
+648,1092,SMM: Degradation of Carbon compounds
+649,1065,MMM: Other membrane proteins
+650,1092,MMM: Other membrane proteins
+651,255,Conserved Hypotheticals
+652,396,Conserved Hypotheticals
+653,837,MMM: Other membrane proteins
+654,261,Conserved Hypotheticals
+655,495,Conserved Hypotheticals
+656,1152,Conserved Hypotheticals
+657,1686,MMM: DNA replication; repair; recombination and restriction/modification
+658,3285,MMM: DNA replication; repair; recombination and restriction/modification
+659,3294,MMM: DNA replication; repair; recombination and restriction/modification
+660,696,SMM: Degradation of fatty acids
+661,861,Unknowns
+662,714,Cell Process: Detoxification
+662.1,252,noRV
+663,168,noRV
+664,477,Conserved Hypotheticals
+665,429,Unknowns
+666,501,Conserved Hypotheticals
+667,243,Cell Process: Protein and peptide secretion
+668,717,MMM:RNA synthesis; RNA modification and DNA transcription
+669,429,MMM: Ribosomal protein synthesis and modification
+669.1,708,MMM: Ribosomal protein synthesis and modification
+670,948,SMM: Modification of fatty & mycolic acids
+671,906,SMM: Modification of fatty & mycolic acids
+672,954,SMM: Modification of fatty & mycolic acids
+673,891,SMM: Modification of fatty & mycolic acids
+674,1011,MMM: Esterases and Lipases
+675,1467,Conserved Hypotheticals
+676,4197,Conserved Hypotheticals
+677,747,SMM: Biosyn of fatty and mycolic acids
+679,909,SMM: Repressors/activators
+680,537,MMM: Ribosomal protein synthesis and modification
+681,393,MMM: Ribosomal protein synthesis and modification
+682,774,SMM: Repressors/activators
+683,1506,SMM: Misc oxidoreductases and oxygenases
+684,1011,MMM: Other membrane proteins
+685,384,SMM: Misc oxidoreductases and oxygenases
+686,156,Conserved Hypotheticals
+687,717,MMM: Other membrane proteins
+688,309,Conserved Hypotheticals
+689,252,Conserved Hypotheticals
+690,438,Conserved Hypotheticals
+691,381,Unknowns
+692,2364,SMM: Intermediate Metabolism-of sulphur
+692.1,327,Unknowns
+693,339,Conserved Hypotheticals
+694,231,Unknowns
+695,3537,MMM:RNA synthesis; RNA modification and DNA transcription
+696,3951,MMM:RNA synthesis; RNA modification and DNA transcription
+697,375,noRV
+698,1915,Conserved Hypotheticals
+699,759,MMM: Degradation of DNA
+700,843,MMM: Cell membrane-Lipoproteins
+701,1629,SMM: Degradation of fatty acids
+702,939,SMM: Degradation of fatty acids
+703,723,Unknowns
+704,792,SMM: Degradation of fatty acids
+705,2895,MMM: Conserved membrane proteins
+706,429,MMM: Conserved membrane proteins
+706.1,498,Unknowns
+707,498,MMM: Other membrane proteins
+708,375,MMM: Other membrane proteins
+709,657,SMM: Repressors/activators
+710,375,MMM: Ribosomal protein synthesis and modification
+711,471,MMM: Ribosomal protein synthesis and modification
+712,2106,MMM: Protein translation and modification
+713,1191,MMM: Protein translation and modification
+714,798,MMM: Other membrane proteins
+715,828,SMM: Misc oxidoreductases and oxygenases
+716,1221,SMM: Misc oxidoreductases and oxygenases
+717,255,Unknowns
+717.1,276,noRV
+718,1050,Unknowns
+719,597,SMM: Repressors/activators
+719.1,189,noRV
+719.2,312,Unknowns
+720,1176,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+721,1260,SMM: Respiration- aerobic
+722,756,Conserved Hypotheticals
+723,1413,Other: Miscellaneous Transferases
+724,1440,SMM: Misc oxidoreductases and oxygenases
+724.1,204,noRV
+725,99,Conserved Hypotheticals
+726,648,Unknowns
+726.1,291,noRV
+727,306,MMM: Ribosomal protein synthesis and modification
+728,654,MMM: Ribosomal protein synthesis and modification
+729,672,MMM: Ribosomal protein synthesis and modification
+730,303,MMM: Ribosomal protein synthesis and modification
+731,843,MMM: Ribosomal protein synthesis and modification
+732,282,MMM: Ribosomal protein synthesis and modification
+733,594,MMM: Ribosomal protein synthesis and modification
+734,825,MMM: Ribosomal protein synthesis and modification
+735,417,MMM: Ribosomal protein synthesis and modification
+736,234,MMM: Ribosomal protein synthesis and modification
+737,408,MMM: Ribosomal protein synthesis and modification
+738,2274,SMM: Intermediate Metabolism-of sulphur
+739,900,Conserved Hypotheticals
+740,942,MMM: Other membrane proteins
+740.1,132,noRV
+741,369,MMM: Ribosomal protein synthesis and modification
+741.1,318,MMM: Ribosomal protein synthesis and modification
+742,564,MMM: Ribosomal protein synthesis and modification
+742.1,186,MMM: Ribosomal protein synthesis and modification
+743,399,MMM: Ribosomal protein synthesis and modification
+744,540,MMM: Ribosomal protein synthesis and modification
+745,369,MMM: Ribosomal protein synthesis and modification
+746,663,MMM: Ribosomal protein synthesis and modification
+747,198,MMM: Ribosomal protein synthesis and modification
+748,441,MMM: Ribosomal protein synthesis and modification
+749,1620,MMM: Degradation of Proteins; peptides and glycopeptides
+750,906,Conserved Hypotheticals
+751,1104,Conserved Hypotheticals
+752,657,SMM: Degradation of Carbon compounds
+753,981,SMM: Misc oxidoreductases and oxygenases
+754,1347,SMM: Degradation of Carbon compounds
+755,729,Conserved Hypotheticals
+756,957,Conserved Hypotheticals
+756.1,1326,Cell Process: Protein and peptide secretion
+757,546,SMM: Misc. nucleoside/nucleotide reactions
+758,801,MMM: Degradation of Proteins; peptides and glycopeptides
+759,534,MMM:RNA synthesis; RNA modification and DNA transcription
+760,753,Unknowns
+761,213,noRV
+762,498,SMM: Repressors/activators
+762.1,213,noRV
+763,549,MMM: Other membrane proteins
+764,807,Conserved Hypotheticals
+765,249,Conserved Hypotheticals
+766,363,noRV
+767,315,Other: IS elements: Others
+768,519,Other: PE family: PGRS subfamily
+768.1,141,noRV
+769,558,Unknowns
+770,540,SMM: Repressors/activators
+771,147,noRV
+772,528,Conserved Hypotheticals
+772.1,2352,Other: PE family: PGRS subfamily
+772.2,243,noRV
+772.5,2358,Other: PE family: PGRS subfamily
+772.6,267,Conserved Hypotheticals
+773,429,Conserved Hypotheticals
+773.1,138,noRV
+774,270,Conserved Hypotheticals
+775,885,SMM: Degradation of Amino acids and amines
+776,1173,SMM: Degradation of fatty acids
+777,1533,SMM: Degradation of Amino acids and amines
+778,1755,Other: PE family: PGRS subfamily
+779,1941,Other: PPE family of proteins
+780,216,noRV
+781,774,Unknowns
+782,723,SMM: Two component systems
+783,1458,SMM: Two component systems
+784,402,Conserved Hypotheticals
+785,420,Conserved Hypotheticals
+786,1029,SMM: Misc oxidoreductases and oxygenases
+787,546,Unknowns
+787.1,243,Other: Cytochrome P450 enzymes
+788,1356,Other: Cytochrome P450 enzymes
+789,828,SMM: Misc oxidoreductases and oxygenases
+790,1209,Other: Cytochrome P450 enzymes
+791,642,Unknowns
+792,1470,SMM: Misc oxidoreductases and oxygenases
+793,747,SMM: Misc oxidoreductases and oxygenases
+794,888,SMM: Misc oxidoreductases and oxygenases
+795,435,MMM: Degradation of aromatic hydrocarbons
+796,1269,SMM: Purine ribonucleotide biosynthesis
+797,1539,SMM: Biosyn of Thioredoxin; glytaredoxin and mycothiol
+798,912,Conserved Hypotheticals
+799,624,Conserved Hypotheticals
+800,780,Conserved Hypotheticals
+801,1419,SMM: Purine ribonucleotide biosynthesis
+802,1245,Other: Cytochrome P450 enzymes
+803,684,Conserved Hypotheticals
+804,894,SMM: Purine ribonucleotide biosynthesis
+805,2157,MMM: Degradation of Proteins; peptides and glycopeptides
+806,480,noRV
+807,1638,Cell Process: Efflux proteins
+808,840,Conserved Hypotheticals
+809,1701,SMM: Misc oxidoreductases and oxygenases
+810,639,Conserved Hypotheticals
+811,729,Unknowns
+812,240,noRV
+813,675,SMM: Purine ribonucleotide biosynthesis
+814,600,Unknowns
+815,729,Unknowns
+816,1044,noRV
+817,1932,SMM: Misc oxidoreductases and oxygenases
+818,1152,SMM: Repressors/activators
+819,798,Other: Bacteriocin-like proteins
+820,1008,Conserved Hypotheticals
+821,1302,MMM: Degradation of Proteins; peptides and glycopeptides
+822,657,Other: Antibiotic production and resistance
+823,2265,SMM: Purine ribonucleotide biosynthesis
+824,630,Conserved Hypotheticals
+825,957,Conserved Hypotheticals
+826,1599,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+827,108,noRV
+828,390,Conserved Hypotheticals
+829,1584,SMM: Purine ribonucleotide biosynthesis
+830,1095,SMM: Purine ribonucleotide biosynthesis
+831,183,Unknowns
+832,1107,Conserved Hypotheticals
+833,888,SMM: Biosyn of Folic acid
+834,681,Conserved Hypotheticals
+835,99,noRV
+836,303,SMM: Intermediate Metabolism-of sulphur
+837,834,SMM: Amino acid synthesis-Serine family
+838,423,SMM: Biosyn of Thioredoxin; glytaredoxin and mycothiol
+839,813,MMM: Other membrane proteins
+840,807,SMM: Two component systems
+841,948,Conserved Hypotheticals
+842,777,Cell Process: Transport/Binding: Anions
+843,642,Cell Process: Transport/Binding: Anions
+844,2055,Conserved Hypotheticals
+845,1170,SMM: Repressors/activators
+846,1017,SMM: Modification of fatty & mycolic acids
+847,720,Conserved Hypotheticals
+848,1092,Conserved Hypotheticals
+849,399,SMM: Repressors/activators
+850,396,Other: IS elements: Others
+851,906,Conserved Hypotheticals
+852,918,Conserved Hypotheticals
+853,171,noRV
+854,453,Other: PE family: PGRS subfamily
+854.1,2250,Other: PE family: PGRS subfamily
+855,2640,Other: PE family: PGRS subfamily
+856,852,MMM: Cell membrane-Lipoproteins
+856.1,552,noRV
+857,747,Unknowns
+858,1029,Unknowns
+859,189,noRV
+860,696,MMM: Cell membrane-Lipoproteins
+861,813,Conserved Hypotheticals
+862,861,MMM: Degradation of Proteins; peptides and glycopeptides
+863,243,Unknowns
+864,1329,MMM: Other membrane proteins
+865,1005,SMM: Misc oxidoreductases and oxygenases
+866,651,SMM: Two component systems
+867,1290,SMM: Two component systems
+868,120,noRV
+869,1515,SMM: Misc oxidoreductases and oxygenases
+870,417,MMM: Cell membrane-Lipoproteins
+871,1214,SMM: Amino acid synthesis-Serine family
+872,1259,Cell Process: Efflux proteins
+873,333,Other: IS elements: Others
+874,837,SMM: Misc oxidoreductases and oxygenases
+875,837,SMM: Degradation of fatty acids
+876,1683,SMM: Misc oxidoreductases and oxygenases
+877,444,Conserved Hypotheticals
+878,1080,SMM: Degradation of fatty acids
+879,435,Conserved Hypotheticals
+880,474,Conserved Hypotheticals
+881,1194,Other: Miscellaneous Transferases
+882,1212,SMM: Degradation of fatty acids
+883,2163,SMM: Degradation of fatty acids
+884,1629,MMM: DNA replication; repair; recombination and restriction/modification
+885,2271,Conserved Hypotheticals
+886,282,Conserved Hypotheticals
+887,504,SMM: Biosyn of Molybdopterin
+888,483,SMM: Biosyn of Molybdopterin
+889,426,SMM: Biosyn of Molybdopterin
+890,1224,MMM: Other membrane proteins
+891,279,SMM: Biosyn of Molybdopterin
+892,1083,SMM: Biosyn of Molybdopterin
+892.1,390,MMM: Other membrane proteins
+893,408,Cell Process: Adaptations and atypical conditions
+894,1830,Other: PE family: PGRS subfamily
+895,192,noRV
+896,1953,SMM: Degradation of fatty acids
+897,1284,Conserved Hypotheticals
+898,489,MMM: Other membrane proteins
+899,1680,MMM: Other membrane proteins
+900,789,Conserved Hypotheticals
+901,1335,Other: PPE family of proteins
+902,276,Unknowns
+903,636,Conserved Hypotheticals
+904,729,Other: Miscellaneous Transferases
+905,285,MMM: Other membrane proteins
+906,762,Conserved Hypotheticals
+907,1131,SMM: Amino acid synthesis-Serine family
+908,1023,MMM: Other membrane proteins
+909,1728,SMM: Respiration-Electron Transport
+910,513,Unknowns
+910.1,156,noRV
+910.2,267,noRV
+910.3,150,noRV
+910.4,147,noRV
+911,1524,MMM: Other membrane proteins
+912,1122,SMM: Energy Metabolism-TCA cycle
+914,2649,SMM: Repressors/activators
+915,858,SMM: Repressors/activators
+915.1,396,noRV
+916,1488,SMM: Misc oxidoreductases and oxygenases
+917,978,Conserved Hypotheticals
+918,1182,SMM: Repressors/activators
+919,1563,Conserved Hypotheticals
+920,1296,SMM: Energy Metabolism-TCA cycle
+921,1608,SMM: Misc oxidoreductases and oxygenases
+921.1,264,Unknowns
+922,981,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+923,153,Unknowns
+924,531,Conserved Hypotheticals
+925,1410,SMM: Two component systems
+926,711,SMM: Two component systems
+927,1488,SMM: Biosyn of fatty and mycolic acids
+928,732,SMM: Degradation of fatty acids
+929,1119,MMM: Other membrane proteins
+930,1689,MMM: Murein sacculus and peptidoglycan
+931,2394,Cell Process: Transport/Binding: cations
+932,162,noRV
+933,180,Unknowns
+934,435,Conserved Hypotheticals
+934.1,774,Conserved Hypotheticals
+936,270,Conserved Hypotheticals
+937,408,noRV
+938,1509,SMM: Misc oxidoreductases and oxygenases
+939,1239,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+940,1281,Other: PPE family of proteins
+941,300,Other: PE family: PE subfamily
+942,1782,Cell Process: Transport/Binding: amino acids
+943,258,noRV
+944,537,Conserved Hypotheticals
+945,501,Conserved Hypotheticals
+946,147,noRV
+947,1320,Other: IS elements: Others
+948,582,Other: IS elements: Others
+949,1653,Other: IS elements: Others
+950,1065,Unknowns
+951,1290,Cell Process: Transport/Binding: cations
+952,738,Unknowns
+953,1077,Conserved Hypotheticals
+954,792,SMM: Misc oxidoreductases and oxygenases
+955,1170,Cell Process: Transport/Binding: Anions
+956,975,Cell Process: Transport/Binding: Anions
+957,915,Cell Process: Transport/Binding: Anions
+958,1995,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+959,1113,Cell Process: Transport/Binding: Anions
+960,831,Cell Process: Transport/Binding: Anions
+961,1125,Cell Process: Transport/Binding: Anions
+962,1017,Cell Process: Transport/Binding: Anions
+963,906,Cell Process: Transport/Binding: Anions
+964,822,Conserved Hypotheticals
+965,2280,Conserved Hypotheticals
+966,1935,MMM: Degradation of aromatic hydrocarbons
+967,867,SMM: Misc oxidoreductases and oxygenases
+968,774,Unknowns
+968.1,246,Unknowns
+969,996,SMM: Misc oxidoreductases and oxygenases
+970,501,MMM: DNA replication; repair; recombination and restriction/modification
+971,762,SMM: Misc oxidoreductases and oxygenases
+972,1662,SMM: Energy metabolism-Glycolysis
+973,285,noRV
+974,231,MMM: Other membrane proteins
+975,654,Unknowns
+976,2316,MMM: DNA replication; repair; recombination and restriction/modification
+977,999,Conserved Hypotheticals
+978,1164,SMM: Energy Metabolism-TCA cycle
+979,912,SMM: Energy Metabolism-TCA cycle
+980,915,SMM: Misc oxidoreductases and oxygenases
+981,912,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+982,1368,MMM: Other membrane proteins
+983,648,SMM: Purine ribonucleotide biosynthesis
+984,1572,SMM: Purine ribonucleotide biosynthesis
+985,1380,Other: Chelatases
+986,2019,Unknowns
+987,222,noRV
+988,384,Conserved Hypotheticals
+989,348,Unknowns
+990,675,Unknowns
+991,141,noRV
+992,801,Conserved Hypotheticals
+992.1,417,Unknowns
+993,441,Conserved Hypotheticals
+994,693,Conserved Hypotheticals
+995,360,Conserved Hypotheticals
+996,357,Conserved Hypotheticals
+997,2379,Cell Process: Transport/Binding: cations
+998,633,Unknowns
+999.1,810,SMM: Degradation of fatty acids
+1000,1167,SMM: Degradation of fatty acids
+1001,2004,SMM: Degradation of fatty acids
+1002,1596,SMM: Degradation of fatty acids
+1003,1149,SMM: Degradation of fatty acids
+1003.1,1683,Unknowns
+1004,2804,Other: PE family: PGRS subfamily
+1006.1,1008,Other: PE family: PGRS subfamily
+1007,525,Unknowns
+1008,1431,Other: PE family: PGRS subfamily
+1009,693,SMM: Two component systems
+1010,1515,SMM: Two component systems
+1011,1341,MMM: Degradation of Proteins; peptides and glycopeptides
+1012,549,SMM: Biosyn of Molybdopterin
+1013,456,MMM: Other membrane proteins
+1014,747,MMM: Other membrane proteins
+1015,2568,MMM: Other membrane proteins
+1017,1161,Conserved Hypotheticals
+1018,1002,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+1019,657,Unknowns
+1020,354,Unknowns
+1021,588,Conserved Hypotheticals
+1022,921,SMM: Degradation of Carbon compounds
+1023,1281,SMM: Biosyn of Molybdopterin
+1024,612,MMM: Ribosomal protein synthesis and modification
+1025,1176,Unknowns
+1025.1,141,noRV
+1025.2,252,noRV
+1025.3,210,noRV
+1026,264,Unknowns
+1027,951,Unknowns
+1028,759,Unknowns
+1029,618,Unknowns
+1030,1209,SMM: Degradation of Amino acids and amines
+1031,1512,MMM: Other membrane proteins
+1032,858,Conserved Hypotheticals
+1033,1314,MMM: Other membrane proteins
+1034,1644,SMM: Biosyn of Folic acid
+1035,1704,Unknowns
+1036,1560,MMM: Aminoacyl tRNA synthases and their modification
+1037,504,Conserved Hypotheticals
+1038,1089,Conserved Hypotheticals
+1039,954,MMM: Ribosome modification and maturation
+1040,921,Conserved Hypotheticals
+1040.1,300,Unknowns
+1041,1614,SMM: Polyketide and non-ribosomal peptide synthesis
+1042,576,MMM: Degradation of RNA
+1043,648,MMM: Ribosomal protein synthesis and modification
+1044,681,MMM: Cell membrane-Lipoproteins
+1045,981,SMM: Purine ribonucleotide biosynthesis
+1046,1542,MMM: Murein sacculus and peptidoglycan
+1047,609,SMM: Repressors/activators
+1048,3705,MMM: DNA replication; repair; recombination and restriction/modification
+1049,885,Conserved Hypotheticals
+1050,810,MMM: Cell membrane-Lipoproteins
+1051,1290,SMM: Energy metabolism-Glycolysis
+1052,687,Unknowns
+1053,492,Unknowns
+1054,960,Cell Process: Adaptations and atypical conditions
+1054.1,177,noRV
+1055,213,noRV
+1056,681,SMM: Two component systems
+1057,2616,SMM: Two component systems
+1058,1716,Cell Process: Transport/Binding: cations
+1059,2130,Cell Process: Transport/Binding: cations
+1060,570,Cell Process: Transport/Binding: cations
+1061,1530,SMM: Two component systems
+1062,831,SMM: Two component systems
+1063,390,Other: IS elements: Others
+1065,687,Other: IS elements: Others
+1066,285,Conserved Hypotheticals
+1067,327,Conserved Hypotheticals
+1068,1176,Other: PPE family of proteins
+1069,828,Other: PE family: PE subfamily
+1070,138,noRV
+1070.1,249,noRV
+1071,309,noRV
+1072,928,Other: IS elements: Others
+1073,1026,Unknowns
+1074,624,Conserved Hypotheticals
+1075,882,Unknowns
+1075.1,789,Unknowns
+1076,1311,noRV
+1077,153,noRV
+1078,1116,Unknowns
+1079,447,SMM: Repressors/activators
+1080,909,SMM: Misc oxidoreductases and oxygenases
+1081,756,Conserved Hypotheticals
+1082,627,noRV
+1083,390,Unknowns
+1083.1,387,Unknowns
+1083.2,339,noRV
+1084,357,Other: IS elements: Phage related functions
+1085,765,Conserved Hypotheticals
+1086,213,noRV
+1087,1383,Conserved Hypotheticals
+1088,1632,SMM: Degradation of fatty acids
+1089,1107,Conserved Hypotheticals
+1090,474,Unknowns
+1091,864,Conserved Hypotheticals
+1092,885,Conserved Hypotheticals
+1093,1083,Conserved Hypotheticals
+1094,420,MMM: Cell membrane-Lipoproteins
+1095,567,Conserved Hypotheticals
+1096,396,Conserved Hypotheticals
+1096.1,2004,Other: PE family: PGRS subfamily
+1096.2,123,noRV
+1097,1602,Other: PE family: PGRS subfamily
+1098,141,noRV
+1099,1812,Conserved Hypotheticals
+1100,774,SMM: Degradation of fatty acids
+1101,1038,SMM: Degradation of fatty acids
+1102,837,MMM: Other membrane proteins
+1103,861,Conserved Hypotheticals
+1104,1218,SMM: Degradation of fatty acids
+1105,957,Conserved Hypotheticals
+1106,1077,MMM: Esterases and Lipases
+1107,111,noRV
+1108,1395,SMM: Amino acid synthesis-Serine family
+1109,723,Conserved Hypotheticals
+1110,1167,SMM: Amino acid synthesis-Aspartate family
+1111,495,MMM: Protein translation and modification
+1112,462,Unknowns
+1113,867,Other: Antibiotic production and resistance
+1114,267,Conserved Hypotheticals
+1115,2022,Conserved Hypotheticals
+1116,120,noRV
+1117,729,Other: Virulence
+1118,789,Conserved Hypotheticals
+1118.1,2309,Other: PE family: PGRS subfamily
+1118.2,321,noRV
+1119,453,Other: PE family: PE subfamily
+1120,168,Other: PE family: PE subfamily
+1121,183,noRV
+1122,456,MMM: Degradation of Polysaccharides; lipopolysaccharides and phospholipids
+1122.1,150,noRV
+1123,1908,Other: PE family: PGRS subfamily
+1124,939,SMM: Biosyn of Pantothenate
+1125,1281,SMM: Amino acid synthesis-Serine family
+1126,828,SMM: Modification of fatty & mycolic acids
+1127,1302,SMM: Degradation of phosphorous compounds
+1128,876,SMM: Degradation of Carbon compounds
+1129,882,MMM: Other membrane proteins
+1130,1425,SMM: Energy Metabolism-TCA cycle
+1131,987,Conserved Hypotheticals
+1132,552,Conserved Hypotheticals
+1133,1158,MMM: Other membrane proteins
+1134,312,Conserved Hypotheticals
+1135,237,Unknowns
+1136,1526,MMM: Esterases and Lipases
+1137,1113,SMM: Misc oxidoreductases and oxygenases
+1138,273,MMM: Degradation of DNA
+1139,1248,MMM: Degradation of DNA
+1140,639,Unknowns
+1141,990,MMM: Murein sacculus and peptidoglycan
+1142,984,Unknowns
+1143,1074,Conserved Hypotheticals
+1143.1,198,Unknowns
+1144,375,Conserved Hypotheticals
+1145,699,Unknowns
+1147,234,Unknowns
+1148,276,noRV
+1149,324,Conserved Hypotheticals
+1150,861,Unknowns
+1151,201,Unknowns
+1152,495,Conserved Hypotheticals
+1153,1401,SMM: Energy metabolism- Pentose phosphate pathway
+1154,1023,SMM: Energy metabolism- Pentose phosphate pathway
+1155,936,Cell Process: Detoxification
+1156,951,Cell Process: Detoxification
+1157,582,Unknowns
+1157.1,600,noRV
+1158,606,Conserved Hypotheticals
+1159,1473,SMM: Intermediate Metabolism-General
+1160,1263,Other: IS elements: REP13E12 family
+1161,1461,SMM: Repressors/activators
+1162,1581,Conserved Hypotheticals
+1163,1182,SMM: Energy Metabolism-TCA cycle
+1164,1782,MMM: Other membrane proteins
+1165,2280,SMM: Amino acid synthesis-Aspartate family
+1166,120,noRV
+1167,237,Unknowns
+1168,1911,Other: PPE family of proteins
+1169,243,noRV
+1169.1,342,SMM: Degradation of fatty acids
+1170,405,Unknowns
+1171,1017,Conserved Hypotheticals
+1172,375,Conserved Hypotheticals
+1172.1,219,noRV
+1173,849,Conserved Hypotheticals
+1174,807,SMM: Degradation of fatty acids
+1175,807,SMM: Degradation of fatty acids
+1176,1188,SMM: Degradation of fatty acids
+1177,753,SMM: Misc oxidoreductases and oxygenases
+1178,156,Cell Process: Efflux proteins
+1179.1,2345,Cell Process: Efflux proteins
+1180,651,Other: Miscellaneous Transferases
+1181,333,noRV
+1182,303,noRV
+1183,1500,noRV
+1184,928,noRV
+1185,714,SMM: Repressors/activators
+1186,366,SMM: Repressors/activators
+1187,849,SMM: Polyketide and non-ribosomal peptide synthesis
+1188,588,Unknowns
+1189,384,Unknowns
+1190,189,noRV
+1191,588,Unknowns
+1192,147,noRV
+1193,1116,Conserved Hypotheticals
+1194,693,Conserved Hypotheticals
+1195,1299,MMM: Other membrane proteins
+1196,306,noRV
+1197,426,MMM: DNA replication; repair; recombination and restriction/modification
+1198,3699,SMM: Respiration- anaerobic
+1199,1677,SMM: Respiration- anaerobic
+1200,621,SMM: Respiration- anaerobic
+1201,726,SMM: Respiration- anaerobic
+1202,1887,Conserved Hypotheticals
+1203,1908,MMM: Cell membrane-Lipoproteins
+1204,606,SMM: Repressors/activators
+1205,1041,Other: PPE family of proteins
+1206,321,Other: PE family: PE subfamily
+1207,912,Other: Antibiotic production and resistance
+1208,468,Unknowns
+1209,927,Other: PE family: PE subfamily
+1210,2571,Conserved Hypotheticals
+1211,333,Unknowns
+1212,2025,SMM: Degradation of fatty acids
+1213,744,Conserved Hypotheticals
+1214,327,SMM: Respiration-Electron Transport
+1215,1089,Other: Miscellaneous Transferases
+1216,771,noRV
+1217,2106,Unknowns
+1218,6306,SMM: Polyketide and non-ribosomal peptide synthesis
+1219,1419,SMM: Polyketide and non-ribosomal peptide synthesis
+1220,3009,MMM: Conserved membrane proteins
+1221,1116,Conserved Hypotheticals
+1222,1737,SMM: Degradation of fatty acids
+1223,1617,Unknowns
+1224,1632,SMM: Degradation of Amino acids and amines
+1225,990,SMM: Misc oxidoreductases and oxygenases
+1226,873,MMM:RNA synthesis; RNA modification and DNA transcription
+1227,879,Conserved Hypotheticals
+1228,957,Conserved Hypotheticals
+1229,828,Unknowns
+1230,1422,SMM: Degradation of fatty acids
+1231,1266,Conserved Hypotheticals
+1232,228,noRV
+1233,336,Other: PE family: PE subfamily
+1234,1176,Other: PPE family of proteins
+1235,297,noRV
+1236,285,noRV
+1237,1311,noRV
+1238,1278,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+1239,954,Conserved Hypotheticals
+1240,1065,SMM: Amino acid synthesis-Aspartate family
+1241,585,Unknowns
+1242,1689,Conserved Hypotheticals
+1243,564,Conserved Hypotheticals
+1244,1794,SMM: Degradation of fatty acids
+1245,957,SMM: Biosyn of Folic acid
+1246,975,Conserved Hypotheticals
+1247,369,Conserved Hypotheticals
+1248,615,MMM: DNA replication; repair; recombination and restriction/modification
+1249,273,Conserved Hypotheticals
+1250,1164,MMM: Other membrane proteins
+1251,1215,SMM: Intermediate Metabolism-General
+1252,333,Other: PE family: PE subfamily
+1253,1686,Conserved Hypotheticals
+1254,675,Conserved Hypotheticals
+1255,1647,MMM: Other membrane proteins
+1256,936,MMM: Other membrane proteins
+1257,639,SMM: Repressors/activators
+1258,648,Other: Miscellaneous Transferases
+1259,774,MMM:RNA synthesis; RNA modification and DNA transcription
+1260,660,Unknowns
+1261,1587,MMM: Degradation of Proteins; peptides and glycopeptides
+1262,396,Conserved Hypotheticals
+1263,831,Conserved Hypotheticals
+1264,1464,MMM: Other membrane proteins
+1264.1,594,noRV
+1265,558,MMM: Other membrane proteins
+1266,174,MMM: Cell membrane-Lipoproteins
+1267,1173,Conserved Hypotheticals
+1268,1236,MMM: Other membrane proteins
+1269,543,Unknowns
+1270,1308,Unknowns
+1271,606,Unknowns
+1272,528,Unknowns
+1273,1407,MMM: Cell membrane-Lipoproteins
+1274,924,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+1275,825,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+1276,1182,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+1277,1101,Cell Process: Transport/Binding: cations
+1278,990,SMM: Energy Metabolism-TCA cycle
+1279,297,Conserved Hypotheticals
+1280,432,Conserved Hypotheticals
+1280.1,1761,Other: PE family: PGRS subfamily
+1281,861,MMM: Cell membrane-Lipoproteins
+1283,831,SMM: Misc oxidoreductases and oxygenases
+1284,432,Conserved Hypotheticals
+1285,120,Conserved Hypotheticals
+1286,3696,SMM: Energy Metabolism-TCA cycle
+1287,789,MMM: Other membrane proteins
+1288,153,noRV
+1289,1740,Cell Process: Efflux proteins
+1290,3444,Unknowns
+1291,609,MMM: Cell membrane-Lipoproteins
+1292,1692,MMM:RNA synthesis; RNA modification and DNA transcription
+1293,1152,Other: Miscellaneous Transferases
+1294,609,SMM: Repressors/activators
+1295,1218,Other: Cytochrome P450 enzymes
+1296,1368,SMM: Misc oxidoreductases and oxygenases
+1297,1260,Cell Process: Efflux proteins
+1297.1,807,Unknowns
+1298,1152,SMM: Misc oxidoreductases and oxygenases
+1299,450,Conserved Hypotheticals
+1300,471,Conserved Hypotheticals
+1301,1389,Other: Miscellaneous phosphatases; lyases and hydrolases
+1302,1194,Other: Cyclases
+1303,681,Unknowns
+1304,1881,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+1305,1167,SMM: Repressors/activators
+1305.1,303,noRV
+1306,699,Unknowns
+1307,423,Conserved Hypotheticals
+1308,735,MMM: Cell membrane-Lipoproteins
+1309,348,Conserved Hypotheticals
+1310,1896,MMM: Other membrane proteins
+1311,1749,MMM: Other membrane proteins
+1312,573,MMM: Cell membrane-Lipoproteins
+1312.1,591,MMM: Cell membrane-Lipoproteins
+1313,507,Unknowns
+1314,1254,Unknowns
+1315,2628,Unknowns
+1316,1587,SMM: Misc oxidoreductases and oxygenases
+1317,1776,Cell Process: Transport/Binding: amino acids
+1318,1839,Cell Process: Transport/Binding: amino acids
+1319,876,Cell Process: Transport/Binding: amino acids
+1320,978,Cell Process: Transport/Binding: amino acids
+1321,147,noRV
+1322,492,Conserved Hypotheticals
+1323,930,SMM: Intermediate Metabolism-of sulphur
+1324,1845,SMM: Intermediate Metabolism-of sulphur
+1325,486,Conserved Hypotheticals
+1326,1371,Conserved Hypotheticals
+1327,633,Unknowns
+1328,1524,Unknowns
+1329,369,Conserved Hypotheticals
+1330,96,noRV
+1330.1,546,noRV
+1331,1653,MMM: Aminoacyl tRNA synthases and their modification
+1332,1344,SMM: Amino acid synthesis-Aspartate family
+1333,1326,SMM: Amino acid synthesis-Aspartate family
+1334,1083,SMM: Amino acid synthesis-Aspartate family
+1335,951,SMM: Amino acid synthesis-Aspartate family
+1336,1809,MMM:RNA synthesis; RNA modification and DNA transcription
+1337,243,MMM: Ribosomal protein synthesis and modification
+1338,1074,MMM: Protein translation and modification
+1339,915,SMM: Biosyn of Heme and Porphyrin
+1340,654,Conserved Hypotheticals
+1341,1218,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+1342,99,noRV
+1343,486,Conserved Hypotheticals
+1344,753,SMM: ATP-proton motive force
+1345,246,SMM: ATP-proton motive force
+1346,516,SMM: ATP-proton motive force
+1347,1341,SMM: ATP-proton motive force
+1348,1650,SMM: ATP-proton motive force
+1349,918,SMM: ATP-proton motive force
+1350,1461,SMM: ATP-proton motive force
+1351,366,SMM: ATP-proton motive force
+1352,444,Conserved Hypotheticals
+1353,1335,Other: IS elements: Others
+1354,582,Conserved Hypotheticals
+1355,1257,MMM: Murein sacculus and peptidoglycan
+1356,150,noRV
+1357,522,MMM: DNA replication; repair; recombination and restriction/modification
+1358,1491,MMM: DNA replication; repair; recombination and restriction/modification
+1359,1626,Other: Cyclases
+1360,1599,noRV
+1361,1677,Other: Cyclases
+1362,1704,Other: Cyclases
+1363,681,Conserved Hypotheticals
+1363.1,297,Unknowns
+1364,459,noRV
+1365,1170,SMM: Degradation of fatty acids
+1366,915,Unknowns
+1367,1608,Other: PE family: PGRS subfamily
+1367.1,117,noRV
+1368,2196,MMM: Polysaccharides (cytoplasmic)
+1369,2214,MMM: Degradation of Polysaccharides; lipopolysaccharides and phospholipids
+1370,2592,MMM: Polysaccharides (cytoplasmic)
+1371,1995,MMM: DNA replication; repair; recombination and restriction/modification
+1372,1347,Conserved Hypotheticals
+1373,306,Conserved Hypotheticals
+1374,657,SMM: Repressors/activators
+1375,1035,MMM: Degradation of Polysaccharides; lipopolysaccharides and phospholipids
+1376,441,Conserved Hypotheticals
+1376.1,282,Conserved Hypotheticals
+1377,972,SMM: Amino acid synthesis-Serine family
+1378,684,Conserved Hypotheticals
+1379,816,MMM: Murein sacculus and peptidoglycan
+1380,822,Conserved Hypotheticals
+1381,780,MMM: Degradation of RNA
+1382,615,Conserved Hypotheticals
+1383,363,SMM: Polyketide and non-ribosomal peptide synthesis
+1384,381,Conserved Hypotheticals
+1385,321,SMM: Biosyn of fatty and mycolic acids
+1387,1398,SMM: Degradation of fatty acids
+1388,1161,SMM: Degradation of fatty acids
+1389,633,Other: Antibiotic production and resistance
+1390,2580,MMM: Other membrane proteins
+1392,1740,MMM: Other membrane proteins
+1393,744,SMM: Biosyn of fatty and mycolic acids
+1394,330,Unknowns
+1395,372,Conserved Hypotheticals
+1396,786,SMM: Repressors/activators
+1397,1872,Conserved Hypotheticals
+1398,1929,SMM: Biosyn of Molybdopterin
+1399,792,Unknowns
+1400,924,Conserved Hypotheticals
+1401,141,noRV
+1402,3480,SMM: Repressors/activators
+1403,762,SMM: Repressors/activators
+1404,237,noRV
+1405,1023,Other: Coenzyme F420-dependent enzymes
+1406,1191,Other: PPE family of proteins
+1407,663,Conserved Hypotheticals
+1408,594,Conserved Hypotheticals
+1409,225,noRV
+1410,2046,MMM:RNA synthesis; RNA modification and DNA transcription
+1411,387,Conserved Hypotheticals
+1412,822,Unknowns
+1413,261,noRV
+1414,1206,MMM: Murein sacculus and peptidoglycan
+1414.1,147,noRV
+1415,786,MMM: Cell membrane-Lipoproteins
+1416,1626,Unknowns
+1417,1182,SMM: Polyketide and non-ribosomal peptide synthesis
+1418,963,Other: `<Miscellaneous Transferases
+1418.1,459,Unknowns
+1419,1320,Conserved Hypotheticals
+1420,1494,Conserved Hypotheticals
+1421,681,Other: Miscellaneous Transferases
+1422,1428,Conserved Hypotheticals
+1423,582,SMM: Repressors/activators
+1424,960,SMM: Pyrimidine ribonucleotide biosynthesis
+1425,1293,SMM: Pyrimidine ribonucleotide biosynthesis
+1426,498,Unknowns
+1427,1095,SMM: Pyrimidine ribonucleotide biosynthesis
+1428,3348,SMM: Pyrimidine ribonucleotide biosynthesis
+1429,825,SMM: Pyrimidine ribonucleotide biosynthesis
+1430,309,Other: PE family: PE subfamily
+1431,1620,Other: PPE family of proteins
+1432,252,MMM: Nucleoproteins
+1433,336,SMM: Purine ribonucleotide biosynthesis
+1434,654,noRV
+1435,402,Unknowns
+1436,1257,SMM: Misc oxidoreductases and oxygenases
+1437,1221,SMM: Amino acid synthesis-Aspartate family
+1438,1479,SMM: Misc oxidoreductases and oxygenases
+1439,1386,Other: Cytochrome P450 enzymes
+1440,1035,SMM: Repressors/activators
+1440.1,1730,Other: PE family: PGRS subfamily
+1441,402,Conserved Hypotheticals
+1442,270,Conserved Hypotheticals
+1443,960,MMM: Esterases and Lipases
+1444,963,MMM: Esterases and Lipases
+1445,786,MMM: Other membrane proteins
+1446,1965,MMM: DNA replication; repair; recombination and restriction/modification
+1447,825,Other: Miscellaneous Transferases
+1448,528,SMM: Repressors/activators
+1449,825,Other: Miscellaneous Transferases
+1450,939,MMM: Aminoacyl tRNA synthases and their modification
+1451,1374,MMM: Nucleoproteins
+1452,690,SMM: Energy metabolism- Pentose phosphate pathway
+1453,1020,SMM: Biosyn of Riboflavin
+1454,1557,Cell Process: Efflux proteins
+1455,720,MMM: Cell membrane-Lipoproteins
+1456,606,SMM: Biosyn of Riboflavin
+1457,771,Unknowns
+1458,1278,SMM: Biosyn of Riboflavin
+1459,483,SMM: Biosyn of Riboflavin
+1460,465,Unknowns
+1461,687,MMM: Cell membrane-Lipoproteins
+1462,474,Unknowns
+1463,1941,MMM: DNA replication; repair; recombination and restriction/modification
+1464,906,Conserved Hypotheticals
+1465,1029,Conserved Hypotheticals
+1466,984,SMM: Repressors/activators
+1467,345,MMM: Other membrane proteins
+1468,1818,Conserved Hypotheticals
+1469,1416,MMM: Esterases and Lipases
+1470,1608,SMM: Degradation of fatty acids
+1471,828,Conserved Hypotheticals
+1472,1269,Conserved Hypotheticals
+1474,1587,Other: PE family: PE subfamily
+1475,1770,MMM: Other membrane proteins
+1476,1422,SMM: Misc oxidoreductases and oxygenases
+1477,816,MMM: Other membrane proteins
+1478,144,Unknowns
+1479,663,Conserved Hypotheticals
+1479.1,216,noRV
+1480,1020,SMM: Energy metabolism-Glycolysis
+1481,1239,SMM: Energy metabolism-Glycolysis
+1482,786,SMM: Energy metabolism-Glycolysis
+1483,589,noRV
+1484,426,Unknowns
+1485,234,Cell Process: Protein and peptide secretion
+1486,1475,Other: PE family: PGRS subfamily
+1487,2301,SMM: Biosynthesis of Biotin
+1488,120,noRV
+1489,486,Unknowns
+1490,252,noRV
+1491,411,Unknowns
+1492,744,SMM: Energy metabolism- Pentose phosphate pathway
+1493,912,SMM: Energy metabolism- Pentose phosphate pathway
+1494,1545,SMM: Energy metabolism- Pentose phosphate pathway
+1495,1122,SMM: Energy metabolism- Pentose phosphate pathway
+1496,2178,SMM: Energy metabolism- Pentose phosphate pathway
+1497.1,4227,Other: PE family: PGRS subfamily
+1497.2,159,noRV
+1498,927,SMM: Respiration- aerobic
+1499,2217,Other: PE family: PGRS subfamily
+1500,1299,Conserved Hypotheticals
+1501,1008,SMM: Misc oxidoreductases and oxygenases
+1502,903,Conserved Hypotheticals
+1503,936,MMM: Other membrane proteins
+1504,786,MMM: Other membrane proteins
+1505,942,MMM: Other membrane proteins
+1506,1776,Conserved Hypotheticals
+1507,837,SMM: Repressors/activators
+1508,2541,Conserved Hypotheticals
+1509,1194,Conserved Hypotheticals
+1510,801,MMM: Other membrane proteins
+1511,1254,Other: Miscellaneous Transferases
+1512,489,Conserved Hypotheticals
+1513,348,Conserved Hypotheticals
+1514,1830,SMM: Degradation of fatty acids
+1514.1,1128,Other: PE family: PGRS subfamily
+1515,1974,Cell Process: Transport/Binding: cations
+1516,375,SMM: Biosyn of Thioredoxin; glytaredoxin and mycothiol
+1517,372,SMM: Biosyn of Thioredoxin; glytaredoxin and mycothiol
+1518,858,SMM: Degradation of fatty acids
+1519,1629,MMM: Other membrane proteins
+1520,192,noRV
+1521,564,SMM: Repressors/activators
+1522,2832,SMM: Energy Metabolism-TCA cycle
+1523,561,Unknowns
+1524,828,Other: Virulence
+1525,726,Other: Virulence
+1526,1134,SMM: Repressors/activators
+1527,912,Conserved Hypotheticals
+1528,1008,MMM: Other membrane proteins
+1529,879,Conserved Hypotheticals
+1530,744,SMM: Biosyn of fatty and mycolic acids
+1531,810,SMM: Biosyn of fatty and mycolic acids
+1532,1035,SMM: Biosyn of Heme and Porphyrin
+1533,867,Conserved Hypotheticals
+1533.1,435,Conserved Hypotheticals
+1533.2,1146,Conserved Hypotheticals
+1534,357,Unknowns
+1535,231,noRV
+1536,1308,MMM: Other membrane proteins
+1537,264,noRV
+1538,759,MMM: Other membrane proteins
+1539,1848,SMM: Degradation of fatty acids
+1540,2253,SMM: Degradation of fatty acids
+1541,303,Unknowns
+1542,318,Conserved Hypotheticals
+1543,1005,Conserved Hypotheticals
+1545,1287,MMM: Esterases and Lipases
+1546,618,Other: Miscellaneous Transferases
+1547,213,noRV
+1548,471,Unknowns
+1549,1029,Other: Miscellaneous Transferases
+1550,822,Conserved Hypotheticals
+1551,900,Unknowns
+1552,1167,Conserved Hypotheticals
+1553,666,Conserved Hypotheticals
+1554,519,Unknowns
+1555,696,Unknowns
+1555.1,504,noRV
+1556,1800,MMM: Other membrane proteins
+1556.1,141,noRV
+1557,882,Unknowns
+1558,519,noRV
+1560,771,MMM: Other membrane proteins
+1560.1,420,noRV
+1561,1047,SMM: Intermediate Metabolism-sugar nucleotides
+1562,1017,SMM: Intermediate Metabolism-sugar nucleotides
+1563,732,Conserved Hypotheticals
+1564,789,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+1565,987,Conserved Hypotheticals
+1566,1122,Other: Miscellaneous Transferases
+1567,765,Conserved Hypotheticals
+1568,960,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+1569,270,Conserved Hypotheticals
+1570,1074,Other: Miscellaneous Transferases
+1571,201,noRV
+1572,1752,SMM: Degradation of fatty acids
+1573,3441,MMM: Conserved membrane proteins
+1574,954,Other: Miscellaneous Transferases
+1575,1245,Other: Miscellaneous Transferases
+1576,786,SMM: Intermediate Metabolism-sugar nucleotides
+1577,1281,Other: Miscellaneous Transferases
+1578,6302,SMM: Polyketide and non-ribosomal peptide synthesis
+1578.1,132,noRV
+1579,498,SMM: Polyketide and non-ribosomal peptide synthesis
+1580,1755,SMM: Degradation of fatty acids
+1581,1104,SMM: Misc oxidoreductases and oxygenases
+1582,567,Conserved Hypotheticals
+1583,435,Conserved Hypotheticals
+1584,1127,SMM: Misc oxidoreductases and oxygenases
+1585,678,SMM: Repressors/activators
+1585.1,168,noRV
+1586,237,Unknowns
+1587,3126,MMM: Aminoacyl tRNA synthases and their modification
+1589,1458,MMM: DNA replication; repair; recombination and restriction/modification
+1590,981,SMM: Degradation of Amino acids and amines
+1591,609,Cell Process: Protein and peptide secretion
+1592,927,Conserved Hypotheticals
+1593,594,MMM: Cell membrane-Lipoproteins
+1594,411,SMM: Respiration- aerobic
+1595,903,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+1596,804,SMM: Polyketide and non-ribosomal peptide synthesis
+1596.1,228,Unknowns
+1597,432,Conserved Hypotheticals
+1598,3555,MMM: DNA replication; repair; recombination and restriction/modification
+1599,2283,Other: PPE family of proteins
+1600,1716,SMM: Degradation of fatty acids
+1601,1794,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+1602,288,noRV
+1603,1752,SMM: Respiration- anaerobic
+1604,744,SMM: Respiration- anaerobic
+1605,381,SMM: Respiration- anaerobic
+1606,378,SMM: Respiration- anaerobic
+1607,609,SMM: Repressors/activators
+1608,1194,MMM: Conserved membrane proteins
+1609,447,Conserved Hypotheticals
+1610,1290,SMM: Amino acid synthesis-Branched aa
+1611,219,Conserved Hypotheticals
+1612,405,Conserved Hypotheticals
+1613,1830,MMM: Polysaccharides (cytoplasmic)
+1614,2298,MMM: Polysaccharides (cytoplasmic)
+1615,2166,MMM: Polysaccharides (cytoplasmic)
+1616,2190,MMM: Other membrane proteins
+1617,750,Other: Virulence
+1618,285,Unknowns
+1619,1314,SMM: Biosynthesis of Biotin
+1620,1161,SMM: Biosynthesis of Biotin
+1621,681,SMM: Biosynthesis of Biotin
+1622,510,Conserved Hypotheticals
+1622.1,723,Other: IS elements: REP13E12 family
+1623,669,Conserved Hypotheticals
+1624,1050,SMM: Biosynthesis of Biotin
+1625,240,Conserved Hypotheticals
+1626,582,Conserved Hypotheticals
+1627,102,noRV
+1628,1368,Conserved Hypotheticals
+1629,534,Conserved Hypotheticals
+1630,1050,SMM: Biosyn of Pyridine nucleotide
+1631,1584,SMM: Biosyn of Pyridine nucleotide
+1632,888,SMM: Biosyn of Pyridine nucleotide
+1633,759,Unknowns
+1634,411,Conserved Hypotheticals
+1635,1344,SMM: Amino acid synthesis-Histidine
+1636,1143,SMM: Amino acid synthesis-Histidine
+1637,633,SMM: Amino acid synthesis-Histidine
+1638,621,SMM: Amino acid synthesis-Histidine
+1639,735,SMM: Amino acid synthesis-Histidine
+1640,813,Other: Miscellaneous phosphatases; lyases and hydrolases
+1641,804,SMM: Amino acid synthesis-Histidine
+1641.1,348,SMM: Amino acid synthesis-Histidine
+1642,1083,Cell Process: Transport/Binding: cations
+1643,465,Cell Process: Detoxification
+1644,1551,SMM: Amino acid synthesis-Aromatic
+1645,708,MMM: Other membrane proteins
+1646,849,SMM: Amino acid synthesis-Aromatic
+1647,1269,SMM: Amino acid synthesis-Aromatic
+1648,813,SMM: Amino acid synthesis-Aromatic
+1649,1407,Cell Process: Protein and peptide secretion
+1650,156,noRV
+1650.1,294,noRV
+1651,441,Unknowns
+1652,399,Conserved Hypotheticals
+1653,1419,SMM: Energy metabolism-Glycolysis
+1654,885,SMM: Biosyn of fatty and mycolic acids
+1655,1455,Conserved Hypotheticals
+1656,1731,SMM: Respiration-Electron Transport
+1657,1584,SMM: Respiration-Electron Transport
+1658,1041,SMM: Respiration-Electron Transport
+1659,1458,SMM: Respiration-Electron Transport
+1660,588,MMM: Other membrane proteins
+1661,1332,Other: Cyclases
+1662,627,SMM: Two component systems
+1663,1209,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+1664,492,Conserved Hypotheticals
+1665,2715,MMM: DNA replication; repair; recombination and restriction/modification
+1666,1446,MMM: Ribosomal protein synthesis and modification
+1667,1224,Conserved Hypotheticals
+1668,444,Unknowns
+1669,2220,MMM: DNA replication; repair; recombination and restriction/modification
+1670,1416,Cell Process: Efflux proteins
+1671,1698,MMM: Other membrane proteins
+1672,441,Conserved Hypotheticals
+1673,795,Conserved Hypotheticals
+1675,2943,MMM: DNA replication; repair; recombination and restriction/modification
+1676,258,noRV
+1677,1470,Conserved Hypotheticals
+1678,3558,MMM: Aminoacyl tRNA synthases and their modification
+1679,555,MMM: Protein translation and modification
+1680,195,MMM: Ribosomal protein synthesis and modification
+1681,390,MMM: Ribosomal protein synthesis and modification
+1682,783,MMM:RNA synthesis; RNA modification and DNA transcription
+1683,1056,Conserved Hypotheticals
+1684,933,Other: PE family: PE subfamily
+1685,984,Conserved Hypotheticals
+1686,807,MMM: Other membrane proteins
+1687,1026,MMM: Aminoacyl tRNA synthases and their modification
+1688,2496,MMM: Aminoacyl tRNA synthases and their modification
+1689,3036,Other: PE family: PGRS subfamily
+1690,1059,SMM: Amino acid synthesis-Glutamate family
+1691,1215,SMM: Amino acid synthesis-Glutamate family
+1692,885,SMM: Amino acid synthesis-Glutamate family
+1693,1203,SMM: Amino acid synthesis-Glutamate family
+1694,924,SMM: Amino acid synthesis-Glutamate family
+1695,606,SMM: Repressors/activators
+1696,1197,SMM: Amino acid synthesis-Glutamate family
+1697,1413,SMM: Amino acid synthesis-Glutamate family
+1698,1062,SMM: Polyketide and non-ribosomal peptide synthesis
+1701,6381,SMM: Polyketide and non-ribosomal peptide synthesis
+1702,4809,SMM: Polyketide and non-ribosomal peptide synthesis
+1703,1509,SMM: Polyketide and non-ribosomal peptide synthesis
+1704,3054,SMM: Polyketide and non-ribosomal peptide synthesis
+1705,1062,SMM: Polyketide and non-ribosomal peptide synthesis
+1706,1311,Other: Cytochrome P450 enzymes
+1707,1776,MMM: Other membrane proteins
+1707.1,153,Unknowns
+1708,348,Conserved Hypotheticals
+1709,459,MMM: Other membrane proteins
+1710,1332,MMM: Other membrane proteins
+1711,933,Conserved Hypotheticals
+1712,657,SMM: Repressors/activators
+1713,333,noRV
+1714,735,SMM: Repressors/activators
+1715,576,Other: Cytochrome P450 enzymes
+1716,549,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+1717,102,noRV
+1718,909,MMM: Other membrane proteins
+1719,1122,SMM: Degradation of fatty acids
+1720,825,Unknowns
+1721,996,SMM: Biosyn of Molybdopterin
+1722,849,Conserved Hypotheticals
+1723,3072,SMM: Degradation of fatty acids
+1724,225,Conserved Hypotheticals
+1725,624,Conserved Hypotheticals
+1726,681,MMM: Other membrane proteins
+1727,768,MMM: Other membrane proteins
+1727.1,612,MMM: DNA replication; repair; recombination and restriction/modification
+1728,1275,MMM: Aminoacyl tRNA synthases and their modification
+1729,384,MMM: Cell membrane-Lipoproteins
+1730,753,Unknowns
+1731,1062,Other: Miscellaneous phosphatases; lyases and hydrolases
+1732,177,Unknowns
+1733,807,Other: Virulence
+1734,924,Conserved Hypotheticals
+1735,1764,MMM: DNA replication; repair; recombination and restriction/modification
+1736,1182,Conserved Hypotheticals
+1737,960,Conserved Hypotheticals
+1738,1761,SMM: Pyrimidine ribonucleotide biosynthesis
+1739,624,Conserved Hypotheticals
+1740,936,Other: IS elements: Phage related functions
+1741,1365,Other: IS elements: REP13E12 family
+1742,216,noRV
+1743,702,Other: Miscellaneous Transferases
+1744,1671,Cell Process: Transport/Binding: amino acids
+1745,1158,Other: PPE family of proteins
+1746,1185,Other: PPE family of proteins
+1746.1,165,noRV
+1747,204,noRV
+1748,1461,Cell Process: Transport/Binding: Anions
+1749,753,Cell Process: Cell division
+1750,837,Conserved Hypotheticals
+1751,696,Conserved Hypotheticals
+1751.1,765,Conserved Hypotheticals
+1752,693,SMM: Misc. nucleoside/nucleotide reactions
+1753,1392,Conserved Hypotheticals
+1753.1,813,SMM: Misc oxidoreductases and oxygenases
+1754,915,SMM: Degradation of fatty acids
+1755,831,Conserved Hypotheticals
+1756,351,Conserved Hypotheticals
+1757,1161,Conserved Hypotheticals
+1758,780,SMM: Repressors/activators
+1759,108,noRV
+1760,123,noRV
+1761,390,Conserved Hypotheticals
+1762,228,Unknowns
+1763,1485,SMM: Biosyn of fatty and mycolic acids
+1764,1248,MMM: Degradation of aromatic hydrocarbons
+1765,420,Unknowns
+1766,564,Conserved Hypotheticals
+1767,1386,SMM: Misc oxidoreductases and oxygenases
+1768,570,Conserved Hypotheticals
+1769,777,Conserved Hypotheticals
+1770,939,Conserved Hypotheticals
+1771,1620,MMM: Murein sacculus and peptidoglycan
+1771.1,120,noRV
+1772,1557,SMM: Degradation of Carbon compounds
+1773,549,Conserved Hypotheticals
+1774,597,MMM: Other membrane proteins
+1775,357,Unknowns
+1776,594,Unknowns
+1777,243,noRV
+1778,1959,SMM: Respiration- anaerobic
+1779,1188,Cell Process: Transport/Binding: Anions
+1780,462,Conserved Hypotheticals
+1781,1683,Cell Process: Transport/Binding: Anions
+1782,213,Conserved Hypotheticals
+1783,249,Conserved Hypotheticals
+1784,738,Unknowns
+1785,1701,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+1786,462,Unknowns
+1787,612,Conserved Hypotheticals
+1788,1431,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+1789,2592,MMM: Other membrane proteins
+1790,96,noRV
+1791,732,Unknowns
+1792,558,MMM: Other membrane proteins
+1793,1599,SMM: Degradation of fatty acids
+1794,1239,SMM: Misc oxidoreductases and oxygenases
+1795,450,Unknowns
+1796,3318,Other: PPE family of proteins
+1797,1692,Conserved Hypotheticals
+1798,150,noRV
+1799,1545,MMM: Esterases and Lipases
+1800,1146,noRV
+1801,1140,noRV
+1802,2838,noRV
+1803,885,noRV
+1804,327,noRV
+1805,525,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+1807,2744,Other: PE family: PGRS subfamily
+1808,234,noRV
+1809,1596,Conserved Hypotheticals
+1810,384,Unknowns
+1811,789,Unknowns
+1812,468,noRV
+1813,153,noRV
+1814,1257,Conserved Hypotheticals
+1814.2,354,noRV
+1815,609,noRV
+1816,270,Conserved Hypotheticals
+1817,360,Conserved Hypotheticals
+1818,1855,Other: PE family: PGRS subfamily
+1820,1203,Unknowns
+1820.1,1287,Conserved Hypotheticals
+1821,1287,SMM: Misc oxidoreductases and oxygenases
+1821.1,168,noRV
+1822,138,Unknowns
+1823,780,SMM: Repressors/activators
+1824,1341,SMM: Misc oxidoreductases and oxygenases
+1825,819,Conserved Hypotheticals
+1826,561,SMM: Repressors/activators
+1827,1305,Other: Cytochrome P450 enzymes
+1828,507,Unknowns
+1829,1794,MMM: Other membrane proteins
+1830,564,Conserved Hypotheticals
+1831,2175,MMM: Polysaccharides (cytoplasmic)
+1832,1521,Conserved Hypotheticals
+1833,4176,Conserved Hypotheticals
+1834,1281,Other: Cytochrome P450 enzymes
+1835,204,SMM: Misc oxidoreductases and oxygenases
+1836,1218,Other: PPE family of proteins
+1837,300,Other: PE family: PE subfamily
+1838,1236,Other: PPE family of proteins
+1838.1,303,noRV
+1839,1092,Other: PPE family of proteins
+1839.1,168,noRV
+1840,318,Other: PE family: PE subfamily
+1841,297,Conserved Hypotheticals
+1842,285,Conserved Hypotheticals
+1843,903,Conserved Hypotheticals
+1844,1512,MMM: Other membrane proteins
+1845,1758,Conserved Hypotheticals
+1846,1221,Conserved Hypotheticals
+1847,1833,Conserved Hypotheticals
+1848,192,MMM: Cell membrane-Lipoproteins
+1849,1968,Other: PPE family of proteins
+1849.1,387,noRV
+1850,1272,Other: PPE family of proteins
+1851,1392,Other: PPE family of proteins
+1853,1953,Other: PE family: PGRS subfamily
+1854,369,Conserved Hypotheticals
+1854.1,423,Unknowns
+1855,300,Other: PE family: PE subfamily
+1856,1212,Other: PPE family of proteins
+1856.1,1161,Other: PPE family of proteins
+1857,2085,Other: PPE family of proteins
+1858,408,Conserved Hypotheticals
+1859,705,Cell Process: Transport/Binding: cations
+1860,1194,SMM: Misc oxidoreductases and oxygenases
+1861,432,Conserved Hypotheticals
+1862,945,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+1863,666,Conserved Hypotheticals
+1864,705,SMM: Repressors/activators
+1865,1401,SMM: Misc oxidoreductases and oxygenases
+1866,1476,Other: PE family: PGRS subfamily
+1867,1920,Cell Process: Efflux proteins
+1868,1644,SMM: Amino acid synthesis-Branched aa
+1869,2427,Cell Process: Protein and peptide secretion
+1870,630,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+1871,930,Conserved Hypotheticals
+1872,366,MMM: Other membrane proteins
+1873,879,Unknowns
+1874,405,SMM: Intermediate Metabolism-General
+1875,489,Conserved Hypotheticals
+1876,744,Conserved Hypotheticals
+1877,495,Conserved Hypotheticals
+1879,678,Conserved Hypotheticals
+1880,2826,SMM: Intermediate Metabolism-General
+1881,861,Other: Miscellaneous phosphatases; lyases and hydrolases
+1882,867,Conserved Hypotheticals
+1883,1888,Conserved Hypotheticals
+1884,2034,Conserved Hypotheticals
+1885,2226,SMM: Energy Metabolism-Glyoxylate bypass
+1886,396,Conserved Hypotheticals
+1887,264,Conserved Hypotheticals
+1888,1548,Other: PE family: PGRS subfamily
+1889,1038,MMM: Other membrane proteins
+1890,1368,MMM: Other membrane proteins
+1891,1440,SMM: Purine ribonucleotide biosynthesis
+1892,1452,SMM: Energy metabolism- Pentose phosphate pathway
+1893,951,Unknowns
+1894,417,SMM: Repressors/activators
+1895,423,Conserved Hypotheticals
+1896,303,SMM: Degradation of Amino acids and amines
+1897,315,SMM: Degradation of Amino acids and amines
+1898,1734,SMM: Degradation of Amino acids and amines
+1899,636,SMM: Degradation of Amino acids and amines
+1900,675,SMM: Degradation of Amino acids and amines
+1901,681,SMM: Degradation of Amino acids and amines
+1902,1392,SMM: Respiration- aerobic
+1903,924,SMM: Misc oxidoreductases and oxygenases
+1904,678,SMM: Misc oxidoreductases and oxygenases
+1905,786,Cell Process: Transport/Binding: Anions
+1906,738,Cell Process: Transport/Binding: Anions
+1907,1110,Cell Process: Transport/Binding: Anions
+1908,978,Cell Process: Transport/Binding: Anions
+1909,117,noRV
+1910,306,Unknowns
+1911,1044,SMM: Misc oxidoreductases and oxygenases
+1912,771,MMM: Other membrane proteins
+1913,702,Conserved Hypotheticals
+1914,861,SMM: Misc oxidoreductases and oxygenases
+1915,2415,Conserved Hypotheticals
+1916,1683,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+1917,2100,Conserved Hypotheticals
+1918,1236,SMM: Misc oxidoreductases and oxygenases
+1919,636,Unknowns
+1920,390,Unknowns
+1921,1245,SMM: Respiration- aerobic
+1922,471,Unknowns
+1923,705,Unknowns
+1924,444,Conserved Hypotheticals
+1924.1,219,noRV
+1925,480,SMM: Iron Utilization
+1926,2064,Cell Process: Efflux proteins
+1927,1353,SMM: Amino acid synthesis-Glutamate family
+1928,1137,Conserved Hypotheticals
+1929,1290,Other: Cytochrome P450 enzymes
+1930,465,MMM: Cell membrane-Lipoproteins
+1931,834,SMM: Misc oxidoreductases and oxygenases
+1931.1,477,Conserved Hypotheticals
+1932,567,Conserved Hypotheticals
+1933,600,Unknowns
+1934,1125,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+1935,1158,Unknowns
+1936,966,Unknowns
+1937,357,Conserved Hypotheticals
+1940,612,Unknowns
+1941,408,Unknowns
+1942,312,Unknowns
+1943,219,Unknowns
+1944,1131,SMM: Misc oxidoreductases and oxygenases
+1945,432,noRV
+1946,1155,SMM: Misc oxidoreductases and oxygenases
+1947,912,Conserved Hypotheticals
+1948,486,Conserved Hypotheticals
+1949,309,Conserved Hypotheticals
+1950,1125,MMM: Cell membrane-Lipoproteins
+1951,1389,MMM: Esterases and Lipases
+1952,1305,Cell Process: Adaptations and atypical conditions
+1953,1227,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+1954,504,MMM: Other membrane proteins
+1955,435,Conserved Hypotheticals
+1956,963,SMM: Degradation of Amino acids and amines
+1957,474,Conserved Hypotheticals
+1957.1,270,noRV
+1958,648,Unknowns
+1959,2223,Cell Process: Detoxification
+1960,453,SMM: Repressors/activators
+1961,630,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+1962,618,MMM: Cell membrane-Lipoproteins
+1963,1005,SMM: Degradation of fatty acids
+1964,753,Unknowns
+1965,408,Unknowns
+1966,1833,SMM: Energy Metabolism-Glyoxylate bypass
+1967,453,SMM: Energy Metabolism-Glyoxylate bypass
+1968,4476,Other: PPE family of proteins
+1969,3042,Other: PPE family of proteins
+1970,486,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+1971,864,MMM: Other membrane proteins
+1972,1272,MMM: Cell membrane-Lipoproteins
+1973,1116,MMM: Murein sacculus and peptidoglycan
+1974,1281,MMM: Esterases and Lipases
+1975,471,Unknowns
+1976,1863,SMM: Degradation of fatty acids
+1977,480,Unknowns
+1978,93,noRV
+1979,777,Unknowns
+1980,746,SMM: Misc oxidoreductases and oxygenases
+1980.1,644,Unknowns
+1980.2,525,Conserved Hypotheticals
+1981,792,SMM: Repressors/activators
+1982,498,Cell Process: Detoxification
+1983,1092,SMM: Degradation of fatty acids
+1984,1230,SMM: Degradation of fatty acids
+1985,957,SMM: Degradation of fatty acids
+1986,1110,SMM: Misc oxidoreductases and oxygenases
+1987,2520,SMM: Misc oxidoreductases and oxygenases
+1988,1071,Cell Process: Detoxification
+1989,516,SMM: Misc oxidoreductases and oxygenases
+1990,1062,SMM: Biosyn of Riboflavin
+1991,771,SMM: Misc oxidoreductases and oxygenases
+1992,354,Conserved Hypotheticals
+1993,378,Conserved Hypotheticals
+1994,591,Unknowns
+1995,1449,Other: IS elements: REP13E12 family
+1997,453,MMM: Cell membrane-Lipoproteins
+1998,402,Unknowns
+1998.1,351,Unknowns
+1999,903,Conserved Hypotheticals
+2000,192,Conserved Hypotheticals
+2001,414,Conserved Hypotheticals
+2002,228,Conserved Hypotheticals
+2003,312,Conserved Hypotheticals
+2004,513,Unknowns
+2005,450,SMM: Repressors/activators
+2006,546,Unknowns
+2007,153,Unknowns
+2008,297,Conserved Hypotheticals
+2009,252,Unknowns
+2010,495,Unknowns
+2011,108,noRV
+2012,408,Conserved Hypotheticals
+2013,273,noRV
+2014,1221,SMM: Repressors/activators
+2015,138,noRV
+2015.1,453,noRV
+2015.2,270,noRV
+2016,798,Other: Virulence
+2017,816,noRV
+2018,1278,Other: Virulence
+2019,1029,Other: Virulence
+2020,1323,Other: Virulence
+2021,1272,Other: Virulence
+2022,1134,MMM: Cell membrane-Lipoproteins
+2023,1314,Other: Virulence
+2024,576,Conserved Hypotheticals
+2024.1,483,Conserved Hypotheticals
+2025,378,Conserved Hypotheticals
+2026,666,Unknowns
+2027,123,noRV
+2028,408,Unknowns
+2029,1047,MMM: Degradation of Proteins; peptides and glycopeptides
+2030,885,Other: Miscellaneous Transferases
+2031,1446,MMM: Other membrane proteins
+2032,816,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2033,969,SMM: 2'-deoxyribonucleotide metabolism
+2034,420,Conserved Hypotheticals
+2035,261,noRV
+2036,1677,Other: PE family: PGRS subfamily
+2037,654,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2038,231,noRV
+2039,912,SMM: Repressors/activators
+2040,600,MMM: Other membrane proteins
+2041,429,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2042,540,Other: Miscellaneous Transferases
+2042.1,273,noRV
+2043,561,Unknowns
+2044,342,SMM: Repressors/activators
+2045,258,noRV
+2045.1,336,noRV
+2046,345,Conserved Hypotheticals
+2047,249,noRV
+2048,2316,Cell Process: Transport/Binding: cations
+2049,273,Conserved Hypotheticals
+2050,357,SMM: Repressors/activators
+2051,768,Unknowns
+2052,954,Conserved Hypotheticals
+2053,2706,Cell Process: Transport/Binding: cations
+2054,777,Conserved Hypotheticals
+2055,1323,MMM: Other membrane proteins
+2056,1632,Unknowns
+2057,753,Conserved Hypotheticals
+2058,783,SMM: Biosyn of fatty and mycolic acids
+2059,858,Conserved Hypotheticals
+2060,1509,Unknowns
+2061,888,Conserved Hypotheticals
+2062,3984,Cell Process: Adaptations and atypical conditions
+2063,345,SMM: Respiration-Electron Transport
+2064,1359,Conserved Hypotheticals
+2064.1,243,Conserved Hypotheticals
+2065,399,Conserved Hypotheticals
+2066,432,Unknowns
+2067,495,Unknowns
+2068,249,noRV
+2069,621,Other: IS elements: Others
+2070,591,Other: IS elements: Others
+2071,1296,Conserved Hypotheticals
+2072,642,Unknowns
+2073,1041,SMM: Repressors/activators
+2074,789,Conserved Hypotheticals
+2075,417,Unknowns
+2076,300,Unknowns
+2077,306,SMM: Repressors/activators
+2078,606,Conserved Hypotheticals
+2079,456,Unknowns
+2080,678,noRV
+2080.1,237,noRV
+2081,936,noRV
+2082,4821,Conserved Hypotheticals
+2083,117,noRV
+2084,999,MMM: Other membrane proteins
+2085,885,Conserved Hypotheticals
+2086,1722,SMM: Two component systems
+2087,840,Conserved Hypotheticals
+2088,1020,SMM: Energy metabolism-Glycolysis
+2089,2046,Conserved Hypotheticals
+2090,435,Cell Process: Chaperones/Heat Shock
+2091,1002,Conserved Hypotheticals
+2092,123,noRV
+2093,843,Unknowns
+2094,471,SMM: Repressors/activators
+2095,489,Unknowns
+2096,696,Other: Antibiotic production and resistance
+2097,975,MMM: Other membrane proteins
+2098,1074,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2099,843,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2100,903,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2101,1320,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2102,798,Conserved Hypotheticals
+2103,561,Other: Antibiotic production and resistance
+2104,390,Unknowns
+2105,1506,MMM: Esterases and Lipases
+2106,657,MMM: Cell membrane-Lipoproteins
+2107,2565,Conserved Hypotheticals
+2108,12456,SMM: Polyketide and non-ribosomal peptide synthesis
+2109,363,Unknowns
+2110,336,Conserved Hypotheticals
+2111,2607,MMM: Other membrane proteins
+2112,1605,Unknowns
+2113,579,Conserved Hypotheticals
+2114,714,Unknowns
+2115,123,noRV
+2116,267,MMM: Ribosomal protein synthesis and modification
+2117,306,MMM: Ribosomal protein synthesis and modification
+2117.1,165,MMM: Ribosomal protein synthesis and modification
+2118,237,MMM: Ribosomal protein synthesis and modification
+2119,1536,Conserved Hypotheticals
+2120,444,Unknowns
+2121,3588,SMM: Biosyn of Cobalamin
+2122,234,noRV
+2123,327,Unknowns
+2124,1092,SMM: Biosyn of Cobalamin
+2125,627,SMM: Biosyn of Cobalamin
+2126,1527,SMM: Biosyn of Cobalamin
+2127,1224,Conserved Hypotheticals
+2128,924,Other: Antibiotic production and resistance
+2129,936,MMM:RNA synthesis; RNA modification and DNA transcription
+2130,735,SMM: Biosyn of Cobalamin
+2131,801,SMM: Biosyn of Cobalamin
+2132,1173,SMM: Biosyn of Cobalamin
+2133,750,SMM: Misc oxidoreductases and oxygenases
+2134,414,Unknowns
+2135,1464,Unknowns
+2136,300,Unknowns
+2137,972,Conserved Hypotheticals
+2138,300,noRV
+2138.1,150,noRV
+2138.2,444,noRV
+2139,315,Unknowns
+2140,1971,Unknowns
+2141,573,MMM: Cell membrane-Lipoproteins
+2142,195,noRV
+2143,453,Unknowns
+2144,2160,Conserved Hypotheticals
+2145,945,Conserved Hypotheticals
+2146,1143,Unknowns
+2147,306,Other: IS elements: Others
+2148,914,Other: IS elements: Others
+2149,1770,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+2150,1128,MMM: Degradation of Proteins; peptides and glycopeptides
+2151,957,MMM: DNA replication; repair; recombination and restriction/modification
+2152,735,MMM: Other membrane proteins
+2153,2721,MMM: DNA replication; repair; recombination and restriction/modification
+2154,855,MMM: Other membrane proteins
+2155,348,Conserved Hypotheticals
+2156,951,Conserved Hypotheticals
+2157,999,Conserved Hypotheticals
+2158,1359,Conserved Hypotheticals
+2159,1476,Other: PE family: PGRS subfamily
+2160,1656,Conserved Hypotheticals
+2160.1,171,noRV
+2161,2865,MMM: DNA replication; repair; recombination and restriction/modification
+2162,834,Conserved Hypotheticals
+2163,438,Conserved Hypotheticals
+2164,255,Conserved Hypotheticals
+2165,297,Other: IS elements: IS6118
+2165.1,99,Other: IS elements: IS6119
+2166,297,Other: PE family: PE subfamily
+2167,732,Other: PPE family of proteins
+2168,129,noRV
+2169,747,MMM: Degradation of Proteins; peptides and glycopeptides
+2170,876,MMM: Degradation of Proteins; peptides and glycopeptides
+2171,195,Conserved Hypotheticals
+2172,1518,Conserved Hypotheticals
+2173,1194,MMM: Other membrane proteins
+2174,663,Unknowns
+2175,1830,Cell Process: Cell division
+2176,570,MMM: Cell membrane-Lipoproteins
+2177,294,Conserved Hypotheticals
+2178,843,Conserved Hypotheticals
+2179,837,Conserved Hypotheticals
+2180,516,Unknowns
+2181,855,SMM: Amino acid synthesis-Histidine
+2182,282,SMM: Amino acid synthesis-Histidine
+2182.1,453,Other: PPE family of proteins
+2183,2445,SMM: Amino acid synthesis-Aspartate family
+2184,879,Conserved Hypotheticals
+2185,492,noRV
+2185.1,303,Other: PE family: PGRS subfamily
+2186,1389,Cell Process: Transport/Binding: amino acids
+2187,933,SMM: Misc oxidoreductases and oxygenases
+2188,1128,MMM: Aminoacyl tRNA synthases and their modification
+2189,708,SMM: Intermediate Metabolism-of sulphur
+2190,249,Conserved Hypotheticals
+2191,789,Conserved Hypotheticals
+2192,588,Conserved Hypotheticals
+2193,711,Conserved Hypotheticals
+2194,849,Cell Process: Efflux proteins
+2195,414,Conserved Hypotheticals
+2196,1077,MMM: Cell membrane-Lipoproteins
+2197,1074,SMM: Pyrimidine ribonucleotide biosynthesis
+2198,531,Conserved Hypotheticals
+2199,1347,SMM: Amino acid synthesis-Aspartate family
+2200,318,Unknowns
+2201,216,noRV
+2202,1059,Conserved Hypotheticals
+2203,357,MMM: Other membrane proteins
+2204,783,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2205,387,Unknowns
+2206,726,Unknowns
+2207,795,Conserved Hypotheticals
+2208,807,Conserved Hypotheticals
+2209,1206,Cell Process: Cell division
+2210,945,Cell Process: Cell division
+2211,1485,MMM: Murein sacculus and peptidoglycan
+2212,1233,MMM: Murein sacculus and peptidoglycan
+2213,1575,Cell Process: Cell division
+2214,1491,MMM: Murein sacculus and peptidoglycan
+2215,1080,MMM: Murein sacculus and peptidoglycan
+2216,1533,MMM: Murein sacculus and peptidoglycan
+2217,1746,MMM: Murein sacculus and peptidoglycan
+2218,1035,Unknowns
+2218.1,342,Unknowns
+2219,867,SMM: Misc oxidoreductases and oxygenases
+2220,1599,Other: PE family: PGRS subfamily
+2221,2040,MMM: Murein sacculus and peptidoglycan
+2222,1155,Unknowns
+2223,1035,Conserved Hypotheticals
+2224,432,Conserved Hypotheticals
+2225,405,Unknowns
+2226,621,Unknowns
+2227,726,MMM: Cell membrane-Lipoproteins
+2228,981,Unknowns
+2229,1059,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+2230,1551,MMM: Other membrane proteins
+2231,465,SMM: Repressors/activators
+2232,1200,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+2233,666,Other: IS elements: Others
+2234,1389,SMM: Amino acid synthesis-Aromatic
+2234.1,507,Unknowns
+2235,939,MMM: Other membrane proteins
+2236,1284,MMM: Other membrane proteins
+2237,744,Conserved Hypotheticals
+2238,405,Unknowns
+2239,1143,Conserved Hypotheticals
+2240,435,Conserved Hypotheticals
+2241,390,Conserved Hypotheticals
+2242,1812,SMM: Degradation of fatty acids
+2243,1158,Conserved Hypotheticals
+2244,774,Unknowns
+2245,1215,Other: Virulence
+2246,279,noRV
+2247,1914,MMM: DNA replication; repair; recombination and restriction/modification
+2248,1044,SMM: Amino acid synthesis-Aromatic
+2249,612,SMM: Respiration- aerobic
+2250,843,SMM: Respiration- aerobic
+2251,1290,SMM: Respiration- aerobic
+2252,1650,SMM: Respiration- aerobic
+2253,645,Unknowns
+2254,900,MMM: Conserved membrane proteins
+2255,420,MMM: Other membrane proteins
+2256,1092,SMM: Respiration- aerobic
+2257,1959,SMM: Amino acid synthesis-Aspartate family
+2258,975,SMM: Degradation of Carbon compounds
+2259,693,Unknowns
+2260,357,Conserved Hypotheticals
+2261,1146,Conserved Hypotheticals
+2262,711,Unknowns
+2263,1086,SMM: Biosyn of Cobalamin
+2264,750,SMM: Biosyn of Cobalamin
+2265,1539,Cell Process: Efflux proteins
+2266,1107,SMM: Amino acid synthesis-Branched aa
+2267,1140,SMM: Intermediate Metabolism-General
+2268,1167,Conserved Hypotheticals
+2269,1548,MMM: Degradation of Proteins; peptides and glycopeptides
+2270,1779,Cell Process: Detoxification
+2272,1662,SMM: Energy Metabolism-TCA cycle
+2273,909,Conserved Hypotheticals
+2274,723,SMM: Biosyn of Lipoate
+2275,936,SMM: Biosyn of Lipoate
+2276,753,Unknowns
+2277,495,noRV
+2278,1437,SMM: Amino acid synthesis-Glutamate family
+2279,2985,SMM: Amino acid synthesis-Glutamate family
+2280,1341,SMM: Amino acid synthesis-Glutamate family
+2281,1563,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2282,1524,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2283,192,noRV
+2284,846,SMM: Biosyn of Pantothenate
+2285,1542,Unknowns
+2285.2,228,noRV
+2286,486,Unknowns
+2287,1095,Unknowns
+2289,1872,Conserved Hypotheticals
+2290,978,SMM: Biosyn of Cobalamin
+2291,420,noRV
+2292,876,Unknowns
+2293,492,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+2294,816,Unknowns
+2295,942,SMM: Biosyn of Cobalamin
+2296,816,Conserved Hypotheticals
+2297,237,noRV
+2298,462,Cell Process: Detoxification
+2299,477,Unknowns
+2300,786,Conserved Hypotheticals
+2301,2706,SMM: Energy Metabolism-pyruvate dehydrogenase
+2302,1245,Unknowns
+2303,909,SMM: Biosyn of fatty and mycolic acids
+2304,348,SMM: Biosyn of fatty and mycolic acids
+2305,1251,SMM: Biosyn of fatty and mycolic acids
+2306,1254,SMM: Biosyn of fatty and mycolic acids
+2307,1422,SMM: Biosyn of fatty and mycolic acids
+2308,816,Conserved Hypotheticals
+2309,1545,SMM: Respiration- aerobic
+2310,660,SMM: Repressors/activators
+2311,1590,Conserved Hypotheticals
+2312,929,Conserved Hypotheticals
+2314,504,Unknowns
+2315,456,Unknowns
+2316,219,Unknowns
+2317,534,Conserved Hypotheticals
+2318,819,Unknowns
+2319,1062,SMM: Repressors/activators
+2320,1086,SMM: Misc oxidoreductases and oxygenases
+2321,639,Conserved Hypotheticals
+2322,1509,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+2323,954,SMM: Misc oxidoreductases and oxygenases
+2324,1779,Conserved Hypotheticals
+2325,132,noRV
+2326,96,noRV
+2327,1230,MMM: Other membrane proteins
+2328,1287,Other: Cytochrome P450 enzymes
+2329,1167,Unknowns
+2330,1470,Other: Cytochrome P450 enzymes
+2330.1,183,Unknowns
+2331,528,MMM: Cell membrane-Lipoproteins
+2332,300,Unknowns
+2333,369,Conserved Hypotheticals
+2334,330,Unknowns
+2334.1,171,noRV
+2335,870,Unknowns
+2336,1191,Other: Cytochrome P450 enzymes
+2337,915,Other: Miscellaneous phosphatases; lyases and hydrolases
+2338,1380,SMM: Misc oxidoreductases and oxygenases
+2339,1659,Cell Process: Transport/Binding: Anions
+2340,939,SMM: Repressors/activators
+2341,249,Unknowns
+2342,1296,MMM: Esterases and Lipases
+2343,1338,Conserved Hypotheticals
+2344,693,Conserved Hypotheticals
+2345,1629,Cell Process: Transport/Binding: cations
+2345.1,378,Unknowns
+2346,783,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+2347,579,MMM: Cell membrane-Lipoproteins
+2348,807,SMM: Intermediate Metabolism-of sulphur
+2349,225,Unknowns
+2350,741,Unknowns
+2351,1164,Other: Miscellaneous Transferases
+2352,564,Conserved Hypotheticals
+2353,903,Other: Miscellaneous phosphatases; lyases and hydrolases
+2354,453,Unknowns
+2355,972,Conserved Hypotheticals
+2356,1944,Cell Process: Chaperones/Heat Shock
+2357,933,Conserved Hypotheticals
+2358,660,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2359,243,Conserved Hypotheticals
+2360,924,Other: Antibiotic production and resistance
+2361,210,Unknowns
+2361.1,180,noRV
+2362,1290,Unknowns
+2363,627,Unknowns
+2364,846,Conserved Hypotheticals
+2364.1,111,noRV
+2365,192,noRV
+2365.1,402,noRV
+2365.2,183,noRV
+2366,717,SMM: Repressors/activators
+2367,333,noRV
+2367.1,327,noRV
+2368,456,Other: IS elements: Phage related functions
+2369,126,noRV
+2370,168,noRV
+2370.1,156,noRV
+2370.2,165,noRV
+2370.3,288,noRV
+2371,153,noRV
+2372,345,Other: IS elements: Phage related functions
+2373,525,Unknowns
+2374,270,Unknowns
+2375,117,noRV
+2376,855,Unknowns
+2377,1374,Conserved Hypotheticals
+2378,1518,Conserved Hypotheticals
+2379,873,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2380,825,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2381,1281,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2382,879,Unknowns
+2383,1416,Cell Process: Transport/Binding: amino acids
+2384.1,1211,SMM: Degradation of Amino acids and amines
+2385,909,Conserved Hypotheticals
+2386,447,SMM: Repressors/activators
+2387,849,Conserved Hypotheticals
+2388,2094,MMM: Other membrane proteins
+2389,492,Conserved Hypotheticals
+2390,1254,Other: PE family: PE subfamily
+2391,1548,Cell Process: Transport/Binding: Anions
+2392,528,MMM: Cell membrane-Lipoproteins
+2393,588,Unknowns
+2394,1647,SMM: Misc oxidoreductases and oxygenases
+2395,1614,Cell Process: Efflux proteins
+2396,171,noRV
+2397,933,SMM: Amino acid synthesis-Serine family
+2398,690,SMM: Amino acid synthesis-Serine family
+2399,969,Unknowns
+2400,1119,Unknowns
+2401,957,SMM: Biosyn of Molybdopterin
+2401.1,285,noRV
+2401.2,210,noRV
+2402,2889,MMM: Conserved membrane proteins
+2404,1242,Other: PE family: PE subfamily
+2405,171,noRV
+2406,420,MMM: Cell membrane-Lipoproteins
+2407,294,Unknowns
+2408,1920,MMM: DNA replication; repair; recombination and restriction/modification
+2409,1296,SMM: Misc. nucleoside/nucleotide reactions
+2410,1983,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2411,285,Conserved Hypotheticals
+2412,297,Conserved Hypotheticals
+2413,327,Unknowns
+2414,1527,MMM: Esterases and Lipases
+2415,1539,MMM: Esterases and Lipases
+2416,1563,MMM: Esterases and Lipases
+2417,114,noRV
+2418,228,noRV
+2419,1176,Other: PPE family of proteins
+2420,291,noRV
+2421,300,noRV
+2422,1248,Other: PPE family of proteins
+2423,1866,noRV
+2423.1,369,Other: IS elements: IS6124
+2424,111,Other: IS elements: IS6125
+2425,1848,Other: PPE family of proteins
+2426,1392,MMM: Aminoacyl tRNA synthases and their modification
+2427,408,SMM: Repressors/activators
+2428,393,SMM: Repressors/activators
+2429,429,Unknowns
+2430,891,Conserved Hypotheticals
+2431,798,Conserved Hypotheticals
+2432,1455,Other: Miscellaneous phosphatases; lyases and hydrolases
+2433,903,SMM: Misc. nucleoside/nucleotide reactions
+2434,282,Conserved Hypotheticals
+2435,1221,Conserved Hypotheticals
+2436,534,Conserved Hypotheticals
+2437,1059,SMM: Degradation of phosphorous compounds
+2438,114,Unknowns
+2439,1314,Conserved Hypotheticals
+2440,288,Other: PE family: PE subfamily
+2441,789,Conserved Hypotheticals
+2442,1149,Cell Process: Chaperones/Heat Shock
+2443,1032,Cell Process: Chaperones/Heat Shock
+2444,318,Unknowns
+2445,507,Conserved Hypotheticals
+2445.1,216,SMM: Polyketide and non-ribosomal peptide synthesis
+2446,1296,SMM: Polyketide and non-ribosomal peptide synthesis
+2447,4386,SMM: Polyketide and non-ribosomal peptide synthesis
+2448,5364,SMM: Polyketide and non-ribosomal peptide synthesis
+2449,3030,SMM: Polyketide and non-ribosomal peptide synthesis
+2450,1341,SMM: Polyketide and non-ribosomal peptide synthesis
+2451,4245,SMM: Polyketide and non-ribosomal peptide synthesis
+2452,1698,SMM: Polyketide and non-ribosomal peptide synthesis
+2453,984,MMM: Esterases and Lipases
+2454,1353,SMM: Amino acid synthesis-Aromatic
+2455,210,noRV
+2456,1293,Conserved Hypotheticals
+2457,1173,SMM: Biosyn of Heme and Porphyrin
+2458,465,Conserved Hypotheticals
+2459,558,Conserved Hypotheticals
+2460,102,noRV
+2461,1668,SMM: Respiration- anaerobic
+2462,765,SMM: Respiration- anaerobic
+2463,846,Conserved Hypotheticals
+2464,1932,SMM: Biosyn of Thioredoxin; glytaredoxin and mycothiol
+2465,2004,MMM: Other membrane proteins
+2466,216,noRV
+2467,165,noRV
+2467.1,1149,Other: PE family: PGRS subfamily
+2468,1062,Cell Process: Transport/Binding: Anions
+2469,819,Cell Process: Transport/Binding: Anions
+2470,852,Cell Process: Transport/Binding: Anions
+2471,1071,Cell Process: Transport/Binding: Anions
+2472,405,Unknowns
+2473,195,noRV
+2474,1929,Conserved Hypotheticals
+2475,756,MMM: Cell membrane-Lipoproteins
+2476,1962,SMM: Misc. nucleoside/nucleotide reactions
+2477,450,Unknowns
+2478,294,Conserved Hypotheticals
+2479,675,Conserved Hypotheticals
+2480,273,noRV
+2481,1005,Other: PE family: PE subfamily
+2482,840,Conserved Hypotheticals
+2483,978,Conserved Hypotheticals
+2484,1656,Conserved Hypotheticals
+2485,261,MMM: Ribosomal protein synthesis and modification
+2486,969,Conserved Hypotheticals
+2487,1554,Conserved Hypotheticals
+2488,642,Conserved Hypotheticals
+2488.1,609,noRV
+2489,1164,Conserved Hypotheticals
+2490,843,Conserved Hypotheticals
+2491,744,Unknowns
+2492,672,SMM: Energy metabolism-Glycolysis
+2493,381,Conserved Hypotheticals
+2494,636,Conserved Hypotheticals
+2495,273,Unknowns
+2496,1047,Unknowns
+2497,1002,Other: IS elements: Others
+2498,1443,Conserved Hypotheticals
+2499,876,Conserved Hypotheticals
+2500,1248,SMM: Amino acid synthesis-Glutamate family
+2501,246,noRV
+2502,195,noRV
+2503,588,Cell Process: Detoxification
+2504,534,Cell Process: Detoxification
+2505,672,Other: PPE family of proteins
+2506,300,Other: PE family: PE subfamily
+2507,291,Unknowns
+2508,1446,MMM: Other membrane proteins
+2509,2193,Unknowns
+2510,129,noRV
+2511,915,SMM: Energy metabolism- Pentose phosphate pathway
+2512,438,Conserved Hypotheticals
+2513,2217,Conserved Hypotheticals
+2514,129,noRV
+2515,1131,SMM: Amino acid synthesis-Glutamate family
+2516,1455,SMM: Misc. nucleoside/nucleotide reactions
+2517,261,MMM: Ribosomal protein synthesis and modification
+2518,315,MMM: Ribosomal protein synthesis and modification
+2518.1,228,noRV
+2519,1476,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2520,1866,MMM: Degradation of RNA
+2520.1,456,noRV
+2521,411,SMM: Misc. nucleoside/nucleotide reactions
+2522,372,Unknowns
+2523,1464,SMM: Biosyn of Folic acid
+2524,2631,MMM: Aminoacyl tRNA synthases and their modification
+2525,1308,Conserved Hypotheticals
+2526,567,Conserved Hypotheticals
+2527,399,Unknowns
+2527.1,147,Unknowns
+2528,606,Unknowns
+2529,1038,SMM: Misc oxidoreductases and oxygenases
+2530,1977,SMM: Misc oxidoreductases and oxygenases
+2531,1257,MMM: Other membrane proteins
+2532,1281,MMM: Degradation of Proteins; peptides and glycopeptides
+2533,909,Conserved Hypotheticals
+2534,1572,Cell Process: Efflux proteins
+2535,645,MMM: Degradation of Proteins; peptides and glycopeptides
+2536,603,MMM: Degradation of Proteins; peptides and glycopeptides
+2537,1401,Cell Process: Protein and peptide secretion
+2538,1185,MMM: Esterases and Lipases
+2539,807,MMM: DNA replication; repair; recombination and restriction/modification
+2540,480,SMM: Energy metabolism- Pentose phosphate pathway
+2541,879,Conserved Hypotheticals
+2542,2586,MMM: Degradation of Proteins; peptides and glycopeptides
+2543,504,Unknowns
+2544,243,noRV
+2545,669,Conserved Hypotheticals
+2546,405,SMM: Respiration- aerobic
+2547,1641,MMM: Polysaccharides (cytoplasmic)
+2547.1,288,Unknowns
+2547.2,150,noRV
+2548,678,MMM: Other membrane proteins
+2549,654,Unknowns
+2550,417,Conserved Hypotheticals
+2551,4875,Unknowns
+2552,1677,MMM: Other membrane proteins
+2553,507,Unknowns
+2554,153,noRV
+2554.1,258,noRV
+2554.2,321,noRV
+2555,2370,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+2556,1743,Other: Miscellaneous Transferases
+2557,1476,Conserved Hypotheticals
+2558,171,noRV
+2559,1266,MMM: Esterases and Lipases
+2560,771,SMM: Degradation of fatty acids
+2561,2085,Other: PE family: PGRS subfamily
+2563,3342,SMM: Repressors/activators
+2563.1,363,Unknowns
+2564,4998,Other: PE family: PGRS subfamily
+2565,207,noRV
+2566,624,Unknowns
+2567,753,Unknowns
+2568,222,Conserved Hypotheticals
+2569,426,Conserved Hypotheticals
+2570,1182,SMM: Energy Metabolism-pyruvate dehydrogenase
+2571,1047,SMM: Energy Metabolism-pyruvate dehydrogenase
+2572,1104,SMM: Energy Metabolism-pyruvate dehydrogenase
+2573,822,SMM: Energy Metabolism-TCA cycle
+2574,558,SMM: Misc oxidoreductases and oxygenases
+2575,1185,SMM: Degradation of fatty acids
+2576,1965,SMM: Degradation of fatty acids
+2577,1590,SMM: Degradation of fatty acids
+2578,657,SMM: Degradation of fatty acids
+2579,747,SMM: Degradation of fatty acids
+2580,1644,SMM: Degradation of fatty acids
+2581,696,SMM: Repressors/activators
+2582,828,MMM: Other membrane proteins
+2583,1347,MMM: Other membrane proteins
+2584,807,SMM: Misc oxidoreductases and oxygenases
+2585,1602,Conserved Hypotheticals
+2586,648,Conserved Hypotheticals
+2586.1,402,noRV
+2587,1311,Other: IS elements: IS1083
+2588,186,noRV
+2589,423,Unknowns
+2589.1,246,noRV
+2590,462,Unknowns
+2591,1248,Unknowns
+2593,804,Unknowns
+2593.1,294,Unknowns
+2593.2,240,noRV
+2594,1227,MMM: Cell membrane-Lipoproteins
+2595,1506,Other: PE family: PE subfamily
+2596,228,Conserved Hypotheticals
+2597,474,Cell Process: Detoxification
+2598,1413,Conserved Hypotheticals
+2599,393,SMM: Biosyn of fatty and mycolic acids
+2600,9210,SMM: Biosyn of fatty and mycolic acids
+2600.1,246,noRV
+2601,723,Unknowns
+2601.1,336,noRV
+2601.2,228,Conserved Hypotheticals
+2602,402,Conserved Hypotheticals
+2603,921,MMM: DNA replication; repair; recombination and restriction/modification
+2604,1392,Unknowns
+2605,420,Conserved Hypotheticals
+2606,225,noRV
+2607,2844,SMM: Degradation of Amino acids and amines
+2608,873,MMM:RNA synthesis; RNA modification and DNA transcription
+2609,564,MMM: Protein translation and modification
+2610,1119,MMM: Degradation of Proteins; peptides and glycopeptides
+2611,699,MMM: Other membrane proteins
+2612,444,SMM: Amino acid synthesis-Aromatic
+2613,1089,SMM: Amino acid synthesis-Aromatic
+2614,531,SMM: Amino acid synthesis-Aromatic
+2615,1206,SMM: Amino acid synthesis-Aromatic
+2615.1,1122,Unknowns
+2616,798,Conserved Hypotheticals
+2617,228,noRV
+2618,660,MMM: Cell membrane-Lipoproteins
+2619,660,noRV
+2620,663,MMM: Cell membrane-Lipoproteins
+2621,279,Conserved Hypotheticals
+2622,417,Conserved Hypotheticals
+2623,273,Conserved Hypotheticals
+2624,378,Conserved Hypotheticals
+2625,375,noRV
+2626,558,Unknowns
+2627,246,Unknowns
+2627.1,210,noRV
+2628,420,Unknowns
+2629,810,SMM: Amino acid synthesis-Aromatic
+2630,1254,Unknowns
+2631,513,Unknowns
+2632,2715,MMM: Aminoacyl tRNA synthases and their modification
+2633,390,Conserved Hypotheticals
+2634,675,Conserved Hypotheticals
+2635,711,Conserved Hypotheticals
+2636,1359,Conserved Hypotheticals
+2637,978,MMM: Other membrane proteins
+2637.1,324,Unknowns
+2638,639,Unknowns
+2639,1050,MMM: Other membrane proteins
+2640,993,Cell Process: Transport/Binding: amino acids
+2641,1752,Conserved Hypotheticals
+2642,3471,Unknowns
+2643,2655,Conserved Hypotheticals
+2644,1026,Conserved Hypotheticals
+2645,945,Conserved Hypotheticals
+2646,390,Unknowns
+2647,1068,Conserved Hypotheticals
+2648,1785,MMM: Aminoacyl tRNA synthases and their modification
+2649,828,Unknowns
+2650,504,Unknowns
+2651,882,Conserved Hypotheticals
+2652,465,Unknowns
+2653,147,noRV
+2654,1590,Unknowns
+2655,1023,Unknowns
+2656,903,Other: Miscellaneous phosphatases; lyases and hydrolases
+2657,1272,MMM: Aminoacyl tRNA synthases and their modification
+2658,741,Cell Process: Detoxification
+2659,927,MMM: Protein translation and modification
+2660,2382,SMM: Misc. nucleoside/nucleotide reactions
+2661,672,SMM: Salvage of nucleotides and nucleosides
+2662,1674,Conserved Hypotheticals
+2663,1329,Cell Process: Protein and peptide secretion
+2664,1665,Cell Process: Protein and peptide secretion
+2665,348,Conserved Hypotheticals
+2666,1350,SMM: Intermediate Metabolism-General
+2667,3507,SMM: Degradation of fatty acids
+2668,153,noRV
+2668.1,1518,Other: PE family: PGRS subfamily
+2669,1035,MMM: DNA replication; repair; recombination and restriction/modification
+2670,591,MMM: DNA replication; repair; recombination and restriction/modification
+2671,567,MMM: DNA replication; repair; recombination and restriction/modification
+2672,384,Conserved Hypotheticals
+2673,621,Unknowns
+2673.1,465,Unknowns
+2674,432,Conserved Hypotheticals
+2674.1,459,Conserved Hypotheticals
+2675,1572,SMM: Polyamine synthesis
+2676,288,noRV
+2677,441,Conserved Hypotheticals
+2678,756,Conserved Hypotheticals
+2679,597,Conserved Hypotheticals
+2680,846,SMM: Biosyn of fatty and mycolic acids
+2681,921,Conserved Hypotheticals
+2682,675,SMM: Biosyn of Pyridoxine
+2683,1743,Other: PPE family of proteins
+2684,1056,Conserved Hypotheticals
+2685,1137,Other: Miscellaneous Transferases
+2686,951,Conserved Hypotheticals
+2687,654,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+2688,588,Conserved Hypotheticals
+2689,2079,MMM: Aminoacyl tRNA synthases and their modification
+2689.1,228,noRV
+2690,1431,Other: PE family: PE subfamily
+2691.1,501,Unknowns
+2692,441,Unknowns
+2693,678,Conserved Hypotheticals
+2694,411,Unknowns
+2695,426,Conserved Hypotheticals
+2696,675,SMM: Repressors/activators
+2697,822,Other: Miscellaneous Transferases
+2698,894,Conserved Hypotheticals
+2699,819,Conserved Hypotheticals
+2700,1182,Conserved Hypotheticals
+2701,432,Conserved Hypotheticals
+2702,1242,Conserved Hypotheticals
+2703,363,Unknowns
+2704,1125,Unknowns
+2705,540,Unknowns
+2707,1299,Conserved Hypotheticals
+2708,282,Conserved Hypotheticals
+2709,486,Unknowns
+2710,258,noRV
+2712,2367,Other: PE family: PGRS subfamily
+2713,243,Unknowns
+2714,678,Unknowns
+2715,657,Conserved Hypotheticals
+2716,447,Conserved Hypotheticals
+2717,333,Conserved Hypotheticals
+2718,360,SMM: Repressors/activators
+2719,459,Conserved Hypotheticals
+2720,1497,Cell Process: Transport/Binding: Anions
+2721,423,Unknowns
+2722,132,noRV
+2723,432,Unknowns
+2724,999,Other: IS elements: Phage related functions
+2725,369,Other: IS elements: Phage related functions
+2726,282,noRV
+2727,1440,Other: IS elements: Phage related functions
+2728,534,Other: IS elements: Phage related functions
+2729,492,Other: IS elements: Phage related functions
+2730,324,Other: IS elements: Phage related functions
+2731,246,Other: IS elements: Phage related functions
+2732,1428,Other: IS elements: Phage related functions
+2733,393,Other: IS elements: Phage related functions
+2734,261,Other: IS elements: Phage related functions
+2734.1,369,Other: IS elements: Phage related functions
+2735,1161,Other: IS elements: Phage related functions
+2736,228,Unknowns
+2736.1,159,Unknowns
+2737,234,Unknowns
+2738,255,Unknowns
+2739,282,Conserved Hypotheticals
+2740,867,Other: IS elements: IS1084
+2741,759,MMM: Degradation of Proteins; peptides and glycopeptides
+2742,627,Unknowns
+2743,471,SMM: Repressors/activators
+2744,1110,Conserved Hypotheticals
+2745,720,SMM: Biosyn of Riboflavin
+2746,1557,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2747,1302,MMM: Other membrane proteins
+2748,411,noRV
+2749,753,Other: Miscellaneous Transferases
+2750,696,Conserved Hypotheticals
+2751,1359,SMM: Biosyn of Heme and Porphyrin
+2752,1119,SMM: Biosyn of Heme and Porphyrin
+2753,831,SMM: Degradation of fatty acids
+2754,537,Conserved Hypotheticals
+2755,1317,Conserved Hypotheticals
+2756,1917,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+2757,498,Conserved Hypotheticals
+2758,1290,Cell Process: Transport/Binding: Anions
+2759,1287,Cell Process: Transport/Binding: Anions
+2760,759,MMM: Other membrane proteins
+2761,714,Unknowns
+2762,954,MMM: Other membrane proteins
+2763,1305,Other: Miscellaneous Transferases
+2764,1974,MMM: Other membrane proteins
+2765,684,Cell Process: Transport/Binding: cations
+2766,663,Cell Process: Transport/Binding: cations
+2767,672,Conserved Hypotheticals
+2768,474,Conserved Hypotheticals
+2769,708,Conserved Hypotheticals
+2770,780,Conserved Hypotheticals
+2771,465,SMM: 2'-deoxyribonucleotide metabolism
+2772,486,Conserved Hypotheticals
+2773,303,Conserved Hypotheticals
+2774,651,Conserved Hypotheticals
+2775,834,Cell Process: Chaperones/Heat Shock
+2776,798,SMM: Degradation of Carbon compounds
+2777,1587,MMM:RNA synthesis; RNA modification and DNA transcription
+2777.1,429,Conserved Hypotheticals
+2778,384,Unknowns
+2779,189,Unknowns
+2780,975,Conserved Hypotheticals
+2781,249,Conserved Hypotheticals
+2782,447,Conserved Hypotheticals
+2783,972,MMM:RNA synthesis; RNA modification and DNA transcription
+2784,693,SMM: Repressors/activators
+2785,1059,Unknowns
+2786,1407,SMM: Misc oxidoreductases and oxygenases
+2787,975,Conserved Hypotheticals
+2788,1026,MMM: Degradation of aromatic hydrocarbons
+2789,687,Conserved Hypotheticals
+2790,495,Conserved Hypotheticals
+2791,465,Conserved Hypotheticals
+2792,498,Conserved Hypotheticals
+2793,654,SMM: Repressors/activators
+2794,2100,Conserved Hypotheticals
+2794.1,285,Unknowns
+2795,1194,Cell Process: Transport/Binding: cations
+2796,1161,SMM: Degradation of fatty acids
+2797,1671,MMM: Degradation of Proteins; peptides and glycopeptides
+2798,870,SMM: Amino acid synthesis-Aspartate family
+2799,945,SMM: Misc. nucleoside/nucleotide reactions
+2800,696,Conserved Hypotheticals
+2801,906,Conserved Hypotheticals
+2801.1,477,Unknowns
+2802,1353,Unknowns
+2802.1,543,Conserved Hypotheticals
+2803,1539,Conserved Hypotheticals
+2803.1,99,noRV
+2803.2,855,Unknowns
+2804,993,Unknowns
+2805,537,MMM: DNA replication; repair; recombination and restriction/modification
+2806,2373,MMM: DNA replication; repair; recombination and restriction/modification
+2807,354,noRV
+2808,207,Conserved Hypotheticals
+2808.1,1263,Other: Miscellaneous Transferases
+2810,267,Conserved Hypotheticals
+2812,1365,Other: PE family: PGRS subfamily
+2813,861,Conserved Hypotheticals
+2814,813,Conserved Hypotheticals
+2815,813,Conserved Hypotheticals
+2816,339,SMM: Repressors/activators
+2817,630,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+2818,495,Conserved Hypotheticals
+2819,2907,Cell Process: Cell division
+2820,819,SMM: Misc oxidoreductases and oxygenases
+2821,891,Conserved Hypotheticals
+2822,1677,Conserved Hypotheticals
+2823,903,SMM: Amino acid synthesis-Aspartate family
+2824,753,Conserved Hypotheticals
+2825,276,MMM: DNA replication; repair; recombination and restriction/modification
+2826,1623,MMM: DNA replication; repair; recombination and restriction/modification
+2827,417,Conserved Hypotheticals
+2828,267,Conserved Hypotheticals
+2829,396,Conserved Hypotheticals
+2830,270,Conserved Hypotheticals
+2831,1095,Unknowns
+2832,420,Unknowns
+2833,480,SMM: Biosyn of Folic acid
+2834,801,SMM: 2'-deoxyribonucleotide metabolism
+2835,738,Unknowns
+2836,783,SMM: Biosyn of fatty and mycolic acids
+2837,291,Unknowns
+2838,1389,Other: PPE family of proteins
+2839,828,Other: PE family: PE subfamily
+2840,1209,Other: PPE family of proteins
+2841,453,Unknowns
+2842,474,Unknowns
+2843,738,SMM: Amino acid synthesis-Aspartate family
+2844,414,Unknowns
+2845,558,Unknowns
+2846,1092,SMM: Misc oxidoreductases and oxygenases
+2847,1182,Unknowns
+2848,471,Conserved Hypotheticals
+2849,546,SMM: Repressors/activators
+2850,1116,SMM: Degradation of Amino acids and amines
+2851,1035,SMM: Misc oxidoreductases and oxygenases
+2852,1317,MMM: Degradation of Proteins; peptides and glycopeptides
+2853,2259,MMM:RNA synthesis; RNA modification and DNA transcription
+2854,516,MMM: Cell membrane-Lipoproteins
+2855,270,MMM: Ribosomal protein synthesis and modification
+2856,996,SMM: Biosyn of Riboflavin
+2857,1773,Conserved Hypotheticals
+2858,687,SMM: Repressors/activators
+2859,1233,SMM: Degradation of fatty acids
+2860,1203,Cell Process: Fatty acid transport
+2861,1380,Other: IS elements: Others
+2862,582,Other: IS elements: Others
+2862.1,897,MMM:RNA synthesis; RNA modification and DNA transcription
+2863,684,Conserved Hypotheticals
+2864,975,Unknowns
+2865,567,MMM: Cell membrane-Lipoproteins
+2866,1689,Conserved Hypotheticals
+2867,348,Conserved Hypotheticals
+2867.1,630,Unknowns
+2868,1650,Conserved Hypotheticals
+2869,354,Conserved Hypotheticals
+2870,1074,Unknowns
+2871,468,Unknowns
+2872,630,Unknowns
+2873,192,Unknowns
+2874,1155,Conserved Hypotheticals
+2875,270,Unknowns
+2876,312,Unknowns
+2877,168,Other: IS elements: Others
+2878,537,Conserved Hypotheticals
+2879,1410,Other: IS elements: Others
+2880,813,Cell Process: Protein and peptide secretion
+2880.1,237,noRV
+2880.2,327,noRV
+2880.3,798,noRV
+2881,885,noRV
+2882,327,noRV
+2882.1,375,noRV
+2882.2,348,noRV
+2883,342,Conserved Hypotheticals
+2884,1017,Conserved Hypotheticals
+2885,1293,Unknowns
+2886,1128,Unknowns
+2887,909,Unknowns
+2888,711,Conserved Hypotheticals
+2889,375,Unknowns
+2890,2454,Conserved Hypotheticals
+2891,945,Unknowns
+2892,741,Conserved Hypotheticals
+2893,891,Unknowns
+2894,948,Unknowns
+2895,117,noRV
+2895.1,546,Conserved Hypotheticals
+2896,747,Conserved Hypotheticals
+2897,750,SMM: Degradation of fatty acids
+2898,1083,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2899,1053,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2900,828,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2901,912,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+2902,1311,MMM: DNA replication; repair; recombination and restriction/modification
+2903,951,Conserved Hypotheticals
+2904,552,MMM: Ribosome modification and maturation
+2905,2703,MMM: Protein translation and modification
+2906,300,Conserved Hypotheticals
+2907,1032,MMM:RNA synthesis; RNA modification and DNA transcription
+2908,552,Conserved Hypotheticals
+2909,546,Unknowns
+2910,489,Unknowns
+2911,1737,MMM: Aminoacyl tRNA synthases and their modification
+2912,1593,Cell Process: Efflux proteins
+2913,1218,SMM: Amino acid synthesis-Serine family
+2914,1374,SMM: Biosyn of Cobalamin
+2915,624,SMM: Biosyn of Cobalamin
+2916,1833,noRV
+2917,471,Conserved Hypotheticals
+2918,1482,Conserved Hypotheticals
+2919,1992,Other: PE family: PGRS subfamily
+2921,1041,Unknowns
+2922,1380,SMM: Biosyn of Thioredoxin; glytaredoxin and mycothiol
+2923,1119,Cell Process: Transport/Binding: cations
+2924,531,noRV
+2925,777,SMM: Misc oxidoreductases and oxygenases
+2926,1368,SMM: Misc oxidoreductases and oxygenases
+2927,801,Conserved Hypotheticals
+2928,1374,SMM: Amino acid synthesis-Glutamate family
+2929,858,MMM: Degradation of Proteins; peptides and glycopeptides
+2930,585,Conserved Hypotheticals
+2931,195,noRV
+2932,381,Conserved Hypotheticals
+2933,1857,MMM: Murein sacculus and peptidoglycan
+2934,711,Conserved Hypotheticals
+2935,855,Unknowns
+2936,1164,Conserved Hypotheticals
+2937,1215,MMM: Other membrane proteins
+2938,1200,Conserved Hypotheticals
+2939,444,Conserved Hypotheticals
+2940,663,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2941,192,noRV
+2942,2088,MMM: Other membrane proteins
+2943,582,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2944,393,Unknowns
+2945,864,Cell Process: Transport/Binding: cations
+2946,534,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+2947,1095,Conserved Hypotheticals
+2948,1050,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+2949,558,MMM: Protein translation and modification
+2950,114,noRV
+2951,822,SMM: Pyrimidine ribonucleotide biosynthesis
+2952,759,SMM: Two component systems
+2953,1383,Other: IS elements: Others
+2954,888,Other: IS elements: Others
+2955,420,SMM: Repressors/activators
+2956,1422,Other: Miscellaneous phosphatases; lyases and hydrolases
+2957,816,MMM: Protein translation and modification
+2958,864,MMM: Ribosomal protein synthesis and modification
+2958.1,621,Unknowns
+2959,1227,Other: PPE family of proteins
+2960,144,noRV
+2961,978,SMM: Misc oxidoreductases and oxygenases
+2962,948,Other: IS elements: Phage related functions
+2963,966,SMM: Iron Utilization
+2964,1170,Conserved Hypotheticals
+2965,1512,Conserved Hypotheticals
+2966,426,Conserved Hypotheticals
+2967,831,SMM: Respiration- anaerobic
+2968,2340,SMM: Respiration- anaerobic
+2969,306,Unknowns
+2970,795,MMM: Degradation of RNA
+2971,885,Cell Process: Protein and peptide secretion
+2972,342,MMM: Ribosomal protein synthesis and modification
+2973,945,MMM: Cell membrane-Lipoproteins
+2974,693,MMM: Aminoacyl tRNA synthases and their modification
+2975,531,MMM: Ribosome modification and maturation
+2976,243,Conserved Hypotheticals
+2977,489,MMM: Ribosomal protein synthesis and modification
+2978,444,Conserved Hypotheticals
+2979,876,MMM: Murein sacculus and peptidoglycan
+2980,588,SMM: Repressors/activators
+2981,1836,SMM: Degradation of Amino acids and amines
+2982,1812,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+2983,1056,Conserved Hypotheticals
+2984,1578,Cell Process: Protein and peptide secretion
+2985,1809,Conserved Hypotheticals
+2986,2427,SMM: Amino acid synthesis-Glutamate family
+2987,339,SMM: Repressors/activators
+2988,1434,Cell Process: Transport/Binding: cations
+2988.1,96,noRV
+2989,1269,Cell Process: Cell division
+2990,3618,Cell Process: Cell division
+2991,282,noRV
+2992,414,Conserved Hypotheticals
+2993,147,noRV
+2994,870,MMM: DNA replication; repair; recombination and restriction/modification
+2995,723,MMM: Degradation of RNA
+2996,588,Unknowns
+2997,744,Conserved Hypotheticals
+2998,792,SMM: Polyketide and non-ribosomal peptide synthesis
+2998.1,312,Unknowns
+2999,1752,SMM: Degradation of fatty acids
+3000,5631,SMM: Polyketide and non-ribosomal peptide synthesis
+3002,4617,SMM: Polyketide and non-ribosomal peptide synthesis
+3003,6567,SMM: Polyketide and non-ribosomal peptide synthesis
+3004,5484,SMM: Polyketide and non-ribosomal peptide synthesis
+3005,4467,SMM: Polyketide and non-ribosomal peptide synthesis
+3006,996,Cell Process: Efflux proteins
+3007,870,Cell Process: Efflux proteins
+3008,831,Cell Process: Efflux proteins
+3009,1269,SMM: Polyketide and non-ribosomal peptide synthesis
+3010,6336,SMM: Polyketide and non-ribosomal peptide synthesis
+3011,1743,SMM: Degradation of fatty acids
+3012,2763,MMM: Conserved membrane proteins
+3013,216,noRV
+3014,171,noRV
+3015,1242,Other: IS elements: Others
+3016,717,Other: IS elements: Others
+3017,702,MMM: Cell membrane-Lipoproteins
+3018,4863,SMM: Polyketide and non-ribosomal peptide synthesis
+3021.1,1491,SMM: Degradation of fatty acids
+3021,2118,SMM: Polyketide and non-ribosomal peptide synthesis
+3022,639,Unknowns
+3023,1749,SMM: Degradation of fatty acids
+3024,318,noRV
+3025,1146,SMM: Misc oxidoreductases and oxygenases
+3026,813,Other: Miscellaneous Transferases
+3027,1257,Conserved Hypotheticals
+3028,600,Unknowns
+3029,975,Conserved Hypotheticals
+3030,732,Conserved Hypotheticals
+3031,771,Other: Miscellaneous Transferases
+3032,141,noRV
+3033,207,noRV
+3034,1287,Other: Miscellaneous Transferases
+3035,738,Other: Miscellaneous Transferases
+3036,351,Unknowns
+3037,414,Conserved Hypotheticals
+3038,1350,Other: Miscellaneous Transferases
+3039,1221,MMM: Other membrane proteins
+3041,933,SMM: Purine ribonucleotide biosynthesis
+3041.1,519,noRV
+3042,243,noRV
+3043,486,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3044,567,Conserved Hypotheticals
+3045,3384,SMM: Energy Metabolism-TCA cycle
+3046,633,MMM: Other membrane proteins
+3047,786,MMM: Other membrane proteins
+3048,930,MMM: Esterases and Lipases
+3049,849,SMM: Misc oxidoreductases and oxygenases
+3050,714,Unknowns
+3051,2214,MMM: DNA replication; repair; recombination and restriction/modification
+3052,1413,Conserved Hypotheticals
+3052.1,279,Conserved Hypotheticals
+3052.2,195,noRV
+3053,684,MMM: DNA replication; repair; recombination and restriction/modification
+3055,1002,SMM: Biosyn of Thiamine
+3056,1380,Other: IS elements: Others
+3057,585,Other: IS elements: Others
+3058,645,Unknowns
+3058.1,177,noRV
+3058.2,177,noRV
+3059,1122,MMM: Murein sacculus and peptidoglycan
+3060,1005,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+3061,645,Conserved Hypotheticals
+3062,2226,SMM: Degradation of phosphorous compounds
+3063,954,MMM: DNA replication; repair; recombination and restriction/modification
+3064,645,MMM: Nucleoproteins
+3065,597,SMM: Amino acid synthesis-Branched aa
+3066,1422,SMM: Amino acid synthesis-Branched aa
+3067,804,SMM: Repressors/activators
+3068,861,Unknowns
+3069,492,Conserved Hypotheticals
+3070,1473,MMM: Aminoacyl tRNA synthases and their modification
+3071,720,Conserved Hypotheticals
+3072,1338,Cell Process: Efflux proteins
+3073,1011,SMM: Amino acid synthesis-Branched aa
+3074,1587,SMM: Amino acid synthesis-Serine family
+3075,1443,SMM: Misc oxidoreductases and oxygenases
+3076,561,Unknowns
+3077,303,noRV
+3078,990,MMM: Cell membrane-Lipoproteins
+3080,660,Conserved Hypotheticals
+3080.1,219,noRV
+3081,1014,SMM: Amino acid synthesis-Branched aa
+3082,507,SMM: Amino acid synthesis-Branched aa
+3083,1857,SMM: Amino acid synthesis-Branched aa
+3084,636,Unknowns
+3085,840,Conserved Hypotheticals
+3086,1122,MMM: Cell membrane-Lipoproteins
+3087,711,Unknowns
+3088,624,Unknowns
+3089,1530,MMM: Aminoacyl tRNA synthases and their modification
+3090,1032,SMM: Energy metabolism-Glycolysis
+3091,1485,MMM: Aminoacyl tRNA synthases and their modification
+3092,300,MMM: Aminoacyl tRNA synthases and their modification
+3093,723,Conserved Hypotheticals
+3094,2040,MMM: DNA replication; repair; recombination and restriction/modification
+3095,1014,Conserved Hypotheticals
+3096,630,MMM: Cell membrane-Lipoproteins
+3097,366,Conserved Hypotheticals
+3098,408,noRV
+3099,327,noRV
+3100,885,noRV
+3101,933,Other: PPE family of proteins
+3102,93,noRV
+3103,177,noRV
+3104,291,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3105,309,Other: PE family: PE subfamily
+3106,1308,Other: PPE family of proteins
+3106.1,414,Other: PPE family of proteins
+3107,1248,noRV
+3108,1104,Conserved Hypotheticals
+3109,1182,Other: Miscellaneous Transferases
+3110,915,Other: Miscellaneous Transferases
+3111,846,Unknowns
+3112,957,SMM: Respiration-Electron Transport
+3113,801,SMM: Respiration-Electron Transport
+3114,825,Conserved Hypotheticals
+3115,1581,Conserved Hypotheticals
+3116,1245,Conserved Hypotheticals
+3117,390,noRV
+3118,549,Unknowns
+3119,789,Conserved Hypotheticals
+3120,1083,Unknowns
+3121,684,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3122,1077,Unknowns
+3123,984,Unknowns
+3124,765,SMM: Degradation of fatty acids
+3125,867,Unknowns
+3126,864,MMM: Other membrane proteins
+3127,1230,SMM: Amino acid synthesis-Serine family
+3128,1722,SMM: Respiration- aerobic
+3129,984,Cell Process: Transport/Binding: cations
+3130,1041,SMM: Misc oxidoreductases and oxygenases
+3131,375,Conserved Hypotheticals
+3131.1,159,noRV
+3132,285,Unknowns
+3133,975,SMM: 2'-deoxyribonucleotide metabolism
+3134,1575,SMM: Misc oxidoreductases and oxygenases
+3135,141,noRV
+3136,741,SMM: Repressors/activators
+3137,2178,SMM: 2'-deoxyribonucleotide metabolism
+3138,453,SMM: 2'-deoxyribonucleotide metabolism
+3139,240,SMM: 2'-deoxyribonucleotide metabolism
+3139.1,405,noRV
+3140,585,Conserved Hypotheticals
+3141,831,SMM: Repressors/activators
+3142,1041,MMM: DNA replication; repair; recombination and restriction/modification
+3143,864,SMM: Misc oxidoreductases and oxygenases
+3144,714,SMM: Repressors/activators
+3145,1479,Other: Cytochrome P450 enzymes
+3145.1,129,noRV
+3146,1533,SMM: Repressors/activators
+3147,2166,SMM: Degradation of fatty acids
+3148,1524,MMM: DNA replication; repair; recombination and restriction/modification
+3149,2277,Cell Process: Adaptations and atypical conditions
+3149.1,183,noRV
+3150,426,Conserved Hypotheticals
+3150.1,324,Cell Process: Efflux proteins
+3151,609,SMM: Repressors/activators
+3152,411,Conserved Hypotheticals
+3153,1644,SMM: Degradation of Carbon compounds
+3153.1,399,MMM: Other membrane proteins
+3154,381,MMM: Other membrane proteins
+3155,1125,Unknowns
+3156,99,noRV
+3157,516,SMM: Misc oxidoreductases and oxygenases
+3158,357,Conserved Hypotheticals
+3159,1275,Conserved Hypotheticals
+3160,924,Conserved Hypotheticals
+3161,477,Conserved Hypotheticals
+3162,1812,SMM: Intermediate Metabolism-of sulphur
+3163,402,MMM: Other membrane proteins
+3164,828,SMM: Misc oxidoreductases and oxygenases
+3165,3333,SMM: Ser/Thr protein kinases and phosphoprotein phosphatases
+3166,1311,Unknowns
+3167,1059,SMM: Repressors/activators
+3168,1488,SMM: Misc oxidoreductases and oxygenases
+3169,927,MMM: Esterases and Lipases
+3170,831,SMM: Misc oxidoreductases and oxygenases
+3171,1107,SMM: Misc oxidoreductases and oxygenases
+3172,1422,Conserved Hypotheticals
+3173,1425,Conserved Hypotheticals
+3174,1512,SMM: Degradation of fatty acids
+3174.1,108,noRV
+3174.2,303,noRV
+3175,888,Unknowns
+3176,1692,Unknowns
+3176.1,921,MMM: Other membrane proteins
+3177,1010,Unknowns
+3178,1188,Conserved Hypotheticals
+3179,477,SMM: Repressors/activators
+3180,1140,Unknowns
+3181,1314,Other: PE family: PE subfamily
+3182,744,Unknowns
+3183,852,Unknowns
+3184,483,Other: Virulence
+3185,894,Cell Process: Cell division
+3186,690,Cell Process: Cell division
+3186.1,477,Unknowns
+3187,927,Conserved Hypotheticals
+3188,1116,MMM: Protein translation and modification
+3189,1371,SMM: Respiration-Electron Transport
+3190,1584,SMM: Misc oxidoreductases and oxygenases
+3191,510,Unknowns
+3192,1107,SMM: Biosyn of Molybdopterin
+3193,429,SMM: Biosyn of Molybdopterin
+3194,513,SMM: Biosyn of Molybdopterin
+3194.1,252,SMM: Biosyn of Molybdopterin
+3195,669,Unknowns
+3196,564,Unknowns
+3197,1311,Other: IS elements: IS1086
+3198,1170,SMM: Biosyn of Molybdopterin
+3199,834,SMM: Amino acid synthesis-Serine family
+3200,303,SMM: Intermediate Metabolism-of sulphur
+3201,444,SMM: Biosyn of Molybdopterin
+3202,603,Other: Miscellaneous Transferases
+3203,1203,Other: Cytochrome P450 enzymes
+3204,234,noRV
+3205,471,Unknowns
+3206,480,Unknowns
+3207,141,noRV
+3208,936,SMM: Repressors/activators
+3209,1176,Other: PPE family of proteins
+3210,165,noRV
+3211,315,Unknowns
+3212,1047,Conserved Hypotheticals
+3214,1275,Conserved Hypotheticals
+3215,333,Conserved Hypotheticals
+3216,1392,Conserved Hypotheticals
+3217,1035,Conserved Hypotheticals
+3218,1737,SMM: Two component systems
+3219,654,SMM: Two component systems
+3220,807,Conserved Hypotheticals
+3220.1,276,noRV
+3220.2,246,Other: PPE family of proteins
+3221,1143,Other: PPE family of proteins
+3222,333,noRV
+3223,96,noRV
+3224,783,Other: Miscellaneous phosphatases; lyases and hydrolases
+3225,1089,SMM: Misc oxidoreductases and oxygenases
+3226,1407,SMM: Degradation of fatty acids
+3227,1206,SMM: Degradation of fatty acids
+3228,972,SMM: Degradation of fatty acids
+3229,528,Unknowns
+3230,402,SMM: Two component systems
+3231,1230,Other: PPE family of proteins
+3233,387,SMM: Respiration- aerobic
+3234,555,SMM: Respiration- aerobic
+3235,633,SMM: Respiration- aerobic
+3236,1197,SMM: Respiration- aerobic
+3237,759,SMM: Respiration- aerobic
+3238,1338,SMM: Respiration- aerobic
+3239,2376,SMM: Respiration- aerobic
+3240,1233,SMM: Respiration- aerobic
+3241,636,SMM: Respiration- aerobic
+3242,789,SMM: Respiration- aerobic
+3243,300,SMM: Respiration- aerobic
+3244,1902,SMM: Respiration- aerobic
+3245,1665,SMM: Respiration- aerobic
+3246,1596,SMM: Respiration- aerobic
+3247,1812,Other: PPE family of proteins
+3248,2061,noRV
+3249,678,SMM: Repressors/activators
+3250,1149,SMM: Misc oxidoreductases and oxygenases
+3251,438,Cell Process: Transport/Binding: cations
+3252,1272,MMM: Other membrane proteins
+3253,963,SMM: Repressors/activators
+3254,483,Unknowns
+3255,966,Conserved Hypotheticals
+3256,690,SMM: Repressors/activators
+3257,1137,Conserved Hypotheticals
+3258,1254,Conserved Hypotheticals
+3259,1365,SMM: Misc oxidoreductases and oxygenases
+3260,972,Cell Process: Detoxification
+3261,483,Unknowns
+3262,603,SMM: Repressors/activators
+3263,708,SMM: Misc oxidoreductases and oxygenases
+3264,1482,Other: Miscellaneous phosphatases; lyases and hydrolases
+3265,1020,MMM: Esterases and Lipases
+3266,903,Cell Process: Detoxification
+3267,516,Conserved Hypotheticals
+3268,180,noRV
+3269,294,noRV
+3270,1365,Conserved Hypotheticals
+3270.1,414,noRV
+3271,435,Unknowns
+3272,453,Conserved Hypotheticals
+3273,135,noRV
+3274,285,Conserved Hypotheticals
+3275,330,SMM: Repressors/activators
+3275.1,162,noRV
+3276,348,noRV
+3277,621,Conserved Hypotheticals
+3278,1266,Unknowns
+3279,210,noRV
+3280,186,noRV
+3281,1035,Other: IS elements: Others
+3282,171,noRV
+3283,465,Unknowns
+3284,168,noRV
+3285,2979,MMM: Other membrane proteins
+3286,999,Conserved Hypotheticals
+3287,1419,Conserved Hypotheticals
+3288,900,Unknowns
+3289,201,noRV
+3290,1344,MMM: Other membrane proteins
+3290.1,291,noRV
+3290.2,123,noRV
+3291,2103,MMM: DNA replication; repair; recombination and restriction/modification
+3292,255,noRV
+3293,1161,Conserved Hypotheticals
+3294,1068,MMM: Other membrane proteins
+3295,3306,MMM: DNA replication; repair; recombination and restriction/modification
+3296,3168,MMM: DNA replication; repair; recombination and restriction/modification
+3297,219,noRV
+3298,786,MMM: Esterases and Lipases
+3299,306,Other: Miscellaneous Transferases
+3300,879,Unknowns
+3301,1179,SMM: Biosyn of Molybdopterin
+3302,1029,Unknowns
+3303,687,SMM: Repressors/activators
+3304,294,noRV
+3305,564,Conserved Hypotheticals
+3306,696,Unknowns
+3307,1584,MMM:RNA synthesis; RNA modification and DNA transcription
+3308,1224,Unknowns
+3309,801,Cell Process: Cell division
+3310,687,SMM: Iron Utilization
+3311,1119,SMM: Iron Utilization
+3312,333,Other: Miscellaneous Transferases
+3313,453,MMM: Other membrane proteins
+3314,966,Conserved Hypotheticals
+3315,255,SMM: Repressors/activators
+3316,1506,SMM: Two component systems
+3317,240,SMM: Biosyn of fatty and mycolic acids
+3318,306,noRV
+3319,552,Conserved Hypotheticals
+3320,855,MMM:RNA synthesis; RNA modification and DNA transcription
+3321,849,SMM: Misc oxidoreductases and oxygenases
+3322,228,noRV
+3323,1425,Other: Antibiotic production and resistance
+3323.1,759,Conserved Hypotheticals
+3324,1353,SMM: Amino acid synthesis-Aromatic
+3325,993,Conserved Hypotheticals
+3326,1284,SMM: Modification of fatty & mycolic acids
+3327,1143,SMM: Misc oxidoreductases and oxygenases
+3328,510,Unknowns
+3329,888,MMM:RNA synthesis; RNA modification and DNA transcription
+3330,603,Conserved Hypotheticals
+3331,816,Conserved Hypotheticals
+3332,642,Unknowns
+3333,1158,Cell Process: Transport/Binding: cations
+3334,483,Cell Process: Transport/Binding: cations
+3335,735,MMM: Other membrane proteins
+3337,3198,MMM: Other membrane proteins
+3338,2850,Cell Process: Protein and peptide secretion
+3339,660,MMM: Ribosomal protein synthesis and modification
+3340,726,Conserved Hypotheticals
+3341,861,Unknowns
+3342,1764,MMM: Cell membrane-Lipoproteins
+3343,1704,SMM: Two component systems
+3344,708,SMM: Two component systems
+3345,645,SMM: 2'-deoxyribonucleotide metabolism
+3346,1488,SMM: Intermediate Metabolism-of sulphur
+3347,693,SMM: Repressors/activators
+3348,183,SMM: Respiration-Electron Transport
+3349,171,SMM: Respiration-Electron Transport
+3350,1251,SMM: Misc oxidoreductases and oxygenases
+3351,1488,Cell Process: Transport/Binding: amino acids
+3352,1425,SMM: Misc oxidoreductases and oxygenases
+3353,1227,SMM: Degradation of Carbon compounds
+3354,1041,Unknowns
+3355,1398,SMM: Degradation of Carbon compounds
+3356,492,Unknowns
+3357,528,Unknowns
+3358,372,SMM: Repressors/activators
+3359,996,Conserved Hypotheticals
+3361,1347,Conserved Hypotheticals
+3362,135,noRV
+3363,1662,MMM: DNA replication; repair; recombination and restriction/modification
+3364,1080,SMM: Intermediate Metabolism-sugar nucleotides
+3365,906,SMM: Intermediate Metabolism-sugar nucleotides
+3366,915,SMM: Intermediate Metabolism-sugar nucleotides
+3367,1494,Conserved Hypotheticals
+3368,690,Unknowns
+3369,438,Cell Process: Chaperones/Heat Shock
+3370,2157,Cell Process: Transport/Binding: cations
+3371,669,Unknowns
+3372,1185,Conserved Hypotheticals
+3373,2295,Other: Miscellaneous phosphatases; lyases and hydrolases
+3374,1170,SMM: Degradation of fatty acids
+3375,525,SMM: Purine ribonucleotide biosynthesis
+3376,1290,SMM: Purine ribonucleotide biosynthesis
+3377,771,Conserved Hypotheticals
+3377.1,291,Conserved Hypotheticals
+3378,135,noRV
+3379,801,SMM: Biosynthesis of Biotin
+3379.1,1647,SMM: Biosyn of fatty and mycolic acids
+3380,429,Conserved Hypotheticals
+3381,669,Conserved Hypotheticals
+3382,894,SMM: Intermediate Metabolism-of sulphur
+3383,432,Conserved Hypotheticals
+3384,1803,SMM: Biosyn of fatty and mycolic acids
+3385,786,MMM:RNA synthesis; RNA modification and DNA transcription
+3386,438,MMM:RNA synthesis; RNA modification and DNA transcription
+3387,414,Conserved Hypotheticals
+3388,378,Unknowns
+3389,1350,Other: Antibiotic production and resistance
+3390,453,SMM: Repressors/activators
+3391,1248,Conserved Hypotheticals
+3392,1485,SMM: Misc oxidoreductases and oxygenases
+3393,810,Unknowns
+3394,666,SMM: Repressors/activators
+3395,4542,MMM: DNA replication; repair; recombination and restriction/modification
+3396,768,MMM: DNA replication; repair; recombination and restriction/modification
+3397,915,MMM: Cell membrane-Lipoproteins
+3398,2979,SMM: Intermediate Metabolism-of sulphur
+3399,918,SMM: Biosyn of Riboflavin
+3400,666,Cell Process: Transport/Binding: Anions
+3401,1758,SMM: Respiration- aerobic
+3402,1416,SMM: Energy Metabolism-pyruvate dehydrogenase
+3403,639,Conserved Hypotheticals
+3404,1170,MMM: Degradation of Proteins; peptides and glycopeptides
+3405,1185,MMM: Degradation of Proteins; peptides and glycopeptides
+3406,807,SMM: Salvage of nucleotides and nucleosides
+3407,1605,SMM: Degradation of Carbon compounds
+3408,624,SMM: Salvage of nucleotides and nucleosides
+3409,900,Other: Miscellaneous phosphatases; lyases and hydrolases
+3410,1296,Conserved Hypotheticals
+3411,933,Conserved Hypotheticals
+3412,171,noRV
+3413,345,noRV
+3414,1097,SMM: Salvage of nucleotides and nucleosides
+3415,1284,SMM: Salvage of nucleotides and nucleosides
+3416,402,SMM: Salvage of nucleotides and nucleosides
+3417,339,SMM: Energy Metabolism-TCA cycle
+3418,435,SMM: Energy Metabolism-TCA cycle
+3419,1773,SMM: Energy Metabolism-TCA cycle
+3420,792,SMM: Energy Metabolism-TCA cycle
+3421,429,Conserved Hypotheticals
+3422,243,Conserved Hypotheticals
+3423,615,noRV
+3424,666,SMM: Biosyn of Molybdopterin
+3425,555,noRV
+3426,375,SMM: Energy Metabolism-Glyoxylate bypass
+3427,1188,SMM: Biosyn of Molybdopterin
+3427.1,117,noRV
+3428,1146,noRV
+3429,519,noRV
+3430,1791,Other: IS elements: Others
+3431,849,MMM:RNA synthesis; RNA modification and DNA transcription
+3432,1401,Other: Miscellaneous Transferases
+3433,1218,MMM: Murein sacculus and peptidoglycan
+3434,1503,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+3435,1041,MMM: Murein sacculus and peptidoglycan
+3436,108,noRV
+3437,798,Unknowns
+3437.1,480,noRV
+3438,441,SMM: Repressors/activators
+3439,870,Conserved Hypotheticals
+3440,1011,MMM: Aminoacyl tRNA synthases and their modification
+3441,747,Conserved Hypotheticals
+3442,1230,SMM: Energy Metabolism-TCA cycle
+3443,1350,SMM: Amino acid synthesis-Aspartate family
+3444,1140,SMM: Amino acid synthesis-Aspartate family
+3445,711,Conserved Hypotheticals
+3447,2288,Other: PPE family of proteins
+3448,1017,Other: PE family: PGRS subfamily
+3449,4524,Other: PE family: PGRS subfamily
+3449.1,120,noRV
+3449.2,96,noRV
+3450,258,Conserved Hypotheticals
+3453,9501,Other: PPE family of proteins
+3454,492,noRV
+3455,492,Other: IS elements: Others
+3456,741,Other: IS elements: Others
+3456.1,1131,noRV
+3458,11356,Other: PPE family of proteins
+3459,795,Conserved Hypotheticals
+3460,372,SMM: Misc oxidoreductases and oxygenases
+3461,345,Conserved Hypotheticals
+3462,390,Conserved Hypotheticals
+3463,294,Conserved Hypotheticals
+3464,834,SMM: Biosyn of Folic acid
+3465,276,Conserved Hypotheticals
+3466,258,Unknowns
+3467,1191,SMM: Misc oxidoreductases and oxygenases
+3468,369,MMM: Other membrane proteins
+3469,552,Conserved Hypotheticals
+3470,582,Unknowns
+3471,369,Unknowns
+3472,393,Unknowns
+3474,2631,Conserved Hypotheticals
+3475,465,MMM:RNA synthesis; RNA modification and DNA transcription
+3476,1887,Other: PE family: PGRS subfamily
+3477,645,Conserved Hypotheticals
+3478,435,Conserved Hypotheticals
+3480,3297,MMM: DNA replication; repair; recombination and restriction/modification
+3481,1341,Conserved Hypotheticals
+3482,1176,Cell Process: Adaptations and atypical conditions
+3483,162,noRV
+3484,891,SMM: Degradation of fatty acids
+3485,1428,Other: Miscellaneous phosphatases; lyases and hydrolases
+3486,654,Conserved Hypotheticals
+3487,1506,Other: Cyclases
+3488,891,Unknowns
+3489,1837,Other: Miscellaneous Transferases
+3490,990,MMM: Murein sacculus and peptidoglycan
+3491,1065,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+3491.1,129,noRV
+3492,396,Conserved Hypotheticals
+3493,309,Conserved Hypotheticals
+3494,705,Other: IS elements: Others
+3494.1,678,Other: IS elements: Others
+3495,2328,Other: PE family: PGRS subfamily
+3496,873,SMM: Misc oxidoreductases and oxygenases
+3497,711,MMM: Cell membrane-Lipoproteins
+3498,1953,SMM: Modification of fatty & mycolic acids
+3499,864,SMM: Modification of fatty & mycolic acids
+3500,927,SMM: Salvage of nucleotides and nucleosides
+3501,1479,Unknowns
+3502,684,Unknowns
+3503,642,noRV
+3504,1578,SMM: Purine ribonucleotide biosynthesis
+3505,909,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+3506,1080,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+3507,1047,Conserved Hypotheticals
+3508,789,SMM: Intermediate Metabolism-sugar nucleotides
+3509,2361,Conserved Hypotheticals
+3510,1239,MMM: Other membrane proteins
+3510.1,96,noRV
+3511,1602,Unknowns
+3512,705,Unknowns
+3513,567,SMM: Repressors/activators
+3514,888,SMM: Misc oxidoreductases and oxygenases
+3515,300,Conserved Hypotheticals
+3516,402,Conserved Hypotheticals
+3517,1737,SMM: Degradation of fatty acids
+3518,1128,SMM: Purine ribonucleotide biosynthesis
+3519,1590,SMM: Purine ribonucleotide biosynthesis
+3520,111,noRV
+3521,411,Conserved Hypotheticals
+3522,900,Unknowns
+3523,675,MMM:RNA synthesis; RNA modification and DNA transcription
+3524,828,Conserved Hypotheticals
+3525,309,SMM: Repressors/activators
+3526,1620,Cell Process: Chaperones/Heat Shock
+3527,303,Cell Process: Chaperones/Heat Shock
+3528,1035,MMM: Degradation of Proteins; peptides and glycopeptides
+3529,477,MMM: Ribosomal protein synthesis and modification
+3530,627,Conserved Hypotheticals
+3531,507,Conserved Hypotheticals
+3532,1227,SMM: Amino acid synthesis-Pyruvate family
+3532.1,231,noRV
+3532.2,363,Unknowns
+3533,537,Other: PPE family of proteins
+3534,1164,Other: IS elements: Others
+3535,156,noRV
+3536,108,noRV
+3537,846,Other: IS elements: Others
+3538,1383,SMM: Intermediate Metabolism-General
+3539,1422,Conserved Hypotheticals
+3540,714,Conserved Hypotheticals
+3541,939,Conserved Hypotheticals
+3542,1875,SMM: Intermediate Metabolism-Amino sugars
+3542.1,477,Unknowns
+3543,843,Conserved Hypotheticals
+3544,1404,Conserved Hypotheticals
+3545,312,Unknowns
+3546,1347,SMM: Degradation of Carbon compounds
+3547,456,MMM: Ribosomal protein synthesis and modification
+3548,444,MMM: Ribosomal protein synthesis and modification
+3549,303,Conserved Hypotheticals
+3550,408,Unknowns
+3551,1215,Unknowns
+3553,3603,MMM: Other membrane proteins
+3554,1404,MMM: Other membrane proteins
+3555,1368,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3556,1449,MMM: Other membrane proteins
+3557,744,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3559,696,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3560,240,Unknowns
+3561,1689,MMM: Other membrane proteins
+3562,894,MMM:RNA synthesis; RNA modification and DNA transcription
+3563,543,MMM: Ribosomal protein synthesis and modification
+3564,1044,MMM:RNA synthesis; RNA modification and DNA transcription
+3565,606,MMM: Ribosomal protein synthesis and modification
+3566,420,MMM: Ribosomal protein synthesis and modification
+3567,375,MMM: Ribosomal protein synthesis and modification
+3567.1,114,MMM: Ribosomal protein synthesis and modification
+3568,222,MMM: Protein translation and modification
+3569,858,MMM: Degradation of Polysaccharides; lipopolysaccharides and phospholipids
+3570,996,SMM: Intermediate Metabolism-sugar nucleotides
+3571,609,SMM: Intermediate Metabolism-sugar nucleotides
+3572,669,Other: IS elements: REP13E12 family
+3572.1,1002,noRV
+3573,1392,Other: IS elements: REP13E12 family
+3573.01,798,Other: IS elements: Phage related functions
+3573.02,399,Other: IS elements: Phage related functions
+3573.03,1419,Other: IS elements: Phage related functions
+3573.04,474,Other: IS elements: Phage related functions
+3573.05,273,Other: IS elements: Phage related functions
+3573.06,315,Other: IS elements: Phage related functions
+3573.07,471,Other: IS elements: Phage related functions
+3573.08,513,Other: IS elements: Phage related functions
+3573.09,207,Other: IS elements: Phage related functions
+3573.10,108,noRV
+3573.11,675,Other: IS elements: Phage related functions
+3573.12,426,noRV
+3573.13,165,noRV
+3573.14,321,Other: IS elements: Phage related functions
+3573.15,411,Other: IS elements: Phage related functions
+3573.16,129,noRV
+3574,1095,SMM: Intermediate Metabolism-sugar nucleotides
+3575,1005,MMM: Degradation of aromatic hydrocarbons
+3576,1629,SMM: Amino acid synthesis-Branched aa
+3577,555,Conserved Hypotheticals
+3578,507,SMM: Biosyn of fatty and mycolic acids
+3579,885,Cell Process: Detoxification
+3580,1350,Cell Process: Transport/Binding: carbohydrates; organic acids and alcohols
+3580.1,102,noRV
+3580.2,123,noRV
+3581,297,Other: PE family: PE subfamily
+3582,1182,Other: PPE family of proteins
+3583,3228,Unknowns
+3584,1518,Conserved Hypotheticals
+3585,690,MMM: Other membrane proteins
+3586,783,MMM: Other membrane proteins
+3587,663,Conserved Hypotheticals
+3588,1542,Conserved Hypotheticals
+3589,882,SMM: Misc oxidoreductases and oxygenases
+3590,492,Conserved Hypotheticals
+3591,984,MMM: Esterases and Lipases
+3592,324,Conserved Hypotheticals
+3593,165,Unknowns
+3594,1437,Cell Process: Adaptations and atypical conditions
+3595,579,Unknowns
+3596,483,Conserved Hypotheticals
+3597,729,Unknowns
+3598,1695,Other: Virulence
+3599,1155,MMM: Cell membrane-Lipoproteins
+3600,1353,Other: Virulence
+3601,1074,Other: Virulence
+3602,1053,Other: Virulence
+3603,1203,Other: Virulence
+3604,843,Other: Virulence
+3605,714,Other: Virulence
+3606,1014,SMM: Misc oxidoreductases and oxygenases
+3607,192,SMM: Respiration-Electron Transport
+3608,1203,SMM: Degradation of fatty acids
+3609,1122,SMM: Degradation of fatty acids
+3610,1509,SMM: Degradation of fatty acids
+3612,4155,Other: PE family: PGRS subfamily
+3612.1,5148,Other: PE family: PGRS subfamily
+3613,1549,SMM: Amino acid synthesis-Branched aa
+3614,837,Conserved Hypotheticals
+3615.1,5700,Other: PE family: PGRS subfamily
+3615.2,657,SMM: Degradation of fatty acids
+3615.3,3654,Other: PE family: PGRS subfamily
+3615.4,219,noRV
+3616,1647,SMM: Degradation of fatty acids
+3617,792,SMM: Degradation of fatty acids
+3618,642,Conserved Hypotheticals
+3619,1119,Other: Cytochrome P450 enzymes
+3620,222,Unknowns
+3621,1032,Other: Coenzyme F420-dependent enzymes
+3622,1005,Conserved Hypotheticals
+3622.1,1065,SMM: Repressors/activators
+3623,1185,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+3624,1032,MMM: Other membrane proteins
+3625,525,SMM: Iron Utilization
+3626,1185,SMM: Misc oxidoreductases and oxygenases
+3627,450,Unknowns
+3628,129,noRV
+3629,714,Unknowns
+3630,198,noRV
+3631,198,noRV
+3632,1155,Conserved Hypotheticals
+3633,783,MMM: Degradation of aromatic hydrocarbons
+3634,1128,Unknowns
+3636,1221,Other: PPE family of proteins
+3637,1749,Other: PPE family of proteins
+3638,1032,MMM: Degradation of aromatic hydrocarbons
+3639,912,SMM: Misc oxidoreductases and oxygenases
+3640,786,MMM: Degradation of aromatic hydrocarbons
+3641,1701,SMM: Misc oxidoreductases and oxygenases
+3642,861,SMM: Modification of fatty & mycolic acids
+3643,1440,Other: PE family: PE subfamily
+3644,1161,Cell Process: Fatty acid transport
+3645,390,Unknowns
+3646,936,Unknowns
+3647,1164,SMM: Degradation of fatty acids
+3648,1038,SMM: Degradation of fatty acids
+3649,1302,Other: Cytochrome P450 enzymes
+3650,1176,SMM: Degradation of fatty acids
+3651,456,Conserved Hypotheticals
+3652,951,SMM: Misc oxidoreductases and oxygenases
+3653,780,SMM: Misc oxidoreductases and oxygenases
+3653.1,105,noRV
+3654,744,SMM: Degradation of fatty acids
+3655,879,SMM: Degradation of Amino acids and amines
+3656,753,Unknowns
+3657,1083,SMM: Misc oxidoreductases and oxygenases
+3658,2019,SMM: Respiration-Electron Transport
+3659,869,Conserved Hypotheticals
+3660,1161,SMM: Degradation of fatty acids
+3661,603,SMM: Repressors/activators
+3663,1872,Other: PPE family of proteins
+3664,789,SMM: Misc oxidoreductases and oxygenases
+3665,1158,SMM: Degradation of fatty acids
+3666,1503,SMM: Degradation of fatty acids
+3667,1134,SMM: Degradation of fatty acids
+3668,954,SMM: Degradation of fatty acids
+3669,957,SMM: Degradation of fatty acids
+3670,1166,SMM: Amino acid synthesis-Aspartate family
+3671,852,SMM: Intermediate Metabolism-General
+3671.1,267,noRV
+3671.2,171,noRV
+3672,564,Conserved Hypotheticals
+3673,903,SMM: Misc oxidoreductases and oxygenases
+3674,876,Other: Miscellaneous phosphatases; lyases and hydrolases
+3675,1185,SMM: Misc oxidoreductases and oxygenases
+3676,1077,SMM: Misc oxidoreductases and oxygenases
+3677,531,Unknowns
+3678,2136,SMM: Degradation of fatty acids
+3679,732,SMM: Repressors/activators
+3680,1215,SMM: Repressors/activators
+3681,714,Conserved Hypotheticals
+3682,1140,Unknowns
+3684,1242,Cell Process: Transport/Binding: Anions
+3685,762,Other: Miscellaneous Transferases
+3686,1410,MMM: Aminoacyl tRNA synthases and their modification
+3687,480,Conserved Hypotheticals
+3688,696,Conserved Hypotheticals
+3689,489,SMM: Repressors/activators
+3690,717,MMM: Cell membrane-Lipoproteins
+3691,1443,MMM: DNA replication; repair; recombination and restriction/modification
+3692,1077,Conserved Hypotheticals
+3693,819,Unknowns
+3694,624,Other: Miscellaneous phosphatases; lyases and hydrolases
+3695,915,MMM: DNA replication; repair; recombination and restriction/modification
+3696,1755,Other: PE family: PGRS subfamily
+3697,774,Conserved Hypotheticals
+3698,318,Conserved Hypotheticals
+3699,1317,MMM: Cell membrane-Lipoproteins
+3700,828,Unknowns
+3701,1311,Other: PE family: PGRS subfamily
+3703,2547,MMM: Degradation of Proteins; peptides and glycopeptides
+3704,339,Conserved Hypotheticals
+3705,1518,MMM: Aminoacyl tRNA synthases and their modification
+3706,819,Conserved Hypotheticals
+3706.1,420,SMM: Biosyn of Pantothenate
+3707,930,SMM: Biosyn of Pantothenate
+3708,1086,Unknowns
+3709,1194,MMM: Other membrane proteins
+3710,477,Unknowns
+3711,567,SMM: Biosyn of Folic acid
+3712.1,402,SMM: Biosyn of Folic acid
+3712,819,SMM: Biosyn of Folic acid
+3713,609,SMM: Biosyn of Folic acid
+3714,2283,Cell Process: Cell division
+3715,330,Unknowns
+3716,555,Conserved Hypotheticals
+3717,312,Conserved Hypotheticals
+3718,1179,Conserved Hypotheticals
+3718.1,213,noRV
+3718.2,162,noRV
+3719,969,Cell Process: Detoxification
+3720,1188,SMM: Misc oxidoreductases and oxygenases
+3721,285,Conserved Hypotheticals
+3722,297,Conserved Hypotheticals
+3723,1242,Other: PPE family of proteins
+3724,300,Other: PE family: PE subfamily
+3725,723,MMM: Cell membrane-Lipoproteins
+3726,609,SMM: Salvage of nucleotides and nucleosides
+3727,972,Cell Process: Cell division
+3728,1074,Unknowns
+3729,1386,MMM: Murein sacculus and peptidoglycan
+3730,489,SMM: Degradation of phosphorous compounds
+3731,1125,MMM: Other membrane proteins
+3732,1296,MMM: Other membrane proteins
+3733,714,Other: Miscellaneous Transferases
+3734,345,Unknowns
+3735,876,Conserved Hypotheticals
+3736,969,SMM: Intermediate Metabolism-sugar nucleotides
+3737,1776,MMM: Other membrane proteins
+3739,1233,Other: IS elements: Others
+3740,747,Other: IS elements: Others
+3741,567,Conserved Hypotheticals
+3742,1230,Other: IS elements: Others
+3743,636,Cell Process: Cell division
+3743.1,195,Unknowns
+3744,135,noRV
+3745,165,noRV
+3746,102,noRV
+3747,1215,MMM: DNA replication; repair; recombination and restriction/modification
+3748,1650,MMM: Other membrane proteins
+3749,2805,MMM: DNA replication; repair; recombination and restriction/modification
+3750,579,Unknowns
+3750.1,204,Cell Process: Adaptations and atypical conditions
+3751,2316,MMM:RNA synthesis; RNA modification and DNA transcription
+3752,285,Other: PE family: PE subfamily
+3753,1038,Unknowns
+3754,231,noRV
+3755,246,noRV
+3756,747,Other: PE family: PGRS subfamily
+3756.1,309,Unknowns
+3756.2,300,Unknowns
+3756.3,129,Unknowns
+3757,918,Unknowns
+3758,801,MMM: Other membrane proteins
+3759,1059,MMM: Other membrane proteins
+3760,786,Other: Bacteriocin-like proteins
+3761,864,Other: Bacteriocin-like proteins
+3762,132,noRV
+3763,771,Unknowns
+3764,1647,Cell Process: Transport/Binding: amino acids
+3765,801,Cell Process: Transport/Binding: amino acids
+3766,927,Cell Process: Transport/Binding: amino acids
+3767,1626,Cell Process: Transport/Binding: amino acids
+3767.1,357,noRV
+3767.2,210,noRV
+3767.3,123,noRV
+3768,1956,SMM: Degradation of fatty acids
+3769,699,MMM: Degradation of Proteins; peptides and glycopeptides
+3770,711,Unknowns
+3771,984,Cell Process: Detoxification
+3772,1194,MMM: Degradation of Proteins; peptides and glycopeptides
+3773,822,Conserved Hypotheticals
+3774,684,SMM: Misc oxidoreductases and oxygenases
+3775,789,MMM: DNA replication; repair; recombination and restriction/modification
+3776,378,Unknowns
+3777,675,SMM: Repressors/activators
+3778,795,Other: Miscellaneous phosphatases; lyases and hydrolases
+3779,456,SMM: Repressors/activators
+3780,162,noRV
+3781,1023,Cell Process: Transport/Binding: Anions
+3782,1161,Cell Process: Transport/Binding: Anions
+3783,357,SMM: Repressors/activators
+3784,2433,MMM: Murein sacculus and peptidoglycan
+3785,960,Conserved Hypotheticals
+3786,1107,Other: Miscellaneous phosphatases; lyases and hydrolases
+3787,1431,Other: Cytochrome P450 enzymes
+3788,501,Conserved Hypotheticals
+3789,369,Conserved Hypotheticals
+3790,465,Conserved Hypotheticals
+3791,1356,Unknowns
+3792,702,Unknowns
+3793,1146,Unknowns
+3794,1077,SMM: Repressors/activators
+3795,1428,Conserved Hypotheticals
+3796,1188,Conserved Hypotheticals
+3797,810,Conserved Hypotheticals
+3798,1554,SMM: Degradation of Carbon compounds
+3799,438,Conserved Hypotheticals
+3800,225,noRV
+3801,1530,Unknowns
+3802,711,Other: Miscellaneous Transferases
+3803,1188,Other: Antibiotic production and resistance
+3804,966,Conserved Hypotheticals
+3805,585,Conserved Hypotheticals
+3806,1278,Conserved Hypotheticals
+3807,1299,SMM: Amino acid synthesis-Glutamate family
+3808,645,Unknowns
+3808.1,390,noRV
+3809,321,Unknowns
+3810,1011,Conserved Hypotheticals
+3811,1038,SMM: Amino acid synthesis-Aspartate family
+3812,1266,SMM: Amino acid synthesis-Aspartate family
+3813,1980,SMM: Amino acid synthesis-Branched aa
+3814,990,MMM: DNA replication; repair; recombination and restriction/modification
+3814.1,270,noRV
+3815,1242,Conserved Hypotheticals
+3816,696,SMM: Biosyn of Cobalamin
+3817,1026,Conserved Hypotheticals
+3818,612,MMM: DNA replication; repair; recombination and restriction/modification
+3819,402,Conserved Hypotheticals
+3820,726,MMM: Degradation of Polysaccharides; lipopolysaccharides and phospholipids
+3821,444,Unknowns
+3822,1401,Conserved Hypotheticals
+3823,1284,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+3824,1737,MMM: DNA replication; repair; recombination and restriction/modification
+3825,1308,Unknowns
+3826,765,Unknowns
+3827,624,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3828,930,SMM: Misc oxidoreductases and oxygenases
+3829,1194,SMM: Misc oxidoreductases and oxygenases
+3830,1809,SMM: Misc oxidoreductases and oxygenases
+3831,3216,MMM: Other membrane proteins
+3833,2331,Other: Miscellaneous Transferases
+3835,1041,Conserved Hypotheticals
+3836,1077,MMM: DNA replication; repair; recombination and restriction/modification
+3837,1059,Conserved Hypotheticals
+3838,501,Unknowns
+3839,1365,Conserved Hypotheticals
+3840,498,Conserved Hypotheticals
+3841,1062,SMM: Repressors/activators
+3842,1590,MMM: Other membrane proteins
+3844,1233,Other: PPE family of proteins
+3846,117,noRV
+3847,111,noRV
+3848,1347,Conserved Hypotheticals
+3849,675,SMM: Misc oxidoreductases and oxygenases
+3850,396,SMM: Misc oxidoreductases and oxygenases
+3851,1983,Cell Process: Transport/Binding: cations
+3852,408,SMM: Repressors/activators
+3853,213,Conserved Hypotheticals
+3854,372,Other: PE family: PE subfamily
+3855,945,Conserved Hypotheticals
+3856,510,Unknowns
+3857,393,Other: IS elements: Phage related functions
+3858,303,Other: IS elements: Phage related functions
+3859,459,SMM: 2'-deoxyribonucleotide metabolism
+3860,501,Unknowns
+3861,972,SMM: Amino acid synthesis-Aromatic
+3862,600,Unknowns
+3863,720,Cell Process: Adaptations and atypical conditions
+3864,690,Cell Process: Adaptations and atypical conditions
+3865,1104,Cell Process: Adaptations and atypical conditions
+3866,1032,Cell Process: Adaptations and atypical conditions
+3867,354,Conserved Hypotheticals
+3868,1056,SMM: Degradation of fatty acids
+3869,1905,SMM: Intermediate Metabolism-of sulphur
+3870,480,MMM: Cell membrane-Lipoproteins
+3871,1521,SMM: Two component systems
+3872,861,SMM: Two component systems
+3873,690,Unknowns
+3874,945,Conserved Hypotheticals
+3875,360,Unknowns
+3876,519,Conserved Hypotheticals
+3876.1,132,noRV
+3877,576,Unknowns
+3878,183,noRV
+3879,192,noRV
+3880,327,Conserved Hypotheticals
+3881,1062,SMM: Amino acid synthesis-Histidine
+3882,585,Conserved Hypotheticals
+3883,825,SMM: Degradation of fatty acids
+3884,1248,MMM: Esterases and Lipases
+3885,1629,Conserved Hypotheticals
+3886,987,SMM: Misc oxidoreductases and oxygenases
+3887,1197,Conserved Hypotheticals
+3888,2001,MMM: Other membrane proteins
+3889,525,Unknowns
+3890,822,MMM: Other membrane proteins
+3891,915,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3892,843,MMM: Other membrane proteins
+3893,2139,SMM: Intermediate Metabolism-sugar nucleotides
+3894,1224,Unknowns
+3895,927,Conserved Hypotheticals
+3896,486,Unknowns
+3897,429,Conserved Hypotheticals
+3898,1392,SMM: Misc oxidoreductases and oxygenases
+3899,765,SMM: Misc oxidoreductases and oxygenases
+3899.1,2274,MMM: Other membrane proteins
+3900,3285,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3901,3285,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3902,3297,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3903,1017,SMM: Intermediate Metabolism-of sulphur
+3904,1782,SMM: Degradation of fatty acids
+3905,1335,noRV
+3906,1569,SMM: Biosyn of fatty and mycolic acids
+3907,5202,SMM: Polyketide and non-ribosomal peptide synthesis
+3908,1890,SMM: Degradation of fatty acids
+3909,1011,Unknowns
+3910,933,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+3911,1068,SMM: Acyltransferases; mycoloyltransferases; and phospholipid synthesis
+3912,1926,MMM: Other membrane proteins
+3913,909,MMM: Other membrane proteins
+3914,498,MMM: Other membrane proteins
+3915,1914,Unknowns
+3916,1200,MMM: Murein sacculus and peptidoglycan
+3917,855,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3918,1620,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3919,147,noRV
+3920,1515,Other: PE family: PGRS subfamily
+3921,153,noRV
+3922,822,Conserved Hypotheticals
+3923,786,Other: Miscellaneous Transferases
+3924,756,Other: Miscellaneous Transferases
+3925,780,Other: Miscellaneous Transferases
+3925.1,756,Other: Antibiotic production and resistance
+3926,1551,Unknowns
+3927,333,Unknowns
+3928,1407,SMM: Polyketide and non-ribosomal peptide synthesis
+3929,714,Conserved Hypotheticals
+3930,1215,Conserved Hypotheticals
+3931,3270,MMM: Conserved membrane proteins
+3932,1536,SMM: Polyketide and non-ribosomal peptide synthesis
+3933,6381,SMM: Polyketide and non-ribosomal peptide synthesis
+3934,1755,SMM: Degradation of fatty acids
+3935,1227,Other: IS elements: Others
+3936,612,Other: IS elements: Others
+3937,1611,SMM: Misc oxidoreductases and oxygenases
+3938,630,SMM: Repressors/activators
+3939,483,Unknowns
+3940,588,Unknowns
+3941,792,SMM: Repressors/activators
+3942,1260,MMM: Aminoacyl tRNA synthases and their modification
+3943,1350,Unknowns
+3944,402,Unknowns
+3945,699,SMM: Energy metabolism-Glycolysis
+3946,966,SMM: Amino acid synthesis-Aromatic
+3947,777,Unknowns
+3948,363,SMM: Repressors/activators
+3949,546,SMM: Iron Utilization
+3950,831,SMM: Intermediate Metabolism-General
+3951,1029,MMM: Other membrane proteins
+3952,105,noRV
+3953,150,noRV
+3954,213,noRV
+3954.1,603,noRV
+3955,492,noRV
+3957,543,Unknowns
+3958,216,noRV
+3959,180,noRV
+3960,624,Cell Process: Detoxification
+3961,534,Unknowns
+3962,105,noRV
+3963,909,MMM: Other membrane proteins
+3964,399,Unknowns
+3965,657,Unknowns
+3966,285,Unknowns
+3967,405,MMM: Nucleoproteins
+3968,474,SMM: Biosyn of Menaquinone; PQQ; ubiquinone and other terpenoids
+3969,1470,SMM: Misc oxidoreductases and oxygenases
+3970,651,SMM: Repressors/activators
+3971,1008,Conserved Hypotheticals
+3972,198,Unknowns
+3972.1,141,noRV
+3973,1467,SMM: Amino acid synthesis-Glutamate family
+3974,4590,SMM: Amino acid synthesis-Glutamate family
+3974.1,384,noRV
+3975,1173,Conserved Hypotheticals
+3976,351,Unknowns
+3977,1179,Unknowns
+3978,1209,Conserved Hypotheticals
+3979,312,Conserved Hypotheticals
+3980,1448,Conserved Hypotheticals
+3981,1722,Conserved Hypotheticals
+3982,1443,Conserved Hypotheticals
+3983,2244,Conserved Hypotheticals
+3984,117,noRV
+3985,1776,Conserved Hypotheticals
+3986,339,Other: PE family: PE subfamily
+3987,1116,Other: PPE family of proteins
+3988,303,Conserved Hypotheticals
+3989,288,MMM: Surface polysaccharides; lipopolysaccharides; proteins and antigens
+3990,2001,Conserved Hypotheticals
+3991,1440,Conserved Hypotheticals
+3992,843,Unknowns
+3993,2172,Unknowns
+3994,129,noRV
+3995,342,Conserved Hypotheticals
+3996,1383,Conserved Hypotheticals
+3997,1389,Conserved Hypotheticals
+3998,1236,MMM: Degradation of Proteins; peptides and glycopeptides
+3999,1875,Conserved Hypotheticals
+4000,1269,Unknowns
+4001,1526,MMM: Degradation of Proteins; peptides and glycopeptides
+4002,1410,MMM: Other membrane proteins
+4003,1026,Conserved Hypotheticals
+4004,831,Unknowns
+4005,288,Unknowns
+4006,324,Unknowns
+4007,1200,Other: PPE family of proteins
+4008,234,Other: PE family: PE subfamily
+4010,4191,MMM: Other membrane proteins
+4011,1488,Conserved Hypotheticals
+4012,909,Other: Virulence
+4013,645,Conserved Hypotheticals
+4014,333,Conserved Hypotheticals
+4016,1233,Conserved Hypotheticals
+4017,936,Conserved Hypotheticals
+4018,450,MMM: Other membrane proteins
+4019,186,noRV
+4020,531,Unknowns
+4022,2541,Unknowns
+4023,273,Unknowns
+4024,312,Unknowns
+4025,510,Conserved Hypotheticals
+4026,1443,MMM:RNA synthesis; RNA modification and DNA transcription
+4026.1,213,noRV
+4027,747,Conserved Hypotheticals
+4028,2457,Conserved Hypotheticals
+4029,3555,MMM: Other membrane proteins
+4030,591,MMM:RNA synthesis; RNA modification and DNA transcription
+4031,765,Unknowns
+4032,1008,SMM: Biosyn of Thioredoxin; glytaredoxin and mycothiol
+4033,351,SMM: Biosyn of Thioredoxin; glytaredoxin and mycothiol
+4034,1221,MMM: Degradation of Polysaccharides; lipopolysaccharides and phospholipids
+4035,735,Conserved Hypotheticals
+4035.1,288,noRV
+4036,1035,Cell Process: Cell division
+4037,1146,Cell Process: Cell division
+4038,675,Cell Process: Cell division
+4039,564,Conserved Hypotheticals
+4040,1101,MMM: Other membrane proteins
+4040.1,363,Other: Virulence
+4041,351,MMM: Degradation of RNA
+4041.1,144,MMM: Ribosomal protein synthesis and modification
+4041.2,222,noRV
