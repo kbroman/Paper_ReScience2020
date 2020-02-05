@@ -1,0 +1,654 @@
+---
+title:  "Reproduction of Lamichhane et al. (2003)"
+author: "Karl Broman"
+date:   "`r Sys.Date()`"
+output:
+    html_document:
+        code_folding: hide
+        toc: true
+        toc_float: true
+        toc_depth: 3
+---
+
+```{r set_knitr_options, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE)
+```
+
+This is a reproduction of the results in Lamichhane et al.
+(2003) A post-genomic method for predicting essential genes at
+subsaturation levels of mutagenesis: application to _Mycobacterium
+tuberculosis_. Proc Natl Acad Sci USA 100:7213-7218
+[doi:10.1073/pnas.1231432100](https://doi.org/10.1073/pnas.1231432100)
+
+The original project directory, with data and code, is on
+[github](https://github.com/kbroman/Project_Lamichhane2003). A subset
+of the materials is in [`../original/`](../original), and I will be
+drawing from that. The code to create Figure 1b in the paper
+was not in that project directory but rather with materials for a talk
+I gave in 2002-2003. The materials for that talk is on
+[github](https://github.com/kbroman/Talk_Mtb). A subset is in
+[`../talk/`](../talk).
+
+I should say right at the start that _I am not able to reproduce
+Figure 3_ in the paper. I have the code to make the Figure based on
+simulation results, but I can't find the code that was used to carry
+out the simulation.
+
+I will first load the required libraries for this analysis.
+
+```{r load_libraries}
+library(negenes)
+library(R.utils)  # for gunzip()
+library(devtools) # for session_info()
+library(gt)       # for tables
+```
+
+## Move stuff over
+
+The first task is to copy over the primary data and scripts that we
+need to reproduce the results. I will first create a set of
+subdirectories to contain them.
+
+```{r create_subdir}
+dir <- c("Rawdata", "Rawdata/TIGR", "Data", "R", "Figs")
+
+for(d in dir) {
+    if(!dir.exists(d)) dir.create(d)
+}
+```
+
+Next, I will copy over the primary data files.
+
+```{r copy_rawdata}
+raw_data_files <- c("Rawdata/TIGR/GMT.1con.gz",
+                    "Rawdata/TBCDC1551_rev.csv",
+                    "Rawdata/MTCoords_rev.csv",
+                    "Rawdata/MT-RvConversion_rev.csv",
+                    "Rawdata/MtbGeneClassification.csv",
+                    "Sept02/Rawdata/GenomicData-final4_rev.csv",
+                    "Sept02/Rawdata/Phase2-FinalData_rev.csv")
+
+for(file in raw_data_files) {
+    orig_file <- file.path("..", "original", file)
+    new_file <- sub("Sept02/", "", file, fixed=TRUE)
+
+    if(!file.exists(new_file)) {
+        cat(orig_file, " -> ", new_file, "\n")
+        file.copy(orig_file, new_file)
+    }
+}
+```
+
+I need to use `gunzip()` to unzip the TIGR genomic data file.
+
+```{r unzip_tigr_file}
+gzipped_file <- "Rawdata/TIGR/GMT.1con.gz"
+gunzipped_file <- sub(".gz", "", gzipped_file, fixed=TRUE)
+if(!file.exists(gunzipped_file)) {
+    gunzip(gzipped_file)
+}
+```
+
+I will now copy over the perl script that pulls out the transposon
+insertion sites from the _M. tuberculosis_ genome.
+
+```{r copy_perl}
+file <- "findTA.pl"
+if(!file.exists(file)) {
+    file.copy(file.path("..", "original", file), file)
+}
+```
+
+Now I will copy over the R scripts that do the MCMC analysis.
+The ones in `Sept02/R` create results that appear in Table 2. The ones
+in `Nov02/R` create all of the rest of the results.
+
+```{r copy_r_scripts}
+files <- c("prepareData.R", "analysis.R")
+
+# 2002-09 versions
+for(file in files) {
+    orig_file <- file.path("..", "original", "Sept02", "R", file)
+    new_file <- file.path("R", paste0("sept02_", file))
+
+    if(!file.exists(new_file)) {
+        file.copy(orig_file, new_file)
+    }
+}
+
+
+# 2002-11 versions
+for(file in files) {
+    orig_file <- file.path("..", "original", "Nov02", "R", file)
+    new_file <- file.path("R", paste0("nov02_", file))
+
+    if(!file.exists(new_file)) {
+        file.copy(orig_file, new_file)
+    }
+}
+```
+
+Finally, I will copy over the R script that create the figures.
+
+```{r copy_fig_script}
+file <- "figs4paper.R"
+orig_file <- file.path("..", "original", "Nov02", "R", file)
+new_file <- file.path("R", file)
+if(!file.exists(new_file)) {
+    file.copy(orig_file, new_file)
+}
+```
+
+Oh, yeah. There is also the script that makes Figure 1b,
+which was not in the original project directory but rather with
+materials for a talk I gave at the time.
+
+```{r circle_fig_script}
+file <- "circlefig.R"
+orig_file <- file.path("..", "talk", "R", file)
+new_file <- file.path("R", file)
+if(!file.exists(new_file)) {
+    file.copy(orig_file, new_file)
+}
+```
+
+
+## Run perl script
+
+I will first run the Perl script `findTA.pl` which uses data from
+`Rawdata/` and creates a set of files in `Data/`.
+
+```{r run_perl_script}
+system("perl findTA.pl")
+```
+
+## Project structure
+
+The reproduction of this work included a number of challenges: lack of
+documentation (couldn't you give me even one README file, 2002 Karl?),
+multiple directories of scripts with portions of results coming from
+different ones, not saving random number generator seeds,
+not loading the required library in the scripts,
+not saving intermediate results to files (but just leaving them in the
+R environment, in `.RData`), and not explaining which R objects were
+needed in a script.
+
+To reproduce the work, I am going to run a particular script, save the
+key results to a file, and then clean the R environment for the next
+step. Some of the calculations take a bit of time, and those I will
+cache using a crude caching system that will mostly be hidden.
+
+Because of the lack of documentation, the first challenge was to
+figure out which results I was trying to reproduce. To do that, I
+re-read the paper. The key results are in Figures 1, 2, and 3, and
+Tables 2, 3, and 4. Table 3 also has an extended version, as
+Supplementary Table 6. There are a number of
+other summary statistics about the data, for example in Table 1 and in
+the right-hand column of the second page of the paper. But I am going
+to focus on the key analysis results, Figures 1-3 and Tables 2-4 and 6.
+
+Let me first explain some key elements of the project directory in
+[`../original/`](../original/). The `R` subdirectory contains my
+initial analysis of the data (performed in like July, 2002), which did
+not end up in the paper. [`Sept02/R`](../original/Sept02/R) contains a
+revised analysis based on a slightly larger set of data and evaluating multiple
+versions of a rule for part of the data handling (see Table 2
+of the published paper).
+[`Nov02/R`](../original/Nov02/R) contains an analysis with our final
+version of the data handling rule and is the basis for one row of
+Table 2 and all of the rest of the analyses.
+
+## Run MCMC
+
+The analysis proceeded in two steps: run a `prepareData.R` script to
+create the key data objects, and then run `analysis.R`
+which performs the Markov chain Monte Carlo (MCMC) analysis and summarizes
+the results. We first need to do the `Sept02` versions and then the
+`Nov02` versions.
+
+So we will start with
+[`Sept02/R/prepareData.R`](../original/Sept02/R/prepareData.R), which
+we have saved as [`R/sept02_prepareData.R`](R/sept02_prepareData.R). It
+prints a bunch of crap, so we will hide the output.
+
+There is one small wrinkle here. The `ngeneperfam` object comes out
+has class `"table"` which leads to an error in the next step, in the
+[`analysis.R`](../original/Sept02/R/analysis.R) script. This is due to
+some change in [R](https://www.r-project.org) since 2002. So we need
+to convert the `ngeneperfam` object to a simple numeric vector.
+
+```{r run_sept02_prepareData, results="hide"}
+rm(list=ls())
+setwd("R")
+source("sept02_prepareData.R")
+
+# need to turn this "table" into numeric
+ngeneperfam <- setNames(as.numeric(ngeneperfam), names(ngeneperfam))
+
+# save the data objects to a file
+save(data100nostop, data100stop, data90, data70, data60, data80,
+     ngeneperfam, numTAs, geneclasses,
+     file="sept02_data.RData")
+
+setwd("..")
+```
+
+I will now run the MCMC. (I actually cache these results and only run
+them if needed.) Again, we copied over the
+[`Sept02/R/analysis.R`](../original/Sept02/R/analysis.R) script as
+[`R/sept02_analysis.R`](R/sept02_analysis.R).
+
+The only slight change here is to rename one of the
+objects to avoid conflict with the results obtained using the
+[`Nov02`](../original/Nov02/R) script, below.
+
+```{r run_sept02_mcmc, eval=FALSE}
+rm(list=ls())
+setwd("R")
+
+# load the data created above
+load("sept02_data.RData")
+
+set.seed(74250112)
+source("sept02_analysis.R")
+
+# A different finalres object is created by the Nov02 script
+# so change the name of this thing to res80
+# (but note that res80 is in different format from the others)
+res80 <- finalres
+save(res100nostop, res90, res80, res70, res60,
+     file="sept02_results.RData")
+
+setwd("..")
+```
+
+```{r really_run_sept02_mcmc, echo=FALSE, results="hide"}
+if(file.exists("R/sept02_results.RData")) {
+    load("R/sept02_results.RData")
+} else {
+<<run_sept02_mcmc>>
+}
+```
+
+
+We now repeat the same things with the [`Nov02`](../original/Nov02/R)
+scripts. First,
+[`Nov02/R/prepareData.R`](../original/Nov02/R/prepareData.R), which we
+have saved as [`R/nov02_prepareData.R`](R/nov02_prepareData.R). Again,
+it prints a bunch of crap, so we will hide the output.
+
+Again, we need to convert the `ngeneperfam` object to be a
+numeric vector.
+
+```{r run_nov02_prepareData, results="hide"}
+rm(list=ls())
+setwd("R")
+source("nov02_prepareData.R")
+
+# need to turn this "table" into numeric
+ngeneperfam <- setNames(as.numeric(ngeneperfam), names(ngeneperfam))
+
+# save the data objects to a file
+save(mydata,
+     ngeneperfam, numTAs, geneclasses,
+     taloc, classes,
+     file="nov02_data.RData")
+
+setwd("..")
+```
+
+And again we run the MCMC. This one is faster, because we are doing
+just one version of the analysis rather than 6. The
+[`R/nov02_analysis.R`](R/nov02_analysis.R) script was copied over from
+[`Nov02/R/analysis.R`](../original/Nov02/R/analysis.R).
+
+The only modification here is to change the name of one of the results
+objects, from `wh` (which is not very meaningful) to `genes`.
+
+```{r run_nov02_mcmc, eval=FALSE}
+rm(list=ls())
+setwd("R")
+
+# load the data created above
+load("nov02_data.RData")
+
+set.seed(27150742)
+source("nov02_analysis.R")
+
+genes <- wh # rename "wh" (as more meaningful)
+save(finalres, fams, genes, famprob,
+     file="nov02_results.RData")
+
+setwd("..")
+```
+
+```{r really_run_nov02_mcmc, echo=FALSE, results="hide"}
+if(file.exists("R/nov02_results.RData")) {
+    load("R/nov02_results.RData")
+} else {
+<<run_nov02_mcmc>>
+}
+```
+
+
+## Tables
+
+Let us now reconstruct the tables 2-4 and 5.
+
+### Table 2
+
+First, let us look at Table 2, which shows the estimated percent
+essential genes (with an interval estimate) using various rules for
+defining the part of the gene where viable transposon insertion would
+indicate that the gene is not essential.
+
+```{r table2}
+rm(list=ls())
+load("R/sept02_results.RData")
+load("R/nov02_results.RData")
+
+tab2 <- matrix(nrow=6, ncol=3)
+dimnames(tab2) <- list(c("100%", "90%", "5'80%-3'100bp", "80%", "70%", "60%"),
+                       c("estimate (%)", "lo 95% CI", "hi 95% CI"))
+
+for(i in 1:6) {
+    # grab the appropriate result object
+    obj_nam <- c("res100nostop", "res90", "finalres",
+                 "res80", "res70", "res60")[i]
+    obj <- get(obj_nam)[[1]] # first component is number of essential genes
+
+    # pull out the summaries
+    # divide by the number of genes (4204) and multiple by 100 (to get percent)
+    tab2[i,] <- c(mean(obj), quantile(obj, c(0.025, 0.975))) / 4204 * 100
+}
+
+# add rule as a first column
+tab2 <- cbind(data.frame(rule=rownames(tab2)), tab2)
+
+# use gt package to make a table
+gt(tab2) %>%
+    fmt_number(columns=2:4, decimals=0)
+```
+
+Comparing the reconstructed table to the [published
+version](https://bit.ly/lamichhane2003_table2),
+namely that the upper confidence limit in the bottom row is 49% here,
+whereas it was 50% in the published paper. This difference can be
+ascribed to MCMC sampling variation.
+
+### Tables 3 and 6
+
+Let us now turn to Tables 3 and 6, on the genes with probability > 75%
+of being essential.
+
+In order to reproduce these tables exactly, we need to make one small
+change to the code in the
+[`Nov02/R/analysis.R`](../original/Nov02/R/analysis.R).
+While the original script pulled out genes with probability &ge;
+0.749, we need to change that cutoff to 0.745. This difference is
+within rounding error and can be ascribed to MCMC sampling error.
+
+We can make the change by reading in the script, pulling out the
+appropriate lines, swapping the one number, and then re-running those
+lines.
+
+```{r construct_table3_and_6}
+rm(list=ls())
+load("R/nov02_data.RData")    # numTAs
+load("R/nov02_results.RData") # finalres
+
+# read script; subset to lines 50-53; change 0.749 to 0.745
+script <- readLines("R/nov02_analysis.R")
+lines <- sub("0.749", "0.745", script[50:53], fixed=TRUE)
+
+# run those lines
+eval(parse(text=lines))
+
+# add gene number as a column; change row order; change name of object
+wh <- cbind(data.frame(MTnum=rownames(wh)), wh)
+wh <- wh[rev(order(wh[,3], -as.numeric(rownames(wh)))), ]
+wh[14:15,] <- wh[15:14,]
+wh[19:20,] <- wh[20:19,]
+genes <- wh
+genes[,3] <- genes[,3] * 100 # convert to percent
+```
+
+Here is our reconstruction of Table 3. The results match the [published
+version](https://bit.ly/lamichhane2003_table3).
+(If we had left the cutoff at 0.749, we would have missed the
+last two genes on the list, for which the estimated probability of
+being essential is now 74.8%. This difference is again likely due to
+MCMC sampling error.
+
+```{r table3}
+# genes to exclude from Table 3 (just listed in table 6)
+tab3_exclude <- c("418",  "1218", "3003", "1701",
+                  "2448", "3002", "1702")
+
+genes[!(genes$MTnum %in% tab3_exclude), c("MTnum", "Prob.essential")] %>%
+    gt() %>%
+    fmt_number(columns="Prob.essential", decimals=0)
+```
+
+Seven genes were excluded from Table 3 (because there was other
+evidence to indicate that they were non-essential), but the full list
+was shown in Supplemental Table 6. Here is the reconstruction of the
+full table, which matches the published version.
+
+```{r table6}
+genes[, c("MTnum", "Prob.essential")] %>%
+    gt() %>%
+    fmt_number(columns="Prob.essential", decimals=0)
+```
+
+### Table 4
+
+Table 4 contains a list of gene families that appear to be enriched
+with essential genes, or have a deficit of essential genes.
+The contents of the table are created in
+[`Nov02/R/analysis.R`](../original/Nov02/R/analysis.R), but one small
+change needs to be made, replacing the 75% cutoff with 74.5%, as
+otherwise one of the gene families gets left off. (The new estimate of
+the enrichment probability for one family has dipped slightly below 75%.)
+
+```{r table4}
+load("R/nov02_data.RData")
+load("R/nov02_results.RData")
+
+# read script
+script <- readLines("R/nov02_analysis.R")
+
+# change cutoff from 75 to 74.5
+lines <- sub(">= 75", ">= 74.5", script[56:64], fixed=TRUE)
+
+# run the lines
+eval(parse(text=lines))
+
+# paste in family labels
+fams <- cbind(data.frame(family=classes[fams[,1]]),
+              fams[,-1])
+
+# create the table
+gt(fams[,c("prob.enriched", "family", "percent.essential", "2.5%", "97.5%")])
+```
+
+There are a few small changes from the [published
+version](https://bit.ly/lamichhane2003_table4). First, the
+enrichment probability has changed &plusmn;1% for three of the
+families. Second, the upper confidence limits have changed for two
+families: in the first row the limit changed from 76 to 72%, and in
+the second-to-last row it changed from 36 to 38%. I think these
+differences can be ascribed to MCMC sampling error.
+
+
+## Figures
+
+We now turn to reconstruction of the Figures
+
+### Figure 1b
+
+Let us first consider Figure 1b, which shows the transposon insertion
+sites on the circular genome of _M. tuberculosis_.
+
+The code was not contained within the project directory, but I found
+it in a separate directory of files for a talk I gave on the work in
+2002-2003.
+
+```{r figure1b}
+rm(list=ls())
+setwd("R")
+
+mygeneloc <- read.csv("../Data/mygeneloc.csv")
+load("nov02_data.RData")
+
+source("circlefig.R")
+
+setwd("..")
+```
+
+The code creates a file `Figs/circlefig.ps`.  To generate the figure within
+the current document, we can read in the code,
+comment out the `postscript()` and `dev.off()` lines, and then execute
+them, as follows.
+
+```{r figure1b_again, fig.width=6, fig.height=6}
+mygeneloc <- read.csv("Data/mygeneloc.csv")
+load("R/nov02_data.RData")
+
+# read circlefig code
+circlefig <- readLines("R/circlefig.R")
+# comment out postscript() and dev.off()
+circlefig <- sub("postscript(", "#postscript(", circlefig, fixed=TRUE)
+circlefig <- sub("dev.off(", "#dev.off(", circlefig, fixed=TRUE)
+
+# run the code here
+eval(parse(text=circlefig))
+```
+
+The reconstructed figure appears to be the same as the [published
+figure](https://bit.ly/lamichhane2003_fig1).
+
+### Figures 1a and 2
+
+The code to create Figure 1a (with the transposon insertion locations)
+and Figure 2 (probability essential vs number of insertion sites, for
+each gene) were together in a single file,
+[`Nov02/R/figs4paper.R`](../original/Nov02/R/figs4paper.R).
+
+It is a simple matter to run the script, which generates postscript
+files `Figs/fig1.ps` and `Figs/fig2.ps`. Points in Figure 2 with
+probability 0 are jittered vertically, so we set the random number
+seed here.
+
+```{r figure1a_and_figure2}
+rm(list=ls())
+load("R/sept02_data.RData")
+load("R/nov02_data.RData")
+load("R/nov02_results.RData")
+
+set.seed(33359189)
+source("R/figs4paper.R")
+```
+
+We can again use the trick of reading in the code, commenting out the
+`postscript()` and `dev.off()`, and running it, to have the figures
+appear within the present document. Here is Figure 1a.
+
+```{r figure1a_again, fig.width=6, fig.height=6}
+rm(list=ls())
+load("R/sept02_data.RData")
+load("R/nov02_data.RData")
+load("R/nov02_results.RData")
+
+figs <- readLines("R/figs4paper.R")
+
+# comment out postscript() and dev.off()
+figs <- sub("postscript(", "#postscript(", figs, fixed=TRUE)
+figs <- sub("dev.off(", "#dev.off(", figs, fixed=TRUE)
+
+# run the code here, just for figure 1a
+eval(parse(text=figs[1:13]))
+```
+
+This looks the same as the [published figure](https://bit.ly/lamichhane2003_fig1).
+
+
+And here is Figure 2.
+
+```{r figure2_again, fig.width=10, fig.height=7}
+set.seed(33359189)
+eval(parse(text=figs[-(1:13)]))
+```
+
+Again, it looks the same as the [published figure](https://bit.ly/lamichhane2003_fig2).
+
+### Verify Figure 2 results
+
+We can verify the detailed results in Figure 2 by comparing the
+present results to those that were saved in the
+[original project
+repository](https://github.com/kbroman/Project_Lamichhane2003),
+included in the present repository as
+[`Nov02/R/finalresults.rds`](../original/Nov02/R/finalresults.rds).
+
+Here is a plot of the differences (original - reconstructed) in the
+estimated probabilities of genes being essential.
+
+```{r verify_fig2_results}
+load("R/nov02_results.RData")
+finalres_orig <- readRDS("../original/Nov02/R/finalresults.rds")
+
+par(las=1, mar=c(4.1, 4.1, 0.6, 0.6))
+plot((finalres_orig$bygene - finalres$bygene)*100,
+     xlab="gene index", ylab="Difference in % probability (original - reconstructed)")
+```
+
+The median difference is `r round(median( (finalres_orig$bygene - finalres$bygene)*100 ), 2)`.
+So the reconstructed probabilities in Figure 2 have changed < 0.1%, which is immaterial and
+likely due to MCMC sampling error.
+
+
+## Summary
+
+The main difficulties in reconstruction the results concerned poor
+documentation of the project data and code.
+
+- I should have included a ReadMe file that described the structure of
+  the project.
+
+- I should have revised the scripts to give just the final published
+  analyses, rather than create multiple mutated copies with some
+  results pulled from some scripts and other results pulled from other
+  scripts.
+
+- I should have saved the random number generator seeds.
+
+- I should have saved the key intermediate results to files and then
+  loaded the files (as well as any required R libraries) at the top of
+  scripts that needed them, rather than rely on particular objects
+  being present in the R environment.
+
+Nevertheless, I was able to reconstruct the results to within a small
+and immaterial level of MCMC sampling error. I needed to make just
+three small changes to the code.
+
+- Cutoffs for determining which genes and gene families to display in
+  Tables 3 and 4 needed to be modified slightly.
+
+- One vector that was derived using the R function `table()` needed to
+  be converted from class `"table"` to a simple numeric vector. This
+  is due to some change in R between version 1.5.1 (July 2002) and
+  3.6.1 (current).
+
+I was *not* able to reproduce Figure 3, however. The simulation
+results and the code to create the figure are available, but I could
+not find the code to perform the simulations.
+
+
+## Session info
+
+Here is information about the version of R and R packages that I used.
+
+```{r session_info}
+devtools::session_info()
+```
