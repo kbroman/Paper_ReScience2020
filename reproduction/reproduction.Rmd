@@ -22,12 +22,12 @@ tuberculosis_. Proc Natl Acad Sci USA 100:7213-7218
 
 The original project directory, with data and code, is on
 [github](https://github.com/kbroman/Project_Lamichhane2003). A subset
-of the materials is in [`../original/`](../original), and I will be
+of the materials is in [`../original/`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original), and I will be
 drawing from that. The code to create Figure 1b in the paper
 was not in that project directory but rather with materials for a talk
 I gave in 2002-2003. The materials for that talk is on
 [github](https://github.com/kbroman/Talk_Mtb). A subset is in
-[`../talk/`](../talk).
+[`../talk/`](https://github.com/kbroman/Paper_ReScience2020/blob/master/talk).
 
 I should say right at the start that _I am not able to reproduce
 Figure 3_ in the paper. I have the code to make the Figure based on
@@ -188,13 +188,13 @@ the right-hand column of the second page of the paper. But I am going
 to focus on the key analysis results, Figures 1-3 and Tables 2-4 and 6.
 
 Let me first explain some key elements of the project directory in
-[`../original/`](../original/). The `R` subdirectory contains my
+[`../original/`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/). The `R` subdirectory contains my
 initial analysis of the data (performed in like July, 2002), which did
-not end up in the paper. [`Sept02/R`](../original/Sept02/R) contains a
+not end up in the paper. [`Sept02/R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R) contains a
 revised analysis based on a slightly larger set of data and evaluating multiple
 versions of a rule for part of the data handling (see Table 2
 of the published paper).
-[`Nov02/R`](../original/Nov02/R) contains an analysis with our final
+[`Nov02/R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R) contains an analysis with our final
 version of the data handling rule and is the basis for one row of
 Table 2 and all of the rest of the analyses.
 
@@ -207,13 +207,13 @@ the results. We first need to do the `Sept02` versions and then the
 `Nov02` versions.
 
 So we will start with
-[`Sept02/R/prepareData.R`](../original/Sept02/R/prepareData.R), which
-we have saved as [`R/sept02_prepareData.R`](R/sept02_prepareData.R). It
+[`Sept02/R/prepareData.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/prepareData.R), which
+we have saved as [`R/sept02_prepareData.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/sept02_prepareData.R). It
 prints a bunch of crap, so we will hide the output.
 
 There is one small wrinkle here. The `ngeneperfam` object comes out
 has class `"table"` which leads to an error in the next step, in the
-[`analysis.R`](../original/Sept02/R/analysis.R) script. This is due to
+[`analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/analysis.R) script. This is due to
 some change in [R](https://www.r-project.org) since 2002. So we need
 to convert the `ngeneperfam` object to a simple numeric vector.
 
@@ -235,12 +235,12 @@ setwd("..")
 
 I will now run the MCMC. (I actually cache these results and only run
 them if needed.) Again, we copied over the
-[`Sept02/R/analysis.R`](../original/Sept02/R/analysis.R) script as
-[`R/sept02_analysis.R`](R/sept02_analysis.R).
+[`Sept02/R/analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/analysis.R) script as
+[`R/sept02_analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/sept02_analysis.R).
 
 The only slight change here is to rename one of the
 objects to avoid conflict with the results obtained using the
-[`Nov02`](../original/Nov02/R) script, below.
+[`Nov02`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R) script, below.
 
 ```{r run_sept02_mcmc, eval=FALSE}
 rm(list=ls())
@@ -271,10 +271,10 @@ if(file.exists("R/sept02_results.RData")) {
 ```
 
 
-We now repeat the same things with the [`Nov02`](../original/Nov02/R)
+We now repeat the same things with the [`Nov02`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R)
 scripts. First,
-[`Nov02/R/prepareData.R`](../original/Nov02/R/prepareData.R), which we
-have saved as [`R/nov02_prepareData.R`](R/nov02_prepareData.R). Again,
+[`Nov02/R/prepareData.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/prepareData.R), which we
+have saved as [`R/nov02_prepareData.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/nov02_prepareData.R). Again,
 it prints a bunch of crap, so we will hide the output.
 
 Again, we need to convert the `ngeneperfam` object to be a
@@ -299,8 +299,8 @@ setwd("..")
 
 And again we run the MCMC. This one is faster, because we are doing
 just one version of the analysis rather than 6. The
-[`R/nov02_analysis.R`](R/nov02_analysis.R) script was copied over from
-[`Nov02/R/analysis.R`](../original/Nov02/R/analysis.R).
+[`R/nov02_analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/nov02_analysis.R) script was copied over from
+[`Nov02/R/analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R).
 
 The only modification here is to change the name of one of the results
 objects, from `wh` (which is not very meaningful) to `genes`.
@@ -383,7 +383,7 @@ of being essential.
 
 In order to reproduce these tables exactly, we need to make one small
 change to the code in the
-[`Nov02/R/analysis.R`](../original/Nov02/R/analysis.R).
+[`Nov02/R/analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R).
 While the original script pulled out genes with probability &ge;
 0.749, we need to change that cutoff to 0.745. This difference is
 within rounding error and can be ascribed to MCMC sampling error.
@@ -446,7 +446,7 @@ genes[, c("MTnum", "Prob.essential")] %>%
 Table 4 contains a list of gene families that appear to be enriched
 with essential genes, or have a deficit of essential genes.
 The contents of the table are created in
-[`Nov02/R/analysis.R`](../original/Nov02/R/analysis.R), but one small
+[`Nov02/R/analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R), but one small
 change needs to be made, replacing the 75% cutoff with 74.5%, as
 otherwise one of the gene families gets left off. (The new estimate of
 the enrichment probability for one family has dipped slightly below 75%.)
@@ -533,7 +533,7 @@ figure](https://bit.ly/lamichhane2003_fig1).
 The code to create Figure 1a (with the transposon insertion locations)
 and Figure 2 (probability essential vs number of insertion sites, for
 each gene) were together in a single file,
-[`Nov02/R/figs4paper.R`](../original/Nov02/R/figs4paper.R).
+[`Nov02/R/figs4paper.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/figs4paper.R).
 
 It is a simple matter to run the script, which generates postscript
 files `Figs/fig1.ps` and `Figs/fig2.ps`. Points in Figure 2 with
@@ -589,7 +589,7 @@ present results to those that were saved in the
 [original project
 repository](https://github.com/kbroman/Project_Lamichhane2003),
 included in the present repository as
-[`Nov02/R/finalresults.rds`](../original/Nov02/R/finalresults.rds).
+[`Nov02/R/finalresults.rds`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/finalresults.rds).
 
 Here is a plot of the differences (original - reconstructed) in the
 estimated probabilities of genes being essential.

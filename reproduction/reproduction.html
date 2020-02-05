@@ -1589,7 +1589,7 @@ div.tocify {
 
 
 <p>This is a reproduction of the results in Lamichhane et al. (2003) A post-genomic method for predicting essential genes at subsaturation levels of mutagenesis: application to <em>Mycobacterium tuberculosis</em>. Proc Natl Acad Sci USA 100:7213-7218 <a href="https://doi.org/10.1073/pnas.1231432100">doi:10.1073/pnas.1231432100</a></p>
-<p>The original project directory, with data and code, is on <a href="https://github.com/kbroman/Project_Lamichhane2003">github</a>. A subset of the materials is in <a href="../original"><code>../original/</code></a>, and I will be drawing from that. The code to create Figure 1b in the paper was not in that project directory but rather with materials for a talk I gave in 2002-2003. The materials for that talk is on <a href="https://github.com/kbroman/Talk_Mtb">github</a>. A subset is in <a href="../talk"><code>../talk/</code></a>.</p>
+<p>The original project directory, with data and code, is on <a href="https://github.com/kbroman/Project_Lamichhane2003">github</a>. A subset of the materials is in <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original"><code>../original/</code></a>, and I will be drawing from that. The code to create Figure 1b in the paper was not in that project directory but rather with materials for a talk I gave in 2002-2003. The materials for that talk is on <a href="https://github.com/kbroman/Talk_Mtb">github</a>. A subset is in <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/talk"><code>../talk/</code></a>.</p>
 <p>I should say right at the start that <em>I am not able to reproduce Figure 3</em> in the paper. I have the code to make the Figure based on simulation results, but I can’t find the code that was used to carry out the simulation.</p>
 <p>I will first load the required libraries for this analysis.</p>
 <pre class="r"><code>library(negenes)
@@ -1681,13 +1681,13 @@ if(!file.exists(new_file)) {
 <p>The reproduction of this work included a number of challenges: lack of documentation (couldn’t you give me even one README file, 2002 Karl?), multiple directories of scripts with portions of results coming from different ones, not saving random number generator seeds, not loading the required library in the scripts, not saving intermediate results to files (but just leaving them in the R environment, in <code>.RData</code>), and not explaining which R objects were needed in a script.</p>
 <p>To reproduce the work, I am going to run a particular script, save the key results to a file, and then clean the R environment for the next step. Some of the calculations take a bit of time, and those I will cache using a crude caching system that will mostly be hidden.</p>
 <p>Because of the lack of documentation, the first challenge was to figure out which results I was trying to reproduce. To do that, I re-read the paper. The key results are in Figures 1, 2, and 3, and Tables 2, 3, and 4. Table 3 also has an extended version, as Supplementary Table 6. There are a number of other summary statistics about the data, for example in Table 1 and in the right-hand column of the second page of the paper. But I am going to focus on the key analysis results, Figures 1-3 and Tables 2-4 and 6.</p>
-<p>Let me first explain some key elements of the project directory in <a href="../original/"><code>../original/</code></a>. The <code>R</code> subdirectory contains my initial analysis of the data (performed in like July, 2002), which did not end up in the paper. <a href="../original/Sept02/R"><code>Sept02/R</code></a> contains a revised analysis based on a slightly larger set of data and evaluating multiple versions of a rule for part of the data handling (see Table 2 of the published paper). <a href="../original/Nov02/R"><code>Nov02/R</code></a> contains an analysis with our final version of the data handling rule and is the basis for one row of Table 2 and all of the rest of the analyses.</p>
+<p>Let me first explain some key elements of the project directory in <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/"><code>../original/</code></a>. The <code>R</code> subdirectory contains my initial analysis of the data (performed in like July, 2002), which did not end up in the paper. <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R"><code>Sept02/R</code></a> contains a revised analysis based on a slightly larger set of data and evaluating multiple versions of a rule for part of the data handling (see Table 2 of the published paper). <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R"><code>Nov02/R</code></a> contains an analysis with our final version of the data handling rule and is the basis for one row of Table 2 and all of the rest of the analyses.</p>
 </div>
 <div id="run-mcmc" class="section level2">
 <h2>Run MCMC</h2>
 <p>The analysis proceeded in two steps: run a <code>prepareData.R</code> script to create the key data objects, and then run <code>analysis.R</code> which performs the Markov chain Monte Carlo (MCMC) analysis and summarizes the results. We first need to do the <code>Sept02</code> versions and then the <code>Nov02</code> versions.</p>
-<p>So we will start with <a href="../original/Sept02/R/prepareData.R"><code>Sept02/R/prepareData.R</code></a>, which we have saved as <a href="R/sept02_prepareData.R"><code>R/sept02_prepareData.R</code></a>. It prints a bunch of crap, so we will hide the output.</p>
-<p>There is one small wrinkle here. The <code>ngeneperfam</code> object comes out has class <code>&quot;table&quot;</code> which leads to an error in the next step, in the <a href="../original/Sept02/R/analysis.R"><code>analysis.R</code></a> script. This is due to some change in <a href="https://www.r-project.org">R</a> since 2002. So we need to convert the <code>ngeneperfam</code> object to a simple numeric vector.</p>
+<p>So we will start with <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/prepareData.R"><code>Sept02/R/prepareData.R</code></a>, which we have saved as <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/sept02_prepareData.R"><code>R/sept02_prepareData.R</code></a>. It prints a bunch of crap, so we will hide the output.</p>
+<p>There is one small wrinkle here. The <code>ngeneperfam</code> object comes out has class <code>&quot;table&quot;</code> which leads to an error in the next step, in the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/analysis.R"><code>analysis.R</code></a> script. This is due to some change in <a href="https://www.r-project.org">R</a> since 2002. So we need to convert the <code>ngeneperfam</code> object to a simple numeric vector.</p>
 <pre class="r"><code>rm(list=ls())
 setwd(&quot;R&quot;)
 source(&quot;sept02_prepareData.R&quot;)
@@ -1701,8 +1701,8 @@ save(data100nostop, data100stop, data90, data70, data60, data80,
      file=&quot;sept02_data.RData&quot;)
 
 setwd(&quot;..&quot;)</code></pre>
-<p>I will now run the MCMC. (I actually cache these results and only run them if needed.) Again, we copied over the <a href="../original/Sept02/R/analysis.R"><code>Sept02/R/analysis.R</code></a> script as <a href="R/sept02_analysis.R"><code>R/sept02_analysis.R</code></a>.</p>
-<p>The only slight change here is to rename one of the objects to avoid conflict with the results obtained using the <a href="../original/Nov02/R"><code>Nov02</code></a> script, below.</p>
+<p>I will now run the MCMC. (I actually cache these results and only run them if needed.) Again, we copied over the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/analysis.R"><code>Sept02/R/analysis.R</code></a> script as <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/sept02_analysis.R"><code>R/sept02_analysis.R</code></a>.</p>
+<p>The only slight change here is to rename one of the objects to avoid conflict with the results obtained using the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R"><code>Nov02</code></a> script, below.</p>
 <pre class="r"><code>rm(list=ls())
 setwd(&quot;R&quot;)
 
@@ -1720,7 +1720,7 @@ save(res100nostop, res90, res80, res70, res60,
      file=&quot;sept02_results.RData&quot;)
 
 setwd(&quot;..&quot;)</code></pre>
-<p>We now repeat the same things with the <a href="../original/Nov02/R"><code>Nov02</code></a> scripts. First, <a href="../original/Nov02/R/prepareData.R"><code>Nov02/R/prepareData.R</code></a>, which we have saved as <a href="R/nov02_prepareData.R"><code>R/nov02_prepareData.R</code></a>. Again, it prints a bunch of crap, so we will hide the output.</p>
+<p>We now repeat the same things with the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R"><code>Nov02</code></a> scripts. First, <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/prepareData.R"><code>Nov02/R/prepareData.R</code></a>, which we have saved as <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/nov02_prepareData.R"><code>R/nov02_prepareData.R</code></a>. Again, it prints a bunch of crap, so we will hide the output.</p>
 <p>Again, we need to convert the <code>ngeneperfam</code> object to be a numeric vector.</p>
 <pre class="r"><code>rm(list=ls())
 setwd(&quot;R&quot;)
@@ -1736,7 +1736,7 @@ save(mydata,
      file=&quot;nov02_data.RData&quot;)
 
 setwd(&quot;..&quot;)</code></pre>
-<p>And again we run the MCMC. This one is faster, because we are doing just one version of the analysis rather than 6. The <a href="R/nov02_analysis.R"><code>R/nov02_analysis.R</code></a> script was copied over from <a href="../original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>.</p>
+<p>And again we run the MCMC. This one is faster, because we are doing just one version of the analysis rather than 6. The <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/nov02_analysis.R"><code>R/nov02_analysis.R</code></a> script was copied over from <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>.</p>
 <p>The only modification here is to change the name of one of the results objects, from <code>wh</code> (which is not very meaningful) to <code>genes</code>.</p>
 <pre class="r"><code>rm(list=ls())
 setwd(&quot;R&quot;)
@@ -1788,7 +1788,7 @@ gt(tab2) %&gt;%
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#xssyqbrwbf .gt_table {
+#disvrwxvdh .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1807,13 +1807,13 @@ gt(tab2) %&gt;%
   /* table.border.top.color */
 }
 
-#xssyqbrwbf .gt_heading {
+#disvrwxvdh .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#xssyqbrwbf .gt_title {
+#disvrwxvdh .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -1824,7 +1824,7 @@ gt(tab2) %&gt;%
   border-bottom-width: 0;
 }
 
-#xssyqbrwbf .gt_subtitle {
+#disvrwxvdh .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -1835,7 +1835,7 @@ gt(tab2) %&gt;%
   border-top-width: 0;
 }
 
-#xssyqbrwbf .gt_bottom_border {
+#disvrwxvdh .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -1844,7 +1844,7 @@ gt(tab2) %&gt;%
   /* heading.border.bottom.color */
 }
 
-#xssyqbrwbf .gt_column_spanner {
+#disvrwxvdh .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -1852,7 +1852,7 @@ gt(tab2) %&gt;%
   padding-bottom: 4px;
 }
 
-#xssyqbrwbf .gt_col_heading {
+#disvrwxvdh .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -1865,11 +1865,11 @@ gt(tab2) %&gt;%
   margin: 10px;
 }
 
-#xssyqbrwbf .gt_sep_right {
+#disvrwxvdh .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#xssyqbrwbf .gt_group_heading {
+#disvrwxvdh .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -1893,7 +1893,7 @@ gt(tab2) %&gt;%
   vertical-align: middle;
 }
 
-#xssyqbrwbf .gt_empty_group_heading {
+#disvrwxvdh .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -1917,37 +1917,37 @@ gt(tab2) %&gt;%
   vertical-align: middle;
 }
 
-#xssyqbrwbf .gt_striped {
+#disvrwxvdh .gt_striped {
   background-color: #f2f2f2;
 }
 
-#xssyqbrwbf .gt_from_md > :first-child {
+#disvrwxvdh .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xssyqbrwbf .gt_from_md > :last-child {
+#disvrwxvdh .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xssyqbrwbf .gt_row {
+#disvrwxvdh .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#xssyqbrwbf .gt_stub {
+#disvrwxvdh .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#xssyqbrwbf .gt_stub.gt_row {
+#disvrwxvdh .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#xssyqbrwbf .gt_summary_row {
+#disvrwxvdh .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -1956,13 +1956,13 @@ gt(tab2) %&gt;%
   /* summary_row.text_transform */
 }
 
-#xssyqbrwbf .gt_first_summary_row {
+#disvrwxvdh .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#xssyqbrwbf .gt_table_body {
+#disvrwxvdh .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -1977,55 +1977,55 @@ gt(tab2) %&gt;%
   /* field.border.bottom.color */
 }
 
-#xssyqbrwbf .gt_footnote {
+#disvrwxvdh .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#xssyqbrwbf .gt_sourcenote {
+#disvrwxvdh .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#xssyqbrwbf .gt_center {
+#disvrwxvdh .gt_center {
   text-align: center;
 }
 
-#xssyqbrwbf .gt_left {
+#disvrwxvdh .gt_left {
   text-align: left;
 }
 
-#xssyqbrwbf .gt_right {
+#disvrwxvdh .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xssyqbrwbf .gt_font_normal {
+#disvrwxvdh .gt_font_normal {
   font-weight: normal;
 }
 
-#xssyqbrwbf .gt_font_bold {
+#disvrwxvdh .gt_font_bold {
   font-weight: bold;
 }
 
-#xssyqbrwbf .gt_font_italic {
+#disvrwxvdh .gt_font_italic {
   font-style: italic;
 }
 
-#xssyqbrwbf .gt_super {
+#disvrwxvdh .gt_super {
   font-size: 65%;
 }
 
-#xssyqbrwbf .gt_footnote_glyph {
+#disvrwxvdh .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="xssyqbrwbf" style="overflow-x:auto;"><!--gt table start-->
+<div id="disvrwxvdh" style="overflow-x:auto;"><!--gt table start-->
 <table class='gt_table'>
 <tr>
 <th class='gt_col_heading gt_center' rowspan='1' colspan='1'>rule</th>
@@ -2079,7 +2079,7 @@ gt(tab2) %&gt;%
 <div id="tables-3-and-6" class="section level3">
 <h3>Tables 3 and 6</h3>
 <p>Let us now turn to Tables 3 and 6, on the genes with probability &gt; 75% of being essential.</p>
-<p>In order to reproduce these tables exactly, we need to make one small change to the code in the <a href="../original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>. While the original script pulled out genes with probability ≥ 0.749, we need to change that cutoff to 0.745. This difference is within rounding error and can be ascribed to MCMC sampling error.</p>
+<p>In order to reproduce these tables exactly, we need to make one small change to the code in the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>. While the original script pulled out genes with probability ≥ 0.749, we need to change that cutoff to 0.745. This difference is within rounding error and can be ascribed to MCMC sampling error.</p>
 <p>We can make the change by reading in the script, pulling out the appropriate lines, swapping the one number, and then re-running those lines.</p>
 <pre class="r"><code>rm(list=ls())
 load(&quot;R/nov02_data.RData&quot;)    # numTAs
@@ -2111,7 +2111,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#zumowdvbyj .gt_table {
+#ljclqcrzgt .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2130,13 +2130,13 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   /* table.border.top.color */
 }
 
-#zumowdvbyj .gt_heading {
+#ljclqcrzgt .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#zumowdvbyj .gt_title {
+#ljclqcrzgt .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -2147,7 +2147,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   border-bottom-width: 0;
 }
 
-#zumowdvbyj .gt_subtitle {
+#ljclqcrzgt .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -2158,7 +2158,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   border-top-width: 0;
 }
 
-#zumowdvbyj .gt_bottom_border {
+#ljclqcrzgt .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -2167,7 +2167,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   /* heading.border.bottom.color */
 }
 
-#zumowdvbyj .gt_column_spanner {
+#ljclqcrzgt .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -2175,7 +2175,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   padding-bottom: 4px;
 }
 
-#zumowdvbyj .gt_col_heading {
+#ljclqcrzgt .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -2188,11 +2188,11 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   margin: 10px;
 }
 
-#zumowdvbyj .gt_sep_right {
+#ljclqcrzgt .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#zumowdvbyj .gt_group_heading {
+#ljclqcrzgt .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -2216,7 +2216,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   vertical-align: middle;
 }
 
-#zumowdvbyj .gt_empty_group_heading {
+#ljclqcrzgt .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -2240,37 +2240,37 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   vertical-align: middle;
 }
 
-#zumowdvbyj .gt_striped {
+#ljclqcrzgt .gt_striped {
   background-color: #f2f2f2;
 }
 
-#zumowdvbyj .gt_from_md > :first-child {
+#ljclqcrzgt .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#zumowdvbyj .gt_from_md > :last-child {
+#ljclqcrzgt .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#zumowdvbyj .gt_row {
+#ljclqcrzgt .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#zumowdvbyj .gt_stub {
+#ljclqcrzgt .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#zumowdvbyj .gt_stub.gt_row {
+#ljclqcrzgt .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#zumowdvbyj .gt_summary_row {
+#ljclqcrzgt .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -2279,13 +2279,13 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   /* summary_row.text_transform */
 }
 
-#zumowdvbyj .gt_first_summary_row {
+#ljclqcrzgt .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#zumowdvbyj .gt_table_body {
+#ljclqcrzgt .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -2300,55 +2300,55 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   /* field.border.bottom.color */
 }
 
-#zumowdvbyj .gt_footnote {
+#ljclqcrzgt .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#zumowdvbyj .gt_sourcenote {
+#ljclqcrzgt .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#zumowdvbyj .gt_center {
+#ljclqcrzgt .gt_center {
   text-align: center;
 }
 
-#zumowdvbyj .gt_left {
+#ljclqcrzgt .gt_left {
   text-align: left;
 }
 
-#zumowdvbyj .gt_right {
+#ljclqcrzgt .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#zumowdvbyj .gt_font_normal {
+#ljclqcrzgt .gt_font_normal {
   font-weight: normal;
 }
 
-#zumowdvbyj .gt_font_bold {
+#ljclqcrzgt .gt_font_bold {
   font-weight: bold;
 }
 
-#zumowdvbyj .gt_font_italic {
+#ljclqcrzgt .gt_font_italic {
   font-style: italic;
 }
 
-#zumowdvbyj .gt_super {
+#ljclqcrzgt .gt_super {
   font-size: 65%;
 }
 
-#zumowdvbyj .gt_footnote_glyph {
+#ljclqcrzgt .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="zumowdvbyj" style="overflow-x:auto;"><!--gt table start-->
+<div id="ljclqcrzgt" style="overflow-x:auto;"><!--gt table start-->
 <table class='gt_table'>
 <tr>
 <th class='gt_col_heading gt_center' rowspan='1' colspan='1'>MTnum</th>
@@ -2427,7 +2427,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#tsghsbmhsk .gt_table {
+#rowmtyfpqo .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2446,13 +2446,13 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   /* table.border.top.color */
 }
 
-#tsghsbmhsk .gt_heading {
+#rowmtyfpqo .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#tsghsbmhsk .gt_title {
+#rowmtyfpqo .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -2463,7 +2463,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   border-bottom-width: 0;
 }
 
-#tsghsbmhsk .gt_subtitle {
+#rowmtyfpqo .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -2474,7 +2474,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   border-top-width: 0;
 }
 
-#tsghsbmhsk .gt_bottom_border {
+#rowmtyfpqo .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -2483,7 +2483,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   /* heading.border.bottom.color */
 }
 
-#tsghsbmhsk .gt_column_spanner {
+#rowmtyfpqo .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -2491,7 +2491,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   padding-bottom: 4px;
 }
 
-#tsghsbmhsk .gt_col_heading {
+#rowmtyfpqo .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -2504,11 +2504,11 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   margin: 10px;
 }
 
-#tsghsbmhsk .gt_sep_right {
+#rowmtyfpqo .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#tsghsbmhsk .gt_group_heading {
+#rowmtyfpqo .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -2532,7 +2532,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   vertical-align: middle;
 }
 
-#tsghsbmhsk .gt_empty_group_heading {
+#rowmtyfpqo .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -2556,37 +2556,37 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   vertical-align: middle;
 }
 
-#tsghsbmhsk .gt_striped {
+#rowmtyfpqo .gt_striped {
   background-color: #f2f2f2;
 }
 
-#tsghsbmhsk .gt_from_md > :first-child {
+#rowmtyfpqo .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tsghsbmhsk .gt_from_md > :last-child {
+#rowmtyfpqo .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tsghsbmhsk .gt_row {
+#rowmtyfpqo .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#tsghsbmhsk .gt_stub {
+#rowmtyfpqo .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#tsghsbmhsk .gt_stub.gt_row {
+#rowmtyfpqo .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#tsghsbmhsk .gt_summary_row {
+#rowmtyfpqo .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -2595,13 +2595,13 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   /* summary_row.text_transform */
 }
 
-#tsghsbmhsk .gt_first_summary_row {
+#rowmtyfpqo .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#tsghsbmhsk .gt_table_body {
+#rowmtyfpqo .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -2616,55 +2616,55 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
   /* field.border.bottom.color */
 }
 
-#tsghsbmhsk .gt_footnote {
+#rowmtyfpqo .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#tsghsbmhsk .gt_sourcenote {
+#rowmtyfpqo .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#tsghsbmhsk .gt_center {
+#rowmtyfpqo .gt_center {
   text-align: center;
 }
 
-#tsghsbmhsk .gt_left {
+#rowmtyfpqo .gt_left {
   text-align: left;
 }
 
-#tsghsbmhsk .gt_right {
+#rowmtyfpqo .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tsghsbmhsk .gt_font_normal {
+#rowmtyfpqo .gt_font_normal {
   font-weight: normal;
 }
 
-#tsghsbmhsk .gt_font_bold {
+#rowmtyfpqo .gt_font_bold {
   font-weight: bold;
 }
 
-#tsghsbmhsk .gt_font_italic {
+#rowmtyfpqo .gt_font_italic {
   font-style: italic;
 }
 
-#tsghsbmhsk .gt_super {
+#rowmtyfpqo .gt_super {
   font-size: 65%;
 }
 
-#tsghsbmhsk .gt_footnote_glyph {
+#rowmtyfpqo .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="tsghsbmhsk" style="overflow-x:auto;"><!--gt table start-->
+<div id="rowmtyfpqo" style="overflow-x:auto;"><!--gt table start-->
 <table class='gt_table'>
 <tr>
 <th class='gt_col_heading gt_center' rowspan='1' colspan='1'>MTnum</th>
@@ -2766,7 +2766,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
 </div>
 <div id="table-4" class="section level3">
 <h3>Table 4</h3>
-<p>Table 4 contains a list of gene families that appear to be enriched with essential genes, or have a deficit of essential genes. The contents of the table are created in <a href="../original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>, but one small change needs to be made, replacing the 75% cutoff with 74.5%, as otherwise one of the gene families gets left off. (The new estimate of the enrichment probability for one family has dipped slightly below 75%.)</p>
+<p>Table 4 contains a list of gene families that appear to be enriched with essential genes, or have a deficit of essential genes. The contents of the table are created in <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>, but one small change needs to be made, replacing the 75% cutoff with 74.5%, as otherwise one of the gene families gets left off. (The new estimate of the enrichment probability for one family has dipped slightly below 75%.)</p>
 <pre class="r"><code>load(&quot;R/nov02_data.RData&quot;)
 load(&quot;R/nov02_results.RData&quot;)
 
@@ -2789,7 +2789,7 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ofirtnsvmh .gt_table {
+#bgmvrxwueq .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2808,13 +2808,13 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   /* table.border.top.color */
 }
 
-#ofirtnsvmh .gt_heading {
+#bgmvrxwueq .gt_heading {
   background-color: #FFFFFF;
   /* heading.background.color */
   border-bottom-color: #FFFFFF;
 }
 
-#ofirtnsvmh .gt_title {
+#bgmvrxwueq .gt_title {
   color: #000000;
   font-size: 125%;
   /* heading.title.font.size */
@@ -2825,7 +2825,7 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   border-bottom-width: 0;
 }
 
-#ofirtnsvmh .gt_subtitle {
+#bgmvrxwueq .gt_subtitle {
   color: #000000;
   font-size: 85%;
   /* heading.subtitle.font.size */
@@ -2836,7 +2836,7 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   border-top-width: 0;
 }
 
-#ofirtnsvmh .gt_bottom_border {
+#bgmvrxwueq .gt_bottom_border {
   border-bottom-style: solid;
   /* heading.border.bottom.style */
   border-bottom-width: 2px;
@@ -2845,7 +2845,7 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   /* heading.border.bottom.color */
 }
 
-#ofirtnsvmh .gt_column_spanner {
+#bgmvrxwueq .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #A8A8A8;
@@ -2853,7 +2853,7 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   padding-bottom: 4px;
 }
 
-#ofirtnsvmh .gt_col_heading {
+#bgmvrxwueq .gt_col_heading {
   color: #000000;
   background-color: #FFFFFF;
   /* column_labels.background.color */
@@ -2866,11 +2866,11 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   margin: 10px;
 }
 
-#ofirtnsvmh .gt_sep_right {
+#bgmvrxwueq .gt_sep_right {
   border-right: 5px solid #FFFFFF;
 }
 
-#ofirtnsvmh .gt_group_heading {
+#bgmvrxwueq .gt_group_heading {
   padding: 8px;
   color: #000000;
   background-color: #FFFFFF;
@@ -2894,7 +2894,7 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   vertical-align: middle;
 }
 
-#ofirtnsvmh .gt_empty_group_heading {
+#bgmvrxwueq .gt_empty_group_heading {
   padding: 0.5px;
   color: #000000;
   background-color: #FFFFFF;
@@ -2918,37 +2918,37 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   vertical-align: middle;
 }
 
-#ofirtnsvmh .gt_striped {
+#bgmvrxwueq .gt_striped {
   background-color: #f2f2f2;
 }
 
-#ofirtnsvmh .gt_from_md > :first-child {
+#bgmvrxwueq .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ofirtnsvmh .gt_from_md > :last-child {
+#bgmvrxwueq .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ofirtnsvmh .gt_row {
+#bgmvrxwueq .gt_row {
   padding: 10px;
   /* row.padding */
   margin: 10px;
   vertical-align: middle;
 }
 
-#ofirtnsvmh .gt_stub {
+#bgmvrxwueq .gt_stub {
   border-right-style: solid;
   border-right-width: 2px;
   border-right-color: #A8A8A8;
   padding-left: 12px;
 }
 
-#ofirtnsvmh .gt_stub.gt_row {
+#bgmvrxwueq .gt_stub.gt_row {
   background-color: #FFFFFF;
 }
 
-#ofirtnsvmh .gt_summary_row {
+#bgmvrxwueq .gt_summary_row {
   background-color: #FFFFFF;
   /* summary_row.background.color */
   padding: 6px;
@@ -2957,13 +2957,13 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   /* summary_row.text_transform */
 }
 
-#ofirtnsvmh .gt_first_summary_row {
+#bgmvrxwueq .gt_first_summary_row {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #A8A8A8;
 }
 
-#ofirtnsvmh .gt_table_body {
+#bgmvrxwueq .gt_table_body {
   border-top-style: solid;
   /* field.border.top.style */
   border-top-width: 2px;
@@ -2978,55 +2978,55 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
   /* field.border.bottom.color */
 }
 
-#ofirtnsvmh .gt_footnote {
+#bgmvrxwueq .gt_footnote {
   font-size: 90%;
   /* footnote.font.size */
   padding: 4px;
   /* footnote.padding */
 }
 
-#ofirtnsvmh .gt_sourcenote {
+#bgmvrxwueq .gt_sourcenote {
   font-size: 90%;
   /* sourcenote.font.size */
   padding: 4px;
   /* sourcenote.padding */
 }
 
-#ofirtnsvmh .gt_center {
+#bgmvrxwueq .gt_center {
   text-align: center;
 }
 
-#ofirtnsvmh .gt_left {
+#bgmvrxwueq .gt_left {
   text-align: left;
 }
 
-#ofirtnsvmh .gt_right {
+#bgmvrxwueq .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ofirtnsvmh .gt_font_normal {
+#bgmvrxwueq .gt_font_normal {
   font-weight: normal;
 }
 
-#ofirtnsvmh .gt_font_bold {
+#bgmvrxwueq .gt_font_bold {
   font-weight: bold;
 }
 
-#ofirtnsvmh .gt_font_italic {
+#bgmvrxwueq .gt_font_italic {
   font-style: italic;
 }
 
-#ofirtnsvmh .gt_super {
+#bgmvrxwueq .gt_super {
   font-size: 65%;
 }
 
-#ofirtnsvmh .gt_footnote_glyph {
+#bgmvrxwueq .gt_footnote_glyph {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="ofirtnsvmh" style="overflow-x:auto;"><!--gt table start-->
+<div id="bgmvrxwueq" style="overflow-x:auto;"><!--gt table start-->
 <table class='gt_table'>
 <tr>
 <th class='gt_col_heading gt_right' rowspan='1' colspan='1'>prob.enriched</th>
@@ -3153,7 +3153,7 @@ eval(parse(text=circlefig))</code></pre>
 </div>
 <div id="figures-1a-and-2" class="section level3">
 <h3>Figures 1a and 2</h3>
-<p>The code to create Figure 1a (with the transposon insertion locations) and Figure 2 (probability essential vs number of insertion sites, for each gene) were together in a single file, <a href="../original/Nov02/R/figs4paper.R"><code>Nov02/R/figs4paper.R</code></a>.</p>
+<p>The code to create Figure 1a (with the transposon insertion locations) and Figure 2 (probability essential vs number of insertion sites, for each gene) were together in a single file, <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/figs4paper.R"><code>Nov02/R/figs4paper.R</code></a>.</p>
 <p>It is a simple matter to run the script, which generates postscript files <code>Figs/fig1.ps</code> and <code>Figs/fig2.ps</code>. Points in Figure 2 with probability 0 are jittered vertically, so we set the random number seed here.</p>
 <pre class="r"><code>rm(list=ls())
 load(&quot;R/sept02_data.RData&quot;)
@@ -3186,7 +3186,7 @@ eval(parse(text=figs[-(1:13)]))</code></pre>
 </div>
 <div id="verify-figure-2-results" class="section level3">
 <h3>Verify Figure 2 results</h3>
-<p>We can verify the detailed results in Figure 2 by comparing the present results to those that were saved in the <a href="https://github.com/kbroman/Project_Lamichhane2003">original project repository</a>, included in the present repository as <a href="../original/Nov02/R/finalresults.rds"><code>Nov02/R/finalresults.rds</code></a>.</p>
+<p>We can verify the detailed results in Figure 2 by comparing the present results to those that were saved in the <a href="https://github.com/kbroman/Project_Lamichhane2003">original project repository</a>, included in the present repository as <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/finalresults.rds"><code>Nov02/R/finalresults.rds</code></a>.</p>
 <p>Here is a plot of the differences (original - reconstructed) in the estimated probabilities of genes being essential.</p>
 <pre class="r"><code>load(&quot;R/nov02_results.RData&quot;)
 finalres_orig &lt;- readRDS(&quot;../original/Nov02/R/finalresults.rds&quot;)
