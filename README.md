@@ -5,7 +5,7 @@ This repository is my contribution to the
 Challenge](http://rescience.github.io/ten-years). I'm seeking to
 reproduce the following paper.
 
-> Lamichhane G, Zignol M, Blades NJ, Geiman DE, Dougherty A, **Broman KW**, Bishai WR (2003)  A post-genomic method
+> Lamichhane G, Zignol M, Blades NJ, Geiman DE, Dougherty A, Broman KW, Bishai WR (2003)  A post-genomic method
 > for predicting essential genes at subsaturation levels of mutagenesis:
 > application to _Mycobacterium tuberculosis_.  [Proc Natl Acad Sci USA](http://www.pnas.org/) 100:7213-7218
 > [![PubMed](https://kbroman.org/pages/icons16/pubmed-icon.png)](https://www.ncbi.nlm.nih.gov/pubmed/12775759)
