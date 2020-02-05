@@ -38,8 +38,8 @@ In this repository:
   thing here is [`talk/R/circlefig.R`](talk/R/circlefig.R) which was
   used to create Figure 1b (of the circular genome).
 
-- [`reconstruction/`](reproduction) contains my reconstruction of the
+- [`reproduction/`](reproduction) contains my reproduction of the
   analysis, as a [R Markdown
-  document](reconstruction/reconstruction.Rmd).
+  document](reproduction/reproduction.Rmd).
   The compiled document can be [viewed on the
-  web](https://kbroman.org/Paper_ReScience2020/reconstruction/reconstruction.html).
+  web](https://kbroman.org/Paper_ReScience2020/reproduction/reproduction.html).
