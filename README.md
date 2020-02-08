@@ -44,6 +44,9 @@ In this repository:
   The compiled document can be [viewed on the
   web](https://kbroman.org/Paper_ReScience2020/reproduction/reproduction.html).
 
+- [`article/`](article) contains the article about the reproduction effort.
+
+
 ### Dependencies
 
 The reproduction of the analysis, in [`reproduction`](reproduction),
