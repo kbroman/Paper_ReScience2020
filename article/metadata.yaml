@@ -48,7 +48,15 @@ replication:
  - doi:  10.1073/pnas.1231432100
 
 # Don't forget to surround abstract with double quotes
-abstract: ""
+abstract: "As part of the ReScience Ten Years Reproducibility Challenge, we sought to reproduce the
+    analyses in Lamichhane et al. (2003). The bulk of the code and data were quickly identified,
+    though there were a number of challenges in reconstructing the analysis steps. There was little
+    documentation and rather quirky file organization. And the code for one figure was not present
+    in the main project directory but rather was discovered in a separate directory with presentation
+    slides. Nevertheless, the bulk of the results could be reproduced to within Monte Carlo sampling
+    error, with just one small change to the code to avoid errors due to a change in R. One of the
+    paper figures, however, could not be reproduced as the code for the computer simulations it
+    presented could not be found."
 
 # Bibliography file (yours)
 bibliography: bibliography.bib
