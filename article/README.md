@@ -9,8 +9,8 @@ The key customized files are:
 - [`bibliography.bib`](bibliography.bib)
 - [`content.tex`](content.tex)
 
-The compiled document will be in [`article.pdf`](article.pdf);
-eventually available at
+The compiled document is in [`article.pdf`](article.pdf),
+also available at
 <https://kbroman.org/Paper_ReScience2020/article/article.pdf>.
 
 To compile the article type `make`.
