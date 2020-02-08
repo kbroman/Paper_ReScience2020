@@ -1,30 +1,16 @@
-### [ReScience C](https://rescience.github.io/) article template
+### Article about reproducing the analysis in Lamichhane et al. (2003)
 
-This repository contains the Latex (optional) template for writing a ReScience
-C article and the (mandatory) YAML metadata file. For the actual article,
-you're free to use any software you like as long as you enforce the proposed
-PDF style. A tool is available for the latex template that produces latex
-definitions from the metadata file. If you use another software, make sure that
-metadata and PDF are always synced.
+This repository contains the article about the reproduction work,
+using the [ReScience LaTeX template](https://github.com/rescience/template).
 
-You can also use overleaf with the [provided template](https://www.overleaf.com/read/kfrwdmygjyqw) but in this case, you'll have to enter `metadata.tex` manually.
+The key customized files are:
 
-#### Usage
+- [`metadata.yaml`](metadata.yaml)
+- [`bibliography.bib`](bibliography.bib)
+- [`content.tex`](content.tex)
 
-For a submission, fill in information in
-[metadata.yaml](./metadata.yaml), modify [content.tex](content.tex)
-and type:
+The compiled document will be in [`article.pdf`](article.pdf);
+eventually available at
+<https://kbroman.org/Paper_ReScience2020/article/article.pdf>.
 
-```bash
-$ make 
-```
-
-This will produce an `article.pdf` using xelatex and provided font. Note that you must have Python 3 and [PyYAML](https://pyyaml.org/) installed on your computer, in addition to `make`.
-
-
-After acceptance, you'll need to complete [metadata.yaml](./metadata.yaml) with information provided by the editor and type again:
-
-```bash
-$ make
-```
-
+To compile the article type `make`.
