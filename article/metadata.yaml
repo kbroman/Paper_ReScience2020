@@ -48,7 +48,7 @@ replication:
  - doi:  10.1073/pnas.1231432100
 
 # Don't forget to surround abstract with double quotes
-abstract: "As part of the ReScience Ten Years Reproducibility Challenge, we sought to reproduce the
+abstract: "As part of the ReScience Ten Years Reproducibility Challenge, I sought to reproduce the
     analyses in Lamichhane et al. (2003). The bulk of the code and data were quickly identified,
     though there were a number of challenges in reconstructing the analysis steps. There was little
     documentation and rather quirky file organization. And the code for one figure was not present
