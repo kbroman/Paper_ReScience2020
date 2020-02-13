@@ -5,7 +5,7 @@
 #  - For a successful replication, it shoudl be prefixed with "[Re]"
 #  - For a failed replication, it should be prefixed with "[¬Re]"
 #  - For other article types, no instruction (but please, not too long)
-title: "[Rp] Lamichhane et al."
+title: "[Rp] Identifying essential genes by mutagenesis"
 
 # List of authors with name, orcid number, email and affiliation
 # Affiliation "*" means contact author
