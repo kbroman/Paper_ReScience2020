@@ -39,7 +39,7 @@ In this repository:
   used to create Figure 1b (of the circular genome).
 
 - [`reproduction/`](reproduction) contains my reproduction of the
-  analysis, as a [R Markdown
+  analysis, as an [R Markdown
   document](reproduction/reproduction.Rmd).
   The compiled document can be [viewed on the
   web](https://kbroman.org/Paper_ReScience2020/reproduction/reproduction.html).
