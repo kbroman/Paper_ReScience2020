@@ -43,6 +43,7 @@ library(negenes)
 library(R.utils)  # for gunzip()
 library(devtools) # for session_info()
 library(gt)       # for tables
+library(xtable)   # for latex tables
 ```
 
 ## Move stuff over
@@ -52,7 +53,7 @@ need to reproduce the results. I will first create a set of
 subdirectories to contain them.
 
 ```{r create_subdir}
-dir <- c("Rawdata", "Rawdata/TIGR", "Data", "R", "Figs")
+dir <- c("Rawdata", "Rawdata/TIGR", "Data", "R", "Figs", "Tabs")
 
 for(d in dir) {
     if(!dir.exists(d)) dir.create(d)
@@ -378,6 +379,45 @@ we see just one small difference:
 the upper confidence limit in the bottom row is 49% here,
 whereas it was 50% in the published paper. This difference can be
 ascribed to MCMC sampling variation.
+
+The following creates a LaTeX table comparing these results, for the
+final paper.
+
+```{r create_table2}
+library(xtable)
+
+tab2_new <-
+    cbind(tab2[,1,drop=FALSE], estimate_orig=c(34,36,35,40,42,42),
+          round(tab2[,2,drop=FALSE]),
+          ci_lo_orig=c(27,29,28,33,35,33),
+          ci_hi_orig=c(39,42,41,46,49,50),
+          round(tab2[,3:4]), stringsAsFactors=FALSE)
+
+for(i in 1:nrow(tab2_new)) {
+  if(tab2_new[i,2] != tab2_new[i,3])
+      tab2_new[i,3] <- paste0("\\textbf{", tab2_new[i,3], "}")
+  if(tab2_new[i,4] != tab2_new[i,6])
+      tab2_new[i,6] <- paste0("\\textbf{", tab2_new[i,6], "}")
+  if(tab2_new[i,5] != tab2_new[i,7])
+      tab2_new[i,7] <- paste0("\\textbf{", tab2_new[i,7], "}")
+}
+
+xtab <- xtable(tab2_new, digits=0,
+               align=c(rep("c", 4), rep(c("r@{--}", "l"), 2)))
+
+addtorow <- list()
+addtorow$pos <- list(0,0)
+addtorow$command <- c("& \\multicolumn{2}{c}{Estimate (\\%)} & \\multicolumn{4}{c}{95\\% credible interval}\\\\",
+                      "Rule & original & reproduction & \\multicolumn{2}{c}{original} & \\multicolumn{2}{c}{reproduction}\\\\")
+
+print(xtab, file="Tabs/tab2.tex",
+      include.rownames=FALSE,
+      include.colnames=FALSE,
+      sanitize.text.function=function(x) gsub("%", "\\%", x, fixed=TRUE),
+      add.to.row=addtorow,
+      floating=FALSE)
+```
+
 
 ### Tables 3 and 6
 
