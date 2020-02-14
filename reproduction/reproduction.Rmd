@@ -485,6 +485,9 @@ genes[, c("MTnum", "Prob.essential")] %>%
 ```
 
 
+The following creates a LaTeX table comparing these results, for the
+final paper.
+
 ```{r create_table6}
 # download original table 6
 url <- "https://www.pnas.org/highwire/filestream/586425/field_highwire_adjunct_files/1/1432Table6.xls"
@@ -569,6 +572,91 @@ families: in the first row the limit changed from 76 to 72%, and in
 the second-to-last row it changed from 36 to 38%. I think these
 differences can be ascribed to MCMC sampling error.
 
+
+The following creates a LaTeX table comparing these results, for the
+final paper.
+
+```{r create_table4}
+# original table 4
+tab4_orig <- data.frame(prob_enriched=c(97,94,82,80,78,75,75,4,4,4,0),
+                        percent_essential=c(54,45,46,40,42,43,42,32,20,27,10),
+                        ci_essential_lo=c(32,30,21,28,23,21,20,25,7,17,0),
+                        ci_essential_hi=c(76,60,68,52,62,64,65,39,40,36,24),
+                        group=c("Aminoacyl tRNA synthases and their modification",
+                                "PE family: PGRS subfamily",
+                                "Purine ribonucleotide biosynthesis",
+                                "Polyketide and nonribosomal peptide synthesis",
+                                "Synthesis of fatty and mycolic acids",
+                                "Ser/Thr protein kinases and phosphoprotein phosphatases",
+                                "Biosynthesis of molybdopterin",
+                                "Unknown proteins",
+                                "Metabolism of sulphur",
+                                "PPE family",
+                                "Conserved membrane proteins"),
+                        stringsAsFactors=FALSE)
+
+# clean up the new names
+fams[,1] <- as.character(fams[,1])
+fams[,1] <- sub("^[A-Za-z]+: ", "", fams[,1])
+fams[fams[,1]=="Unknowns",1] <- "Unknown proteins"
+fams[fams[,1]=="Intermediate Metabolism-of sulphur",1] <- "Metabolism of sulphur"
+fams[fams[,1]=="PPE family of proteins",1] <- "PPE family"
+fams[fams[,1]=="Biosyn of Molybdopterin",1] <- "Biosynthesis of molybdopterin"
+fams[,1] <- sub("non-ribosomal", "nonribosomal", fams[,1], fixed=FALSE)
+fams[,1] <- sub("Biosyn ", "Synthesis ", fams[,1], fixed=FALSE)
+
+# reorder as in original table
+m <- match(tab4_orig$group, fams[,1])
+stopifnot( !any(is.na(m)) )
+fams <- fams[m, ]
+stopifnot( all( fams[,1] == tab4_orig$group ) )
+
+tab4_new <- cbind(tab4_orig[,5,drop=FALSE],
+                  tab4_orig[,1,drop=FALSE], fams[,2,drop=FALSE],
+                  tab4_orig[,2,drop=FALSE], fams[,3,drop=FALSE],
+                  tab4_orig[,3:4,drop=FALSE], fams[,4:5,drop=FALSE],
+                  stringsAsFactors=FALSE)
+
+# highlight differences in bold
+for(i in 1:nrow(tab4_new)) {
+    if(tab4_new[i,2] != tab4_new[i,3])
+        tab4_new[i,3] <- paste0("\\textbf{", tab4_new[i,3], "}")
+    if(tab4_new[i,4] != tab4_new[i,5])
+        tab4_new[i,5] <- paste0("\\textbf{", tab4_new[i,5], "}")
+    if(tab4_new[i,6] != tab4_new[i,8])
+        tab4_new[i,8] <- paste0("\\textbf{", tab4_new[i,8], "}")
+    if(tab4_new[i,7] != tab4_new[i,9])
+        tab4_new[i,9] <- paste0("\\textbf{", tab4_new[i,9], "}")
+}
+
+# reduce group names
+tab4_new[1,1] <- paste0(substr(tab4_new[1,1], 1, 24), "...")
+tab4_new[4,1] <- paste0(substr(tab4_new[4,1], 1, 27), "...")
+tab4_new[6,1] <- paste0(substr(tab4_new[6,1], 1, 27), "...")
+
+# rearrange columns
+tab4_new <- tab4_new[,c(1,2,3,4,6,7,5,8,9)]
+
+tab4_new[,6] <- paste0(tab4_new[,6], ")")
+tab4_new[,9] <- paste0(tab4_new[,9], ")")
+
+xtab4 <- xtable(tab4_new, digits=0,
+               align=c("c", "l", rep("c", 2), rep(c("c", "@{ (}r@{--}", "l"), 2)))
+
+addtorow <- list()
+addtorow$pos <- list(0,0)
+addtorow$command <- c(paste("& \\multicolumn{2}{c}{Probability enriched (\\%)} &",
+                            "\\multicolumn{6}{c}{Est. \\% essential}\\\\"),
+                      paste("Functional group & original & reproduction &",
+                            "\\multicolumn{3}{c}{original} & \\multicolumn{3}{c}{reproduction}\\\\"))
+
+print(xtab4, file="Tabs/tab4.tex",
+      include.rownames=FALSE,
+      include.colnames=FALSE,
+      sanitize.text.function=function(x) gsub("%", "\\%", x, fixed=TRUE),
+      add.to.row=addtorow,
+      floating=FALSE)
+```
 
 ## Figures
 

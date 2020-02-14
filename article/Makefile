@@ -34,7 +34,8 @@ article.pdf: article.tex content.tex bibliography.bib metadata.tex rescience.cls
 			 ../reproduction/Figs/fig2.ps \
 			 ../reproduction/Figs/circlefig.ps \
 			 ../reproduction/Tabs/tab2.tex \
-			 ../reproduction/Tabs/tab6.tex
+			 ../reproduction/Tabs/tab6.tex \
+			 ../reproduction/Tabs/tab4.tex
 	latexmk -pdf -pdflatex="xelatex -interaction=nonstopmode" -use-make article.tex
 
 clean:
