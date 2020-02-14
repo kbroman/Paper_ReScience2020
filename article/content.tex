@@ -149,23 +149,28 @@ probabilities meant that we needed to change cutoffs from 0.749 to
 
 \section{The R/negenes package}
 
-Talk about maintenance and changes of the R package.
+The key software implementing the methods of \citet{lamichhane2003}
+is in the R package, R/negenes \citep{negenes}, available on the
+\href{https://cran.r-project.org/package=negenes}{Comprehensive R
+Archive Network (CRAN)}. The earliest version on CRAN is 0.98-3, dated
+2002-08-10 and posted to CRAN on 2003-06-21. This is the version that
+was used for the analyses in the paper.
 
-- package placed on CRAN in ***. Changelog file indicates that this
-  version of the package is from 2002-08-10, and so would be the one
-  used for the analyses in the paper
+There have been twelve revisions posted to CRAN. The current verison
+is 1.0-12, dated 2019-08-05, and this is the version we used to
+reproduce the results of the paper. The package is also available on
+\href{https://github.com/kbroman/negenes}{GitHub}, though I did not
+start using version control for the package until 2011-11-07.
 
-- didn't start using version control until ***.
+The only substantive change to the package was to fix a bug in which
+we were over-running an array. The problem was identified by CRAN
+maintainers.
 
-- Only substantive change was to fix a bug regarding over-running of
-  array, identified by CRAN maintainers (give the date)
-
-- various maintenance changes related to changing policies for R
-  packages: for example, NAMESPACE file, registration of compiled code
-  routines. Also changed the documetation to use
-  Roxygen2 \citep{roxygen2}.
-
-
+Various maintence changes have been made over the years, related to
+changing policies for R packages, including the introduction of
+the \verb|NAMESPACE| file, which indicates user-available functions,
+and registration of compiled routines. We also changed the
+documentation format to use Roxygen2 \citep{roxygen2}.
 
 
 \section{Results}
