@@ -32,9 +32,9 @@ to reproduce the analysis in the paper, which I conducted in 2002
 while an assistant professor in the Department of Biostatistics at
 Johns Hopkins University. The bulk of the data and code were quickly
 identified. (I keep collaborative projects in a directory
-\verb|~/Projects| and save old projects in compressed form in
-\verb|~/Projects/Tar|, and I immediately found
-the file \verb|Gyanu.tgz|. Gyanu Lamichhane was first author on the
+{\tt {\textasciitilde}/Projects} and save old projects in compressed form in
+{\tt {\textasciitilde}/Projects/Tar}, and I immediately found
+the file {\tt Gyanu.tgz}. Gyanu Lamichhane was first author on the
 paper.) However, there were a number of challenges in reconstructing
 the analysis steps, and the code used to conduct the computer
 simulations underlying Figure~3 of \citet{lamichhane2003} appears
@@ -88,24 +88,24 @@ exploreSeq.pl*
 
 
 There was some system behind the organization of the project files,
-but it would have benefited from a \verb|ReadMe| file that
+but it would have benefited from a {\tt ReadMe} file that
 explained the structure. The
-subdirectories \verb|Converge|, \verb|Operons|, \verb|Randomness|,
-and \verb|Sims| contain the ancillary analyses that did not end up in the
-paper. \verb|Rawdata| contains the primary data files, \verb|Data|
-contains derived data files, and \verb|R| contains analysis scripts.
+subdirectories {\tt Converge}, {\tt Operons}, {\tt Randomness},
+and {\tt Sims} contain the ancillary analyses that did not end up in the
+paper. {\tt Rawdata} contains the primary data files, {\tt Data}
+contains derived data files, and {\tt R} contains analysis scripts.
 
-But actually \verb|Rawdata|, \verb|Data|, and \verb|R| contain files
+But actually {\tt Rawdata}, {\tt Data}, and {\tt R} contain files
 for an initial analysis of the data performed in July, 2002. The subdirectory
-\verb|Sept02| contains copies of those data and scripts
+{\tt Sept02} contains copies of those data and scripts
 for a revised analysis performed in September, 2002; many of the files
 are identicial, but additional data had been added.
-Similarly, \verb|Nov02| contains further copies of the data and
+Similarly, {\tt Nov02} contains further copies of the data and
 scripts for a further revised analysis performed in November, 2002.
 
-The bulk of the results in the paper are those from \verb|Nov02|.
-Table~2 in \citet{lamichhane2003} includes results from \verb|Sept02|
-as well as \verb|Nov02|. This was the primary challenge in reproducing
+The bulk of the results in the paper are those from {\tt Nov02}.
+Table~2 in \citet{lamichhane2003} includes results from {\tt Sept02}
+as well as {\tt Nov02}. This was the primary challenge in reproducing
 the analyses: identifying which versions of the analysis
 scripts were used.
 
@@ -120,11 +120,11 @@ but I had not saved the seeds for the random number generator, and so
 I am not able to reproduce the results exactly. Also, I did not save
 the key intermediate results to files, and I did not indicate which
 objects were produced by which scripts. Rather, I left objects in the
-R environment (saved in a \verb|.RData| file and re-loaded when R was
+R environment (saved in a {\tt .RData} file and re-loaded when R was
 invoked) and used them as needed without explaining where they had
 come from. Nevertheless, the analysis scripts were reasonably well
-named (\verb|prepareData.R|, \verb|analysis.R|,
-and \verb|figs4paper.R|), and so the order of the analysis could be
+named ({\tt prepareData.R}, {\tt analysis.R},
+and {\tt figs4paper.R}), and so the order of the analysis could be
 reconstructed without much difficulty.
 
 \section{Code modifications}
@@ -132,9 +132,9 @@ reconstructed without much difficulty.
 The original analysis was performed with R version 1.5.1 (2002-06-17);
 the reproduction used R version 3.6.1 (2019-07-05). The analysis
 scripts could be run with only one small modification. The output of
-the R function \verb|table()|, which counts the values in a
-categorical variable, is now an object of class \verb|table|, and so
-we needed to insert a couple of \verb|as.numeric()| calls to avoid
+the R function {\tt table()}, which counts the values in a
+categorical variable, is now an object of class {\tt table}, and so
+we needed to insert a couple of {\tt as.numeric()} calls to avoid
 errors.
 
 We also needed to make small changes regarding cutoffs controlling which results
@@ -162,15 +162,16 @@ reproduce the results of the paper. The package is also available on
 \href{https://github.com/kbroman/negenes}{GitHub}, though I did not
 start using version control for the package until 2011-11-07.
 
-The only substantive change to the package was to fix a bug in which
-we were over-running an array. The problem was identified by CRAN
-maintainers.
-
-Various maintence changes have been made over the years, related to
-changing policies for R packages, including the introduction of
-the \verb|NAMESPACE| file, which indicates user-available functions,
-and registration of compiled routines. We also changed the
-documentation format to use Roxygen2 \citep{roxygen2}.
+The \href{https://github.com/kbroman/negenes/blob/master/ChangeLog}{\tt
+ChangeLog} file summarizes the changes that have been made to the
+package. The only substantive change was on 2012-03-09, to fix a bug
+in which we were over-running an array. The problem was identified by
+CRAN maintainers. Various maintence changes have been made over the
+years, related to changing policies for R packages, including the
+introduction of the {\tt NAMESPACE} file, which indicates
+user-available functions, and registration of compiled routines. We
+also changed the documentation format to use
+Roxygen2 \citep{roxygen2}.
 
 
 \section{Results}
