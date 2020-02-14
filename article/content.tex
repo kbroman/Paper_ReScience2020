@@ -129,13 +129,21 @@ reconstructed without much difficulty.
 
 \section{Code modifications}
 
-Original analysis with R version 1.5.1 (2002-06-17)
-latest with R version 3.6.1 (2019-07-05).
+The original analysis was performed with R version 1.5.1 (2002-06-17);
+the reproduction used R version 3.6.1 (2019-07-05). The analysis
+scripts could be run with only one small modification. The output of
+the R function \verb|table()|, which counts the values in a
+categorical variable, is now an object of class \verb|table|, and so
+we needed to insert a couple of \verb|as.numeric()| calls to avoid
+errors.
 
-- table() and the need for as.numeric()
+We also needed to make small changes regarding cutoffs controlling which results
+were shown in two key tables. Because we had not saved the seed for
+the random number generator, we were not able to reproduce the MCMC
+results exactly, and small differences in the estimated posterior
+probabilities meant that we needed to change cutoffs from 0.749 to
+0.745 in order to display the same set of genes and gene families.
 
-- small changes regarding cutoffs of what results were shown in two
-  key tables
 
 
 
