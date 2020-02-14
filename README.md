@@ -59,12 +59,13 @@ relies on the following tools:
   [devtools](https://devtools.r-lib.org/),
   [R.utils](https://github.com/HenrikBengtsson/R.utils),
   [xtable](http://xtable.r-forge.r-project.org/),
+  [readxl](https://readxl.tidyverse.org/),
   [gt](https://gt.rstudio.com)
 
   Install the first four with `install.packages()`.
 
   ```r
-  install.packages(c("negenes, "rmarkdown", "devtools", "R.utils", "xtable"))
+  install.packages(c("negenes, "rmarkdown", "devtools", "R.utils", "xtable", "readxl"))
   ```
 
   Then install [gt](https://gt.rstudio.com) with `devtools::install_github()`.
