@@ -52,7 +52,15 @@ tuberculosis\/} genome.
 
 \section{Challenges}
 
-Talk about the mess that I left myself.
+The first challenge in reproducing the analyses
+in \citet{lamichhane2003} was to identify exactly what analyses needed
+to be reproduced. The project directory did not contain any
+documentation, and the file organization (Figure~\ref{fig:files}) was
+quirky and contained a number of ancillary analyses that did not end
+up in the paper. And so I had to resort to actually reading the
+original article.
+
+
 
 \begin{figure}
 \definecolor{offwhite}{RGB}{255,250,240}
@@ -74,9 +82,50 @@ doubleta_hit.txt          R/                TroubleShootingSubClasses.txt
 exploreSeq.pl*
 \end{lstlisting}
 
-\caption{Project directory for the work}
+\caption{Project directory for the work\label{fig:files}}
 \end{figure}
 
+
+
+There was some system behind the organization of the project files,
+but it would have benefited from a \verb|ReadMe| file that
+explained the structure. The
+subdirectories \verb|Converge|, \verb|Operons|, \verb|Randomness|,
+and \verb|Sims| contain the ancillary analyses that did not end up in the
+paper. \verb|Rawdata| contains the primary data files, \verb|Data|
+contains derived data files, and \verb|R| contains analysis scripts.
+
+But actually \verb|Rawdata|, \verb|Data|, and \verb|R| contain files
+for an initial analysis of the data performed in July, 2002. The subdirectory
+\verb|Sept02| contains copies of those data and scripts
+for a revised analysis performed in September, 2002; many of the files
+are identicial, but additional data had been added.
+Similarly, \verb|Nov02| contains further copies of the data and
+scripts for a further revised analysis performed in November, 2002.
+
+The bulk of the results in the paper are those from \verb|Nov02|.
+Table~2 in \citet{lamichhane2003} includes results from \verb|Sept02|
+as well as \verb|Nov02|. This was the primary challenge in reproducing
+the analyses: identifying which versions of the analysis
+scripts were used.
+
+There were a number of further challenges in reproducing the results.
+The code to produce Figure~1b in \citet{lamichhane2003} (see
+Figure~\ref{fig:fig1b}, below) was not
+present in the project directory, but rather was found in a separate
+directory, with files for a talk that I gave on the work.
+
+Further, the key analyses involved Markov chain Monte Carlo (MCMC),
+but I had not saved the seeds for the random number generator, and so
+I am not able to reproduce the results exactly. Also, I did not save
+the key intermediate results to files, and I did not indicate which
+objects were produced by which scripts. Rather, I left objects in the
+R environment (saved in a \verb|.RData| file and re-loaded when R was
+invoked) and used them as needed without explaining where they had
+come from. Nevertheless, the analysis scripts were reasonably well
+named (\verb|prepareData.R|, \verb|analysis.R|,
+and \verb|figs4paper.R|), and so the order of the analysis could be
+reconstructed without much difficulty.
 
 \section{Code modifications}
 
@@ -96,7 +145,7 @@ latest with R version 3.6.1 (2019-07-05).
 \hfill
 \includegraphics[viewport=133 224 464 528, width=0.50\textwidth]{../reproduction/Figs/fig1.ps}
 
-\caption{Figure 1a in Lamichhane et al. (2003). Original on left. Reproduction on right.}
+\caption{Figure 1a in Lamichhane et al. (2003). Original on left. Reproduction on right.\label{fig:fig1a}}
 \end{figure}
 
 \begin{figure}
@@ -104,7 +153,7 @@ latest with R version 3.6.1 (2019-07-05).
 \hfill
 \includegraphics[viewport=179 299 438 517, width=0.50\textwidth]{../reproduction/Figs/circlefig.ps}
 
-\caption{Figure 1b in Lamichhane et al. (2003). Original on left. Reproduction on right.}
+\caption{Figure 1b in Lamichhane et al. (2003). Original on left. Reproduction on right.\label{fig:fig1b}}
 \end{figure}
 
 \begin{figure}
@@ -112,7 +161,7 @@ latest with R version 3.6.1 (2019-07-05).
 \hfill
 \includegraphics[viewport=44 245 525 508, width=0.50\textwidth]{../reproduction/Figs/fig2.ps}
 
-\caption{Figure 2 in Lamichhane et al. (2003). Original on left. Reproduction on right.}
+\caption{Figure 2 in Lamichhane et al. (2003). Original on left. Reproduction on right.\label{fig:fig2}}
 \end{figure}
 
 
