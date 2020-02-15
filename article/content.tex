@@ -177,40 +177,7 @@ Roxygen2 \citep{roxygen2}.
 \section{Results}
 
 
-\begin{table}
-\caption{Reproduction of Table 2 in \citet{lamichhane2003}. The one
-change is indicated in red.\label{tab:tab2}}
-
-\centering
-\input{../reproduction/Tabs/tab2.tex}
-\end{table}
-
-
-
-\begin{table}
-\caption{Reproduction of Supplementary Table~6 in \citet{lamichhane2003}, which
-is an expanded version of Table~3.
-Genes indicated with * are the ones that were not also included in
-Table 3 of \citet{lamichhane2003}.\label{tab:tab6}}
-
-\centering
-\input{../reproduction/Tabs/tab6.tex}
-\end{table}
-
-
-
-
-\begin{table}
-\caption{Reproduction of Table 4 in \citet{lamichhane2003}. Five
-small changes are indicated in red.\label{tab:tab4}}
-
-\centering
-\small
-\input{../reproduction/Tabs/tab4.tex}
-\end{table}
-
-
-
+First discuss Figure~\ref{fig:fig1a}.
 
 \begin{figure}
 \includegraphics[viewport=133 224 464 528, width=0.50\textwidth]{../original/Nov02/R/Figs/fig1.ps}
@@ -220,6 +187,10 @@ small changes are indicated in red.\label{tab:tab4}}
 \caption{Figure 1a in \citet{lamichhane2003}. Original on left. Reproduction on right.\label{fig:fig1a}}
 \end{figure}
 
+
+Then Figure~\ref{fig:fig1b}, which is the one where the code was found in a
+separate directory, with slides for a talk.
+
 \begin{figure}
 \includegraphics[viewport=179 299 438 517, width=0.50\textwidth]{../talk/Figs/circlefig.ps}
 \hfill
@@ -227,6 +198,20 @@ small changes are indicated in red.\label{tab:tab4}}
 
 \caption{Figure 1b in \citet{lamichhane2003}. Original on left. Reproduction on right.\label{fig:fig1b}}
 \end{figure}
+
+Then discuss Table~\ref{tab:tab2}. There is one apparent difference.
+
+
+
+\begin{table}
+\caption{Reproduction of Table 2 in \citet{lamichhane2003}. The one
+change is indicated in red.\label{tab:tab2}}
+
+\centering
+\input{../reproduction/Tabs/tab2.tex}
+\end{table}
+
+Then discuss Figure~\ref{fig:fig2}.
 
 \begin{figure}
 \includegraphics[viewport=44 245 525 508, width=0.50\textwidth]{../original/Nov02/R/Figs/fig2.ps}
@@ -236,8 +221,8 @@ small changes are indicated in red.\label{tab:tab4}}
 \caption{Figure 2 in \citet{lamichhane2003}. Original on left. Reproduction on right.\label{fig:fig2}}
 \end{figure}
 
-
-
+We can plot the detailed differences between the original and
+reproduced figure, shown in Figure~\ref{fig:fig2diff}.
 
 \begin{figure}
 \centering
@@ -249,6 +234,38 @@ each gene. That is, the difference in the y-axis values between the
 left and right panels in Figure~\ref{fig:fig2} above,
 $\times$100, \label{fig:fig2diff}}
 \end{figure}
+
+
+The genes with highest posterior probability of being essential are
+shown in Table~\ref{tab:tab6}, a reproduction of Supplementary Table~6.
+There was external evidence for particular genes to \emph{not\/} be
+essnetial. Table~3 in \citet{lamichhane2003} showed just a subset of
+these, omitting those indicated with an asterisk.
+
+\begin{table}
+\caption{Reproduction of Supplementary Table~6 in \citet{lamichhane2003}, which
+is an expanded version of Table~3.
+Genes indicated with * are the ones that were not also included in
+Table 3 of \citet{lamichhane2003}.\label{tab:tab6}}
+
+\centering
+\input{../reproduction/Tabs/tab6.tex}
+\end{table}
+
+Finally, we investigated gene families, to see whether particular
+families appeared to have an unusually high or low proportion of
+essential genes, Table~\ref{tab:tab4}.
+
+\begin{table}
+\caption{Reproduction of Table 4 in \citet{lamichhane2003}. Five
+small changes are indicated in red.\label{tab:tab4}}
+
+\centering
+\small
+\input{../reproduction/Tabs/tab4.tex}
+\end{table}
+
+
 
 
 
