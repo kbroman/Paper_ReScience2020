@@ -777,8 +777,10 @@ load("R/nov02_results.RData")
 finalres_orig <- readRDS("../original/Nov02/R/finalresults.rds")
 
 par(las=1, mar=c(4.1, 4.1, 0.6, 0.6))
-grayplot((finalres_orig$bygene - finalres$bygene)*100,
-         xlab="gene index", ylab="Difference in % probability (original - reproduction)")
+grayplot(numTAs,
+         (finalres_orig$bygene - finalres$bygene)*100,
+         xlab="Number of TAs in proximal portion of gene",
+         ylab="Difference in % probability (original - reproduction)")
 ```
 
 The median difference is `r (med <- round(median( (finalres_orig$bygene - finalres$bygene)*100 ), 2))`.
@@ -788,12 +790,10 @@ likely due to MCMC sampling error.
 Let me clarify: the positive values in Figure 2 are like
 0.35&ndash;0.95, and we have reproduced them to within about 0.001. As
 percentages, they are like 35-95%, and we have got them nailed down to
-about 0.1%. As you no doubt notice in the figure, the deviations are
-all quite similar; that is, the entire positive curve in Figure 2 has
-shifted a tiny bit.
+about 0.1%.
 
 
-I'll also save those results in a postscript file for the paper.
+I'll also save this figure as a PDF for the paper.
 
 ```{r plot_fig2_diffs}
 pdf("Figs/fig2_diff.pdf", height=4.5, width=6.5, pointsize=10)
