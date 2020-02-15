@@ -395,11 +395,11 @@ tab2_new <-
 # highlight differences in bold [there is just one]
 for(i in 1:nrow(tab2_new)) {
   if(tab2_new[i,2] != tab2_new[i,3])
-      tab2_new[i,3] <- paste0("\\textbf{", tab2_new[i,3], "}")
+      tab2_new[i,3] <- paste0("\\textbf{\\color{red} ", tab2_new[i,3], "}")
   if(tab2_new[i,4] != tab2_new[i,6])
-      tab2_new[i,6] <- paste0("\\textbf{", tab2_new[i,6], "}")
+      tab2_new[i,6] <- paste0("\\textbf{\\color{red} ", tab2_new[i,6], "}")
   if(tab2_new[i,5] != tab2_new[i,7])
-      tab2_new[i,7] <- paste0("\\textbf{", tab2_new[i,7], "}")
+      tab2_new[i,7] <- paste0("\\textbf{\\color{red} ", tab2_new[i,7], "}")
 }
 
 xtab2 <- xtable(tab2_new, digits=0,
@@ -510,7 +510,7 @@ tab6_new <- cbind(tab6_orig, round(genes$Prob.essential))
 # highlight differences in bold [there aren't any]
 for(i in 1:nrow(tab6_new)) {
     if(tab6_new[i,4] != tab6_new[i,5])
-        tab6_new[i,5] <- paste0("\\textbf{", tab6_new[i,5], "}")
+        tab6_new[i,5] <- paste0("\\textbf{\\color{red} ", tab6_new[i,5], "}")
 }
 
 # remove the references at the end of the gene descriptions
@@ -620,13 +620,13 @@ tab4_new <- cbind(tab4_orig[,5,drop=FALSE],
 # highlight differences in bold
 for(i in 1:nrow(tab4_new)) {
     if(tab4_new[i,2] != tab4_new[i,3])
-        tab4_new[i,3] <- paste0("\\textbf{", tab4_new[i,3], "}")
+        tab4_new[i,3] <- paste0("\\textbf{\\color{red} ", tab4_new[i,3], "}")
     if(tab4_new[i,4] != tab4_new[i,5])
-        tab4_new[i,5] <- paste0("\\textbf{", tab4_new[i,5], "}")
+        tab4_new[i,5] <- paste0("\\textbf{\\color{red} ", tab4_new[i,5], "}")
     if(tab4_new[i,6] != tab4_new[i,8])
-        tab4_new[i,8] <- paste0("\\textbf{", tab4_new[i,8], "}")
+        tab4_new[i,8] <- paste0("\\textbf{\\color{red} ", tab4_new[i,8], "}")
     if(tab4_new[i,7] != tab4_new[i,9])
-        tab4_new[i,9] <- paste0("\\textbf{", tab4_new[i,9], "}")
+        tab4_new[i,9] <- paste0("\\textbf{\\color{red} ", tab4_new[i,9], "}")
 }
 
 # reduce group names
