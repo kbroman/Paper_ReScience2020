@@ -47,7 +47,7 @@ which is available on both
 \href{https://cran.r-project.org/package=negenes}{Comprehensive R
   Archive Network (CRAN)}. The software used for the analyses in the
 paper are a set of R scripts, along with one Perl script
-\citep{Perl} that extracted transposon insertion sites from the \emph{M.
+\citep{Perl} that extracted transposon insertion sites from the \emph{M.\
 tuberculosis\/} genome.
 
 \section{Challenges}
@@ -176,53 +176,99 @@ Roxygen2 \citep{roxygen2}.
 
 \section{Results}
 
-
-First discuss Figure~\ref{fig:fig1a}.
+I now present the results of my reproduction of the analyses
+in \citet{lamichhane2003}. Figure~\ref{fig:fig1a} displays our
+reproduction of Figure~1a from \citet{lamichhane2003}. The left panel
+is the original figure; the right panel is the reproduction. This
+figure summarizes the locations of transposon insertion sites in each
+gene, which appear to be approximately uniformly distributed. The two
+versions of the figure are identical.
 
 \begin{figure}
 \includegraphics[viewport=133 224 464 528, width=0.50\textwidth]{../original/Nov02/R/Figs/fig1.ps}
 \hfill
 \includegraphics[viewport=133 224 464 528, width=0.50\textwidth]{../reproduction/Figs/fig1.ps}
 
-\caption{Figure 1a in \citet{lamichhane2003}. Original on left. Reproduction on right.\label{fig:fig1a}}
+\caption{Figure 1a in \citet{lamichhane2003}, distribution of
+transposon insertions by percentage of total gene length. Original on left;
+reproduction on right.\label{fig:fig1a}}
 \end{figure}
 
-
-Then Figure~\ref{fig:fig1b}, which is the one where the code was found in a
-separate directory, with slides for a talk.
+Figure~\ref{fig:fig1b} is a reproduction of Figure~1b
+from \citet{lamichhane2003}, again with the original on the left and
+the reproduction on the right. This is the figure where the code was
+found in a separate directory, with slides for a talk. The figure
+shows the location of transposon insertion sites around the circular
+genome of \emph{M.\ tuberculosis}. Again, the two versions of the
+figure are identical.
 
 \begin{figure}
 \includegraphics[viewport=179 299 438 517, width=0.50\textwidth]{../talk/Figs/circlefig.ps}
 \hfill
 \includegraphics[viewport=179 299 438 517, width=0.50\textwidth]{../reproduction/Figs/circlefig.ps}
 
-\caption{Figure 1b in \citet{lamichhane2003}. Original on left. Reproduction on right.\label{fig:fig1b}}
+\caption{Figure 1b in \citet{lamichhane2003}, distribution of
+transposon insertions in the 4.4~Mbp circular chromosome of \emph{M.\
+tuberculosis}. Original on left; reproduction on
+right.\label{fig:fig1b}}
 \end{figure}
 
-Then discuss Table~\ref{tab:tab2}. There is one apparent difference.
-
-
+Table~\ref{tab:tab2} is a reproduction of Table~2
+from \citet{lamichhane2003}, showing the estimated proportion of
+essential genes in \emph{M.\ tuberculosis}, along with 95\% Bayesian
+credible intervals, using different rules for
+defining the part of the gene where viable transposon insertion would
+indicate that the gene is not essential. (By the 100\% rule, we
+consider all transposon insertions; by the 80\% rule, we only pay
+attention to insertions in the proximal 80\% of a gene.)
+There is one apparent difference, highlighted in red: the upper
+limit of the 95\% credible interval for the 60\% rule changed from 50
+to 49. As noted above, I had not saved the seed for the random number
+generator and so I could not reproduce the exact MCMC results. The
+difference here can be ascribed to MCMC sampling error.
 
 \begin{table}
-\caption{Reproduction of Table 2 in \citet{lamichhane2003}. The one
+\caption{Reproduction of Table 2 in \citet{lamichhane2003}, proportion
+of essential genes in \emph{M.\ tuberculosis}. The one
 change is indicated in red.\label{tab:tab2}}
 
 \centering
 \input{../reproduction/Tabs/tab2.tex}
 \end{table}
 
-Then discuss Figure~\ref{fig:fig2}.
 
-\begin{figure}
+Figure~\ref{fig:fig2} is a reproduction of Figure~2
+from \citet{lamichhane2003}, with the original on the left and
+the reproduction on the right. The shows the posterior probability of
+each gene being essential, against the number of transposon insertions
+in the gene. Genes with 0 posterior probability
+are those that exhibited a viable transposon insertion and so are
+deemed non-essential; their values are jittered vertically. It is
+difficult to detect any differences between the two figures, other
+than in the random vertical jittering of the values at 0.
+
+\begin{figure}[b]
 \includegraphics[viewport=44 245 525 508, width=0.50\textwidth]{../original/Nov02/R/Figs/fig2.ps}
 \hfill
 \includegraphics[viewport=44 245 525 508, width=0.50\textwidth]{../reproduction/Figs/fig2.ps}
 
-\caption{Figure 2 in \citet{lamichhane2003}. Original on left. Reproduction on right.\label{fig:fig2}}
+\caption{Figure 2 in \citet{lamichhane2003}, posterior probability
+that an \emph{M.\ tuberculosis\/} gene is essential as a function of
+the number of transposon insertion sites. Original on left;
+reproduction on right.\label{fig:fig2}}
 \end{figure}
 
-We can plot the detailed differences between the original and
-reproduced figure, shown in Figure~\ref{fig:fig2diff}.
+The exact estimates of the posterior probabilities were available, and
+so we are able to make a detailed comparison of the differences
+between the original results and the reproduced values.
+Figure~\ref{fig:fig2diff} shows the differences in percent posterior
+probability, between the original and reproduced estimates.
+These are the difference between the y-axis values in the two panels
+of Figure~\ref{fig:fig2}, multiplied by 100. For virtually all genes,
+the percent posterior probabilities differ by < 0.1\%. The complex
+pattern in the differences is due to a combination of MCMC sampling
+error and overlap among genes (with some pairs of genes having shared
+transposon insertion sites).
 
 \begin{figure}
 \centering
@@ -237,28 +283,37 @@ $\times$100, \label{fig:fig2diff}}
 
 
 The genes with highest posterior probability of being essential are
-shown in Table~\ref{tab:tab6}, a reproduction of Supplementary Table~6.
-There was external evidence for particular genes to \emph{not\/} be
-essnetial. Table~3 in \citet{lamichhane2003} showed just a subset of
-these, omitting those indicated with an asterisk.
+shown in Table~\ref{tab:tab6}, a reproduction of Supplementary Table~6
+from \citet{lamichhane2003}.
+(There was external evidence for particular genes to \emph{not\/} be
+essential. Table~3 in \citet{lamichhane2003} showed just a subset of
+these, omitting those indicated with an asterisk.) The original and
+reproduced values, rounded to the nearest 1\%, are identical.
 
 \begin{table}
-\caption{Reproduction of Supplementary Table~6 in \citet{lamichhane2003}, which
-is an expanded version of Table~3.
-Genes indicated with * are the ones that were not also included in
-Table 3 of \citet{lamichhane2003}.\label{tab:tab6}}
+\caption{Reproduction of Supplementary Table~6 in \citet{lamichhane2003},
+\emph{M.\ tuberculosis\/} genes with high probabilities of being
+essential. Genes indicated with * are the ones that were not also
+included in Table 3 of \citet{lamichhane2003}.\label{tab:tab6}}
 
 \centering
 \input{../reproduction/Tabs/tab6.tex}
 \end{table}
 
-Finally, we investigated gene families, to see whether particular
-families appeared to have an unusually high or low proportion of
-essential genes, Table~\ref{tab:tab4}.
+Finally, Table~\ref{tab:tab4} is a reproduction of Table~4
+from \citet{lamichhane2003}, concerning an investigated gene families,
+to see whether particular families appeared to have an unusually high
+or low proportion of essential genes. A few small differences between
+the original and the reproduced values are highlighted in red: the
+enrichment probability for three families changed by $\pm$1\%,
+and the upper limit of the 95\% credible interval for the percent
+essential genes in two families changed a bit. These changes can be
+ascribed to MCMC sampling error.
 
 \begin{table}
-\caption{Reproduction of Table 4 in \citet{lamichhane2003}. Five
-small changes are indicated in red.\label{tab:tab4}}
+\caption{Reproduction of Table 4 in \citet{lamichhane2003},
+\emph{M.\ tuberculosis\/} gene families enriched or deficient in
+essential genes. Five changes are indicated in red.\label{tab:tab4}}
 
 \centering
 \small
