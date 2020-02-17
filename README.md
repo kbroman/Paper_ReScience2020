@@ -45,6 +45,7 @@ In this repository:
   web](https://kbroman.org/Paper_ReScience2020/reproduction/reproduction.html).
 
 - [`article/`](article) contains the article about the reproduction effort.
+  The [article PDF can be viewed on the web](https://kbroman.org/Paper_ReScience2020/article/article.pdf).
 
 
 ### Dependencies
