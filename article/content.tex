@@ -24,12 +24,12 @@ The analysis method, described in further detail in
 essential genes, and the probability that a gene was essential. We
 assumed a uniform prior distribution on the number of essential genes,
 and that genes were equally likely to be essential, and used Markov
-chain Monte Carlo to derive the posterior probabilities of genes being
+chain Monte Carlo (MCMC) to derive the posterior probabilities of genes being
 essential.
 
 As part of the ReScience Ten Years Reproducibility Challenge, I sought
-to reproduce the analysis in the paper, which I conducted in 2002
-while an assistant professor in the Department of Biostatistics at
+to reproduce the analyses in the paper, which I conducted in 2002
+while in the Department of Biostatistics at
 Johns Hopkins University. The bulk of the data and code were quickly
 identified. (I keep collaborative projects in a directory
 {\tt {\textasciitilde}/Projects} and save old projects in compressed form in
@@ -37,7 +37,7 @@ identified. (I keep collaborative projects in a directory
 the file {\tt Gyanu.tgz}. Gyanu Lamichhane was first author on the
 paper.) However, there were a number of challenges in reconstructing
 the analysis steps, and the code used to conduct the computer
-simulations underlying Figure~3 of \citet{lamichhane2003} appears
+simulations underlying Figure~3 from \citet{lamichhane2003} appears
 lost; I found only the results and the code to generate the figure.
 
 The method was implemented in a combination of R \citep{R} and C
@@ -99,18 +99,18 @@ But actually {\tt Rawdata}, {\tt Data}, and {\tt R} contain files
 for an initial analysis of the data performed in July, 2002. The subdirectory
 {\tt Sept02} contains copies of those data and scripts
 for a revised analysis performed in September, 2002; many of the files
-are identicial, but additional data had been added.
+are identical, but additional data had been added.
 Similarly, {\tt Nov02} contains further copies of the data and
 scripts for a further revised analysis performed in November, 2002.
 
 The bulk of the results in the paper are those from {\tt Nov02}.
-Table~2 in \citet{lamichhane2003} includes results from {\tt Sept02}
+Table~2 from \citet{lamichhane2003} includes results from {\tt Sept02}
 as well as {\tt Nov02}. This was the primary challenge in reproducing
 the analyses: identifying which versions of the analysis
 scripts were used.
 
 There were a number of further challenges in reproducing the results.
-The code to produce Figure~1b in \citet{lamichhane2003} (see
+The code to produce Figure~1b from \citet{lamichhane2003} (see
 Figure~\ref{fig:fig1b}, below) was not
 present in the project directory, but rather was found in a separate
 directory, with files for a talk that I gave on the work.
@@ -133,15 +133,16 @@ The original analysis was performed with R version 1.5.1 (2002-06-17);
 the reproduction used R version 3.6.1 (2019-07-05). The analysis
 scripts could be run with only one small modification. The output of
 the R function {\tt table()}, which counts the values in a
-categorical variable, is now an object of class {\tt table}, and so
-we needed to insert a couple of {\tt as.numeric()} calls to avoid
+categorical variable, is now an object of class {\tt table}, where as
+previously it had been a numeric array, and so
+I needed to insert a couple of {\tt as.numeric()} calls to avoid
 errors.
 
-We also needed to make small changes regarding cutoffs controlling which results
-were shown in two key tables. Because we had not saved the seed for
-the random number generator, we were not able to reproduce the MCMC
+I also needed to make small changes regarding cutoffs controlling which results
+were shown in two key tables. Because I had not saved the seed for
+the random number generator, I was not able to reproduce the MCMC
 results exactly, and small differences in the estimated posterior
-probabilities meant that we needed to change cutoffs from 0.749 to
+probabilities meant that I needed to change cutoffs from 0.749 to
 0.745 in order to display the same set of genes and gene families.
 
 
@@ -156,8 +157,8 @@ Archive Network (CRAN)}. The earliest version on CRAN is 0.98-3, dated
 2002-08-10 and posted to CRAN on 2003-06-21. This is the version that
 was used for the analyses in the paper.
 
-There have been twelve revisions posted to CRAN. The current verison
-is 1.0-12, dated 2019-08-05, and this is the version we used to
+There have been twelve revisions posted to CRAN. The current version
+is 1.0-12, dated 2019-08-05, and this is the version I used to
 reproduce the results of the paper. The package is also available on
 \href{https://github.com/kbroman/negenes}{GitHub}, though I did not
 start using version control for the package until 2011-11-07.
@@ -165,24 +166,24 @@ start using version control for the package until 2011-11-07.
 The \href{https://github.com/kbroman/negenes/blob/master/ChangeLog}{\tt
 ChangeLog} file summarizes the changes that have been made to the
 package. The only substantive change was on 2012-03-09, to fix a bug
-in which we were over-running an array. The problem was identified by
-CRAN maintainers. Various maintence changes have been made over the
+in which I was over-running an array in C. The problem was identified by
+CRAN maintainers. Various maintenance changes have been made over the
 years, related to changing policies for R packages, including the
 introduction of the {\tt NAMESPACE} file, which indicates
-user-available functions, and registration of compiled routines. We
+user-available functions, and registration of compiled routines. I
 also changed the documentation format to use
 Roxygen2 \citep{roxygen2}.
 
 
 \section{Results}
 
-I now present the results of my reproduction of the analyses
+In this section, I present the results of my reproduction of the analyses
 in \citet{lamichhane2003}. I am not sure what hardware or operating
-system I used for the original analysis, but output files indicate I
+system I used for the original analyses, but output files indicate I
 was using R version 1.5.1. For the reproduction, I used a System76
 Oryx Pro laptop running Pop!\_OS Linux 19.10 and R version 3.6.1.
 
-Figure~\ref{fig:fig1a} displays our
+Figure~\ref{fig:fig1a} displays the
 reproduction of Figure~1a from \citet{lamichhane2003}. The left panel
 is the original figure; the right panel is the reproduction. This
 figure summarizes the locations of transposon insertion sites in each
@@ -194,7 +195,7 @@ versions of the figure are identical.
 \hfill
 \includegraphics[viewport=133 224 464 528, width=0.50\textwidth]{../reproduction/Figs/fig1.ps}
 
-\caption{Figure 1a in \citet{lamichhane2003}, distribution of
+\caption{Figure 1a from \citet{lamichhane2003}, distribution of
 transposon insertions by percentage of total gene length. Original on left;
 reproduction on right.\label{fig:fig1a}}
 \end{figure}
@@ -212,7 +213,7 @@ figure are identical.
 \hfill
 \includegraphics[viewport=179 299 438 517, width=0.50\textwidth]{../reproduction/Figs/circlefig.ps}
 
-\caption{Figure 1b in \citet{lamichhane2003}, distribution of
+\caption{Figure 1b from \citet{lamichhane2003}, distribution of
 transposon insertions in the 4.4~Mbp circular chromosome of \emph{M.\
 tuberculosis}. Original on left; reproduction on
 right.\label{fig:fig1b}}
@@ -229,11 +230,11 @@ attention to insertions in the proximal 80\% of a gene.)
 There is one apparent difference, highlighted in red: the upper
 limit of the 95\% credible interval for the 60\% rule changed from 50
 to 49. As noted above, I had not saved the seed for the random number
-generator and so I could not reproduce the exact MCMC results. The
+generator, and so I could not reproduce the exact MCMC results. The
 difference here can be ascribed to MCMC sampling error.
 
 \begin{table}
-\caption{Reproduction of Table 2 in \citet{lamichhane2003}, proportion
+\caption{Reproduction of Table 2 from \citet{lamichhane2003}, proportion
 of essential genes in \emph{M.\ tuberculosis}. The one
 change is indicated in red.\label{tab:tab2}}
 
@@ -244,8 +245,8 @@ change is indicated in red.\label{tab:tab2}}
 
 Figure~\ref{fig:fig2} is a reproduction of Figure~2
 from \citet{lamichhane2003}, with the original on the left and
-the reproduction on the right. The shows the posterior probability of
-each gene being essential, against the number of transposon insertions
+the reproduction on the right. It shows the posterior probability of
+each gene being essential, against the number of transposon insertion sites
 in the gene. Genes with 0 posterior probability
 are those that exhibited a viable transposon insertion and so are
 deemed non-essential; their values are jittered vertically. It is
@@ -257,13 +258,13 @@ than in the random vertical jittering of the values at 0.
 \hfill
 \includegraphics[viewport=44 245 525 508, width=0.50\textwidth]{../reproduction/Figs/fig2.ps}
 
-\caption{Figure 2 in \citet{lamichhane2003}, posterior probability
+\caption{Figure 2 from \citet{lamichhane2003}, posterior probability
 that an \emph{M.\ tuberculosis\/} gene is essential as a function of
 the number of transposon insertion sites. Original on left;
 reproduction on right.\label{fig:fig2}}
 \end{figure}
 
-The exact estimates of the posterior probabilities were available, and
+The original estimates of the posterior probabilities were available, and
 so we are able to make a detailed comparison of the differences
 between the original results and the reproduced values.
 Figure~\ref{fig:fig2diff} shows the differences in percent posterior
@@ -290,23 +291,22 @@ $\times$100, \label{fig:fig2diff}}
 The genes with highest posterior probability of being essential are
 shown in Table~\ref{tab:tab6}, a reproduction of Supplementary Table~6
 from \citet{lamichhane2003}.
-(There was external evidence for particular genes to \emph{not\/} be
-essential. Table~3 in \citet{lamichhane2003} showed just a subset of
+(Table~3 in \citet{lamichhane2003} showed just a subset of
 these, omitting those indicated with an asterisk.) The original and
 reproduced values, rounded to the nearest 1\%, are identical.
 
 \begin{table}
-\caption{Reproduction of Supplementary Table~6 in \citet{lamichhane2003},
+\caption{Reproduction of Supplementary Table~6 from \citet{lamichhane2003},
 \emph{M.\ tuberculosis\/} genes with high probabilities of being
 essential. Genes indicated with * are the ones that were not also
-included in Table 3 of \citet{lamichhane2003}.\label{tab:tab6}}
+included in Table 3 from \citet{lamichhane2003}.\label{tab:tab6}}
 
 \centering
 \input{../reproduction/Tabs/tab6.tex}
 \end{table}
 
 Finally, Table~\ref{tab:tab4} is a reproduction of Table~4
-from \citet{lamichhane2003}, concerning an investigated gene families,
+from \citet{lamichhane2003}, concerning an investigation of gene families,
 to see whether particular families appeared to have an unusually high
 or low proportion of essential genes. A few small differences between
 the original and the reproduced values are highlighted in red: the
@@ -316,7 +316,7 @@ essential genes in two families changed a bit. These changes can be
 ascribed to MCMC sampling error.
 
 \begin{table}
-\caption{Reproduction of Table 4 in \citet{lamichhane2003},
+\caption{Reproduction of Table 4 from \citet{lamichhane2003},
 \emph{M.\ tuberculosis\/} gene families enriched or deficient in
 essential genes. Five changes are indicated in red.\label{tab:tab4}}
 
@@ -332,7 +332,7 @@ essential genes. Five changes are indicated in red.\label{tab:tab4}}
 \section{Lessons}
 
 
-My efforts to reproduce my analyses for \citet{lamichhane2003} were
+My efforts to reproduce the analyses for \citet{lamichhane2003} were
 largely successful, but the process would have been considerably
 easier had I put a bit more effort into file organization and
 documentation. This work may serve as a useful case study to
@@ -352,7 +352,7 @@ adopted a formal version control system like
 the copy-and-mutate approach that led to the {\tt Sept02} and {\tt
 Nov02} subdirectories. I should have combined the multiple mutated
 versions of scripts into unified versions that provide the
-comprehensive set of analysis results for a paper and relied on the
+comprehensive set of analysis results for the paper and relied on the
 version control system to document the history of changes. A unified
 analysis script, or even better a reproducible document such as in R
 Markdown \citep{rmarkdown-book,rmarkdown-pkg}, would have made the
