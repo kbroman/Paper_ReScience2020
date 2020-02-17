@@ -1,5 +1,7 @@
 ## ReScience Ten Year Reproducibility Challenge
 
+[![DOI](https://zenodo.org/badge/238372063.svg)](https://zenodo.org/badge/latestdoi/238372063)
+
 This repository is my contribution to the
 [ReScience Ten Years Reproducibility
 Challenge](http://rescience.github.io/ten-years). I'm seeking to
