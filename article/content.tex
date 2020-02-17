@@ -326,18 +326,37 @@ essential genes. Five changes are indicated in red.\label{tab:tab4}}
 
 \section{Lessons}
 
-- document your work
 
-- use formal version control
+My efforts to reproduce my analyses for \citet{lamichhane2003} were
+largely successful, but the process would have been considerably
+easier had I put a bit more effort into file organization and
+documentation. This work may serve as a useful case study to
+illustrate the need for \emph{Good enough practices in scientific
+computing} \citep{wilson2017}.
 
-- combine multiple mutated versions of scripts into unified versions
-  that provide the comprehensive set of analysis results.
+The two most important lessons from this effort are to document your
+work, and to put all relevant scripts into a common project directory.
+The quirks of my file organization would have been more easily
+overcome if I had included a single {\tt ReadMe} file that explained
+things. And it was only by luck that I identified the code for one of
+the figures in a separate directory with slides for a talk.
 
-- put all relevant scripts into a common project directory
+The project organization would have been simpler had I
+adopted a formal version control system like
+\href{https://git-scm.com}{git}. This would have allowed me to avoid
+the copy-and-mutate approach that led to the {\tt Sept02} and {\tt
+Nov02} subdirectories. I should have combined the multiple mutated
+versions of scripts into unified versions that provide the
+comprehensive set of analysis results for a paper and relied on the
+version control system to document the history of changes. A unified
+analysis script, or even better a reproducible document such as in R
+Markdown \citep{rmarkdown-book,rmarkdown-pkg}, would have made the
+workflow more transparent.
 
-- keep track of random number generator seeds
+For analyses that rely on random number generation, storing the seeds
+could enable exact reproduction of the results. I should have also
+saved intermediate results to files and loaded them at the top of
+scripts that depended on them.
 
-- save intermediate results to files and then load them at the top of
-  the script
-
-- document the provenance of raw data files
+Finally, I should have documented the provenance of the primary data
+files, such as that for the \emph{M.\ tuberculosis\/} genome.
