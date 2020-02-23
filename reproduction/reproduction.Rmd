@@ -833,7 +833,7 @@ a few small changes to the code.
 - One vector that was derived using the R function `table()` needed to
   be converted from class `"table"` to a simple numeric vector. This
   is due to some change in R between version 1.5.1 (July 2002) and
-  3.6.1 (current).
+  3.6.2 (current).
 
 I was *not* able to reproduce Figure 3, however. The simulation
 results and the code to create the figure are available, but I could
