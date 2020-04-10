@@ -133,7 +133,7 @@ The original analysis was performed with R version 1.5.1 (2002-06-17);
 the reproduction used R version 3.6.2 (2019-12-12). The analysis
 scripts could be run with only one small modification. The output of
 the R function {\tt table()}, which counts the values in a
-categorical variable, is now an object of class {\tt table}, where as
+categorical variable, is now an object of class {\tt table}, whereas
 previously it had been a numeric array, and so
 I needed to insert a couple of {\tt as.numeric()} calls to avoid
 errors.

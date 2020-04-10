@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber article"] 1581964794 "article.bcf" "article.bbl" "article" 1582470099
-  "article.bcf" 1582470098 94342 8c4278850689e855f429e3b8cbea5e84 "pdflatex"
+["biber article"] 1581964794 "article.bcf" "article.bbl" "article" 1586525631
+  "article.bcf" 1586525631 94342 8c4278850689e855f429e3b8cbea5e84 "pdflatex"
   "bibliography.bib" 1581964786 2927 9680213c97bbfa8d1c824f982e0c861c ""
   (generated)
   "article.bbl"
   "article.blg"
-["pdflatex"] 1582470096 "article.tex" "article.pdf" "article" 1582470099
+["pdflatex"] 1586525628 "article.tex" "article.pdf" "article" 1586525631
   "../original/Nov02/R/Figs/fig1.ps" 1036523112 30940 a898fa0c57543d48e176f55ec4669687 ""
   "../original/Nov02/R/Figs/fig2.ps" 1036523112 105203 ccd56706bb7277f5f0a90dc56f254611 ""
   "../reproduction/Figs/circlefig.ps" 1582470036 49410 5d4f4766d2b8c571ec6a48ba15d2e51b ""
@@ -16,7 +16,7 @@
   "../reproduction/Tabs/tab4.tex" 1582470036 1291 36871b6d3fcd49d5e71119822e84e736 ""
   "../reproduction/Tabs/tab6.tex" 1582470036 1552 30fa9d23211cb93852777eb4a2504e3d ""
   "../talk/Figs/circlefig.ps" 1581558531 53705 d13b9a994043571fb58231a5a2ad6c74 ""
-  "/dev/null" 1582336752 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1586049928 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1571672637 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -207,19 +207,19 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1562720991 35073 2a40cfca74fcd5e2568b569ccaadf3f1 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1562720991 35073 2a40cfca74fcd5e2568b569ccaadf3f1 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1571673037 3757162 68f31cd408dfeba7bf8192453d79947c ""
-  "article.aux" 1582470098 10479 9d370cd982e8bc1eafd484461eb08c7e "pdflatex"
+  "article.aux" 1586525631 10479 9d370cd982e8bc1eafd484461eb08c7e "pdflatex"
   "article.bbl" 1581964794 17366 83338d5cae20628d2c50caf15fceb79d "biber article"
-  "article.out" 1582470098 294 918e9bc118c2ebd7e4d471309c3d4154 "pdflatex"
-  "article.run.xml" 1582470098 2429 bb3cd8c5c8f3243a6e2037a1c8323856 "pdflatex"
+  "article.out" 1586525631 294 918e9bc118c2ebd7e4d471309c3d4154 "pdflatex"
+  "article.run.xml" 1586525631 2429 bb3cd8c5c8f3243a6e2037a1c8323856 "pdflatex"
   "article.tex" 1581558531 230 88cacae340cd5e0390fa8334f01585d4 ""
-  "content.tex" 1582469885 16554 b20904d6faf56aa62e16e9f1d7d0c211 ""
+  "content.tex" 1586525622 16553 fb613f23c085850102033d1a91dd87ae ""
   "header.tex" 1581558531 3535 dddfd7bb22c48f104c57a1505856b767 ""
   "metadata.tex" 1581967423 2531 6aca4ec2b31369367650816749089dac ""
   "rescience.cls" 1581558531 10491 d898b7fe6fbd9dc31de870ea69376000 ""
   (generated)
-  "article.aux"
   "article.pdf"
-  "article.bcf"
-  "article.log"
+  "article.aux"
   "article.out"
   "article.run.xml"
+  "article.bcf"
+  "article.log"
