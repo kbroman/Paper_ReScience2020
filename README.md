@@ -68,7 +68,7 @@ relies on the following tools:
   Install the first four with `install.packages()`.
 
   ```r
-  install.packages(c("negenes, "rmarkdown", "devtools", "R.utils", "xtable", "readxl"))
+  install.packages(c("negenes", "rmarkdown", "devtools", "R.utils", "xtable", "readxl", "broman"))
   ```
 
   Then install [gt](https://gt.rstudio.com) with `devtools::install_github()`.
