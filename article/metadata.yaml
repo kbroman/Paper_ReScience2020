@@ -84,14 +84,14 @@ review:
   - url:
 
 contributors:
-  - name:
-    orcid:
+  - name: "Karthik Ram"
+    orcid: 0000-0002-0233-1757
     role: editor
-  - name:
-    orcid:
+  - name: "Leah Wang"
+    orcid: 0000-0001-5905-8061
     role: reviewer
-  - name:
-    orcid:
+  - name: "Peter Carbonetto"
+    orcid: 0000-0003-1144-6780
     role: reviewer
 
 # This information will be provided by the editor
