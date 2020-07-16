@@ -1676,14 +1676,18 @@ if(!file.exists(new_file)) {
 </div>
 <div id="run-perl-script" class="section level2">
 <h2>Run perl script</h2>
-<p>I will first run the Perl script <code>findTA.pl</code> which uses data from <code>Rawdata/</code> and creates a set of files in <code>Data/</code>.</p>
+<p>I will first run the Perl script <code>findTA.pl</code> which uses data from <code>Rawdata/</code> and creates a set of files in <code>Data/</code>.
+More specifically,
+it uses the genomic sequence for <em>M. tuberculosis</em> and the genes'
+start and end positions to identify the locations of each transposon
+insertion site within each gene.</p>
 <pre class="r"><code>system(&quot;perl findTA.pl&quot;)</code></pre>
 </div>
 <div id="project-structure" class="section level2">
 <h2>Project structure</h2>
 <p>The reproduction of this work included a number of challenges: lack of documentation (couldn’t you give me even one README file, 2002 Karl?), multiple directories of scripts with portions of results coming from different ones, not saving random number generator seeds, not loading the required library in the scripts, not saving intermediate results to files (but just leaving them in the R environment, in <code>.RData</code>), and not explaining which R objects were needed in a script.</p>
 <p>To reproduce the work, I am going to run a particular script, save the key results to a file, and then clean the R environment for the next step. Some of the calculations take a bit of time, and those I will cache using a crude caching system that will mostly be hidden.</p>
-<p>Because of the lack of documentation, the first challenge was to figure out which results I was trying to reproduce. To do that, I re-read the paper. The key results are in Figures 1, 2, and 3, and Tables 2, 3, and 4. Table 3 also has an extended version, as Supplementary Table 6. There are a number of other summary statistics about the data, for example in Table 1 and in the right-hand column of the second page of the paper. But I am going to focus on the key analysis results, Figures 1-3 and Tables 2-4 and 6.</p>
+<p>Because of the lack of documentation, the first challenge was to figure out which results I was trying to reproduce. To do that, I re-read the paper. The key results are in Figures 1, 2, and 3, and Tables 2, 3, and 4. Table 3 also has an extended version, as Supplementary Table 6. There are a number of other summary statistics about the data, for example in Table 1 and in the right-hand column of the second page of the paper. But I am going to focus on the key analysis results, Figures 1-3 and Tables 2-4 and Supplemental Table 6.</p>
 <p>Let me first explain some key elements of the project directory in <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/"><code>../original/</code></a>. The <code>R</code> subdirectory contains my initial analysis of the data (performed in like July, 2002), which did not end up in the paper. <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R"><code>Sept02/R</code></a> contains a revised analysis based on a slightly larger set of data and evaluating multiple versions of a rule for part of the data handling (see Table 2 of the published paper). <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R"><code>Nov02/R</code></a> contains an analysis with our final version of the data handling rule and is the basis for one row of Table 2 and all of the rest of the analyses.</p>
 </div>
 <div id="run-mcmc" class="section level2">
@@ -1704,7 +1708,9 @@ save(data100nostop, data100stop, data90, data70, data60, data80,
      file=&quot;sept02_data.RData&quot;)
 
 setwd(&quot;..&quot;)</code></pre>
-<p>I will now run the MCMC. (I actually cache these results and only run them if needed.) Again, we copied over the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/analysis.R"><code>Sept02/R/analysis.R</code></a> script as <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/sept02_analysis.R"><code>R/sept02_analysis.R</code></a>.</p>
+<p>I will now run the MCMC. This takes about <b>9 min</b> on my laptop. (I cache the results and only run
+this if needed.)
+Again, we copied over the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/analysis.R"><code>Sept02/R/analysis.R</code></a> script as <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/sept02_analysis.R"><code>R/sept02_analysis.R</code></a>.</p>
 <p>The only slight change here is to rename one of the objects to avoid conflict with the results obtained using the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R"><code>Nov02</code></a> script, below.</p>
 <pre class="r"><code>rm(list=ls())
 setwd(&quot;R&quot;)
@@ -1739,7 +1745,8 @@ save(mydata,
      file=&quot;nov02_data.RData&quot;)
 
 setwd(&quot;..&quot;)</code></pre>
-<p>And again we run the MCMC. This one is faster, because we are doing just one version of the analysis rather than 6. The <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/nov02_analysis.R"><code>R/nov02_analysis.R</code></a> script was copied over from <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>.</p>
+<p>And again we run the MCMC. This one is faster, because we are doing just one version of the analysis rather than 6. (It takes
+about <b>1.5 min</b> on my laptop). The <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/nov02_analysis.R"><code>R/nov02_analysis.R</code></a> script was copied over from <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>.</p>
 <p>The only modification here is to change the name of one of the results objects, from <code>wh</code> (which is not very meaningful) to <code>genes</code>.</p>
 <pre class="r"><code>rm(list=ls())
 setwd(&quot;R&quot;)
@@ -1758,7 +1765,7 @@ setwd(&quot;..&quot;)</code></pre>
 </div>
 <div id="tables" class="section level2">
 <h2>Tables</h2>
-<p>Let us now reconstruct the tables 2-4 and 6.</p>
+<p>Let us now reconstruct the Tables 2-4 and Supplemental Table 6.</p>
 <div id="table-2" class="section level3">
 <h3>Table 2</h3>
 <p>First, let us look at Table 2, which shows the estimated percent essential genes (with an interval estimate) using various rules for defining the part of the gene where viable transposon insertion would indicate that the gene is not essential.</p>
@@ -2224,7 +2231,7 @@ gt(tab2) %&gt;%
 }
 </style>
 <div id="carhyvysls" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
-  
+
   <thead class="gt_col_headings">
     <tr>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">rule</th>
@@ -2271,8 +2278,8 @@ gt(tab2) %&gt;%
       <td class="gt_row gt_right gt_striped">49</td>
     </tr>
   </tbody>
-  
-  
+
+
 </table></div>
 <p>Comparing the reconstructed table to the <a href="https://bit.ly/lamichhane2003_table2">published version</a>, we see just one small difference: the upper confidence limit in the bottom row is 49% here, whereas it was 50% in the published paper. This difference can be ascribed to MCMC sampling variation.</p>
 <p>The following creates a LaTeX table comparing these results, for the final paper.</p>
@@ -2309,8 +2316,10 @@ print(xtab2, file=&quot;Tabs/tab2.tex&quot;,
       floating=FALSE)</code></pre>
 </div>
 <div id="tables-3-and-6" class="section level3">
-<h3>Tables 3 and 6</h3>
-<p>Let us now turn to Tables 3 and 6, on the genes with probability &gt; 75% of being essential.</p>
+<h3>Table 3 and Supplemental Table 6</h3>
+<p>Let us now turn to Table 3 and Supplemental Table 6, on the genes
+  with probability &gt; 75% of being essential. (Supplemental Table 6
+  is an extended version of Table 3.)</p>
 <p>In order to reproduce these tables exactly, we need to make one small change to the code in the <a href="https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Nov02/R/analysis.R"><code>Nov02/R/analysis.R</code></a>. While the original script pulled out genes with probability ≥ 0.749, we need to change that cutoff to 0.745. This difference is within rounding error and can be ascribed to MCMC sampling error.</p>
 <p>We can make the change by reading in the script, pulling out the appropriate lines, substituting the one number, and then re-running those lines.</p>
 <pre class="r"><code>rm(list=ls())
@@ -2332,7 +2341,7 @@ wh[19:20,] &lt;- wh[20:19,]
 genes &lt;- wh
 genes[,3] &lt;- genes[,3] * 100 # convert to percent</code></pre>
 <p>Here is the reconstruction of Table 3. The results match the <a href="https://bit.ly/lamichhane2003_table3">published version</a>. (If we had left the cutoff at 0.749, we would have missed the last two genes on the list, for which the estimated probability of being essential is now 74.8%. This difference is again likely due to MCMC sampling error.)</p>
-<pre class="r"><code># genes to exclude from Table 3 (just listed in table 6)
+<pre class="r"><code># genes to exclude from Table 3 (just listed in Supplemental Table 6)
 tab3_exclude &lt;- c(&quot;418&quot;,  &quot;1218&quot;, &quot;3003&quot;, &quot;1701&quot;,
                   &quot;2448&quot;, &quot;3002&quot;, &quot;1702&quot;)
 
@@ -2776,7 +2785,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
 }
 </style>
 <div id="vlvxlrlruq" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
-  
+
   <thead class="gt_col_headings">
     <tr>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">MTnum</th>
@@ -2845,8 +2854,8 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
       <td class="gt_row gt_right">75</td>
     </tr>
   </tbody>
-  
-  
+
+
 </table></div>
 <p>Seven genes were excluded from Table 3 (because there was other evidence to indicate that they were non-essential), but the full list was shown in Supplemental Table 6. Here is the reconstruction of the full table, which matches the published version.</p>
 <pre class="r"><code>genes[, c(&quot;MTnum&quot;, &quot;Prob.essential&quot;)] %&gt;%
@@ -3289,7 +3298,7 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
 }
 </style>
 <div id="xszbjppuur" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
-  
+
   <thead class="gt_col_headings">
     <tr>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">MTnum</th>
@@ -3386,8 +3395,8 @@ genes[!(genes$MTnum %in% tab3_exclude), c(&quot;MTnum&quot;, &quot;Prob.essentia
       <td class="gt_row gt_right gt_striped">75</td>
     </tr>
   </tbody>
-  
-  
+
+
 </table></div>
 <p>The following creates a LaTeX table comparing these results, for the final paper.</p>
 <pre class="r"><code># download original table 6
@@ -3889,7 +3898,7 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
 }
 </style>
 <div id="cjgubmcgjm" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
-  
+
   <thead class="gt_col_headings">
     <tr>
       <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1">prob.enriched</th>
@@ -3978,8 +3987,8 @@ gt(fams[,c(&quot;prob.enriched&quot;, &quot;family&quot;, &quot;percent.essentia
       <td class="gt_row gt_right">24</td>
     </tr>
   </tbody>
-  
-  
+
+
 </table></div>
 <p>There are a few small changes from the <a href="https://bit.ly/lamichhane2003_table4">published version</a>. First, the enrichment probability has changed ±1% for three of the families. Second, the upper confidence limits have changed for two families: in the first row the limit changed from 76 to 72%, and in the second-to-last row it changed from 36 to 38%. I think these differences can be ascribed to MCMC sampling error.</p>
 <p>The following creates a LaTeX table comparing these results, for the final paper.</p>
@@ -4154,7 +4163,7 @@ grayplot(numTAs,
          xlab=&quot;Number of TAs in proximal portion of gene&quot;,
          ylab=&quot;Difference in % probability (original - reproduction)&quot;)
 dev.off()</code></pre>
-<pre><code>## png 
+<pre><code>## png
 ##   2</code></pre>
 </div>
 </div>
@@ -4180,81 +4189,81 @@ dev.off()</code></pre>
 <p>Here is information about the version of R and R packages that I used.</p>
 <pre class="r"><code>devtools::session_info()</code></pre>
 <pre><code>## ─ Session info ───────────────────────────────────────────────────────────────
-##  setting  value                       
+##  setting  value
 ##  version  R version 3.6.2 (2019-12-12)
-##  os       Pop!_OS 19.10               
-##  system   x86_64, linux-gnu           
-##  ui       X11                         
-##  language en_US:en                    
-##  collate  en_US.UTF-8                 
-##  ctype    en_US.UTF-8                 
-##  tz       America/Chicago             
-##  date     2020-02-23                  
-## 
+##  os       Pop!_OS 19.10
+##  system   x86_64, linux-gnu
+##  ui       X11
+##  language en_US:en
+##  collate  en_US.UTF-8
+##  ctype    en_US.UTF-8
+##  tz       America/Chicago
+##  date     2020-02-23
+##
 ## ─ Packages ───────────────────────────────────────────────────────────────────
-##  package     * version date       lib source                     
-##  assertthat    0.2.1   2019-03-21 [1] CRAN (R 3.6.0)             
-##  backports     1.1.5   2019-10-02 [1] CRAN (R 3.6.1)             
-##  broman      * 0.69-5  2019-04-11 [1] CRAN (R 3.6.2)             
-##  callr         3.4.2   2020-02-12 [1] CRAN (R 3.6.1)             
-##  cellranger    1.1.0   2016-07-27 [1] CRAN (R 3.6.0)             
-##  checkmate     2.0.0   2020-02-06 [1] CRAN (R 3.6.1)             
-##  cli           2.0.1   2020-01-08 [1] CRAN (R 3.6.1)             
-##  colorspace    1.4-1   2019-03-18 [1] CRAN (R 3.6.0)             
-##  crayon        1.3.4   2017-09-16 [1] CRAN (R 3.6.0)             
-##  desc          1.2.0   2018-05-01 [1] CRAN (R 3.6.0)             
-##  devtools    * 2.2.2   2020-02-17 [1] CRAN (R 3.6.1)             
-##  digest        0.6.25  2020-02-23 [1] CRAN (R 3.6.2)             
-##  dplyr         0.8.4   2020-01-31 [1] CRAN (R 3.6.1)             
-##  ellipsis      0.3.0   2019-09-20 [1] CRAN (R 3.6.1)             
-##  evaluate      0.14    2019-05-28 [1] CRAN (R 3.6.0)             
-##  fansi         0.4.1   2020-01-08 [1] CRAN (R 3.6.1)             
-##  fs            1.3.1   2019-05-06 [1] CRAN (R 3.6.0)             
-##  ggplot2       3.2.1   2019-08-10 [1] CRAN (R 3.6.1)             
-##  glue          1.3.1   2019-03-12 [1] CRAN (R 3.6.0)             
+##  package     * version date       lib source
+##  assertthat    0.2.1   2019-03-21 [1] CRAN (R 3.6.0)
+##  backports     1.1.5   2019-10-02 [1] CRAN (R 3.6.1)
+##  broman      * 0.69-5  2019-04-11 [1] CRAN (R 3.6.2)
+##  callr         3.4.2   2020-02-12 [1] CRAN (R 3.6.1)
+##  cellranger    1.1.0   2016-07-27 [1] CRAN (R 3.6.0)
+##  checkmate     2.0.0   2020-02-06 [1] CRAN (R 3.6.1)
+##  cli           2.0.1   2020-01-08 [1] CRAN (R 3.6.1)
+##  colorspace    1.4-1   2019-03-18 [1] CRAN (R 3.6.0)
+##  crayon        1.3.4   2017-09-16 [1] CRAN (R 3.6.0)
+##  desc          1.2.0   2018-05-01 [1] CRAN (R 3.6.0)
+##  devtools    * 2.2.2   2020-02-17 [1] CRAN (R 3.6.1)
+##  digest        0.6.25  2020-02-23 [1] CRAN (R 3.6.2)
+##  dplyr         0.8.4   2020-01-31 [1] CRAN (R 3.6.1)
+##  ellipsis      0.3.0   2019-09-20 [1] CRAN (R 3.6.1)
+##  evaluate      0.14    2019-05-28 [1] CRAN (R 3.6.0)
+##  fansi         0.4.1   2020-01-08 [1] CRAN (R 3.6.1)
+##  fs            1.3.1   2019-05-06 [1] CRAN (R 3.6.0)
+##  ggplot2       3.2.1   2019-08-10 [1] CRAN (R 3.6.1)
+##  glue          1.3.1   2019-03-12 [1] CRAN (R 3.6.0)
 ##  gt          * 0.1.0   2020-02-05 [1] Github (rstudio/gt@883df9a)
-##  gtable        0.3.0   2019-03-25 [1] CRAN (R 3.6.0)             
-##  htmltools     0.4.0   2019-10-04 [1] CRAN (R 3.6.1)             
-##  knitr         1.28    2020-02-06 [1] CRAN (R 3.6.1)             
-##  lazyeval      0.2.2   2019-03-15 [1] CRAN (R 3.6.0)             
-##  lifecycle     0.1.0   2019-08-01 [1] CRAN (R 3.6.1)             
-##  magrittr      1.5     2014-11-22 [1] CRAN (R 3.6.0)             
-##  memoise       1.1.0   2017-04-21 [1] CRAN (R 3.6.0)             
-##  munsell       0.5.0   2018-06-12 [1] CRAN (R 3.6.0)             
-##  negenes     * 1.0-12  2019-08-05 [1] CRAN (R 3.6.1)             
-##  pillar        1.4.3   2019-12-20 [1] CRAN (R 3.6.1)             
-##  pkgbuild      1.0.6   2019-10-09 [1] CRAN (R 3.6.1)             
-##  pkgconfig     2.0.3   2019-09-22 [1] CRAN (R 3.6.1)             
-##  pkgload       1.0.2   2018-10-29 [1] CRAN (R 3.6.0)             
-##  prettyunits   1.1.1   2020-01-24 [1] CRAN (R 3.6.1)             
-##  processx      3.4.2   2020-02-09 [1] CRAN (R 3.6.1)             
-##  ps            1.3.2   2020-02-13 [1] CRAN (R 3.6.1)             
-##  purrr         0.3.3   2019-10-18 [1] CRAN (R 3.6.1)             
-##  R.methodsS3 * 1.8.0   2020-02-14 [1] CRAN (R 3.6.1)             
-##  R.oo        * 1.23.0  2019-11-03 [1] CRAN (R 3.6.1)             
-##  R.utils     * 2.9.2   2019-12-08 [1] CRAN (R 3.6.1)             
-##  R6            2.4.1   2019-11-12 [1] CRAN (R 3.6.1)             
-##  Rcpp          1.0.3   2019-11-08 [1] CRAN (R 3.6.1)             
-##  readxl      * 1.3.1   2019-03-13 [1] CRAN (R 3.6.0)             
-##  remotes       2.1.1   2020-02-15 [1] CRAN (R 3.6.1)             
-##  rlang         0.4.4   2020-01-28 [1] CRAN (R 3.6.1)             
-##  rmarkdown     2.1     2020-01-20 [1] CRAN (R 3.6.1)             
-##  rprojroot     1.3-2   2018-01-03 [1] CRAN (R 3.6.0)             
-##  sass          0.1.2.1 2019-08-08 [1] CRAN (R 3.6.1)             
-##  scales        1.1.0   2019-11-18 [1] CRAN (R 3.6.1)             
-##  sessioninfo   1.1.1   2018-11-05 [1] CRAN (R 3.6.0)             
-##  stringi       1.4.6   2020-02-17 [1] CRAN (R 3.6.1)             
-##  stringr       1.4.0   2019-02-10 [1] CRAN (R 3.6.0)             
-##  testthat      2.3.1   2019-12-01 [1] CRAN (R 3.6.1)             
-##  tibble        2.1.3   2019-06-06 [1] CRAN (R 3.6.0)             
-##  tidyselect    1.0.0   2020-01-27 [1] CRAN (R 3.6.1)             
-##  usethis     * 1.5.1   2019-07-04 [1] CRAN (R 3.6.0)             
-##  vctrs         0.2.3   2020-02-20 [1] CRAN (R 3.6.1)             
-##  withr         2.1.2   2018-03-15 [1] CRAN (R 3.6.0)             
-##  xfun          0.12    2020-01-13 [1] CRAN (R 3.6.1)             
-##  xtable      * 1.8-4   2019-04-21 [1] CRAN (R 3.6.0)             
-##  yaml          2.2.1   2020-02-01 [1] CRAN (R 3.6.1)             
-## 
+##  gtable        0.3.0   2019-03-25 [1] CRAN (R 3.6.0)
+##  htmltools     0.4.0   2019-10-04 [1] CRAN (R 3.6.1)
+##  knitr         1.28    2020-02-06 [1] CRAN (R 3.6.1)
+##  lazyeval      0.2.2   2019-03-15 [1] CRAN (R 3.6.0)
+##  lifecycle     0.1.0   2019-08-01 [1] CRAN (R 3.6.1)
+##  magrittr      1.5     2014-11-22 [1] CRAN (R 3.6.0)
+##  memoise       1.1.0   2017-04-21 [1] CRAN (R 3.6.0)
+##  munsell       0.5.0   2018-06-12 [1] CRAN (R 3.6.0)
+##  negenes     * 1.0-12  2019-08-05 [1] CRAN (R 3.6.1)
+##  pillar        1.4.3   2019-12-20 [1] CRAN (R 3.6.1)
+##  pkgbuild      1.0.6   2019-10-09 [1] CRAN (R 3.6.1)
+##  pkgconfig     2.0.3   2019-09-22 [1] CRAN (R 3.6.1)
+##  pkgload       1.0.2   2018-10-29 [1] CRAN (R 3.6.0)
+##  prettyunits   1.1.1   2020-01-24 [1] CRAN (R 3.6.1)
+##  processx      3.4.2   2020-02-09 [1] CRAN (R 3.6.1)
+##  ps            1.3.2   2020-02-13 [1] CRAN (R 3.6.1)
+##  purrr         0.3.3   2019-10-18 [1] CRAN (R 3.6.1)
+##  R.methodsS3 * 1.8.0   2020-02-14 [1] CRAN (R 3.6.1)
+##  R.oo        * 1.23.0  2019-11-03 [1] CRAN (R 3.6.1)
+##  R.utils     * 2.9.2   2019-12-08 [1] CRAN (R 3.6.1)
+##  R6            2.4.1   2019-11-12 [1] CRAN (R 3.6.1)
+##  Rcpp          1.0.3   2019-11-08 [1] CRAN (R 3.6.1)
+##  readxl      * 1.3.1   2019-03-13 [1] CRAN (R 3.6.0)
+##  remotes       2.1.1   2020-02-15 [1] CRAN (R 3.6.1)
+##  rlang         0.4.4   2020-01-28 [1] CRAN (R 3.6.1)
+##  rmarkdown     2.1     2020-01-20 [1] CRAN (R 3.6.1)
+##  rprojroot     1.3-2   2018-01-03 [1] CRAN (R 3.6.0)
+##  sass          0.1.2.1 2019-08-08 [1] CRAN (R 3.6.1)
+##  scales        1.1.0   2019-11-18 [1] CRAN (R 3.6.1)
+##  sessioninfo   1.1.1   2018-11-05 [1] CRAN (R 3.6.0)
+##  stringi       1.4.6   2020-02-17 [1] CRAN (R 3.6.1)
+##  stringr       1.4.0   2019-02-10 [1] CRAN (R 3.6.0)
+##  testthat      2.3.1   2019-12-01 [1] CRAN (R 3.6.1)
+##  tibble        2.1.3   2019-06-06 [1] CRAN (R 3.6.0)
+##  tidyselect    1.0.0   2020-01-27 [1] CRAN (R 3.6.1)
+##  usethis     * 1.5.1   2019-07-04 [1] CRAN (R 3.6.0)
+##  vctrs         0.2.3   2020-02-20 [1] CRAN (R 3.6.1)
+##  withr         2.1.2   2018-03-15 [1] CRAN (R 3.6.0)
+##  xfun          0.12    2020-01-13 [1] CRAN (R 3.6.1)
+##  xtable      * 1.8-4   2019-04-21 [1] CRAN (R 3.6.0)
+##  yaml          2.2.1   2020-02-01 [1] CRAN (R 3.6.1)
+##
 ## [1] /home/kbroman/Rlibs
 ## [2] /usr/local/lib/R/site-library
 ## [3] /usr/lib/R/site-library
