@@ -32,13 +32,13 @@ keywords: rescience c, ten years reproducibility challenge, R, MCMC, tuberculosi
 #   see https://guides.github.com/activities/citable-code/
 code:
   - url: https://github.com/kbroman/Paper_ReScience2020/
-  - doi:
-  - swh:
+  - doi: 10.5281/zenodo.3671998
+  - swh: swh:1:dir:277cad9553dc627f9a4047f38fc19ca1e76aee8c
 
 # Data URL and DOI (optional if no data)
 data:
   - url: https://github.com/kbroman/Paper_ReScience2020/
-  - doi:
+  - doi: 10.5281/zenodo.3671998
 
 # Information about the original article that has been replicated
 replication:
