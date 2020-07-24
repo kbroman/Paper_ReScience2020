@@ -220,15 +220,29 @@ So we will start with
 we have saved as [`R/sept02_prepareData.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/reproduction/R/sept02_prepareData.R). It
 prints a bunch of crap, so we will hide the output.
 
-There is one small wrinkle here. The `ngeneperfam` object has
+There are two small wrinkles here. First, the `ngeneperfam` object has
 class `"table"` which leads to an error in the next step, in the
 [`analysis.R`](https://github.com/kbroman/Paper_ReScience2020/blob/master/original/Sept02/R/analysis.R) script. This is due to
 some change in [R](https://www.r-project.org) since 2002. So we need
 to convert the `ngeneperfam` object to a simple numeric vector.
 
+Second, the script reads the file `geneinfo.csv` assuming that the
+gene classes column will be converted to a factor, which is no longer
+true in R version 4. So we will insert a line
+`stringsAsFactors` to be `TRUE`.
+
+
 ```{r run_sept02_prepareData, results="hide"}
 rm(list=ls())
 setwd("R")
+
+# fix small problem in the sept02 script
+lines <- readLines("sept02_prepareData.R")
+g <- grep("geneinfo.csv", lines)
+lines[g] <- sub(")", ", stringsAsFactors=TRUE)", lines[g])
+cat(lines, file="sept02_prepareData.R", sep="\n")
+
+# run the script
 source("sept02_prepareData.R")
 
 # need to turn this "table" into numeric
@@ -293,6 +307,14 @@ numeric vector.
 ```{r run_nov02_prepareData, results="hide"}
 rm(list=ls())
 setwd("R")
+
+# fix small problem in the nov02 script
+lines <- readLines("nov02_prepareData.R")
+g <- grep("geneinfo.csv", lines)
+lines[g] <- sub(")", ", stringsAsFactors=TRUE)", lines[g])
+cat(lines, file="nov02_prepareData.R", sep="\n")
+
+# run the script
 source("nov02_prepareData.R")
 
 # need to turn this "table" into numeric
