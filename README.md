@@ -4,8 +4,12 @@
 
 This repository is my contribution to the
 [ReScience Ten Years Reproducibility
-Challenge](http://rescience.github.io/ten-years). I'm seeking to
-reproduce the following paper.
+Challenge](http://rescience.github.io/ten-years).
+
+> Broman KW (2020) Reproducibility report: Identifying essential genes by mutagenesis. ReScience C 6 (1): #12
+> [doi:10.5281/zenodo.3959516](https://doi.org/10.5281/zenodo.3959516)
+
+I sought to reproduce the following paper.
 
 > Lamichhane G, Zignol M, Blades NJ, Geiman DE, Dougherty A, Broman KW, Bishai WR (2003)  A post-genomic method
 > for predicting essential genes at subsaturation levels of mutagenesis:
